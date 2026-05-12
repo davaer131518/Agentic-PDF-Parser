@@ -46,3 +46,14 @@ smoke_tests/*/
 !examples/pdfs/simple_adobe_demo.pdf
 !examples/pdfs/table_heavy_world_bank.pdf
 !examples/pdfs/complex_attention_is_all_you_need.pdf
+!examples/pdfs/apple_10k.pdf
+!examples/pdfs/docstructbench_enbook-zlib-o.O-19221575.pdf_1173.pdf
+!examples/pdfs/docstructbench_enbook-zlib-o.O-22206811.pdf_5.pdf
+!examples/pdfs/docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7.pdf
+!examples/pdfs/docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10.pdf
+!examples/pdfs/docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76.pdf
+!examples/pdfs/newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1.pdf
+!examples/pdfs/newspaper_baa51a22898f0d534a6c404ba8f12fb1_2.pdf
+!examples/pdfs/scihub_c2gc35284b.pdf_6.pdf
+!examples/pdfs/scihub_jee_2Ftoaa103.pdf_2.pdf
+!examples/pdfs/yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13.pdf
