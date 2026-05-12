@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agentic-pdf-parser"
+version = "0.1.0"
+description = "Local-first, page-oriented PDF parsing pipeline with canonical JSON output"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "pydantic>=2.6",
+    "pymupdf>=1.24",
+    "pillow",
+    "typer>=0.12",
+    "rich",
+    "pyyaml",
+    "lxml",
+    "beautifulsoup4",
+]
+
+[project.optional-dependencies]
+paddle = [
+    "paddlepaddle",
+    "paddleocr>=3.0",
+]
+all = ["agentic-pdf-parser[paddle]"]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov",
+    "mypy>=1.8",
+    "ruff>=0.3",
+]
+
+[project.scripts]
+parse-pdf = "agentic_pdf_parser.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agentic_pdf_parser"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--tb=short -v"
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "C4"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+ignore_missing_imports = true
+explicit_package_bases = true

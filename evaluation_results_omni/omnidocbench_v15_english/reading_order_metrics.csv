@@ -1,0 +1,11 @@
+sample_id,page_num,reading_order_norm_edit_distance,reading_order_similarity,pairwise_order_accuracy,matched_blocks
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,0.0,1.0,1.0,12
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,0.0,1.0,1.0,10
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,0.0,1.0,1.0,22
+docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10,1,0.0,1.0,1.0,7
+docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76,1,0.0,1.0,1.0,5
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,0.043478260869565216,0.9565217391304348,0.9941520467836257,19
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,0.0,1.0,1.0,29
+scihub_c2gc35284b.pdf_6,1,0.0,1.0,1.0,5
+scihub_jee_2Ftoaa103.pdf_2,1,0.0,1.0,1.0,12
+yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13,1,0.0,1.0,1.0,4

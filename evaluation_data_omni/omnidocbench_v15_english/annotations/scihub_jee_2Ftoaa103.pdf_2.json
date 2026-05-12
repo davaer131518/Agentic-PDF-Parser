@@ -1,0 +1,2144 @@
+{
+  "sample_id": "scihub_jee_2Ftoaa103.pdf_2",
+  "dataset_name": "omnidocbench_v15_english",
+  "input_pdf_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\examples\\pdfs\\scihub_jee_2Ftoaa103.pdf_2.pdf",
+  "input_image_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\evaluation_data_omni\\omnidocbench_v15_english\\images\\scihub_jee_2Ftoaa103.pdf_2.jpg",
+  "page_info": {
+    "page_attribute": {
+      "data_source": "academic_literature",
+      "language": "english",
+      "layout": "1andmore_column",
+      "special_issue": [
+        "colorful_backgroud"
+      ]
+    },
+    "page_no": 2915,
+    "height": 2174,
+    "width": 1654,
+    "image_path": "scihub_jee%2Ftoaa103.pdf_2.jpg"
+  },
+  "pages": [
+    {
+      "page_num": 2916,
+      "omni_page_no": 2915,
+      "width": 1654,
+      "height": 2174,
+      "coordinate_space": "image_pixels",
+      "blocks": [
+        {
+          "gt_id": "6",
+          "label": "figure",
+          "eval_label": "figure",
+          "bbox": [
+            468.44014510278106,
+            144.06623735050596,
+            1198.1257557436518,
+            568.261269549218
+          ],
+          "polygon": [
+            468.44014510278106,
+            144.06623735050596,
+            1198.1257557436518,
+            144.06623735050596,
+            1198.1257557436518,
+            568.261269549218,
+            468.44014510278106,
+            568.261269549218
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": 1,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "1",
+          "label": "figure_caption",
+          "eval_label": "figure_caption",
+          "bbox": [
+            151.77222357855902,
+            596.5939117469178,
+            1508.3461475839338,
+            697.2588433159722
+          ],
+          "polygon": [
+            151.77222357855902,
+            596.5939117469178,
+            1508.3461475839338,
+            596.5939117469178,
+            1508.3461475839338,
+            697.2588433159722,
+            151.77222357855902,
+            697.2588433159722
+          ],
+          "text": "Fig.1.General schematic of the third floor of the pilot-scale flour mill used for all experiments.The black boxes,white circles,and rectangles represent large structural features on the third floor such as support columns,milling equipment, sifters,and large storage bins.The bioassay area positions are numbered 1-10. The location of each aerosol application position is denoted as A1,A2,and A3 inside the gray squares.Aerosol application 4 was released from all three locations A1,A2,and A3(1/3 dose at each position).Source:Scheff et al.(2018),used by permission.",
+          "latex": null,
+          "html": null,
+          "reading_order": 2,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.33333333333314,
+                597.3333333333335,
+                1507.919846608431,
+                597.3333333333335,
+                1507.919846608431,
+                621.333333333333,
+                149.33333333333314,
+                621.333333333333
+              ],
+              "text": "Fig.1.General schematic of the third floor of the pilot-scale flour mill used for all experiments.The black boxes,white circles,and rectangles represent large"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.33333333333314,
+                624.0000000000002,
+                1455.3433659045181,
+                624.0000000000002,
+                1455.3433659045181,
+                646.6666666666664,
+                149.33333333333314,
+                646.6666666666664
+              ],
+              "text": "structural features on the third floor such as support columns,milling equipment, sifters,and large storage bins.The bioassay area positions are numbered"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1458.103640314568,
+                623.6185043868787,
+                1508.754135620839,
+                623.6185043868787,
+                1508.754135620839,
+                647.2992554391612,
+                1458.103640314568,
+                647.2992554391612
+              ],
+              "text": "1-10."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                150.66666666666652,
+                652.0000000000002,
+                1507.9198466084313,
+                652.0000000000002,
+                1507.9198466084313,
+                674.6666666666664,
+                150.66666666666652,
+                674.6666666666664
+              ],
+              "text": "The location of each aerosol application position is denoted as A1,A2,and A3 inside the gray squares.Aerosol application 4 was released from all three locations"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.33333333333314,
+                676.0000000000002,
+                927.0042399223528,
+                676.0000000000002,
+                927.0042399223528,
+                700,
+                149.33333333333314,
+                700
+              ],
+              "text": "A1,A2,and A3(1/3 dose at each position).Source:Scheff et al.(2018),used by permission."
+            }
+          ]
+        },
+        {
+          "gt_id": "7",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            151.77222357855902,
+            732.4717203776041,
+            807.994588216146,
+            1216.8495178222656
+          ],
+          "polygon": [
+            151.77222357855902,
+            732.4717203776041,
+            807.994588216146,
+            732.4717203776041,
+            807.994588216146,
+            1216.8495178222656,
+            151.77222357855902,
+            1216.8495178222656
+          ],
+          "text": "of the mill at anapproximate $ 4 5^{\\circ} $ angle and appliedusinga sideways sweeping motion toward the left and right sides of the floorspace.The totalaerosol application timewas approximately 2-5min ,followedby a 1-h exposureperiod.After the 1-h exposure,the air ventilation system was turned on for approximately 10min to remove any residual aerosol particles that may be present in the ambient air. The next step was to pick up all bioassay arenas that were exposed to the aerosol insecticide treatment and replace with new bioassay arenas for thenext aerosol treatment,which took approximately 5-15min .The aerosol application position was changed after each treatment and each aerosol application location was repeated twicefor each aerosol formulation.Due to logistical constraints of the milling facility (time available for testing)and time required for each aerosol application the pyrethrin + pyriproxyfen aerosol treatments were conducted first, followed by the pyrethrin + methoprene aerosol treatments.Day1 of testinghadfive trials,day 2 had six trials,andday 3 had five trials,for a total of 16 aerosol applications.",
+          "latex": null,
+          "html": null,
+          "reading_order": 3,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                152,
+                734.6666666666666,
+                432,
+                734.6666666666666,
+                432,
+                758.6666666666666,
+                152,
+                758.6666666666666
+              ],
+              "text": "of the mill at anapproximate"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                432,
+                732,
+                469.3333333333333,
+                732,
+                469.3333333333333,
+                757.3333333333333,
+                432,
+                757.3333333333333
+              ],
+              "latex": "$ 4 5^{\\circ} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                469.3333333333332,
+                734.6666666666666,
+                804.1787151207711,
+                734.6666666666666,
+                804.1787151207711,
+                758.6666666666666,
+                469.3333333333332,
+                758.6666666666666
+              ],
+              "text": "angle and appliedusinga sideways"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.33333333333317,
+                764.2168673537315,
+                805.6204821309701,
+                764.2168673537315,
+                805.6204821309701,
+                788,
+                149.33333333333317,
+                788
+              ],
+              "text": "sweeping motion toward the left and right sides of the floorspace.The"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                150.66666666666654,
+                794.8835340203982,
+                602.6666666666665,
+                794.8835340203982,
+                602.6666666666665,
+                821.3333333333333,
+                150.66666666666654,
+                821.3333333333333
+              ],
+              "text": "totalaerosol application timewas approximately"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                606.1186216639052,
+                796.1164577083442,
+                682.3861918029888,
+                796.1164577083442,
+                682.3861918029888,
+                821.5389810880388,
+                606.1186216639052,
+                821.5389810880388
+              ],
+              "text": "2-5min"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                682.6666666666665,
+                797.3333333333333,
+                803.6746989694028,
+                797.3333333333333,
+                803.6746989694028,
+                821.3333333333333,
+                682.6666666666665,
+                821.3333333333333
+              ],
+              "text": ",followedby"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.55020068706466,
+                828.0000000000002,
+                806.2329319592037,
+                828.0000000000002,
+                806.2329319592037,
+                850.6666666666666,
+                149.55020068706466,
+                850.6666666666666
+              ],
+              "text": "a 1-h exposureperiod.After the 1-h exposure,the air ventilation system"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                153.3333333333332,
+                857.550200687065,
+                453.33333333333326,
+                857.550200687065,
+                453.33333333333326,
+                881.3333333333333,
+                153.3333333333332,
+                881.3333333333333
+              ],
+              "text": "was turned on for approximately"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                456.81907527042637,
+                858.9794246108617,
+                520.6064975685691,
+                858.9794246108617,
+                520.6064975685691,
+                881.1663541058678,
+                456.81907527042637,
+                881.1663541058678
+              ],
+              "text": "10min"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                522.6666666666666,
+                856.325301030597,
+                803.7831326462685,
+                856.325301030597,
+                803.7831326462685,
+                881.3333333333333,
+                522.6666666666666,
+                881.3333333333333
+              ],
+              "text": "to remove any residual aerosol"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                150.66666666666657,
+                888.0000000000002,
+                805.0080323027364,
+                888.0000000000002,
+                805.0080323027364,
+                912.5040161513681,
+                150.66666666666657,
+                912.5040161513681
+              ],
+              "text": "particles that may be present in the ambient air. The next step was to"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                151.14189305651277,
+                918.6666666666671,
+                805.728915807836,
+                918.6666666666671,
+                805.728915807836,
+                944.5040161513682,
+                151.14189305651277,
+                944.5040161513682
+              ],
+              "text": "pick up all bioassay arenas that were exposed to the aerosol insecticide"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.42567916953814,
+                950.0542168384333,
+                805.728915807836,
+                950.0542168384333,
+                805.728915807836,
+                970.6666666666666,
+                149.42567916953814,
+                970.6666666666666
+              ],
+              "text": "treatment and replace with new bioassay arenas for thenext aerosol"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.042798615897,
+                981.3333333333335,
+                490.66666666666663,
+                981.3333333333335,
+                490.66666666666663,
+                1002.6666666666666,
+                149.042798615897,
+                1002.6666666666666
+              ],
+              "text": "treatment,which took approximately"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                495.29560036490267,
+                981.5111979511478,
+                580.3226707032749,
+                981.5111979511478,
+                580.3226707032749,
+                1002.6253026660455,
+                495.29560036490267,
+                1002.6253026660455
+              ],
+              "text": "5-15min"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                581.3333333333333,
+                981.3333333333333,
+                802.5582329898009,
+                981.3333333333333,
+                802.5582329898009,
+                1002.6666666666666,
+                581.3333333333333,
+                1002.6666666666666
+              ],
+              "text": ".The aerosol application"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                150.6666666666666,
+                1009.5502006870648,
+                802.5582329898009,
+                1009.5502006870648,
+                802.5582329898009,
+                1032.6124498282338,
+                150.6666666666666,
+                1032.6124498282338
+              ],
+              "text": "position was changed after each treatment and each aerosol application"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.56757222605097,
+                1038.9919676972638,
+                804.7911649490048,
+                1038.9919676972638,
+                804.7911649490048,
+                1064,
+                148.56757222605097,
+                1064
+              ],
+              "text": "location was repeated twicefor each aerosol formulation.Due to logis-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.42567916953817,
+                1071.3875501717666,
+                805.62048213097,
+                1071.3875501717666,
+                805.62048213097,
+                1094.6666666666665,
+                149.42567916953817,
+                1094.6666666666665
+              ],
+              "text": "tical constraints of the milling facility (time available for testing)and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                150.66666666666663,
+                1101.3333333333335,
+                806.4839426247521,
+                1101.3333333333335,
+                806.4839426247521,
+                1128,
+                150.66666666666663,
+                1128
+              ],
+              "text": "time required for each aerosol application the pyrethrin + pyriproxyfen"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.1846916724097,
+                1132.2168673537315,
+                805.5441776650498,
+                1132.2168673537315,
+                805.5441776650498,
+                1156,
+                148.1846916724097,
+                1156
+              ],
+              "text": "aerosol treatments were conducted first, followed by the pyrethrin +"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                147.70946528256368,
+                1162.666666666667,
+                803.7831326462687,
+                1162.666666666667,
+                803.7831326462687,
+                1186.6666666666665,
+                147.70946528256368,
+                1186.6666666666665
+              ],
+              "text": "methoprene aerosol treatments.Day1 of testinghadfive trials,day 2 had"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.65863436393036,
+                1194.6666666666667,
+                804.791164949005,
+                1194.6666666666667,
+                804.791164949005,
+                1216,
+                149.65863436393036,
+                1216
+              ],
+              "text": "six trials,andday 3 had five trials,for a total of 16 aerosol applications."
+            }
+          ]
+        },
+        {
+          "gt_id": "9",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            151.9939882454494,
+            1258.32461887006,
+            271.2602912969545,
+            1285.9805732008438
+          ],
+          "polygon": [
+            151.9939882454494,
+            1258.32461887006,
+            271.2602912969545,
+            1258.32461887006,
+            271.2602912969545,
+            1285.9805732008438,
+            151.9939882454494,
+            1285.9805732008438
+          ],
+          "text": "Bioassays",
+          "latex": null,
+          "html": null,
+          "reading_order": 4,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                152.10843367686564,
+                1257.8085597231795,
+                271.06224914116916,
+                1257.8085597231795,
+                271.06224914116916,
+                1282.666666666667,
+                152.10843367686564,
+                1282.666666666667
+              ],
+              "text": "Bioassays"
+            }
+          ]
+        },
+        {
+          "gt_id": "5",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            151.77221298217773,
+            1288.4343676860635,
+            808.038838704427,
+            1530.7366265190972
+          ],
+          "polygon": [
+            151.77221298217773,
+            1288.4343676860635,
+            808.038838704427,
+            1288.4343676860635,
+            808.038838704427,
+            1530.7366265190972,
+            151.77221298217773,
+            1530.7366265190972
+          ],
+          "text": "The T.confusum larvae used in the study were from a pesticidesusceptible strain maintained at the United StatesDepartment of Agriculture-Agricultural Research Service-Center for Grain and Animal Health Research (USDA-ARS-CGAHR,Manhattan,KS). Tribolium confusum colonies are reared on 95% organic wholewheat flour and 5% brewer's yeast at $ 2 7^{\\circ} \\mathrm{C}. $ 60% RH,and 0:24 (L:D)h in an environmental chamber.These colonies have been maintained at theUSDA-ARS-CGAHR for more than 30 yr.",
+          "latex": null,
+          "html": null,
+          "reading_order": 5,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                152.00000000000006,
+                1290.4615135901074,
+                803.3641224612475,
+                1290.4615135901074,
+                803.3641224612475,
+                1316,
+                152.00000000000006,
+                1316
+              ],
+              "text": "The T.confusum larvae used in the study were from a pesticide-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                146.86569445314632,
+                1323.65127210271,
+                805.6672067852893,
+                1323.65127210271,
+                805.6672067852893,
+                1345.3333333333333,
+                146.86569445314632,
+                1345.3333333333333
+              ],
+              "text": "susceptible strain maintained at the United StatesDepartment of"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                146.8656944531461,
+                1354.7330092621598,
+                806.5339814756804,
+                1354.7330092621598,
+                806.5339814756804,
+                1376,
+                146.8656944531461,
+                1376
+              ],
+              "text": "Agriculture-Agricultural Research Service-Center for Grain and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.0427986158971,
+                1385.3333333333335,
+                801.3333333333334,
+                1385.3333333333335,
+                801.3333333333334,
+                1408,
+                149.0427986158971,
+                1408
+              ],
+              "text": "Animal Health Research (USDA-ARS-CGAHR,Manhattan,KS)."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.13268519098628,
+                1415.199567905102,
+                593.3333333333334,
+                1415.199567905102,
+                593.3333333333334,
+                1438.6666666666665,
+                148.13268519098628,
+                1438.6666666666665
+              ],
+              "text": "Tribolium confusum colonies are reared on"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                596.8666143362225,
+                1416.981564037716,
+                641.9890020321099,
+                1416.981564037716,
+                641.9890020321099,
+                1439.8794921221963,
+                596.8666143362225,
+                1439.8794921221963
+              ],
+              "text": "95%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                649.9207730532163,
+                1414.3327932147106,
+                808.667746903912,
+                1414.3327932147106,
+                808.667746903912,
+                1438.6666666666665,
+                649.9207730532163,
+                1438.6666666666665
+              ],
+              "text": "organic whole-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.042798615897,
+                1445.1629335879857,
+                317.3333333333334,
+                1445.1629335879857,
+                317.3333333333334,
+                1469.3333333333335,
+                149.042798615897,
+                1469.3333333333335
+              ],
+              "text": "wheat flour and"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                319.39760343016906,
+                1447.9611137990717,
+                354.4179640299622,
+                1447.9611137990717,
+                354.4179640299622,
+                1467.4916995181873,
+                319.39760343016906,
+                1467.4916995181873
+              ],
+              "text": "5%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                359.82286643323596,
+                1446.985906434233,
+                537.3333333333335,
+                1446.985906434233,
+                537.3333333333335,
+                1469.3333333333333,
+                359.82286643323596,
+                1469.3333333333333
+              ],
+              "text": "brewer's yeast at"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                537.3333333333333,
+                1444,
+                593.3333333333333,
+                1444,
+                593.3333333333333,
+                1470.6666666666665,
+                537.3333333333333,
+                1470.6666666666665
+              ],
+              "latex": "$ 2 7^{\\circ} \\mathrm{C}. $"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                599.5604882285144,
+                1447.4301092259368,
+                656.173933646647,
+                1447.4301092259368,
+                656.173933646647,
+                1467.022214138367,
+                599.5604882285144,
+                1467.022214138367
+              ],
+              "text": "60%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                661.3145847902755,
+                1447.4553918140527,
+                804.2253684183813,
+                1447.4553918140527,
+                804.2253684183813,
+                1469.3333333333333,
+                661.3145847902755,
+                1469.3333333333333
+              ],
+              "text": "RH,and 0:24"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.90090555938454,
+                1477.1830877210798,
+                805.2006481423473,
+                1477.1830877210798,
+                805.2006481423473,
+                1500,
+                149.90090555938454,
+                1500
+              ],
+              "text": "(L:D)h in an environmental chamber.These colonies have been"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.4256791695385,
+                1506.666666666667,
+                729.6672067852894,
+                1506.666666666667,
+                729.6672067852894,
+                1532,
+                149.4256791695385,
+                1532
+              ],
+              "text": "maintained at theUSDA-ARS-CGAHR for more than 30 yr."
+            }
+          ]
+        },
+        {
+          "gt_id": "12",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            151.76414913601346,
+            1535.247802734375,
+            808.0308702256945,
+            1897.403293185764
+          ],
+          "polygon": [
+            151.76414913601346,
+            1535.247802734375,
+            808.0308702256945,
+            1535.247802734375,
+            808.0308702256945,
+            1897.403293185764,
+            151.76414913601346,
+            1897.403293185764
+          ],
+          "text": "Testing arenas used in this study were individual $ 60 \\times 15 mm $ $ (\\sim2 2 ~ \\mathrm{c m}^{2}) $ Petri dishes partially filled with concrete and placed inside larger $ 150 \\times 20 mm (\\sim 1 3 7 \\mathrm{~ c m^{2} ~}) $ plastic Petri dishes.Concrete dishes were prepared based on Arthur (2015).Briefly, a drypowder driveway patching material (Rockite,Hartline Product Co.,Inc., Cleveland,OH)was mixed with water to create a thin slurry,poured in thebottom of Petri dishes to a depth of ~0.5cm ,and held at ambient conditions for approximately 7 d. Inside each Petri dish, four concrete arenas were placed.Three of the arenas were used in the current study for residual bioassays at 2,4,and 6 wk post-aerosol treatment and contained no diet at time of exposure to aerosol.The other arena was used as described by Scheff et al.(2018).",
+          "latex": null,
+          "html": null,
+          "reading_order": 6,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                181.04279861589714,
+                1536.5223305198513,
+                673.3333333333335,
+                1536.5223305198513,
+                673.3333333333335,
+                1563.8831708868902,
+                181.04279861589714,
+                1563.8831708868902
+              ],
+              "text": "Testing arenas used in this study were individual"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                675.6745897196038,
+                1538.473487672814,
+                802.1395421509698,
+                1538.473487672814,
+                802.1395421509698,
+                1559.8188463256258,
+                675.6745897196038,
+                1559.8188463256258
+              ],
+              "latex": "$ 60 \\times 15 mm $"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                152.13700253598176,
+                1564.8130514381971,
+                248.50027961220042,
+                1564.8130514381971,
+                248.50027961220042,
+                1593.8536152284703,
+                152.13700253598176,
+                1593.8536152284703
+              ],
+              "latex": "$ (\\sim2 2 ~ \\mathrm{c m}^{2}) $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                255.15539026533452,
+                1568.3482203465676,
+                803.3035593068657,
+                1568.3482203465676,
+                803.3035593068657,
+                1593.5647245667906,
+                255.15539026533452,
+                1593.5647245667906
+              ],
+              "text": "Petri dishes partially filled with concrete and placed in-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                151.0148870132341,
+                1597.8556638531848,
+                256.3729468067254,
+                1597.8556638531848,
+                256.3729468067254,
+                1622.3184463200998,
+                151.0148870132341,
+                1622.3184463200998
+              ],
+              "text": "side larger"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                261.9632316505,
+                1596.0000000000002,
+                513.9944498623083,
+                1596.0000000000002,
+                513.9944498623083,
+                1624,
+                261.9632316505,
+                1624
+              ],
+              "latex": "$ 150 \\times 20 mm (\\sim 1 3 7 \\mathrm{~ c m^{2} ~}) $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                518.607118613731,
+                1597.8556638531845,
+                802.7239477268407,
+                1597.8556638531845,
+                802.7239477268407,
+                1622.8980579001245,
+                518.607118613731,
+                1622.8980579001245
+              ],
+              "text": "plastic Petri dishes.Concrete"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.56757222605123,
+                1630.666666666667,
+                806.3757273802737,
+                1630.666666666667,
+                806.3757273802737,
+                1653.3333333333333,
+                148.56757222605123,
+                1653.3333333333333
+              ],
+              "text": "dishes were prepared based on Arthur (2015).Briefly, a drypowder"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.56757222605123,
+                1658.4352754332094,
+                802.6666666666669,
+                1658.4352754332094,
+                802.6666666666669,
+                1683.2462782466914,
+                148.56757222605123,
+                1683.2462782466914
+              ],
+              "text": "driveway patching material (Rockite,Hartline Product Co.,Inc.,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.9009055593846,
+                1689.1019420998764,
+                802.4925564933833,
+                1689.1019420998764,
+                802.4925564933833,
+                1714.6666666666665,
+                149.9009055593846,
+                1714.6666666666665
+              ],
+              "text": "Cleveland,OH)was mixed with water to create a thin slurry,poured"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                150.66666666666666,
+                1722.6666666666665,
+                557.3333333333333,
+                1722.6666666666665,
+                557.3333333333333,
+                1744,
+                150.66666666666666,
+                1744
+              ],
+              "text": "in thebottom of Petri dishes to a depth of"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                561.6903446003555,
+                1724.0475957295105,
+                637.8504558862769,
+                1724.0475957295105,
+                637.8504558862769,
+                1741.8583322074726,
+                561.6903446003555,
+                1741.8583322074726
+              ],
+              "text": "~0.5cm"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                637.1019420998758,
+                1722.6666666666665,
+                805.8533968604225,
+                1722.6666666666665,
+                805.8533968604225,
+                1744,
+                637.1019420998758,
+                1744
+              ],
+              "text": ",and held at am-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.68155367990101,
+                1749.8556638531848,
+                802.2663054865791,
+                1749.8556638531848,
+                802.2663054865791,
+                1774.0870550866416,
+                149.68155367990101,
+                1774.0870550866416
+              ],
+              "text": "bient conditions for approximately 7 d. Inside each Petri dish, four"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.42567916953857,
+                1781.2760522731594,
+                806.20161720699,
+                1781.2760522731594,
+                806.20161720699,
+                1808.4627824669149,
+                149.42567916953857,
+                1808.4627824669149
+              ],
+              "text": "concrete arenas were placed.Three of the arenas were used in the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.90090555938463,
+                1811.5944985932592,
+                804.231391233458,
+                1811.5944985932592,
+                804.231391233458,
+                1834.6666666666665,
+                149.90090555938463,
+                1834.6666666666665
+              ],
+              "text": "current study for residual bioassays at 2,4,and 6 wk post-aerosol"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                147.94271893982622,
+                1842.4352754332092,
+                804.8110028134826,
+                1842.4352754332092,
+                804.8110028134826,
+                1869.5647245667906,
+                147.94271893982622,
+                1869.5647245667906
+              ],
+              "text": "treatment and contained no diet at time of exposure to aerosol.The"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                150.43527543320917,
+                1873.5074435066172,
+                699.6517796534329,
+                1873.5074435066172,
+                699.6517796534329,
+                1898.3184463200994,
+                150.43527543320917,
+                1898.3184463200994
+              ],
+              "text": "other arena was used as described by Scheff et al.(2018)."
+            }
+          ]
+        },
+        {
+          "gt_id": "11",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            151.76414913601346,
+            1901.9144694010417,
+            807.9818725585938,
+            2019.625515407986
+          ],
+          "polygon": [
+            151.76414913601346,
+            1901.9144694010417,
+            807.9818725585938,
+            1901.9144694010417,
+            807.9818725585938,
+            2019.625515407986,
+            151.76414913601346,
+            2019.625515407986
+          ],
+          "text": "These groups of testing arenas were placed atten different positions on the third floor (Fig.1).Nine positions also had aerodynamic particle sizer units(APS 3321,TSI Inc.,Shoreview,MN)placed to collect data on aerosol particle concentration and size distribution.",
+          "latex": null,
+          "html": null,
+          "reading_order": 7,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                178.11710216347737,
+                1904.0923458362054,
+                805.0959890088639,
+                1904.0923458362054,
+                805.0959890088639,
+                1928,
+                178.11710216347737,
+                1928
+              ],
+              "text": "These groups of testing arenas were placed atten different posi-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                150.66666666666683,
+                1933.602182589486,
+                805.8546624244935,
+                1933.602182589486,
+                805.8546624244935,
+                1960,
+                150.66666666666683,
+                1960
+              ],
+              "text": "tions on the third floor (Fig.1).Nine positions also had aerodynamic"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.80654776845836,
+                1966.6721231403822,
+                805.3224203859033,
+                1966.6721231403822,
+                805.3224203859033,
+                1990.9300594491044,
+                148.80654776845836,
+                1990.9300594491044
+              ],
+              "text": "particle sizer units(APS 3321,TSI Inc.,Shoreview,MN)placed to"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.18469167241017,
+                1994.9409723965346,
+                803.1934522315423,
+                1994.9409723965346,
+                803.1934522315423,
+                2022.392360936799,
+                148.18469167241017,
+                2022.392360936799
+              ],
+              "text": "collect data on aerosol particle concentration and size distribution."
+            }
+          ]
+        },
+        {
+          "gt_id": "3",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            851.764170328776,
+            732.4700249565972,
+            1508.0310397677952,
+            1064.070044623481
+          ],
+          "polygon": [
+            851.764170328776,
+            732.4700249565972,
+            1508.0310397677952,
+            732.4700249565972,
+            1508.0310397677952,
+            1064.070044623481,
+            851.764170328776,
+            1064.070044623481
+          ],
+          "text": "Two additional testing arenas wereplaced on the first floor of the mill during each aerosol treatment and served as untreated controls. Arenas were placed in each of the four major corners of the mill floor (arenas 4, 5,8,10).Bioassay arenas along walls were placed approximately 0.5m away from the wall （arenas 4,5,6,8,9,10). Bioassay arena 2 was placed in between two large pieces of milling equipment and pneumatic conveying ducts. Bioassay arena 7 was placed underneath a piece of milling equipment.Relative to the application locations, bioassay arena 1 was placed directly in front of aerosol application location 1 and bioassay arenas 9 and 4 were placed next to aerosol application locations2 and 3, respectively.",
+          "latex": null,
+          "html": null,
+          "reading_order": 8,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                849.7062801400587,
+                734.6666666666666,
+                1504.960386526608,
+                734.6666666666666,
+                1504.960386526608,
+                758.6666666666664,
+                849.7062801400587,
+                758.6666666666664
+              ],
+              "text": "Two additional testing arenas wereplaced on the first floor of the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                851.0396134733916,
+                764.8852630356552,
+                1502.5956141369538,
+                764.8852630356552,
+                1502.5956141369538,
+                786.6666666666662,
+                851.0396134733916,
+                786.6666666666662
+              ],
+              "text": "mill during each aerosol treatment and served as untreated controls."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                849.7062801400585,
+                795.7759648511608,
+                1502.6666666666665,
+                795.7759648511608,
+                1502.6666666666665,
+                818.6666666666662,
+                849.7062801400585,
+                818.6666666666662
+              ],
+              "text": "Arenas were placed in each of the four major corners of the mill"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                848.372946806725,
+                826.6666666666666,
+                1504,
+                826.6666666666666,
+                1504,
+                851.9999999999998,
+                848.372946806725,
+                851.9999999999998
+              ],
+              "text": "floor (arenas 4, 5,8,10).Bioassay arenas along walls were placed"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                851.0396134733917,
+                858.4426315178275,
+                996,
+                858.4426315178275,
+                996,
+                881.7814036310114,
+                851.0396134733917,
+                881.7814036310114
+              ],
+              "text": "approximately"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                997.3511819767161,
+                858.5855472911713,
+                1055.8508220728443,
+                858.5855472911713,
+                1055.8508220728443,
+                879.8152553905727,
+                997.3511819767161,
+                879.8152553905727
+              ],
+              "text": "0.5m"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1058.6666666666665,
+                856.8852630356553,
+                1502.6666666666665,
+                856.8852630356553,
+                1502.6666666666665,
+                881.7814036310111,
+                1058.6666666666665,
+                881.7814036310111
+              ],
+              "text": "away from the wall （arenas 4,5,6,8,9,10)."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                886.6666666666666,
+                1504,
+                886.6666666666666,
+                1504,
+                913.3333333333333,
+                850.6666666666666,
+                913.3333333333333
+              ],
+              "text": "Bioassay arena 2 was placed in between two large pieces of milling"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                918.4426315178276,
+                1502.6666666666665,
+                918.4426315178276,
+                1502.6666666666665,
+                942.6666666666664,
+                850.6666666666666,
+                942.6666666666664
+              ],
+              "text": "equipment and pneumatic conveying ducts. Bioassay arena 7 was"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                949.3333333333333,
+                1502.6666666666665,
+                949.3333333333333,
+                1502.6666666666665,
+                973.3333333333333,
+                850.6666666666666,
+                973.3333333333333
+              ],
+              "text": "placed underneath a piece of milling equipment.Relative to the ap-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852,
+                980.5191228273909,
+                1504,
+                980.5191228273909,
+                1504,
+                1004.2240351488388,
+                852,
+                1004.2240351488388
+              ],
+              "text": "plication locations, bioassay arena 1 was placed directly in front of"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852,
+                1012,
+                1502.6666666666665,
+                1012,
+                1502.6666666666665,
+                1035.1147369643447,
+                852,
+                1035.1147369643447
+              ],
+              "text": "aerosol application location 1 and bioassay arenas 9 and 4 were"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1041.3333333333333,
+                1476.967193125069,
+                1041.3333333333333,
+                1476.967193125069,
+                1063.9999999999998,
+                850.6666666666666,
+                1063.9999999999998
+              ],
+              "text": "placed next to aerosol application locations2 and 3, respectively."
+            }
+          ]
+        },
+        {
+          "gt_id": "4",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            851.7640855577257,
+            1068.5811360677083,
+            1508.0015394422744,
+            1369.6256001790364
+          ],
+          "polygon": [
+            851.7640855577257,
+            1068.5811360677083,
+            1508.0015394422744,
+            1068.5811360677083,
+            1508.0015394422744,
+            1369.6256001790364,
+            851.7640855577257,
+            1369.6256001790364
+          ],
+          "text": "After aerosol applications,each bioassay arena was covered and transported back to theUSDA-ARS-CGAHR and held at $ 2 7^{\\circ} \\mathrm{C}, $ 60% RH,and 0:24（L:D）in an environmental chamber.At 2,4,and6wk post-aerosol application, five（3-4 wk old) T. confusum larvae along with ~400mg of diet were added to one concrete arena from each bioassay arenaposition.Number of larvae available for bioassays waslimited,but five larvae per dish does provide sufficient resolution to evaluate IGR effects on development.Larvae were examined twice weekly, up to 4 wk, for adult emergence. Emerged adults were removed from dishes to prevent cannibalism.",
+          "latex": null,
+          "html": null,
+          "reading_order": 9,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                884.0710525297126,
+                1071.2568420237699,
+                1502.6666666666665,
+                1071.2568420237699,
+                1502.6666666666665,
+                1094.6666666666663,
+                884.0710525297126,
+                1094.6666666666663
+              ],
+              "text": "After aerosol applications,each bioassay arena was covered and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                849.5180250057431,
+                1101.3333333333333,
+                1392,
+                1101.3333333333333,
+                1392,
+                1123.9999999999998,
+                849.5180250057431,
+                1123.9999999999998
+              ],
+              "text": "transported back to theUSDA-ARS-CGAHR and held at"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                1392,
+                1098.6666666666663,
+                1452.6506227456819,
+                1098.6666666666663,
+                1452.6506227456819,
+                1126.1463654902607,
+                1392,
+                1126.1463654902607
+              ],
+              "latex": "$ 2 7^{\\circ} \\mathrm{C}, $"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1454.6781451812253,
+                1101.8026747933245,
+                1503.293270033052,
+                1101.8026747933245,
+                1503.293270033052,
+                1125.1632020259106,
+                1454.6781451812253,
+                1125.1632020259106
+              ],
+              "text": "60%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852,
+                1132.5901753571034,
+                1503.114736964345,
+                1132.5901753571034,
+                1503.114736964345,
+                1154.8907018155053,
+                852,
+                1154.8907018155053
+              ],
+              "text": "RH，and 0:24（L:D）in an environmental chamber.At 2,4,and6wk"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1162.9617543452184,
+                1502.6666666666665,
+                1162.9617543452184,
+                1502.6666666666665,
+                1188.7431579762292,
+                850.6666666666666,
+                1188.7431579762292
+              ],
+              "text": "post-aerosol application, five（3-4 wk old) T. confusum larvae along"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                849.3996759288265,
+                1196,
+                898.6666666666666,
+                1196,
+                898.6666666666666,
+                1214.2001080237244,
+                849.3996759288265,
+                1214.2001080237244
+              ],
+              "text": "with"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                902.8613931850996,
+                1194.454100969507,
+                990.8307552586174,
+                1194.454100969507,
+                990.8307552586174,
+                1221.9111907907734,
+                902.8613931850996,
+                1221.9111907907734
+              ],
+              "text": "~400mg"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                992,
+                1192.3661402082644,
+                1502.371578988115,
+                1192.3661402082644,
+                1502.371578988115,
+                1214.8907018155053,
+                992,
+                1214.8907018155053
+              ],
+              "text": "of diet were added to one concrete arena from each"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                848.5329012384354,
+                1224,
+                1503.928947470287,
+                1224,
+                1503.928947470287,
+                1247.9999999999995,
+                848.5329012384354,
+                1247.9999999999995
+              ],
+              "text": "bioassay arenaposition.Number of larvae available for bioassays"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                849.5104669000974,
+                1256,
+                1505.4863159524596,
+                1256,
+                1505.4863159524596,
+                1278.666666666666,
+                849.5104669000974,
+                1278.666666666666
+              ],
+              "text": "waslimited,but five larvae per dish does provide sufficient reso-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                846.2066558278915,
+                1282.7377191963792,
+                1506.8195818194322,
+                1282.7377191963792,
+                1506.8195818194322,
+                1309.2152442888232,
+                846.2066558278915,
+                1309.2152442888232
+              ],
+              "text": "lution to evaluate IGR effects on development.Larvae were exam-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1314.9617543452187,
+                1503.6338597917356,
+                1314.9617543452187,
+                1503.6338597917356,
+                1339.9999999999998,
+                850.6666666666666,
+                1339.9999999999998
+              ],
+              "text": "ined twice weekly, up to 4 wk, for adult emergence. Emerged adults"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852.0000000000001,
+                1346.6666666666665,
+                1336.967193125069,
+                1346.6666666666665,
+                1336.967193125069,
+                1369.333333333333,
+                852.0000000000001,
+                1369.333333333333
+              ],
+              "text": "were removed from dishes to prevent cannibalism."
+            }
+          ]
+        },
+        {
+          "gt_id": "8",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            851.7640855577257,
+            1374.136691623264,
+            1507.986111111111,
+            1583.514404296875
+          ],
+          "polygon": [
+            851.7640855577257,
+            1374.136691623264,
+            1507.986111111111,
+            1374.136691623264,
+            1507.986111111111,
+            1583.514404296875,
+            851.7640855577257,
+            1583.514404296875
+          ],
+          "text": "At the end of 4 wk, all five individuals were classified as larvae, pupae, or adults.Meansand SEswere calculated for adult emergence and data analyzed using statistical analysis software (version 9.4, SAS Institute, Cary, NC). Adult emergence data were transformed to angular values prior to analysis (Zar 2010) before using a three-way analysis of variance based on bioassay position,application position, and residual week as the main effects.",
+          "latex": null,
+          "html": null,
+          "reading_order": 10,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                883.039613473392,
+                1376,
+                1505.4863159524593,
+                1376,
+                1505.4863159524593,
+                1399.9999999999995,
+                883.039613473392,
+                1399.9999999999995
+              ],
+              "text": "At the end of 4 wk, all five individuals were classified as larvae,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                849.4256791695384,
+                1408,
+                1502.6666666666665,
+                1408,
+                1502.6666666666665,
+                1431.9999999999998,
+                849.4256791695384,
+                1431.9999999999998
+              ],
+              "text": "pupae, or adults.Meansand SEswere calculated for adult emergence"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.2837861130258,
+                1438.6666666666665,
+                1507.338772113184,
+                1438.6666666666665,
+                1507.338772113184,
+                1462.666666666666,
+                850.2837861130258,
+                1462.666666666666
+              ],
+              "text": "and data analyzed using statistical analysis software (version 9.4,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                848.5675722260514,
+                1469.861022958339,
+                1504.9671931250684,
+                1469.861022958339,
+                1504.9671931250684,
+                1489.8610229583383,
+                848.5675722260514,
+                1489.8610229583383
+              ],
+              "text": "SAS Institute, Cary, NC). Adult emergence data were transformed to"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.2185963689884,
+                1496.8852630356553,
+                1506.7485967560801,
+                1496.8852630356553,
+                1506.7485967560801,
+                1524.2240351488385,
+                850.2185963689884,
+                1524.2240351488385
+              ],
+              "text": "angular values prior to analysis (Zar 2010) before using a three-way"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                849.9235086904371,
+                1530.6666666666665,
+                1504.74315797623,
+                1530.6666666666665,
+                1504.74315797623,
+                1555.185789494057,
+                849.9235086904371,
+                1555.185789494057
+              ],
+              "text": "analysis of variance based on bioassay position,application position,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                851.2354267133528,
+                1560,
+                1213.3333333333335,
+                1560,
+                1213.3333333333335,
+                1582.6666666666665,
+                851.2354267133528,
+                1582.6666666666665
+              ],
+              "text": "and residual week as the main effects."
+            }
+          ]
+        },
+        {
+          "gt_id": "13",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            851.0583503866236,
+            1651.2643458913512,
+            1163.5560296086987,
+            1674.9145234308626
+          ],
+          "polygon": [
+            851.0583503866236,
+            1651.2643458913512,
+            1163.5560296086987,
+            1651.2643458913512,
+            1163.5560296086987,
+            1674.9145234308626,
+            851.0583503866236,
+            1674.9145234308626
+          ],
+          "text": "Aerosol Dispersal Patterns",
+          "latex": null,
+          "html": null,
+          "reading_order": 11,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                847.442813552524,
+                1649.4769081540644,
+                1164.0902837996875,
+                1649.4769081540644,
+                1164.0902837996875,
+                1676.75654316983,
+                847.442813552524,
+                1676.75654316983
+              ],
+              "text": "Aerosol Dispersal Patterns"
+            }
+          ]
+        },
+        {
+          "gt_id": "14",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            851.7716301812065,
+            1681.104470542613,
+            1508.0357869466145,
+            2014.0699598524307
+          ],
+          "polygon": [
+            851.7716301812065,
+            1681.104470542613,
+            1508.0357869466145,
+            1681.104470542613,
+            1508.0357869466145,
+            2014.0699598524307,
+            851.7716301812065,
+            2014.0699598524307
+          ],
+          "text": "To assess the strength of the effect of the aerosol application, an efficacy value index was created to convert the three morphological states (larvae,pupae, adult) to a single value for comparison Campbell et al.2014).The efficacy index ranged from1,the weakest efficacy response with five adults,to 21,the strongest response with fivelarvae.All of the index values with the corresponding numbers of adults,pupae, andlarvae indicated in brackets were the following: 1[5,0,0],2[4,1,0],3[4,0,1],4[3,2,0],5[3,1,1],6[3,0,2],7[2,3,0], 8[2,2,1],9[2,1,2],10[2,0,3],11[1,4,0],12[1,3,1],13[1,2,2],14 [1,1,3],15[1,0,4],16[0,5,0],17[0,4,1],18[0,3,2],19[0,2,3],20 [0,1,4],21[0,0,5].",
+          "latex": null,
+          "html": null,
+          "reading_order": 12,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                852.0000000000001,
+                1685.3333333333333,
+                1504.0902837996873,
+                1685.3333333333333,
+                1504.0902837996873,
+                1709.333333333333,
+                852.0000000000001,
+                1709.333333333333
+              ],
+              "text": "To assess the strength of the effect of the aerosol application, an"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                848.9222125871671,
+                1716,
+                1504.5014045458536,
+                1716,
+                1504.5014045458536,
+                1738.6666666666663,
+                848.9222125871671,
+                1738.6666666666663
+              ],
+              "text": "efficacy value index was created to convert the three morpho-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666667,
+                1746.6666666666665,
+                1506.0652910259787,
+                1746.6666666666665,
+                1506.0652910259787,
+                1773.333333333333,
+                850.6666666666667,
+                1773.333333333333
+              ],
+              "text": "logical states (larvae,pupae, adult) to a single value for comparison"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.953816308129,
+                1778.6666666666665,
+                1505.193063986229,
+                1778.6666666666665,
+                1505.193063986229,
+                1798.666666666666,
+                850.953816308129,
+                1798.666666666666
+              ],
+              "text": "Campbell et al.2014).The efficacy index ranged from1,the weakest"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                848.6916594403756,
+                1807.679163053521,
+                1503.3083405596249,
+                1807.679163053521,
+                1503.3083405596249,
+                1830.0249927737084,
+                848.6916594403756,
+                1830.0249927737084
+              ],
+              "text": "efficacy response with five adults,to 21,the strongest response with"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666669,
+                1837.3333333333333,
+                1504.0902837996873,
+                1837.3333333333333,
+                1504.0902837996873,
+                1862.6666666666663,
+                850.6666666666669,
+                1862.6666666666663
+              ],
+              "text": "fivelarvae.All of the index values with the corresponding numbers"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                848.5675722260513,
+                1869.3333333333333,
+                1503.859730652896,
+                1869.3333333333333,
+                1503.859730652896,
+                1893.3333333333328,
+                848.5675722260513,
+                1893.3333333333328
+              ],
+              "text": "of adults,pupae, andlarvae indicated in brackets were the following:"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                851.1277729602505,
+                1898.8069360137708,
+                1502.9875036131461,
+                1898.8069360137708,
+                1502.9875036131461,
+                1922.4361135198744,
+                851.1277729602505,
+                1922.4361135198744
+              ],
+              "text": "1[5,0,0],2[4,1,0],3[4,0,1],4[3,2,0],5[3,1，1],6[3,0,2],7[2,3，0]，"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852.0000000000002,
+                1928.9222125871672,
+                1505.5139009327079,
+                1928.9222125871672,
+                1505.5139009327079,
+                1953.4236171330201,
+                852.0000000000002,
+                1953.4236171330201
+              ],
+              "text": "8[2,2,1]，9[2,1,2]，10[2,0,3],11[1,4,0],12[1,3,1]，13[1,2,2],14"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666669,
+                1957.7041558272297,
+                1507.9500144525828,
+                1957.7041558272297,
+                1507.9500144525828,
+                1985.744454079499,
+                850.6666666666669,
+                1985.744454079499
+              ],
+              "text": "[1,1,3],15[1,0,4],16[0,5,0],17[0,4,1],18[0,3,2],19[0,2,3],20"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852.0000000000002,
+                1990.3458297201878,
+                1029.1027801865416,
+                1990.3458297201878,
+                1029.1027801865416,
+                2017.4236171330201,
+                852.0000000000002,
+                2017.4236171330201
+              ],
+              "text": "[0,1,4],21[0,0,5]."
+            }
+          ]
+        },
+        {
+          "gt_id": "0",
+          "label": "page_number",
+          "eval_label": "abandon",
+          "bbox": [
+            1488.3984952304177,
+            75.0344986200552,
+            1505.414483407228,
+            98.04507819687213
+          ],
+          "polygon": [
+            1488.3984952304177,
+            75.0344986200552,
+            1505.414483407228,
+            75.0344986200552,
+            1505.414483407228,
+            98.04507819687213,
+            1488.3984952304177,
+            98.04507819687213
+          ],
+          "text": "3",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                1486.1990499167675,
+                79.25322472169296,
+                1503.37809532165,
+                79.25322472169296,
+                1503.37809532165,
+                100.47439845713609,
+                1486.1990499167675,
+                100.47439845713609
+              ],
+              "text": "3"
+            }
+          ]
+        },
+        {
+          "gt_id": "2",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            146.6079831579917,
+            75.03449862005539,
+            740.6959559317477,
+            101.0464581416743
+          ],
+          "polygon": [
+            146.6079831579917,
+            75.03449862005539,
+            740.6959559317477,
+            75.03449862005539,
+            740.6959559317477,
+            101.0464581416743,
+            146.6079831579917,
+            101.0464581416743
+          ],
+          "text": "Journal of Economic Entomology,2020,Vol.XX,No.XX",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                145.22297625328653,
+                74.20056430849263,
+                745.4790333415365,
+                74.20056430849263,
+                745.4790333415365,
+                100.47439845713632,
+                145.22297625328653,
+                100.47439845713632
+              ],
+              "text": "Journal of Economic Entomology,2020,Vol.XX,No.XX"
+            }
+          ]
+        },
+        {
+          "gt_id": "10",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            1584.0441462234874,
+            428.7599016696428,
+            1613.8668869430217,
+            1747.4436978333988
+          ],
+          "polygon": [
+            1584.0441462234874,
+            428.7599016696428,
+            1613.8668869430217,
+            428.7599016696428,
+            1613.8668869430217,
+            1747.4436978333988,
+            1584.0441462234874,
+            1747.4436978333988
+          ],
+          "text": "Downloaded from https://academic.oup.com/jee/advance-article-abstract/doi/10.1093/jee/toaa103/5848239by guest on \n 01 June 2020",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "rotate90"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                1584.0990874963586,
+                428.324305763144,
+                1614.2087951556182,
+                428.324305763144,
+                1614.2087951556182,
+                1749.960256410011,
+                1584.0990874963586,
+                1749.960256410011
+              ],
+              "text": "Downloaded from https://academic.oup.com/jee/advance-article-abstract/doi/10.1093/jee/toaa103/5848239by guest on \n 01 June 2020"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extra": {
+    "relation": [
+      {
+        "source_anno_id": 6,
+        "target_anno_id": 1,
+        "relation_type": "parent_son"
+      },
+      {
+        "source_anno_id": 11,
+        "target_anno_id": 3,
+        "relation_type": "truncated"
+      }
+    ]
+  }
+}

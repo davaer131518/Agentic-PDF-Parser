@@ -1,0 +1,480 @@
+{
+  "sample_id": "yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13",
+  "dataset_name": "omnidocbench_v15_english",
+  "input_pdf_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\examples\\pdfs\\yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13.pdf",
+  "input_image_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\evaluation_data_omni\\omnidocbench_v15_english\\images\\yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13.jpg",
+  "page_info": {
+    "page_attribute": {
+      "data_source": "magazine",
+      "language": "english",
+      "layout": "double_column",
+      "special_issue": [
+        "None"
+      ]
+    },
+    "page_no": 4714,
+    "height": 1500,
+    "width": 2662,
+    "image_path": "yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13.jpg"
+  },
+  "pages": [
+    {
+      "page_num": 4715,
+      "omni_page_no": 4714,
+      "width": 2662,
+      "height": 1500,
+      "coordinate_space": "image_pixels",
+      "blocks": [
+        {
+          "gt_id": "10",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            100.69467163085938,
+            188.3741455078125,
+            947.988037109375,
+            285.3743591308594
+          ],
+          "polygon": [
+            100.69467163085938,
+            188.3741455078125,
+            947.988037109375,
+            188.3741455078125,
+            947.988037109375,
+            285.3743591308594,
+            100.69467163085938,
+            285.3743591308594
+          ],
+          "text": "Family Preservation and Assessment System Hillsborough County, Florida",
+          "latex": null,
+          "html": null,
+          "reading_order": 1,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                109.33333333333312,
+                192.42519123078284,
+                940.3928324529755,
+                192.42519123078284,
+                940.3928324529755,
+                235.11415074382114,
+                109.33333333333312,
+                235.11415074382114
+              ],
+              "text": "Family Preservation and Assessment System"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                110.66666666666661,
+                242.14279903196075,
+                627.3129334716244,
+                242.14279903196075,
+                627.3129334716244,
+                285.1701344396644,
+                110.66666666666661,
+                285.1701344396644
+              ],
+              "text": "Hillsborough County, Florida"
+            }
+          ]
+        },
+        {
+          "gt_id": "9",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            103.13088989257812,
+            323.10235595703125,
+            230.73333740234375,
+            355.24261474609375
+          ],
+          "polygon": [
+            103.13088989257812,
+            323.10235595703125,
+            230.73333740234375,
+            323.10235595703125,
+            230.73333740234375,
+            355.24261474609375,
+            103.13088989257812,
+            355.24261474609375
+          ],
+          "text": "Summary",
+          "latex": null,
+          "html": null,
+          "reading_order": 2,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                105.33333333333316,
+                326.66666666666697,
+                230.58506721983204,
+                326.66666666666697,
+                230.58506721983204,
+                355.2313340247904,
+                105.33333333333316,
+                355.2313340247904
+              ],
+              "text": "Summary"
+            }
+          ]
+        },
+        {
+          "gt_id": "0",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            99.24604034423828,
+            376.3206787109375,
+            1017.6256713867188,
+            683.7058715820312
+          ],
+          "polygon": [
+            99.24604034423828,
+            376.3206787109375,
+            1017.6256713867188,
+            376.3206787109375,
+            1017.6256713867188,
+            683.7058715820312,
+            99.24604034423828,
+            683.7058715820312
+          ],
+          "text": "Hillsborough County's Family Preservation and Assessment System is a county-wide data-sharing platform in the children services sector. The purpose of the Family Preservation and Assessment System is to enable the unification of multiple sources of data regarding families with a child at risk of being abused or neglected, or a child in care. Hillsborough County, in collaboration with EY, has designed this tool to help realize the vision of preservation of families through targeted early intervention and support. The tool has been deployed in the community since March 2021.",
+          "latex": null,
+          "html": null,
+          "reading_order": 3,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                105.33333333333317,
+                380.93799021680223,
+                969.3333333333331,
+                380.93799021680223,
+                969.3333333333331,
+                410.1124359103483,
+                105.33333333333317,
+                410.1124359103483
+              ],
+              "text": "Hillsborough County's Family Preservation and Assessment System is a"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                104.6937430158429,
+                420.18697392854926,
+                957.4661545635292,
+                420.18697392854926,
+                957.4661545635292,
+                449.9729236508238,
+                104.6937430158429,
+                449.9729236508238
+              ],
+              "text": "county-wide data-sharing platform in the children services sector. The"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                104.18697392854885,
+                458.3468715079218,
+                981.4661545635294,
+                458.3468715079218,
+                981.4661545635294,
+                488.4526163889415,
+                104.18697392854885,
+                488.4526163889415
+              ],
+              "text": "purpose of the Family Preservation and Assessment System is to enable"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                105.3333333333332,
+                496.5067690872944,
+                1014.6666666666666,
+                496.5067690872944,
+                1014.6666666666666,
+                523.4932309127059,
+                105.3333333333332,
+                523.4932309127059
+              ],
+              "text": "the unification of multiple sources of data regarding families with a child at"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                105.3333333333332,
+                533.2005121031374,
+                996.6395903174903,
+                533.2005121031374,
+                996.6395903174903,
+                564.0000000000001,
+                105.3333333333332,
+                564.0000000000001
+              ],
+              "text": "risk of being abused or neglected, or a child in care. Hillsborough County,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                105.33333333333321,
+                573.7502653361702,
+                1005.3333333333333,
+                573.7502653361702,
+                1005.3333333333333,
+                601.3333333333334,
+                105.33333333333321,
+                601.3333333333334
+              ],
+              "text": "in collaboration with EY, has designed this tool to help realize the vision of"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                106.66666666666671,
+                613.3126990021277,
+                993.3333333333333,
+                613.3126990021277,
+                993.3333333333333,
+                642.6873009978726,
+                106.66666666666671,
+                642.6873009978726
+              ],
+              "text": "preservation of families through targeted early intervention and support."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                105.33333333333333,
+                653.3333333333333,
+                893.3333333333333,
+                653.3333333333333,
+                893.3333333333333,
+                678.6666666666666,
+                105.33333333333333,
+                678.6666666666666
+              ],
+              "text": "The tool has been deployed in the community since March 2021."
+            }
+          ]
+        },
+        {
+          "gt_id": "1",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            101.29625948730403,
+            709.9380295703177,
+            271.92785128417904,
+            733.3751521386687
+          ],
+          "polygon": [
+            101.29625948730403,
+            709.9380295703177,
+            271.92785128417904,
+            709.9380295703177,
+            271.92785128417904,
+            733.3751521386687,
+            101.29625948730403,
+            733.3751521386687
+          ],
+          "text": "Interviewees",
+          "latex": null,
+          "html": null,
+          "reading_order": 4,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                106.66666666666673,
+                706.641321314428,
+                266.6793393427861,
+                706.641321314428,
+                266.6793393427861,
+                733.3586786855726,
+                106.66666666666673,
+                733.3586786855726
+              ],
+              "text": "Interviewees"
+            }
+          ]
+        },
+        {
+          "gt_id": "12",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            91.04892745149164,
+            751.8827110281522,
+            997.8452498359152,
+            1057.4631267469308
+          ],
+          "polygon": [
+            91.04892745149164,
+            751.8827110281522,
+            997.8452498359152,
+            751.8827110281522,
+            997.8452498359152,
+            1057.4631267469308,
+            91.04892745149164,
+            1057.4631267469308
+          ],
+          "text": "- Ramin Kouzehkanani, ClO, Hillsborough County\n- Commissioner Sandra Murman, Hillsborough County\n- Patrick Minzie, lI, Director, Department of Children's Services Hillsborough County\n- Christopher Card, Chief of Community-Based Care, Eckerd Connects\n- Heather Cazzola, Director of Diversion & Prevention, Eckerd Connects",
+          "latex": null,
+          "html": null,
+          "reading_order": 5,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "2",
+          "label": "abandon",
+          "eval_label": "abandon",
+          "bbox": [
+            1327.2608826220874,
+            0.0,
+            2662.0,
+            1499.999999999999
+          ],
+          "polygon": [
+            1327.2608826220874,
+            0,
+            2662,
+            0,
+            2662,
+            1499.999999999999,
+            1327.2608826220874,
+            1499.999999999999
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "8",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            151.27605260369236,
+            69.23783500062906,
+            814.2800903320312,
+            94.75956726074217
+          ],
+          "polygon": [
+            151.27605260369236,
+            69.23783500062906,
+            814.2800903320312,
+            69.23783500062906,
+            814.2800903320312,
+            94.75956726074217,
+            151.27605260369236,
+            94.75956726074217
+          ],
+          "text": "Harnessing the power of data: can reality catch up with ambition?",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                151.18334703586657,
+                63.877159914520234,
+                815.7885358269921,
+                63.877159914520234,
+                815.7885358269921,
+                98.73791523276361,
+                151.18334703586657,
+                98.73791523276361
+              ],
+              "text": "Harnessing the power of data: can reality catch up with ambition?"
+            }
+          ]
+        },
+        {
+          "gt_id": "3",
+          "label": "page_number",
+          "eval_label": "abandon",
+          "bbox": [
+            105.94261187240242,
+            72.02588628762044,
+            135.14232348018902,
+            93.38493459331619
+          ],
+          "polygon": [
+            105.94261187240242,
+            72.02588628762044,
+            135.14232348018902,
+            72.02588628762044,
+            135.14232348018902,
+            93.38493459331619,
+            105.94261187240242,
+            93.38493459331619
+          ],
+          "text": "14",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                100.10323583569067,
+                66.34154899118585,
+                135.3273210973146,
+                66.34154899118585,
+                135.3273210973146,
+                96.84045208356758,
+                100.10323583569067,
+                96.84045208356758
+              ],
+              "text": "14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extra": {
+    "relation": []
+  }
+}

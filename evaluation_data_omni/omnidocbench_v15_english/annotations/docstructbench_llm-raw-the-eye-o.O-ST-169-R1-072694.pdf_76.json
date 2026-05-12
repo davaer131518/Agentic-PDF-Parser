@@ -1,0 +1,380 @@
+{
+  "sample_id": "docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76",
+  "dataset_name": "omnidocbench_v15_english",
+  "input_pdf_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\examples\\pdfs\\docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76.pdf",
+  "input_image_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\evaluation_data_omni\\omnidocbench_v15_english\\images\\docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76.jpg",
+  "page_info": {
+    "page_attribute": {
+      "data_source": "book",
+      "language": "english",
+      "layout": "single_column",
+      "special_issue": [
+        "watermark"
+      ]
+    },
+    "page_no": 76,
+    "height": 2200,
+    "width": 1700,
+    "image_path": "docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76.jpg"
+  },
+  "pages": [
+    {
+      "page_num": 77,
+      "omni_page_no": 76,
+      "width": 1700,
+      "height": 2200,
+      "coordinate_space": "image_pixels",
+      "blocks": [
+        {
+          "gt_id": "1",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            148.0955,
+            147.0568,
+            545.9737,
+            184.3578
+          ],
+          "polygon": [
+            148.0955,
+            147.0568,
+            545.9737,
+            147.0568,
+            545.9737,
+            184.3578,
+            148.0955,
+            184.3578
+          ],
+          "text": "Result Parameter Details",
+          "latex": null,
+          "html": null,
+          "reading_order": 1,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.66879012363256,
+                148.4455061729277,
+                545.1068641971788,
+                148.4455061729277,
+                545.1068641971788,
+                182.11004938262795,
+                149.66879012363256,
+                182.11004938262795
+              ],
+              "text": "Result Parameter Details"
+            }
+          ]
+        },
+        {
+          "gt_id": "6",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            149.6918,
+            199.5884,
+            488.8299,
+            232.59720000000002
+          ],
+          "polygon": [
+            149.6918,
+            199.5884,
+            488.8299,
+            199.5884,
+            488.8299,
+            232.59720000000002,
+            149.6918,
+            232.59720000000002
+          ],
+          "text": "Peripheral Control Status",
+          "latex": null,
+          "html": null,
+          "reading_order": 2,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.96367078195135,
+                198.96367078195192,
+                486.2553662548211,
+                198.96367078195192,
+                486.2553662548211,
+                231.77883950626074,
+                148.96367078195135,
+                231.77883950626074
+              ],
+              "text": "Peripheral Control Status"
+            }
+          ]
+        },
+        {
+          "gt_id": "2",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            147.5634,
+            234.1944,
+            1384.667,
+            426.8814
+          ],
+          "polygon": [
+            147.5634,
+            234.1944,
+            1384.667,
+            234.1944,
+            1384.667,
+            426.8814,
+            147.5634,
+            426.8814
+          ],
+          "text": "The SMPC outputs the peripheral control status to the status register (SR) when the SMPC control mode is used. The status register (SR) is a register that can be read without regard for the INTBACK command. However, when the register is read when the INTBACK command is not in use, all bits except the RESB bit will be undefined.",
+          "latex": null,
+          "html": null,
+          "reading_order": 3,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "multi_colored",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                147.4091769548791,
+                235.074781893063,
+                1377.1077590685763,
+                235.074781893063,
+                1377.1077590685763,
+                272.2539444172414,
+                147.4091769548791,
+                272.2539444172414
+              ],
+              "text": "The SMPC outputs the peripheral control status to the status register (SR) when the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.91026281699,
+                276.14317200326343,
+                1332.2435961503231,
+                276.14317200326343,
+                1332.2435961503231,
+                309.47650533659623,
+                148.91026281699,
+                309.47650533659623
+              ],
+              "text": "SMPC control mode is used. The status register (SR) is a register that can be read"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                148.86446049919223,
+                317.19825603652157,
+                1324.9999999999998,
+                317.19825603652157,
+                1324.9999999999998,
+                349.438452898019,
+                148.86446049919223,
+                349.438452898019
+              ],
+              "text": "without regard for the INTBACK command. However, when the register is read"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                150.39133172785836,
+                355.16422382769724,
+                1308.7671680357207,
+                355.16422382769724,
+                1308.7671680357207,
+                391.2753349388081,
+                150.39133172785836,
+                391.2753349388081
+              ],
+              "text": "when the INTBACK command is not in use, all bits except the RESB bit will be"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.99999999999983,
+                397.2222222222224,
+                310.3603851469706,
+                397.2222222222224,
+                310.3603851469706,
+                427.77777777777806,
+                149.99999999999983,
+                427.77777777777806
+              ],
+              "text": "undefined."
+            }
+          ]
+        },
+        {
+          "gt_id": "5",
+          "label": "figure",
+          "eval_label": "figure",
+          "bbox": [
+            145.7512,
+            520.6366,
+            1408.9872,
+            1404.3216
+          ],
+          "polygon": [
+            145.7512,
+            520.6366,
+            1408.9872,
+            520.6366,
+            1408.9872,
+            1404.3216,
+            145.7512,
+            1404.3216
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": 4,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "4",
+          "label": "figure_caption",
+          "eval_label": "figure_caption",
+          "bbox": [
+            547.0310999999999,
+            1483.9989999999998,
+            1052.6162,
+            1526.0102
+          ],
+          "polygon": [
+            547.0310999999999,
+            1483.9989999999998,
+            1052.6162,
+            1483.9989999999998,
+            1052.6162,
+            1526.0102,
+            547.0310999999999,
+            1526.0102
+          ],
+          "text": "Figure 3.13 Peripheral Control Status",
+          "latex": null,
+          "html": null,
+          "reading_order": 5,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "multi_colored",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                545.0536990573395,
+                1487.138589268307,
+                1048.8927772584645,
+                1487.138589268307,
+                1048.8927772584645,
+                1522.0197562206924,
+                545.0536990573395,
+                1522.0197562206924
+              ],
+              "text": "Figure 3.13 Peripheral Control Status"
+            }
+          ]
+        },
+        {
+          "gt_id": "0",
+          "label": "abandon",
+          "eval_label": "abandon",
+          "bbox": [
+            1237.4062000000001,
+            1962.6925999999999,
+            1406.7891,
+            2118.3206
+          ],
+          "polygon": [
+            1237.4062000000001,
+            1962.6925999999999,
+            1406.7891,
+            1962.6925999999999,
+            1406.7891,
+            2118.3206,
+            1237.4062000000001,
+            2118.3206
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "3",
+          "label": "page_number",
+          "eval_label": "abandon",
+          "bbox": [
+            168.9953,
+            2051.0028,
+            202.2932,
+            2080.6808
+          ],
+          "polygon": [
+            168.9953,
+            2051.0028,
+            202.2932,
+            2051.0028,
+            202.2932,
+            2080.6808,
+            168.9953,
+            2080.6808
+          ],
+          "text": "66",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                170.4393955416217,
+                2054.3681174968324,
+                202.52175650210893,
+                2054.3681174968324,
+                202.52175650210893,
+                2081.514730617244,
+                170.4393955416217,
+                2081.514730617244
+              ],
+              "text": "66"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extra": {
+    "relation": [
+      {
+        "source_anno_id": 5,
+        "target_anno_id": 4,
+        "relation_type": "parent_son"
+      }
+    ]
+  }
+}

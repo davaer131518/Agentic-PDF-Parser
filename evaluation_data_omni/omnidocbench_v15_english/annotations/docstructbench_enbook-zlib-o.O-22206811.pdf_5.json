@@ -1,0 +1,911 @@
+{
+  "sample_id": "docstructbench_enbook-zlib-o.O-22206811.pdf_5",
+  "dataset_name": "omnidocbench_v15_english",
+  "input_pdf_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\examples\\pdfs\\docstructbench_enbook-zlib-o.O-22206811.pdf_5.pdf",
+  "input_image_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\evaluation_data_omni\\omnidocbench_v15_english\\images\\docstructbench_enbook-zlib-o.O-22206811.pdf_5.jpg",
+  "page_info": {
+    "page_attribute": {
+      "data_source": "magazine",
+      "language": "english",
+      "layout": "single_column",
+      "special_issue": [
+        "None"
+      ]
+    },
+    "page_no": 5,
+    "height": 2339,
+    "width": 1654,
+    "image_path": "docstructbench_enbook-zlib-o.O-22206811.pdf_5.jpg"
+  },
+  "pages": [
+    {
+      "page_num": 6,
+      "omni_page_no": 5,
+      "width": 1654,
+      "height": 2339,
+      "coordinate_space": "image_pixels",
+      "blocks": [
+        {
+          "gt_id": "2",
+          "label": "figure_caption",
+          "eval_label": "figure_caption",
+          "bbox": [
+            118.110486,
+            129.124495,
+            460.293314,
+            173.198272
+          ],
+          "polygon": [
+            118.110486,
+            129.124495,
+            460.293314,
+            129.124495,
+            460.293314,
+            173.198272,
+            118.110486,
+            173.198272
+          ],
+          "text": "[PDF] No Safe Place",
+          "latex": null,
+          "html": null,
+          "reading_order": 1,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                115.33731923483978,
+                133.33333278664395,
+                461.7162407674918,
+                133.33333278664395,
+                461.7162407674918,
+                170.08926991652277,
+                115.33731923483978,
+                170.08926991652277
+              ],
+              "text": "[PDF] No Safe Place"
+            }
+          ]
+        },
+        {
+          "gt_id": "3",
+          "label": "figure",
+          "eval_label": "figure",
+          "bbox": [
+            118.110486,
+            192.965161,
+            263.943666,
+            411.809018
+          ],
+          "polygon": [
+            118.110486,
+            192.965161,
+            263.943666,
+            192.965161,
+            263.943666,
+            411.809018,
+            118.110486,
+            411.809018
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": 2,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "15",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            274.36055799999997,
+            207.953473,
+            1535.363542,
+            365.23017200000004
+          ],
+          "polygon": [
+            274.36055799999997,
+            207.953473,
+            1535.363542,
+            207.953473,
+            1535.363542,
+            365.23017200000004,
+            274.36055799999997,
+            365.23017200000004
+          ],
+          "text": "There's nothing more dangerous than a familiar face... As funeral mourners stand in silence at Ragmullin cemetery, a deafening cry cuts through the air. Lying crumpled at the bottom of an open grave is the bloodied body of a young woman, and Detective Lottie Parker is called in to investi... Read More...",
+          "latex": null,
+          "html": null,
+          "reading_order": 3,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.2619157258781,
+                207.68850631230146,
+                1536.0714101929777,
+                207.68850631230146,
+                1536.0714101929777,
+                243.72022803572247,
+                272.2619157258781,
+                243.72022803572247
+              ],
+              "text": "There's nothing more dangerous than a familiar face... As funeral mourners stand in"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.2619157258782,
+                250.03969359477117,
+                1538.8491879593657,
+                250.03969359477117,
+                1538.8491879593657,
+                286.79563072464975,
+                272.2619157258782,
+                286.79563072464975
+              ],
+              "text": "silence at Ragmullin cemetery, a deafening cry cuts through the air. Lying crumpled at"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.9464365125218,
+                290.98214468413994,
+                1537.440451766265,
+                290.98214468413994,
+                1537.440451766265,
+                326.3690402407311,
+                272.9464365125218,
+                326.3690402407311
+              ],
+              "text": "the bottom of an open grave is the bloodied body of a young woman, and Detective Lottie"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.2222211060641,
+                331.2400749868648,
+                880.5158573253124,
+                331.2400749868648,
+                880.5158573253124,
+                363.24406123005224,
+                272.2222211060641,
+                363.24406123005224
+              ],
+              "text": "Parker is called in to investi... Read More..."
+            }
+          ]
+        },
+        {
+          "gt_id": "0",
+          "label": "figure_caption",
+          "eval_label": "figure_caption",
+          "bbox": [
+            118.110486,
+            506.81452,
+            799.3318879999999,
+            550.8882970000001
+          ],
+          "polygon": [
+            118.110486,
+            506.81452,
+            799.3318879999999,
+            506.81452,
+            799.3318879999999,
+            550.8882970000001,
+            118.110486,
+            550.8882970000001
+          ],
+          "text": "[PDF] Portrait of an Unknown Woman",
+          "latex": null,
+          "html": null,
+          "reading_order": 4,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.41687051838842,
+                509.34752662738674,
+                802.2631704477934,
+                509.34752662738674,
+                802.2631704477934,
+                547.4720156484419,
+                116.41687051838842,
+                547.4720156484419
+              ],
+              "text": "[PDF] Portrait of an Unknown Woman"
+            }
+          ]
+        },
+        {
+          "gt_id": "14",
+          "label": "figure",
+          "eval_label": "figure",
+          "bbox": [
+            118.110486,
+            570.655186,
+            263.943666,
+            789.4990429999999
+          ],
+          "polygon": [
+            118.110486,
+            570.655186,
+            263.943666,
+            570.655186,
+            263.943666,
+            789.4990429999999,
+            118.110486,
+            789.4990429999999
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": 5,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "6",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            274.36055799999997,
+            585.643498,
+            1535.26761,
+            742.917858
+          ],
+          "polygon": [
+            274.36055799999997,
+            585.643498,
+            1535.26761,
+            585.643498,
+            1535.26761,
+            742.917858,
+            274.36055799999997,
+            742.917858
+          ],
+          "text": "In a spellbinding new masterpiece by #1 New York Times bestselling author Daniel Silva, Gabriel Allon undertakes a high-stakes search for the greatest art forger who ever lived Legendary spy and art restorer Gabriel Allon has at long last severed ties with Israeli intelligence and settled quietly in... Read More..",
+          "latex": null,
+          "html": null,
+          "reading_order": 6,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                273.4862121542961,
+                588.6390908044189,
+                1535.0969094344846,
+                588.6390908044189,
+                1535.0969094344846,
+                623.7360063891606,
+                273.4862121542961,
+                623.7360063891606
+              ],
+              "text": "In a spellbinding new masterpiece by #1 New York Times bestselling author Daniel Silva,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                273.62382912867395,
+                627.8032134826123,
+                1536.3609004827165,
+                627.8032134826123,
+                1536.3609004827165,
+                663.8634478879993,
+                273.62382912867395,
+                663.8634478879993
+              ],
+              "text": "Gabriel Allon undertakes a high-stakes search for the greatest art forger who ever lived"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.9357442567847,
+                670.1579648503279,
+                1536.1111048127914,
+                670.1579648503279,
+                1536.1111048127914,
+                702.7777748962679,
+                272.9357442567847,
+                702.7777748962679
+              ],
+              "text": "Legendary spy and art restorer Gabriel Allon has at long last severed ties with Israeli"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.9357442567847,
+                708.3333304290452,
+                949.2610346752855,
+                708.3333304290452,
+                949.2610346752855,
+                744.4444413920944,
+                272.9357442567847,
+                744.4444413920944
+              ],
+              "text": "intelligence and settled quietly in... Read More.."
+            }
+          ]
+        },
+        {
+          "gt_id": "1",
+          "label": "figure_caption",
+          "eval_label": "figure_caption",
+          "bbox": [
+            118.110486,
+            884.506884,
+            460.369398,
+            928.580661
+          ],
+          "polygon": [
+            118.110486,
+            884.506884,
+            460.369398,
+            884.506884,
+            460.369398,
+            928.580661,
+            118.110486,
+            928.580661
+          ],
+          "text": "[PDF] The 6:20 Man",
+          "latex": null,
+          "html": null,
+          "reading_order": 7,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                113.54677017780925,
+                887.6409268400903,
+                463.32516507089423,
+                887.6409268400903,
+                463.32516507089423,
+                924.4362742913706,
+                113.54677017780925,
+                924.4362742913706
+              ],
+              "text": "[PDF] The 6:20 Man"
+            }
+          ]
+        },
+        {
+          "gt_id": "9",
+          "label": "figure",
+          "eval_label": "figure",
+          "bbox": [
+            118.110486,
+            948.3452110000001,
+            263.943666,
+            1167.1890680000001
+          ],
+          "polygon": [
+            118.110486,
+            948.3452110000001,
+            263.943666,
+            948.3452110000001,
+            263.943666,
+            1167.1890680000001,
+            118.110486,
+            1167.1890680000001
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": 8,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "13",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            274.36055799999997,
+            963.3335229999999,
+            1535.315576,
+            1120.607883
+          ],
+          "polygon": [
+            274.36055799999997,
+            963.3335229999999,
+            1535.315576,
+            963.3335229999999,
+            1535.315576,
+            1120.607883,
+            274.36055799999997,
+            1120.607883
+          ],
+          "text": "A cryptic murder pulls a former soldier turned financial analyst deep into the corruption and menace that prowl beneath the opulent world of finance, in this #1 New York Times bestselling thriller from David Baldacci. Every day without fail, Travis Devine puts on a cheap suit, grabs his faux-leather... Read More..",
+          "latex": null,
+          "html": null,
+          "reading_order": 9,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                271.66648053143894,
+                963.3331443621536,
+                1541.111536508769,
+                963.3331443621536,
+                1541.111536508769,
+                1002.2223414605039,
+                271.66648053143894,
+                1002.2223414605039
+              ],
+              "text": "A cryptic murder pulls a former soldier turned financial analyst deep into the corruption"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.245025036904,
+                1005.5783553634452,
+                1539.7615993293502,
+                1005.5783553634452,
+                1539.7615993293502,
+                1040.7255338529649,
+                272.245025036904,
+                1040.7255338529649
+              ],
+              "text": "and menace that prowl beneath the opulent world of finance, in this #1 New York Times"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                271.3267004250545,
+                1045.3855687047321,
+                1537.0066254938017,
+                1045.3855687047321,
+                1537.0066254938017,
+                1082.392200348791,
+                271.3267004250545,
+                1082.392200348791
+              ],
+              "text": "bestselling thriller from David Baldacci. Every day without fail, Travis Devine puts on a"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.24502503690417,
+                1087.0522352005587,
+                949.0588675621475,
+                1087.0522352005587,
+                949.0588675621475,
+                1122.2222176209184,
+                272.24502503690417,
+                1122.2222176209184
+              ],
+              "text": "cheap suit, grabs his faux-leather... Read More.."
+            }
+          ]
+        },
+        {
+          "gt_id": "12",
+          "label": "figure_caption",
+          "eval_label": "figure_caption",
+          "bbox": [
+            118.110486,
+            1262.19457,
+            489.02164,
+            1306.268347
+          ],
+          "polygon": [
+            118.110486,
+            1262.19457,
+            489.02164,
+            1262.19457,
+            489.02164,
+            1306.268347,
+            118.110486,
+            1306.268347
+          ],
+          "text": "[PDF] It Ends with Us",
+          "latex": null,
+          "html": null,
+          "reading_order": 10,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                112.8856517060058,
+                1264.7595876332928,
+                490.829093921522,
+                1264.7595876332928,
+                490.829093921522,
+                1305.6549497945687,
+                112.8856517060058,
+                1305.6549497945687
+              ],
+              "text": "[PDF] It Ends with Us"
+            }
+          ]
+        },
+        {
+          "gt_id": "8",
+          "label": "figure",
+          "eval_label": "figure",
+          "bbox": [
+            118.110486,
+            1326.0328969999998,
+            263.943666,
+            1544.8767540000001
+          ],
+          "polygon": [
+            118.110486,
+            1326.0328969999998,
+            263.943666,
+            1326.0328969999998,
+            263.943666,
+            1544.8767540000001,
+            118.110486,
+            1544.8767540000001
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": 11,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "7",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            274.36055799999997,
+            1341.021209,
+            1535.35031,
+            1498.297908
+          ],
+          "polygon": [
+            274.36055799999997,
+            1341.021209,
+            1535.35031,
+            1341.021209,
+            1535.35031,
+            1498.297908,
+            274.36055799999997,
+            1498.297908
+          ],
+          "text": "In this \"brave and heartbreaking novel that digs its claws into you and doesn't let go, long after you've finished it\" (Anna Todd, New York Times bestselling author) from the #1 New York Times bestselling author of All Your Perfects , a workaholic with a too-goodto-be-true romance can't stop th... Read More...",
+          "latex": null,
+          "html": null,
+          "reading_order": 12,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                269.44444333967596,
+                1341.6335279682648,
+                1537.0812083313724,
+                1341.6335279682648,
+                1537.0812083313724,
+                1378.8101953404416,
+                269.44444333967596,
+                1378.8101953404416
+              ],
+              "text": "In this \"brave and heartbreaking novel that digs its claws into you and doesn't let go,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.2222211060644,
+                1383.202181170153,
+                1540.3147452647986,
+                1383.202181170153,
+                1540.3147452647986,
+                1417.8302305611555,
+                272.2222211060644,
+                1417.8302305611555
+              ],
+              "text": "long after you've finished it\" (Anna Todd, New York Times bestselling author) from the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.6728594663212,
+                1423.1234931113806,
+                1537.405821007134,
+                1423.1234931113806,
+                1537.405821007134,
+                1459.4968970569819,
+                272.6728594663212,
+                1459.4968970569819
+              ],
+              "text": "#1 New York Times bestselling author of All Your Perfects , a workaholic with a too-good-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.2222211060644,
+                1463.7577363954167,
+                933.4644759977828,
+                1463.7577363954167,
+                933.4644759977828,
+                1498.2546392951435,
+                272.2222211060644,
+                1498.2546392951435
+              ],
+              "text": "to-be-true romance can't stop th... Read More..."
+            }
+          ]
+        },
+        {
+          "gt_id": "5",
+          "label": "figure_caption",
+          "eval_label": "figure_caption",
+          "bbox": [
+            118.110486,
+            1639.884595,
+            442.393726,
+            1683.958372
+          ],
+          "polygon": [
+            118.110486,
+            1639.884595,
+            442.393726,
+            1639.884595,
+            442.393726,
+            1683.958372,
+            118.110486,
+            1683.958372
+          ],
+          "text": "[PDF] Thunder Bay",
+          "latex": null,
+          "html": null,
+          "reading_order": 13,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                115.88041622411686,
+                1640.5131878809566,
+                445.9651367671393,
+                1640.5131878809566,
+                445.9651367671393,
+                1686.4783262881642,
+                115.88041622411686,
+                1686.4783262881642
+              ],
+              "text": "[PDF] Thunder Bay"
+            }
+          ]
+        },
+        {
+          "gt_id": "10",
+          "label": "figure",
+          "eval_label": "figure",
+          "bbox": [
+            118.110486,
+            1703.722922,
+            263.943666,
+            1922.5667790000002
+          ],
+          "polygon": [
+            118.110486,
+            1703.722922,
+            263.943666,
+            1703.722922,
+            263.943666,
+            1922.5667790000002,
+            118.110486,
+            1922.5667790000002
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": 14,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "11",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            274.36055799999997,
+            1718.713573,
+            1535.454512,
+            1875.985594
+          ],
+          "polygon": [
+            274.36055799999997,
+            1718.713573,
+            1535.454512,
+            1718.713573,
+            1535.454512,
+            1875.985594,
+            274.36055799999997,
+            1875.985594
+          ],
+          "text": "Stoirm Island's secrets are worth killing for in this immersive, unrelenting thriller for readers of All the Missing Girls and Neon Prey -\"this crime novel has it all\" ( Publishers Weekly,starred review). When reporter Rebecca Connolly gets a tip that suspected murderer Roddie Drummond ... Read More..",
+          "latex": null,
+          "html": null,
+          "reading_order": 15,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                274.9999988724529,
+                1718.2909653398322,
+                1538.0508268315834,
+                1718.2909653398322,
+                1538.0508268315834,
+                1755.555548357476,
+                274.9999988724529,
+                1755.555548357476
+              ],
+              "text": "Stoirm Island's secrets are worth killing for in this immersive, unrelenting thriller for"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.64124897986295,
+                1760.743881799855,
+                1539.623326759977,
+                1760.743881799855,
+                1539.623326759977,
+                1797.2222148533021,
+                272.64124897986295,
+                1797.2222148533021
+              ],
+              "text": "readers of All the Missing Girls and Neon Prey -\"this crime novel has it all\" ( Publishers"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.27402688946466,
+                1800.8380483672877,
+                1537.2645768673872,
+                1800.8380483672877,
+                1537.2645768673872,
+                1836.8973535469365,
+                272.27402688946466,
+                1836.8973535469365
+              ],
+              "text": "Weekly,starred review). When reporter Rebecca Connolly gets a tip that suspected"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                272.27402688946466,
+                1840.5131870609225,
+                894.811662867467,
+                1840.5131870609225,
+                894.811662867467,
+                1878.1449921689646,
+                272.27402688946466,
+                1878.1449921689646
+              ],
+              "text": "murderer Roddie Drummond ... Read More.."
+            }
+          ]
+        },
+        {
+          "gt_id": "4",
+          "label": "footer",
+          "eval_label": "abandon",
+          "bbox": [
+            118.110486,
+            2242.485843,
+            364.233956,
+            2266.970495
+          ],
+          "polygon": [
+            118.110486,
+            2242.485843,
+            364.233956,
+            2242.485843,
+            364.233956,
+            2266.970495,
+            118.110486,
+            2266.970495
+          ],
+          "text": "PDF File: Eating Purely",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.50337248722442,
+                2241.8664148833705,
+                366.7881919879808,
+                2241.8664148833705,
+                366.7881919879808,
+                2268.4693518621148,
+                116.50337248722442,
+                2268.4693518621148
+              ],
+              "text": "PDF File: Eating Purely"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extra": {
+    "relation": [
+      {
+        "source_anno_id": 3,
+        "target_anno_id": 2,
+        "relation_type": "parent_son"
+      },
+      {
+        "source_anno_id": 14,
+        "target_anno_id": 0,
+        "relation_type": "parent_son"
+      },
+      {
+        "source_anno_id": 9,
+        "target_anno_id": 1,
+        "relation_type": "parent_son"
+      },
+      {
+        "source_anno_id": 8,
+        "target_anno_id": 12,
+        "relation_type": "parent_son"
+      },
+      {
+        "source_anno_id": 10,
+        "target_anno_id": 5,
+        "relation_type": "parent_son"
+      }
+    ]
+  }
+}

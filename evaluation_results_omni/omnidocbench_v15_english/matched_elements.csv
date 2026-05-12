@@ -1,0 +1,454 @@
+sample_id,page_num,gt_id,pred_id,gt_label,pred_label,gt_eval_label,pred_eval_label,iou,gt_text,pred_text,gt_latex,pred_latex,gt_html,pred_html,gt_order,pred_order
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,7,p0001_b0002,text_block,paragraph,text,text,0.9717874841536986,"Gotu kola. kava kava, St. John's wort, valerian may increase CNS depression. FOOD: None known. LAB VALUES: May decrease total free thyroxine ( $\mathrm{T}_{4}$ ) serum levels.May increase serum cholesterol, triglycerides, ALT, AST, WBC GGT.May produce false-positive pregnancy testre sult.","Gotu kola, kava kava, St. John's wort, valerian may increase CNS depression. FOOD: None known. LAB VALUES: May decrease total free thyroxine ( $ T_{4} $) serum levels. May increase serum cholesterol, triglycerides, ALT, AST, WBC, GGT. May produce false-positive pregnancy test result.",,,,,1.0,2
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,16,p0001_b0004,text_block,paragraph,text,text,0.8962726216666165,"Tablets: 25 mg, 50 mg, 100 mg, 200 mg, 300mg, 400mg.","Tablets: 25 mg, 50 mg, 100 mg, 200 mg, 300 mg, 400 mg.",,,,,3.0,4
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,6,p0001_b0005,text_block,paragraph,text,text,0.8995250968545009,"Tablets, Extended-Release: 50 mg, 150 mg, 200 mg, 300 mg, 400 mg","Tablets, Extended-Release: 50 mg, 150 mg, 200 mg, 300 mg, 400 mg.",,,,,4.0,5
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,17,p0001_b0007,text_block,paragraph,text,text,0.9674908278035385,"- Give immediate-release tablets without regard to food. - Do not break, crush, dissolve, or divide extended-release tablets. - Extended-release tablets should be given without regard to food or with a light meal in evening.","• Give immediate-release tablets without regard to food. • Do not break, crush, dissolve, or divide extended-release tablets. • Extended-release tablets should be given without regard to food or with a light meal in evening.",,,,,7.0,7
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,8,p0001_b0009,text_block,paragraph,text,text,0.9679610720873375,"Note: - When restarting pts who have been off QUEtiapine for less than 1 wk, titration is not required and maintenance dose can be reinstituted. - When restarting pts who have been off QUEtiapine for longer than 1 wk, follow initial titration schedule. - When discontinuing, gradual tapering recommended to avoid withdrawal symptoms and minimize risk of relapse.","Note: • When restarting pts who have been off QUEtiapine for less than 1 wk, titration is not required and maintenance dose can be reinstituted. • When restarting pts who have been off QUEtiapine for longer than 1 wk, follow initial titration schedule. • When discontinuing, gradual tapering recommended to avoid withdrawal symptoms and minimize risk of relapse.",,,,,9.0,9
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,19,p0001_b0011,text_block,paragraph,text,text,0.9752139262929252,"PO: (mmediate-Release):  ApuLTS ELDERLY: Initially, 25 mg twice daily then increase in 25-50-mg increments divided 2-3 times/day on the second and third days,up to 300-400 mg/day in 2-3 divided doses by the fourth day. Further adjustments of 25-50 mg twice daily may be made at intervals of 2 days or longer. Maintenance: 150-750 mg/ day (adults); 50-200 mg/day (elderly). (Extended-Release): Initially 300 mg/ day. May increase at intervals as short as 1 day up to 300 mg/day Range: 400-800 mg/ day. (Immediate-Release): CHILDREN","PO: (Immediate-Release): ADULTS, ELDERLY: Initially, 25 mg twice daily, then increase in 25–50 mg increments divided 2–3 times/day on the second and third days, up to 300–400 mg/day in 2–3 divided doses by the fourth day. Further adjustments of 25–50 mg twice daily may be made at intervals of 2 days or longer. Maintenance: 150–750 mg/day (adults); 50–200 mg/day (elderly). (Extended-Release): Initially, 300 mg/day. May increase at intervals as short as 1 day up to 300 mg/day. Range: 400–800 mg/day. (Immediate-Release): CHILDREN 13 YRS AND OLDER: Initially, 25 mg twice daily on day 1, 50 mg twice daily on day 2, then increase by 100 mg/day to target dose of 400 mg twice daily on day 5. May further increase to 800 mg/day in increments of 100 mg or less daily. Range: 400–800 mg/day. Maximum: 800 mg. Total dose in 3 divided doses. (Extended-Release): Initially, 50 mg once daily on day 1, 100 mg on day 2, until 400 mg once daily is reached on day 5. Range: 400–800 mg/day. Maximum: 800 mg/day.",,,,,11.0,11
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,11,p0001_b0012,text_block,paragraph,text,text,0.9632377291805369,"13 YRS AND OLDER: Initially, 25 mg twice daily on day 1, 50 mg twice daily on day 2,then increase by 100 mg/day to target dose of 400 mg twice daily on day 5.May further increase to 800 mg day in increments of 100 mg or less daily. Range: 400-800 mg/day. Maximum: 800 mg . Total dose in 3 divided doses. (Extended-Release): Initially, 50 mg once daily on day 1, 100 mg on day 2,until 400 mg once daily is reached on day 5. Range: 400-800 mg/ day. Maximum: 800 mg/day.",,,,,,12.0,12
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,1,p0001_b0014,text_block,paragraph,text,text,0.9741196206725546,"PO: (Immediate-Release): ADULTS, ELDERLY: Initially, 50 mg twice daily for 1 day. May increase in increments of 100 mg/day to 200 mg twice daily on day 4. May further increase in increments of 200 mg/day to 800 mg/day on day 6. Range: 400-800 mg/day (ExtendedRelease): Initially, 300 mg on day 1 in the evening; 600 mg on day 2 and adjust between 400-800 mg/day thereafter. (Immediate-Release): CHILDREN 10 YRS AND OLDER: 25 mg twice daily on day 1 50 mg twice daily on day 2, then increase by 100 mg/day until target dose of 400 400 mg/day reached on day 5.May increase up to 600 mg/day. Range: 400-600 mg/ day. (Extended-Release): 50 mg on day 1; 100 mg on day 2; further increases of 100 mg/day until 400 mg once daily is reached on day 4; Usual range 400-600 mg once daily.","PO: (Immediate-Release): ADULTS, ELDERLY: Initially, 50 mg twice daily for 1 day. May increase in increments of 100 mg/day to 200 mg twice daily on day 4. May further increase in increments of 200 mg/day to 800 mg/day on day 6. Range: 400–800 mg/day. (Extended-Release): Initially, 300 mg on day 1 in the evening; 600 mg on day 2 and adjust between 400–800 mg/day thereafter. (Immediate-Release): CHILDREN 10 YRS AND OLDER: 25 mg twice daily on day 1, 50 mg twice daily on day 2, then increase by 100 mg/day until target dose of 400 mg/day reached on day 5. May increase up to 600 mg/day. Range: 400–600 mg/day. (Extended-Release): 50 mg on day 1; 100 mg on day 2; further increases of 100 mg/day until 400 mg once daily is reached on day 4; Usual range: 400–600 mg once daily.",,,,,14.0,14
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,9,p0001_b0016,text_block,paragraph,text,text,0.9763960927346207,"PO: (Immediate-Release):  ADULTS, ELDERLY: Initially, 50 mg/day on day 1, increase to 100 mg/day on day 2, then increase by 100 mg/day up to target dose of 300 mg/day. (Extended-Release): Initially, 50 mg on day 1 in the evening, 100 mg on day 2, 200 mg on day3, 300 mg onday 4 and thereafter.","PO: (Immediate-Release): ADULTS, ELDERLY: Initially, 50 mg/day on day 1, increase to 100 mg/day on day 2, then increase by 100 mg/day up to target dose of 300 mg/day. (Extended-Release): Initially, 50 mg on day 1 in the evening, 100 mg on day 2, 200 mg on day 3, 300 mg on day 4 and thereafter.",,,,,16.0,16
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,15,p0001_b0018,text_block,paragraph,text,text,0.974397420973597,"PO: ADULTS, ELDERLY: (ExtendedRelease): Initially, 50 mg on days1 and 2; then 150 mg on days 3 and 4; then 150-300 mg/day thereafter.","PO: ADULTS, ELDERLY: (Extended-Release): Initially, 50 mg on days 1 and 2; then 150 mg on days 3 and 4; then 150–300 mg/day thereafter.",,,,,18.0,18
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,3,p0001_b0003,title,heading,title,title,0.8396665245687642,AVAILABILITY (Rx),AVAILABILITY (Rx),,,,,2.0,3
+docstructbench_enbook-zlib-o.O-19221575.pdf_1173,1,18,p0001_b0008,title,heading,title,title,0.9177873382541237,INDICATIONS/ROUTES/DOSAGE,INDICATIONS/ROUTES/DOSAGE,,,,,8.0,8
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,3,p0001_b0001,figure,figure,figure,figure,0.9388158565490491,,,,,,,2.0,1
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,14,p0001_b0004,figure,figure,figure,figure,0.907669631957281,,,,,,,5.0,4
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,9,p0001_b0007,figure,figure,figure,figure,0.9768553456065358,,,,,,,8.0,7
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,8,p0001_b0010,figure,figure,figure,figure,0.9510933282428508,,,,,,,11.0,10
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,10,p0001_b0013,figure,figure,figure,figure,0.9370339704746055,,,,,,,14.0,13
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,15,p0001_b0002,text_block,paragraph,text,text,0.9427279227696731,"There's nothing more dangerous than a familiar face... As funeral mourners stand in silence at Ragmullin cemetery, a deafening cry cuts through the air. Lying crumpled at the bottom of an open grave is the bloodied body of a young woman, and Detective Lottie Parker is called in to investi... Read More...","There's nothing more dangerous than a familiar face... As funeral mourners stand in silence at Ragmullin cemetery, a deafening cry cuts through the air. Lying crumpled at the bottom of an open grave is the bloodied body of a young woman, and Detective Lottie Parker is called in to investi... Read More...",,,,,3.0,2
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,6,p0001_b0005,text_block,paragraph,text,text,0.9376990676494994,"In a spellbinding new masterpiece by #1 New York Times bestselling author Daniel Silva, Gabriel Allon undertakes a high-stakes search for the greatest art forger who ever lived Legendary spy and art restorer Gabriel Allon has at long last severed ties with Israeli intelligence and settled quietly in... Read More..","In a spellbinding new masterpiece by #1 New York Times bestselling author Daniel Silva, Gabriel Allon undertakes a high-stakes search for the greatest art forger who ever lived Legendary spy and art restorer Gabriel Allon has at long last severed ties with Israeli intelligence and settled quietly in... Read More...",,,,,6.0,5
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,13,p0001_b0008,text_block,paragraph,text,text,0.9313884862967647,"A cryptic murder pulls a former soldier turned financial analyst deep into the corruption and menace that prowl beneath the opulent world of finance, in this #1 New York Times bestselling thriller from David Baldacci. Every day without fail, Travis Devine puts on a cheap suit, grabs his faux-leather... Read More..","A cryptic murder pulls a former soldier turned financial analyst deep into the corruption and menace that prowl beneath the opulent world of finance, in this #1 New York Times bestselling thriller from David Baldacci. Every day without fail, Travis Devine puts on a cheap suit, grabs his faux-leather... Read More...",,,,,9.0,8
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,7,p0001_b0011,text_block,paragraph,text,text,0.9370390062243735,"In this ""brave and heartbreaking novel that digs its claws into you and doesn't let go, long after you've finished it"" (Anna Todd, New York Times bestselling author) from the #1 New York Times bestselling author of All Your Perfects , a workaholic with a too-goodto-be-true romance can't stop th... Read More...","In this “brave and heartbreaking novel that digs its claws into you and doesn’t let go, long after you’ve finished it” (Anna Todd, New York Times bestselling author) from the #1 New York Times bestselling author of All Your Perfects, a workaholic with a too-good-to-be-true romance can’t stop th... Read More...",,,,,12.0,11
+docstructbench_enbook-zlib-o.O-22206811.pdf_5,1,11,p0001_b0014,text_block,paragraph,text,text,0.9312454564155032,"Stoirm Island's secrets are worth killing for in this immersive, unrelenting thriller for readers of All the Missing Girls and Neon Prey -""this crime novel has it all"" ( Publishers Weekly,starred review). When reporter Rebecca Connolly gets a tip that suspected murderer Roddie Drummond ... Read More..","Stoirm Island’s secrets are worth killing for in this immersive, unrelenting thriller for readers of All the Missing Girls and Neon Prey —""this crime novel has it all"" (Publishers Weekly, starred review). When reporter Rebecca Connolly gets a tip that suspected murderer Roddie Drummond ... Read More...",,,,,15.0,14
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,2,p0001_b0002,reference,paragraph,text,text,0.9308908271704299,"[3] Y.C.Yang,E. Chang,S.Y. Lee, Mechanical properties and Young's modulus of plasma-sprayed hydroxyapatite coating on Ti substrate in simulated body fluid, J.Biomed.Mater. Res.67A (2003) 886-889.","[3] Y.C. Yang, E. Chang, S.Y. Lee, Mechanical properties and Young's modulus of plasma-sprayed hydroxyapatite coating on Ti substrate in simulated body fluid, J. Biomed. Mater. Res. 67A (2003) 886–889.",,,,,1.0,2
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,4,p0001_b0003,reference,paragraph,text,text,0.9246692963949523,"[4] B.C. Wang, T.M.Lee, E. Chang,C.Y.Yang, The shear strength and the failure mode of plasma sprayed hydroxyapatite coating to bone: the effect of coating thickness, J.Biomed.Mater. Res. 27 (1993) 1315-1327.","[4] B.C. Wang, T.M. Lee, E. Chang, C.Y. Yang, The shear strength and the failure mode of plasma sprayed hydroxyapatite coating to bone: the effect of coating thickness, J. Biomed. Mater. Res. 27 (1993) 1315–1327.",,,,,2.0,3
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,3,p0001_b0004,reference,paragraph,text,text,0.8707271179320811,"[5] Y.C. Tsui, C. Doyle, T.W. Clyne, Plasma sprayed hydroxyapatite coatings on titanium substrates: Part 1. Mechanical properties and residual stress levels, Biomaterials 19 (1998) 2015-2029.","[5] Y.C. Tsui, C. Doyle, T.W. Clyne, Plasma sprayed hydroxyapatite coatings on titanium substrates: Part 1. Mechanical properties and residual stress levels, Biomaterials 19 (1998) 2015–2029.",,,,,3.0,4
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,9,p0001_b0005,reference,paragraph,text,text,0.8745307302441102,"[6] N. Claussen, Fracture toughness of $ \mathrm{A l_{2} O_{3}} $ with an unstabilized $ \mathrm{Z r O}_{2} $ dispersed phase, J.Am. Ceram. Soc.59 (1976) 49-51.","[6] N. Claussen, Fracture toughness of  $ Al_{2}O_{3} $ with an unstabilized  $ ZrO_{2} $ dispersed phase, J. Am. Ceram. Soc. 59 (1976) 49–51.",,,,,4.0,5
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,7,p0001_b0006,reference,paragraph,text,text,0.9004616815005912,"[7] D.J. Green, Critical microstructures for microcracking in $ \mathrm{A l}_{2} \mathrm{O}_{3} / \mathrm{Z r O}_{2} $ composites, J.Am.Ceram.Soc. 65 (1982) 610-614.","[7] D.J. Green, Critical microstructures for microcracking in  $ Al_{2}O_{3}/ZrO_{2} $ composites, J. Am. Ceram. Soc. 65 (1982) 610–614.",,,,,5.0,6
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,8,p0001_b0007,reference,paragraph,text,text,0.9375259620599785,"[8] M. Ruhle, A.G. Evans, R.M. Mcmeeking, P.G. Charalambides, Microcrack toughening in alumina/zirconia, Acta Metall. 35 (1987) 2701-2710.","[8] M. Ruhle, A.G. Evans, R.M. Mcmeeking, P.G. Charalambides, Microcrack toughening in alumina/zirconia, Acta Metall. 35 (1987) 2701–2710.",,,,,6.0,7
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,5,p0001_b0008,reference,paragraph,text,text,0.933035149488381,"[9] B.Y.Chou, E.Chang,S. Y. Yao, J.M.Chen,Phase transformation during plasma spraying of hydroxyapatite- 10 wt.% - zirconia composite coating, J.Am. Ceram. Soc. 85 (3) (2002) 661-669.","[9] B.Y. Chou, E. Chang, S.Y. Yao, J.M. Chen, Phase transformation during plasma spraying of hydroxyapatite–10 wt.\%–zirconia composite coating, J. Am. Ceram. Soc. 85 (3) (2002) 661–669.",,,,,7.0,8
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,15,p0001_b0009,reference,paragraph,text,text,0.9824117527677545,"[10] T. Kasuga, K. Nakajima, T. Uno, M. Yoshida, Preparation of zirconia toughened bioactive glass/ceramic composite by sinter hot isostatic pressing, J. Am. Ceram. Soc. 75 (5) (1992) 113-117.","[10] T. Kasuga, K. Nakajima, T. Uno, M. Yoshida, Preparation of zirconia toughened bioactive glass/ceramic composite by sinter hot isostatic pressing, J. Am. Ceram. Soc. 75 (5) (1992) 113–117.",,,,,8.0,9
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,14,p0001_b0010,reference,paragraph,text,text,0.9521164731079051,"[11] T. Kasuga, M. Yoshda, A.J. Ikushima, M. Tuchiya, H. Kusakari, Stability of zirconia-toughened bioactive glass/ceramics: in vivo study using dogs, J.Mater. Sci. 4 (1993) 36-39.","[11] T. Kasuga, M. Yoshda, A.J. Ikushima, M. Tuchiya, H. Kusakari, Stability of zirconia-toughened bioactive glass/ceramics: in vivo study using dogs, J. Mater. Sci. 4 (1993) 36–39.",,,,,9.0,10
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,6,p0001_b0011,reference,paragraph,text,text,0.8975897540570987,"[12] J.M. Wu, T.S.Yeh, Sintering of hydroxyapatite/zirconia composite materials, J.Mater.Sci.23 (1988) 3771-3777.","[12] J.M. Wu, T.S. Yeh, Sintering of hydroxyapatite/zirconia composite materials, J. Mater. Sci. 23 (1988) 3771–3777.",,,,,10.0,11
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,16,p0001_b0012,reference,paragraph,text,text,0.9181276152838247,"[13] K. Ioku, S. Somiya, M. Yoshimura, Hydroxyapatite ceramics with tetragonal zirconia particles dispersion prepared by HIP postsintering, J. Jpn. Ceram. Soc. 99 (3) (1991) 196-203.","[13] K. Ioku, S. Somiya, M. Yoshimura, Hydroxyapatite ceramics with tetragonal zirconia particles dispersion prepared by HIP postsintering, J. Jpn. Ceram. Soc. 99 (3) (1991) 196–203.",,,,,11.0,12
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,10,p0001_b0013,reference,paragraph,text,text,0.9188392731481574,"[14] N. Tamari, M. Mouri, I. Kondo, Mechanical properties and existing phases of composite ceramics obtained by sintering of a mixture of","[14] N. Tamari, M. Mouri, I. Kondo, Mechanical properties and existing phases of composite ceramics obtained by sintering of a mixture of",,,,,12.0,13
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,1,p0001_b0014,reference,paragraph,text,text,0.865117216395896,"hydroxyapatite and zirconia, J. Jpn. Ceram. Soc. 95 (8) (1987) 806-809.","hydroxyapatite and zirconia, J. Jpn. Ceram. Soc. 95 (8) (1987) 806–809.",,,,,13.0,14
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,13,p0001_b0015,reference,paragraph,text,text,0.9309266419804646,"[15] S.F. Hulbert, in: L.L. Hench, J. Wilson (Eds.), The Use of Alumina and Zirconia in Surgical Implants: An Introduction to Bioceramics, Word Scientific Publishing Co.,Singapore,1993,pp. 25-40.","[15] S.F. Hulbert, in: L.L. Hench, J. Wilson (Eds.), The Use of Alumina and Zirconia in Surgical Implants: An Introduction to Bioceramics, Word Scientific Publishing Co., Singapore, 1993, pp. 25–40.",,,,,14.0,15
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,19,p0001_b0016,reference,paragraph,text,text,0.954226907966646,"[16] H. Lang,T.H.Mertens, The use of human osteoblast like cells as an in vitro test system for dental materials, J. Oral Maxillofac. Surg.48 (1990) 606-611.","[16] H. Lang, T.H. Mertens, The use of human osteoblast like cells as an in vitro test system for dental materials, J. Oral Maxillofac. Surg. 48 (1990) 606–611.",,,,,15.0,16
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,17,p0001_b0017,reference,paragraph,text,text,0.9631380711763285,"[17] I. Dion, L. Bordenave, F. Lefebvre, R. Bareille, C. Baquey, J.R. Monties, P. Havlik, Physico-chemistry and cytotoxicity of ceramics, J. Mater.Sci.5 (1994) 18-24.","[17] I. Dion, L. Bordenave, F. Lefebvre, R. Bareille, C. Baquey, J.R. Monties, P. Havlik, Physico-chemistry and cytotoxicity of ceramics, J. Mater. Sci. 5 (1994) 18–24.",,,,,16.0,17
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,12,p0001_b0018,reference,paragraph,text,text,0.9552307543166308,"[18] U.Meyer, D.H. Szulczewski, R.H.Barckhaus, M. Atkinson, D.B. Jones, Biological evaluation of an ionomeric bone cement by osteoblast cell culture methods, Biomaterials 14 (1993) 917-924.","[18] U. Meyer, D.H. Szulczewski, R.H. Barckhaus, M. Atkinson, D.B. Jones, Biological evaluation of an ionomeric bone cement by osteoblast cell culture methods, Biomaterials 14 (1993) 917–924.",,,,,17.0,18
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,18,p0001_b0019,reference,paragraph,text,text,0.943077323953047,"[19] K.A.Khor,Y.W. Gu,D. Pan, P. Cheang, Microstructure and mechanical properties of plasma sprayed HA/YSZ/Ti-6Al-4V composite coatings, Biomaterials 25 (18) (2004) 4009-4017.","[19] K.A. Khor, Y.W. Gu, D. Pan, P. Cheang, Microstructure and mechanical properties of plasma sprayed HA/YSZ/Ti–6Al–4V composite coatings, Biomaterials 25 (18) (2004) 4009–4017.",,,,,18.0,19
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,11,p0001_b0020,reference,paragraph,text,text,0.9358163326914256,"[20] ASTM E-855-90, Standard Test Methods for Bend Testing of Metallic Flat Materials for Sparing Applications Involving Static Loading, American Society for Testing Materials,West Conshohocken,PA, 1990.","[20] ASTM E-855-90, Standard Test Methods for Bend Testing of Metallic Flat Materials for Sparing Applications Involving Static Loading, American Society for Testing Materials, West Conshohocken, PA, 1990.",,,,,19.0,20
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,21,p0001_b0021,reference,paragraph,text,text,0.9161838222153802,"[21] T.K. Gupta, J.H. Bechtold, R.C. Kuznicki, L.H. Cadoff, Stabilization of tetragonal phase in polycrystalline zirconia, J.Mater.Sci.12 (12) (1977) 2421-2426.","[21] T.K. Gupta, J.H. Bechtold, R.C. Kuznicki, L.H. Cadoff, Stabilization of tetragonal phase in polycrystalline zirconia, J. Mater. Sci. 12 (12) (1977) 2421–2426.",,,,,20.0,21
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,20,p0001_b0022,reference,paragraph,text,text,0.9644878245929378,"[22] N. Bambaa,Y.H. Choab,T. Sekinoc,K. Niiharac, Mechanical properties and microstructure for 3 mol% yttria doped zirconia/silicon carbide nanocomposites, J.Eur.Ceram.Soc. 23 (2003） 773-780.","[22] N. Bambaa, Y.H. Choab, T. Sekinoc, K. Niiharac, Mechanical properties and microstructure for 3 mol% yttria doped zirconia/silicon carbide nanocomposites, J. Eur. Ceram. Soc. 23 (2003) 773–780.",,,,,21.0,22
+docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7,1,22,p0001_b0023,reference,paragraph,text,text,0.9715987465484845,"[23] I. Nettleship, K.G. Slavick, Y.J. Kim, W.M. Kriven, Phase transformations of dicalcium silicate: I. Fabrication and phase stability of fine grained $ \beta $ - phase, J. Am. Ceram. Soc. 75 (9) (1992) 2407-2419.","[23] I. Nettleship, K.G. Slavick, Y.J. Kim, W.M. Kriven, Phase transformations of dicalcium silicate: I. Fabrication and phase stability of fine grained  $ \beta $-phase, J. Am. Ceram. Soc. 75 (9) (1992) 2407–2419.",,,,,22.0,23
+docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10,1,3,p0001_b0002,table_caption,caption,caption,caption,0.9448620511868854,Table 1 Summary of datasets,"Table 1
+Summary of datasets",,,,,1.0,2
+docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10,1,8,p0001_b0003,table,table,table,table,0.9671602834984437,,"<table><tr><td rowspan=""2"">Dataset</td><td rowspan=""2"">Total size</td><td rowspan=""2"">Training items</td><td rowspan=""2"">Testing items</td><td rowspan=""2"">Continuous attributes</td><td rowspan=""2"">Nominal attributes</td><td rowspan=""2"">Total attributes</td><td colspan=""3"">Reduced attributes</td></tr><tr><td>IFN</td><td>Relief</td><td>ABB</td></tr><tr><td>Breast</td><td>699</td><td>465</td><td>234</td><td>9</td><td>0</td><td>9</td><td>3</td><td>2</td><td>3</td></tr><tr><td>Chess</td><td>3196</td><td>2155</td><td>1041</td><td>0</td><td>36</td><td>36</td><td>9</td><td>3</td><td>5</td></tr><tr><td>Credit</td><td>690</td><td>451</td><td>239</td><td>6</td><td>8</td><td>14</td><td>4</td><td>2</td><td>5</td></tr><tr><td>Diabetes</td><td>768</td><td>530</td><td>238</td><td>8</td><td>0</td><td>8</td><td>4</td><td>1</td><td>2</td></tr><tr><td>Glass</td><td>214</td><td>143</td><td>71</td><td>9</td><td>0</td><td>9</td><td>3</td><td>1</td><td>1</td></tr><tr><td>Heart</td><td>297</td><td>197</td><td>100</td><td>6</td><td>7</td><td>13</td><td>3</td><td>2</td><td>4</td></tr><tr><td>Iris</td><td>150</td><td>100</td><td>50</td><td>4</td><td>0</td><td>4</td><td>1</td><td>2</td><td>1</td></tr><tr><td>Liver</td><td>345</td><td>243</td><td>102</td><td>6</td><td>0</td><td>6</td><td>5</td><td>2</td><td>4</td></tr><tr><td>Lung-cancer</td><td>32</td><td>23</td><td>9</td><td>0</td><td>57</td><td>57</td><td>2</td><td>3</td><td>4</td></tr><tr><td>Wine</td><td>178</td><td>118</td><td>60</td><td>13</td><td>0</td><td>13</td><td>3</td><td>3</td><td>2</td></tr><tr><td>Average</td><td></td><td></td><td></td><td></td><td></td><td>16.9</td><td>3.70</td><td>2.10</td><td>3.10</td></tr><tr><td colspan=""7"">Average dimensionality reduction</td><td>78%</td><td>88%</td><td>82%</td></tr></table>","\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|} \hline
+\multirow{2}{*}{Dataset} & \multirow{2}{*}{Total size} & \multirow{2}{*}{Training items} & \multirow{2}{*}{Testing items} & \multirow{2}{*}{Continuous attributes} & \multirow{2}{*}{Nominal attributes} & \multirow{2}{*}{Total attributes} & \multicolumn{3}{c}{Reduced attributes} \\
+ & & & & & & & IFN & Relief & ABB \\
+Breast & 699 & 465 & 234 & 9 & 0 & 9 & 3 & 2 & 3 \\
+Chess & 3196 & 2155 & 1041 & 0 & 36 & 36 & 9 & 3 & 5 \\
+Credit & 690 & 451 & 239 & 6 & 8 & 14 & 4 & 2 & 5 \\
+Diabetes & 768 & 530 & 238 & 8 & 0 & 8 & 4 & 1 & 2 \\
+Glass & 214 & 143 & .71 & 9 & 0 & 9 & 3 & 1 & 1 \\
+Heart & 297 & 197 & 100 & 6 & 7 & 13 & 3 & 2 & 4 \\
+Iris & 150 & 100 & 50 & 4 & 0 & 4 & 1 & 2 & 1 \\
+Liver & 345 & 243 & 102 & 6 & 0 & 6 & 5 & 2 & 4 \\
+Lung-cancer & 32 & 23 & 9 & 0 & 57 & 57 & 2 & 3 & 4 \\
+Wine & 178 & 118 & 60 & 13 & 0 & 13 & 3 & 3 & 2 \\
+Average & & & & & & 16.9 & 3.70 & 2.10 & 3.10 \\
+\multicolumn{6}{l}{Average dimensionality reduction} & & 78\% & 82\% & 82\%\\ \hline
+\end{tabular}
+",,"<table>
+<thead>
+<tr>
+ <th rowspan=""2"">Dataset</th>
+ <th rowspan=""2"">Total size</th>
+ <th rowspan=""2"">Training items</th>
+ <th rowspan=""2"">Testing items</th>
+ <th rowspan=""2"">Continuous attributes</th>
+ <th rowspan=""2""> Nominal attributes</th>
+ <th rowspan=""2"">Total attributes</th>
+ <th colspan=""3"">Reduced attributes</th>
+</tr>
+<tr>
+ <th>IFN</th>
+ <th>Relief</th>
+ <th>ABB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+ <td>Breast</td>
+ <td>699</td>
+ <td>465</td>
+ <td>234 </td>
+ <td>9</td>
+ <td>0</td>
+ <td>9</td>
+ <td>3</td>
+ <td>2</td>
+ <td>3</td>
+</tr>
+<tr>
+ <td>Chess</td>
+ <td>3196</td>
+ <td>2155</td>
+ <td>1041</td>
+ <td>0</td>
+ <td>36</td>
+ <td>36</td>
+ <td>9</td>
+ <td>3</td>
+ <td>5</td>
+</tr>
+<tr>
+ <td>Credit</td>
+ <td>690</td>
+ <td>451</td>
+ <td>239</td>
+ <td>6</td>
+ <td>8</td>
+ <td>14</td>
+ <td>4</td>
+ <td>2 </td>
+ <td>5</td>
+</tr>
+<tr>
+ <td>Diabetes</td>
+ <td>768</td>
+ <td>530</td>
+ <td>238</td>
+ <td>8</td>
+ <td>0</td>
+ <td>8</td>
+ <td>4</td>
+ <td>1</td>
+ <td>2 </td>
+</tr>
+<tr>
+ <td>Glass</td>
+ <td>214</td>
+ <td>143</td>
+ <td>.71</td>
+ <td>9</td>
+ <td>0</td>
+ <td>9</td>
+ <td>3</td>
+ <td>1</td>
+ <td>1</td>
+</tr>
+<tr>
+ <td>Heart</td>
+ <td>297</td>
+ <td>197</td>
+ <td>100</td>
+ <td>6</td>
+ <td>7</td>
+ <td>13 </td>
+ <td>3</td>
+ <td>2</td>
+ <td>4</td>
+</tr>
+<tr>
+ <td>Iris</td>
+ <td>150</td>
+ <td>100</td>
+ <td>50</td>
+ <td>4</td>
+ <td>0</td>
+ <td>4</td>
+ <td>1</td>
+ <td>2</td>
+ <td>1</td>
+</tr>
+<tr>
+ <td>Liver</td>
+ <td>345</td>
+ <td>243</td>
+ <td>102</td>
+ <td>6</td>
+ <td>0</td>
+ <td>6</td>
+ <td>5</td>
+ <td>2</td>
+ <td>4</td>
+</tr>
+<tr>
+ <td>Lung-cancer</td>
+ <td>32 </td>
+ <td>23</td>
+ <td>9</td>
+ <td>0</td>
+ <td> 57 </td>
+ <td> 57 </td>
+ <td>2</td>
+ <td>3</td>
+ <td>4</td>
+</tr>
+<tr>
+ <td>Wine</td>
+ <td>178</td>
+ <td>118</td>
+ <td>60</td>
+ <td>13 </td>
+ <td>0</td>
+ <td>13 </td>
+ <td>3</td>
+ <td>3</td>
+ <td>2</td>
+</tr>
+<tr>
+ <td>Average</td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td>16.9</td>
+ <td>3.70</td>
+ <td>2.10</td>
+ <td>3.10</td>
+</tr>
+<tr>
+ <td colspan=""6"">Average dimensionality reduction</td>
+ <td></td>
+ <td>78%</td>
+ <td>82%</td>
+ <td>82%</td>
+</tr>
+</tbody>
+</table>","<table><tr><td rowspan=""2"">Dataset</td><td rowspan=""2"">Total size</td><td rowspan=""2"">Training items</td><td rowspan=""2"">Testing items</td><td rowspan=""2"">Continuous attributes</td><td rowspan=""2"">Nominal attributes</td><td rowspan=""2"">Total attributes</td><td colspan=""3"">Reduced attributes</td></tr><tr><td>IFN</td><td>Relief</td><td>ABB</td></tr><tr><td>Breast</td><td>699</td><td>465</td><td>234</td><td>9</td><td>0</td><td>9</td><td>3</td><td>2</td><td>3</td></tr><tr><td>Chess</td><td>3196</td><td>2155</td><td>1041</td><td>0</td><td>36</td><td>36</td><td>9</td><td>3</td><td>5</td></tr><tr><td>Credit</td><td>690</td><td>451</td><td>239</td><td>6</td><td>8</td><td>14</td><td>4</td><td>2</td><td>5</td></tr><tr><td>Diabetes</td><td>768</td><td>530</td><td>238</td><td>8</td><td>0</td><td>8</td><td>4</td><td>1</td><td>2</td></tr><tr><td>Glass</td><td>214</td><td>143</td><td>71</td><td>9</td><td>0</td><td>9</td><td>3</td><td>1</td><td>1</td></tr><tr><td>Heart</td><td>297</td><td>197</td><td>100</td><td>6</td><td>7</td><td>13</td><td>3</td><td>2</td><td>4</td></tr><tr><td>Iris</td><td>150</td><td>100</td><td>50</td><td>4</td><td>0</td><td>4</td><td>1</td><td>2</td><td>1</td></tr><tr><td>Liver</td><td>345</td><td>243</td><td>102</td><td>6</td><td>0</td><td>6</td><td>5</td><td>2</td><td>4</td></tr><tr><td>Lung-cancer</td><td>32</td><td>23</td><td>9</td><td>0</td><td>57</td><td>57</td><td>2</td><td>3</td><td>4</td></tr><tr><td>Wine</td><td>178</td><td>118</td><td>60</td><td>13</td><td>0</td><td>13</td><td>3</td><td>3</td><td>2</td></tr><tr><td>Average</td><td></td><td></td><td></td><td></td><td></td><td>16.9</td><td>3.70</td><td>2.10</td><td>3.10</td></tr><tr><td colspan=""7"">Average dimensionality reduction</td><td>78%</td><td>88%</td><td>82%</td></tr></table>",2.0,3
+docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10,1,0,p0001_b0004,text_block,paragraph,text,text,0.9615341494806705,"types, ranging from purely continuous to purely nominal attribute domains. In the last three columns, we show the number of attributes selected by the information-theoretic algorithm (IFN) and by the two alternative feature selection methods (Relief and ABB).","types, ranging from purely continuous to purely nominal attribute domains. In the last three columns, we show the number of attributes selected by the information-theoretic algorithm (IFN) and by the two alternative feature selection methods (Relief and ABB).",,,,,3.0,4
+docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10,1,4,p0001_b0005,text_block,paragraph,text,text,0.9682433259230163,"To evaluate the effect of each method on the performance of a standard decision-tree classifier (C4.5), we have randomly partitioned the datasets into training and validation records, using the standard 2/3:1/3 ratio. Only the training examples were used in the feature selection process. For each dataset, the C4.5 algorithm (Quinlan, 1993, 1996) has been trained on the following four subsets of features:","To evaluate the effect of each method on the performance of a standard decision-tree classifier (C4.5), we have randomly partitioned the datasets into training and validation records, using the standard 2/3:1/3 ratio. Only the training examples were used in the feature selection process. For each dataset, the C4.5 algorithm (Quinlan, 1993, 1996) has been trained on the following four subsets of features:",,,,,4.0,5
+docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10,1,11,p0001_b0010,text_block,paragraph,text,text,0.9874339667970372,"We have also evaluated the performance of the classification model built directly by IFN (see Section 2.3). This model is based on the same features as ""C4.5 after IFN"", but the model structure may be different due to the IFN restriction of using the same feature at all splits of each layer. The error rate of all models has been measured on the same validation sets. We have also calculated the lower and upper bounds of the 95% confidence interval for the error rate of C4.5 with a full set of features and compared statistically the error rates after different feature selection methods to this ""base'' error rate. The comparison was based on the normal approximation of the binomial distribution.",,,,,,10.0,10
+docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10,1,7,p0001_b0012,text_block,paragraph,text,text,0.9712114652606918,"The last row of Table 1 shows the average dimensionality reduction due to each one of the feature selection methods used (IFN, Relief, and ABB). All the methods tend to remove more than 3/4 of the available features. The best dimensionality reducer is Relief, which considers as relevant only 12% of features (on average). IFN removes the least number of features (average dimensionality reduction of 78% ). These results suggest that the relevance of some features to the target may be revealed only by a feature selection procedure, which is able to evaluate subsets of features (like","The last row of Table 1 shows the average dimensionality reduction due to each one of the feature selection methods used (IFN, Relief, and ABB). All the methods tend to remove more than 3/4 of the available features. The best dimensionality reducer is Relief, which considers as relevant only 12% of features (on average). IFN removes the least number of features (average dimensionality reduction of 78%). These results suggest that the relevance of some features to the target may be revealed only by a feature selection procedure, which is able to evaluate subsets of features (like",,,,,12.0,12
+docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10,1,6,p0001_b0011,title,heading,title,title,0.7266761066360451,3.2. Analysis of results,3.2. Analysis of results,,,,,11.0,11
+docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76,1,4,p0001_b0004,figure_caption,caption,caption,caption,0.8514954783329172,Figure 3.13 Peripheral Control Status,Figure 3.13 Peripheral Control Status,,,,,5.0,4
+docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76,1,5,p0001_b0003,figure,figure,figure,figure,0.987194598203223,,,,,,,4.0,3
+docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76,1,2,p0001_b0002,text_block,paragraph,text,text,0.9400490743597222,"The SMPC outputs the peripheral control status to the status register (SR) when the SMPC control mode is used. The status register (SR) is a register that can be read without regard for the INTBACK command. However, when the register is read when the INTBACK command is not in use, all bits except the RESB bit will be undefined.","The SMPC outputs the peripheral control status to the status register (SR) when the SMPC control mode is used. The status register (SR) is a register that can be read without regard for the INTBACK command. However, when the register is read when the INTBACK command is not in use, all bits except the RESB bit will be undefined.",,,,,3.0,2
+docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76,1,1,p0001_b0000,title,heading,title,title,0.8994351599609319,Result Parameter Details,Result Parameter Details,,,,,1.0,0
+docstructbench_llm-raw-the-eye-o.O-ST-169-R1-072694.pdf_76,1,6,p0001_b0001,title,heading,title,title,0.8884556916888899,Peripheral Control Status,Peripheral Control Status,,,,,2.0,1
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,11,p0001_b0017,table,table,table,table,0.9453499847167992,,"<table><tr><td>Common name</td><td>Scientific name</td><td>Where listed</td><td>Status</td><td>Listing citations and applicable rules</td></tr><tr><td>CLAMS</td><td>Medionidus walkeri ..... Wherever found .....</td><td>T</td><td>81 FR [Insert Federal Register page where the document begins]; October 6, 2016.</td><td></td></tr></table>","\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|} \hline
+\multicolumn{2}{|c|}{Common name} & \multicolumn{2}{c|}{Scientific name} & \multicolumn{2}{c|}{Where listed} & \multicolumn{2}{c|}{Status} & \multicolumn{2}{c|}{Listing citations and applicable rules} \\ \hline
+\multirow{2}{*}{CLAMS} & $\cdot$ & $\cdot$ & $\cdot$ & & $\cdot$ & & $\cdot$ & $\cdot$ & $\cdot$ \\ \cline{2-10} 
+ & $\cdot$ & $\cdot$ & $\cdot$ & & $\cdot$ & & $\cdot$ & $\cdot$ & $\cdot$ \\ \hline
+\multicolumn{2}{|l|}{Moccasinshell, Suwan- nee.} & \multicolumn{2}{l|}{Medionidus walkeri ......} & \multicolumn{2}{l|}{Wherever found ......} & T & & \multicolumn{2}{l|}{81 FR [Insert Federal Register page where the document begins]: October 6, 2016.} \\ \hline
+\multicolumn{2}{|l|}{$\cdot$} & $\cdot$ & $\cdot$ & & $\cdot$ & & $\cdot$ & $\cdot$ & $\cdot$ \\ \hline
+\end{tabular}
+",,"<table>
+<thead>
+<tr>
+ <th colspan=""2"">Common name</th>
+ <th colspan=""2"">Scientific name</th>
+ <th colspan=""2"">Where listed</th>
+ <th colspan=""2"">Status</th>
+ <th colspan=""2"">Listing citations and applicable rules</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+ <td rowspan=""2"">CLAMS</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td></td>
+ <td>$\cdot$</td>
+ <td></td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+</tr>
+<tr>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td></td>
+ <td>$\cdot$</td>
+ <td></td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+</tr>
+<tr>
+ <td colspan=""2"">Moccasinshell, Suwan- nee.</td>
+ <td colspan=""2"">Medionidus walkeri ......</td>
+ <td colspan=""2"">Wherever found ......</td>
+ <td>T</td>
+ <td></td>
+ <td colspan=""2"">81 FR [Insert Federal Register page where the document begins]: October 6, 2016.</td>
+</tr>
+<tr>
+ <td colspan=""2"">$\cdot$</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td></td>
+ <td>$\cdot$</td>
+ <td></td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+</tr>
+</tbody>
+</table>","<table><tr><td>Common name</td><td>Scientific name</td><td>Where listed</td><td>Status</td><td>Listing citations and applicable rules</td></tr><tr><td>CLAMS</td><td>Medionidus walkeri ..... Wherever found .....</td><td>T</td><td>81 FR [Insert Federal Register page where the document begins]; October 6, 2016.</td><td></td></tr></table>",15.0,17
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,0,p0001_b0029,table,table,table,table,0.9492642981027509,,<table><tr><td>Species</td><td>Docket No.</td></tr><tr><td>Arizona treefrog (Huachuca-Canelo population) .....</td><td>FWS-R2-ES-2016-0111.</td></tr><tr><td>Arkansas darter .....</td><td>FWS-R6-ES-2016-0113.</td></tr><tr><td>Black mudalia .....</td><td>FWS-R4-ES-2016-0112.</td></tr><tr><td>Highlands tiger beetle .....</td><td>FWS-R4-ES-2016-0114.</td></tr><tr><td>Dichanthelium (-panicum) hirstii (Hirst Brothers&#x27; panic grass) .....</td><td>FWS-R5-ES-2016-0105.</td></tr><tr><td>Kentucky cave beetles (Louisville cave beetle and Tatum Cave beetle) .....</td><td>FWS-R4-ES-2016-0115.</td></tr><tr><td>Relict leopard frog .....</td><td>FWS-R8-ES-2016-0116.</td></tr><tr><td>Sicklefin redhorse sucker .....</td><td>FWS-R4-ES-2016-0117.</td></tr><tr><td>Stephan&#x27;s riffle beetle .....</td><td>FWS-R2 ES-2016-0118.</td></tr></table>,"\begin{tabular}{|l|l|} \hline
+Species & Docket No. \\ \hline
+Arizona treefrog (Huachuca-Canelo population) ...... & FWS-R2-ES-2016-0111. \\ \hline
+Arkansas darter ...... & FWS-R6-ES-2016-0113. \\ \hline
+Black mudalia ...... & FWS-R4-ES-2018-0112. \\ \hline
+Highlands tiger beetle ...... & FWS-R4-ES-2016-0114. \\ \hline
+Dichantheoum (-panicum) hirsln(Hirst Brothers' panic grass) ...... & FWS-R5-ES-2016-0105. \\ \hline
+Kentucky cave beetles (Louisville cave beetle and Tatum Cave beetle) ...... & FWS-R4-ES-2016-0115. \\ \hline
+Relict leopard frog ...... & FWS-R8-ES-2016-0116. \\ \hline
+Sicklefin redhorse sucker ...... & FWS-R4-ES-2016-0117. \\ \hline
+Stephan's riffle beetle ...... & FWS-R2 ES-2016-0118.
+\\ \hline
+\end{tabular}",,"<table>
+<thead>
+<tr>
+ <th>Species</th>
+ <th>Docket No.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+ <td>Arizona treefrog (Huachuca-Canelo population) ......</td>
+ <td>FWS-R2-ES-2016-0111.</td>
+</tr>
+<tr>
+ <td>Arkansas darter ......</td>
+ <td>FWS-R6-ES-2016-0113.</td>
+</tr>
+<tr>
+ <td>Black mudalia ......</td>
+ <td>FWS-R4-ES-2018-0112.</td>
+</tr>
+<tr>
+ <td>Highlands tiger beetle ......</td>
+ <td>FWS-R4-ES-2016-0114.</td>
+</tr>
+<tr>
+ <td>Dichantheoum (-panicum) hirsln(Hirst Brothers' panic grass) ......</td>
+ <td>FWS-R5-ES-2016-0105.</td>
+</tr>
+<tr>
+ <td>Kentucky cave beetles (Louisville cave beetle and Tatum Cave beetle) ......</td>
+ <td>FWS-R4-ES-2016-0115.</td>
+</tr>
+<tr>
+ <td>Relict leopard frog ......</td>
+ <td>FWS-R8-ES-2016-0116.</td>
+</tr>
+<tr>
+ <td>Sicklefin redhorse sucker ......</td>
+ <td>FWS-R4-ES-2016-0117.</td>
+</tr>
+<tr>
+ <td>Stephan's riffle beetle ......</td>
+ <td>FWS-R2 ES-2016-0118.</td>
+</tr>
+</tbody>
+</table>",<table><tr><td>Species</td><td>Docket No.</td></tr><tr><td>Arizona treefrog (Huachuca-Canelo population) .....</td><td>FWS-R2-ES-2016-0111.</td></tr><tr><td>Arkansas darter .....</td><td>FWS-R6-ES-2016-0113.</td></tr><tr><td>Black mudalia .....</td><td>FWS-R4-ES-2016-0112.</td></tr><tr><td>Highlands tiger beetle .....</td><td>FWS-R4-ES-2016-0114.</td></tr><tr><td>Dichanthelium (-panicum) hirstii (Hirst Brothers&#x27; panic grass) .....</td><td>FWS-R5-ES-2016-0105.</td></tr><tr><td>Kentucky cave beetles (Louisville cave beetle and Tatum Cave beetle) .....</td><td>FWS-R4-ES-2016-0115.</td></tr><tr><td>Relict leopard frog .....</td><td>FWS-R8-ES-2016-0116.</td></tr><tr><td>Sicklefin redhorse sucker .....</td><td>FWS-R4-ES-2016-0117.</td></tr><tr><td>Stephan&#x27;s riffle beetle .....</td><td>FWS-R2 ES-2016-0118.</td></tr></table>,28.0,29
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,2,p0001_b0002,text_block,paragraph,text,text,0.9786493062365875,"the Interior's manual at 512 DM 2. we readily acknowledge our responsibility to communicate meaningfully with recognized Federal Tribes on a govermment-to-govermment basis.In accordance with Secretarial Order 3206 of June 5.1997 (American Indian Triha Rights, Federal-Tribal Trust Responsibilities, and the Endangered Species Act),we readilv acknowledge our responsibilities to work directly with tribes in developing programs for healthy ecosystems, to acknowlledge thal tribal lands are not subject to the same controls as Federal publie lands, to remain sensitive to Indian culture, and to make information available to tribes. The Suwannee moccasinshell is not known to oocur within any tribal lands or walers.","the Interior’s manual at 512 DM 2, we readily acknowledge our responsibility to communicate meaningfully with recognized Federal Tribes on a government-to-government basis. In accordance with Secretarial Order 3206 of June 5, 1997 (American Indian Tribal Rights, Federal-Tribal Trust Responsibilities, and the Endangered Species Act), we readily acknowledge our responsibilities to work directly with tribes in developing programs for healthy ecosystems, to acknowledge that tribal lands are not subject to the same controls as Federal public lands, to remain sensitive to Indian culture, and to make information available to tribes. The Suwannee moccasinshell is not known to occur within any tribal lands or waters.",,,,,1.0,2
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,3,p0001_b0004,text_block,paragraph,text,text,0.9305205680181217,A complete list of references cited in this rulemaking is available on the Internet at http://www.regulotions.gov and upon request from the Panama City Ecological Servioes Field Office (see FOR FURTHER INFORMATION CONTACT).,A complete list of references cited in this rulemaking is available on the Internet at http://www.regulations.gov and upon request from the Panama City Ecological Services Field Office (see FOR FURTHER INFORMATION CONTACT).,,,,,3.0,4
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,9,p0001_b0006,text_block,paragraph,text,text,0.9475558796818804,The primary authors of this final rule are the staff members of the Panama City Ecological Services Field Office.,The primary authors of this final rule are the staff members of the Panama City Ecological Services Field Office.,,,,,5.0,6
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,14,p0001_b0007,text_block,paragraph,text,text,0.9175552577535389,"Endangered and threatened species. Exports, Imports, Reporting and recordkeeping requirements, Transportation.","Endangered and threatened species,
+Exports, Imports, Reporting and
+recordkeeping requirements,
+Transportation.",,,,,7.0,7
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,7,p0001_b0010,text_block,paragraph,text,text,0.8711900470828797,"Aceordingly, we amend part 17 , subchapter B of chapter I,title 50 of the Code of Federal Regulations,as follows:","Accordingly, we amend part 17, subchapter B of chapter I, title 50 of the Code of Federal Regulations, as follows:",,,,,9.0,10
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,25,p0001_b0014,text_block,paragraph,text,text,0.5016953892900422,"	 1. The authority citation for part 17 continues to read as follows: Authority: 16 U.S.C. 1361-1407: 15311544; 4201-4245; unless ofherwise noted.
+/t2. Amend § 17.11[h] by adding an entry for ""Moccasinshell. Suwannee"" to the List of Endangered and Threatened Wildlife in alphabetical order under CLAMS to read as set forth below:","■ 2. Amend § 17.11(h) by adding an entry for “Moccasinshell, Suwannee” to the List of Endangered and Threatened Wildlife in alphabetical order under CLAMS to read as set forth below:",,,,,11.0,14
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,10,p0001_b0023,text_block,paragraph,text,text,0.768190969492345,AGENCY: Fish and Wildlife Service. Interior.,"AGENCY: Fish and Wildlife Service, Interior.
+ACTION: Notice of 12-month petition findings.",,,,,22.0,23
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,12,p0001_b0024,text_block,paragraph,text,text,0.8757923863370881,ACTON: Notice of 12-month petition findings.,,,,,,23.0,24
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,15,p0001_b0025,text_block,paragraph,text,text,0.9713902724603516,"SUWHARY: We, the U.S. Fish and Wildlife Service (Service),announce 12month findings on petitions to list 10 species as endangered or threalened species under the Endangered Species Act of 1973, as amended (Act). After a review of the best available scientific and commercial information, we find that listingthe Huachuca-Canelo population of the Arizona treefrog, the Arkansas darter, black mudalia. Highlands tiger beetle, Dichanthelfum =(panicum) hirstii (Hirst Brothers"" panic grass). two Kentueky cave beetles (Louisville cave beelle and Tatum Gave beetle), relict leopard frog, sicklefin redhorse sucker, and Stephan's riffle beetle is not warranted at this time.","SUMMARY: We, the U.S. Fish and Wildlife Service (Service), announce 12-month findings on petitions to list 10 species as endangered or threatened species under the Endangered Species Act of 1973, as amended (Act). After a review of the best available scientific and commercial information, we find that listing the Huachuca-Canelo population of the Arizona treefrog, the Arkansas darter, black mudalia, Highlands tiger beetle, Dichanthelium (=panicum) hirstii (Hirst Brothers' panic grass), two Kentucky cave beetles (Louisville cave beetle and Tatum Cave beetle), relict leopard frog, sicklefin redhorse sucker, and Stephan's riffle beetle is not warranted at this time. However, we ask the public to submit to us at any time any new information that becomes available concerning the stressors to any of the 10 species listed above or their habitats.",,,,,24.0,25
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,13,p0001_b0026,text_block,paragraph,text,text,0.9459499316806255,"However, we ask the public to submit to us at any time any new information that beoomes available concerning the stressors to any of the 10 species listed above or their habitats.",,,,,,25.0,26
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,28,p0001_b0027,text_block,paragraph,text,text,0.9331374574159669,"DATES: The findings announced in this document were made on October 6, 2016.","DATES: The findings announced in this document were made on October 6, 2016.",,,,,26.0,27
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,17,p0001_b0028,text_block,paragraph,text,text,0.968107045687384,ADDRESSES: Detailed descriptions of the basis for each of these findings are available on the Internet at http:// www.regulafions.gov al the following docket numbers:,ADDRESSES: Detailed descriptions of the basis for each of these findings are available on the Internet at http://www.regulations.gov at the following docket numbers:,,,,,27.0,28
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,20,p0001_b0003,title,heading,title,title,0.8287978897502482,References Cited,References Cited,,,,,2.0,3
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,24,p0001_b0005,title,heading,title,title,0.8399446241042046,Authors,Authors,,,,,4.0,5
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,19,p0001_b0008,title,heading,title,title,0.8404306541794953,List of Subjects in 50 CFR Part 17,List of Subjects in 50 CFR Part 17,,,,,6.0,8
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,6,p0001_b0009,title,heading,title,title,0.8765422294714336,Regulation Promulgation,Regulation Promulgation,,,,,8.0,9
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,1,21,p0001_b0011,title,heading,title,title,0.8973258719205145,PART 17——ENDANGERED AND THREATENED WILDLIFE AND PLANTS,"PART 17—ENDANGERED AND
+THREATENED WILDLIFE AND PLANTS",,,,,10.0,11
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,1,p0001_b0002,text_block,paragraph,text,text,0.925490803351985,compliance with 39 U.S.C. 3633(a). and an application for non-public treatment of certain materials. It also filed supporting financial workpapers.,"compliance with 39 U.S.C. 3633(a), and an application for non-public treatment of certain materials. It also filed supporting financial workpapers.",,,,,1.0,2
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,10,p0001_b0004,text_block,paragraph,text,text,0.9406326431052134,"The Commission establishes Docket Nos. MC201561 and CP201592 to consider the Request pertaining to the proposed Priority Mail Contract 128 product and the related contracl, respectively.","The Commission establishes Docket Nos. MC2015–61 and CP2015–92 to consider the Request pertaining to the proposed Priority Mail Contract 128 product and the related contract, respectively.",,,,,3.0,4
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,13,p0001_b0005,text_block,paragraph,text,text,0.9864442426125272,"The Commission invites comments on whether the Postal Service's filings in the captioned dockets are consistenl with the policies of 39 U.S.C. 3632, 3633, or 3642, 39 CFR part 3015, and 39 CFR part 3020, subpart B. Comments are due no later than July 13, 2015. The public portions of these filings can be accessed via the Commission's Web site [hltp://www.prc.gov].","The Commission invites comments on whether the Postal Service’s filings in the captioned dockets are consistent with the policies of 39 U.S.C. 3632, 3633, or 3642, 39 CFR part 3015, and 39 CFR part 3020, subpart B. Comments are due no later than July 13, 2015. The public portions of these filings can be accessed via the Commission’s Web site (http://www.prc.gov).",,,,,4.0,5
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,7,p0001_b0006,text_block,paragraph,text,text,0.9287836275094531,The Commission appoints Kenneth R. Moeller to serve as Public Representative in these dockets.,The Commission appoints Kenneth R. Moeller to serve as Public Representative in these dockets.,,,,,5.0,6
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,15,p0001_b0008,text_block,paragraph,text,text,0.7080860981282389,It is ordered :,It is ordered:,,,,,7.0,8
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,12,p0001_b0013,text_block,paragraph,text,text,0.5413626671617127,Secrefary. [FR Doc: 2015-16831 Filed 7-9-15; 8:45 am] BILLING C00E 7710-FW-P,"By the Commission.
+Shoshana M. Grove,
+Secretary.
+[FR Doc. 2015-16831 Filed 7-9-15; 8:45 am]
+BILLING CODE 7710-FW-P",,,,,15.0,13
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,29,p0001_b0017,text_block,paragraph,text,text,0.6642648921765053,SUWMARY: The Postal Service gives notice of filing a request with the Postal Regulatory Commission to add a domestic shipping services contract to the list of Negotiated Service Agreements in the Mail Classificalion Sehedule's Competitive Products List,"SUMMARY: The Postal Service gives notice of filing a request with the Postal Regulatory Commission to add a domestic shipping services contract to the list of Negotiated Service Agreements in the Mail Classification Schedule’s Competitive Products List.
+DATES: Effective date: July 10, 2015.
+FOR FURTHER INFORMATION CONTACT: Elizabeth A. Reed, 202-268-3179.",,,,,20.0,17
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,27,p0001_b0019,text_block,paragraph,text,text,0.9404623948034792,"SUPPLEMENTARYINFORMATION:The United States Postal Service? hereby gives notice that, pursuant to 39 U.S.C 3642 and 3632(b)[3). on July 2, 2015, it filed with the Postal Regulalory Commission a Requuest ofthe United Slales Postal Service lo Add Priorily Mail Gontracl 128 to Compelitive Product Lisf. Documents are available al www.pre.gov, Docket Nos. MC201561. CP2015-92.","United States Postal Service® hereby gives notice that, pursuant to 39 U.S.C. 3642 and 3632(b)(3), on July 2, 2015, it filed with the Postal Regulatory Commission a Request of the United States Postal Service to Add Priority Mail Contract 128 to Competitive Product List. Documents are available at www.prc.gov, Docket Nos. MC2015–61, CP2015–92.",,,,,22.0,19
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,20,p0001_b0020,text_block,paragraph,text,text,0.6644600843390182,"Aftorney, Federal Compliance. [FR Doc. 201516847 F1hed 7915; 8:45 am] BILLING: C0DE T71010P","Stanley F. Mires,
+Attorney, Federal Compliance.
+[FR Doc. 2015-16847 Filed 7-9-15; 8:45 am]
+BILLING CODE 7710-10-P",,,,,24.0,20
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,23,p0001_b0026,text_block,paragraph,text,text,0.5005530950216862,"SUHMARv: The Postal Service gives notice of filing a request with the Postal Regulatory Commission to add a domestic shipping services contract to the list of Negotiated Service Agreements in the Mail Classificalion Schedule's Competitive Products List. DATES: E]fective date: July 10, 2015 FOR FURTHERINFORRATION CONTACT: ElizabethA.Reed.202-268-3179. SUPPLEMENTARY INFORMATION: The United States Postal Service?herebv gives notice that, pursuant to 39 U.S.C. 3642 and 3632(bJ[3]. on July 2, 2015, it filed with the Postal Regulatory Commission a Reqmest of the United States Postal Service lo Add Priority Maif Conracl 129 lo Conpelitive Product Lisl. Documents are available al Www.prc.gov, Docket Nos. MG2015-62. CP2015-93.","SUPPLEMENTARY INFORMATION: The United States Postal Service® hereby gives notice that, pursuant to 39 U.S.C. 3642 and 3632(b)(3), on July 2, 2015, it filed with the Postal Regulatory Commission a Request of the United States Postal Service to Add Priority Mail Contract 129 to Competitive Product List. Documents are available at www.prc.gov, Docket Nos. MC2015–62, CP2015–93.",,,,,29.0,26
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,25,p0001_b0027,text_block,paragraph,text,text,0.6704332667850981,"Aftorney, Federal Compliance. FR Doc.201516849 F1kd 7-9-15:8:45 am BILLINGiC0DE 7710-12P","Stanley F. Mires,
+Attorney, Federal Compliance.
+[FR Doc. 2015-16849 Filed 7-9-15; 8:45 am]
+BILLING CODE 7710-12-P",,,,,31.0,27
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,51,p0001_b0031,text_block,paragraph,text,text,0.9374227652080609,SUWMARY: The Postal Service gives notice of filing a request with the Postal Regulatory Commission to add a domestic shipping services contract to the list of Negotiated Service Agreements in the Mail Classificalion Schedule's Gompetitive Products List.,"SUMMARY: The Postal Service gives notice of filing a request with the Postal Regulatory Commission to add a domestic shipping services contract to the list of Negotiated Service Agreements in the Mail Classification Schedule's Competitive Products List.
+
+FOR FURTHER INFORMATION CONTACT: Elizabeth A. Reed, 202-268-3179.
+
+SUPPLEMENTARY INFORMATION: The United States Postal Service® hereby gives notice that, pursuant to 39 U.S.C. 3642 and 3632(b)(3), on July 2, 2015, it filed with the Postal Regulatory Commission a Request of the United States Postal Service to Add Priority Mail & First-Class Package Service Contract 6 to Competitive Product List. Documents are available at www.prc.gov, Docket Nos. MC2015-63, CP2015-94.",,,,,36.0,31
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,49,p0001_b0032,text_block,paragraph,text,text,0.9484039301084152,"DATES: Effective date: July 10, 2015. FOR FURTHER INFORMATION CONTACT: Elizabeth A. Reed, 202-268-3179. SUPPLEMENTARY INFORMATION: The United States Postal Service* herebv gives notice that, pursuant to 39 U.S.C. 3642 and 3632(b)(3). on July 2, 2015, it filed with the Postal Regulalory Commission a Fegumst of the United Stales Postal Service lo Add Priorily Maif & Firsl-Class Package Service Conlrnet 6 lo Corrpetifive Producl List Documents are available at ww'w.pre.gov, Docket Nos. MC201563, CP2015-94.",,,,,,37.0,32
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,32,p0001_b0033,text_block,paragraph,text,text,0.6737915575402146,"Aftorney, Federal Compliance. [FR Doc. 201516848 Filed 7-9-15; 8:45 am] BLLNG G0GE 7710-12HP","Stanley F. Mires,
+Attorney, Federal Compliance.
+[FR Doc. 2015-16848 Filed 7-9-15; 8:45 am]
+BILLING CODE 7710-12-P",,,,,39.0,33
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,40,p0001_b0038,text_block,paragraph,text,text,0.842245037163577,"CHANGE IN THE MEETING: Time Change. The Closed Meeting scheduled for Thursdav.July 9.2015 al has been changed to Thursday. July 9, 2015 at 1 p.m.","The Closed Meeting scheduled for Thursday, July 9, 2015 at 2 p.m. has been changed to Thursday, July 9, 2015 at 1 p.m.",,,,,46.0,38
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,44,p0001_b0039,text_block,paragraph,text,text,0.9411548986829141,"Af times, changes in Gommission priorities require alterations in the scheduling of meeting items. For further information and to ascertain whal, if any, matters have been added, deleted or postponed, please contaet the Offiee of the Secretary at (202] 5515400.","At times, changes in Commission priorities require alterations in the scheduling of meeting items. For further information and to ascertain what, if any, matters have been added, deleted or postponed, please contact the Office of the Secretary at (202) 551-5400.",,,,,47.0,39
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,42,p0001_b0040,text_block,paragraph,text,text,0.539179871183791,Secrefary. [FR Doc. 201516982 F1lad 7815; 11:15 am] BILLING C0DE B01101-P,"Dated: July 7, 2015.
+Brent J. Fields,
+Secretary.
+[FR Doc. 2015-16982 Filed 7-8-15; 11:15 am]
+BILLING CODE 8011-01-P",,,,,50.0,40
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,48,p0001_b0043,text_block,paragraph,text,text,0.6320489813618596,It appears to the Securities and Exchange Commission that there is a,"July 8, 2015.
+It appears to the Securities and Exchange Commission that there is a",,,,,55.0,43
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,11,p0001_b0003,title,heading,title,title,0.7877556543921628,IL. Notice of Commission Action,II. Notice of Commission Action,,,,,2.0,3
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,9,p0001_b0007,title,heading,title,title,0.914281574776984,III. Ordering Paragraphs,III. Ordering Paragraphs,,,,,6.0,7
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,5,p0001_b0014,title,heading,title,title,0.8551445256019562,POSTAL SERVICE,POSTAL SERVICE,,,,,16.0,14
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,16,p0001_b0015,title,heading,title,title,0.8355642695266099,Product Change—Prlority Mall Negotlated Servlce Agreement,Product Change—Priority Mail Negotiated Service Agreement,,,,,17.0,15
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,28,p0001_b0021,title,heading,title,title,0.7846550927007755,POSTALSERVICE,POSTAL SERVICE,,,,,25.0,21
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,24,p0001_b0022,title,heading,title,title,0.8623408669575683,Product Change—Priority Mall Negotiated Service Agreement,Product Change—Priority Mail Negotiated Service Agreement,,,,,26.0,22
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,21,p0001_b0028,title,heading,title,title,0.7643617245553381,POSTALSERVICE,POSTAL SERVICE,,,,,32.0,28
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,43,p0001_b0029,title,heading,title,title,0.9298084078857864,Product Change—Prlority Mall and Flrst-Class Package Servlce Negotilated Servlce Agreement,Product Change—Priority Mail and First-Class Package Service Negotiated Service Agreement,,,,,33.0,29
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,33,p0001_b0034,title,heading,title,title,0.9179698118626566,SECURITIES AND EXCHANGE COMMISSION,"SECURITIES AND EXCHANGE
+COMMISSION",,,,,40.0,34
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,46,p0001_b0035,title,heading,title,title,0.8808156892412908,Sunshine Act Meeting,Sunshine Act Meeting,,,,,41.0,35
+newspaper_baa51a22898f0d534a6c404ba8f12fb1_2,1,50,p0001_b0041,title,heading,title,title,0.8844026157643009,[File No. 500-1],[File No. 500-1],,,,,52.0,41
+scihub_c2gc35284b.pdf_6,1,0,p0001_b0002,table_caption,caption,caption,caption,0.7632425967614184,"Table1 Coupling of aldehyde, alkyne, and amine catalyzed by Au/IRMOF-3 in 1, $ 4 \mathrm{-d i o x a n e}^{a} $","Table 1 Coupling of aldehyde, alkyne, and amine catalyzed by Au/IRMOF-3 in 1,4-dioxane $ ^{a} $",,,,,1.0,2
+scihub_c2gc35284b.pdf_6,1,11,p0001_b0004,text_block,paragraph,text,text,0.9706721228005305,"bearing electron-withdrawing groups (Table 1, entry 4）afforded a better yield than those bearing electron-donating groups （Table 1,entries 2 and 3）when 4.6% Au/IRMOF-3 catalyst was used, however, the employment of 0.6% Au/IRMOF-3 (Table 1 entry 17 vs.16) and 3.2% Au/IRMOF-3 (Table 1,entry 22 vs. 21) gave the opposite results. The $ \mathrm{A}^{3} $ coupling reaction was reported to be highly affected by the nature of aldehydes, and the reactivity of aldehydes could be affected by the employed catalyst. $ ^{4,6,14,22,29} $ Kidwai et al. found that aryl aldehydes possessing electron-withdrawing groups afforded a better yield than that with an electron-donating group bound to the benzene ring which required longer reaction time with metallic Au nanoparticles as catalyst.11 Wei and Li reported that both aromatic and aliphatic aldehydes were able to undergo the corresponding $ \mathbf{A}^{3} $ coupling with the catalyst of $ \mathrm{A u B r}_{3}. $ $ ^{4} $ They found that electronwithdrawing groups displayed high reactivities,however, electron-richgroups bound to the benzene ring decreased  thereactivity and required a longer reaction time. The decreased yield for aliphatic aldehydes was caused by the trimerization of aliphatic aldehydes with homogeneous gold salts. Zhang and Corma found that benzaldehyde with electron-donating groups react smoothly,while substitution of electron-withdrawing groups on the benzene ring decreases the reactivity with the catalyst of $ \mathrm{A u / C e O_{2}}. $ $ ^{14} $ Based on the above results,we may presume that the activity difference could be due to the different properties (e.g.,different oxidation states) between 4.6% Au/IRMOF-3 and 0.6% Au/IRMOF-3, 3.2% Au/IRMOF-3 catalysts.","bearing electron-withdrawing groups (Table 1, entry 4) afforded a better yield than those bearing electron-donating groups (Table 1, entries 2 and 3) when 4.6%Au/IRMOF-3 catalyst was used, however, the employment of 0.6%Au/IRMOF-3 (Table 1, entry 17 vs. 16) and 3.2%Au/IRMOF-3 (Table 1, entry 22 vs. 21) gave the opposite results. The A³ coupling reaction was reported to be highly affected by the nature of aldehydes, and the reactivity of aldehydes could be affected by the employed catalyst.⁴,⁶,¹⁴,²²,²⁹ Kidwai et al. found that aryl aldehydes posses-sing electron-withdrawing groups afforded a better yield than that with an electron-donating group bound to the benzene ring which required longer reaction time with metallic Au nanoparticles as catalyst.¹¹ Wei and Li reported that both aromatic and aliphatic aldehydes were able to undergo the corresponding A³ coupling with the catalyst of AuBr₃.⁴ They found that electron-withdrawing groups displayed high reactivities, however, elec-tron-rich groups bound to the benzene ring decreased the reactivity and required a longer reaction time. The decreased yield for aliphatic aldehydes was caused by the trimerization of aliphatic aldehydes with homogeneous gold salts. Zhang and Corma found that benzaldehyde with electron-donating groups react smoothly, while substitution of electron-withdrawing groups on the benzene ring decreases the reactivity with the catalyst of Au/CeO₂.¹⁴ Based on the above results, we may presume that the activity difference could be due to the different properties (e.g., different oxidation states) between 4.6%Au/IRMOF-3 and 0.6%Au/IRMOF-3, 3.2%Au/IRMOF-3 catalysts.
+
+With the catalyst of 4.6%Au/IRMOF-3, the reaction with secondary amines proceeded smoothly to afford the corresponding propargylamines (Table 1, entries 1, 7–9). Among the various amines tested, alicyclic amines such as piperidine, pyrrolidine, and morpholine gave good conversions of benzaldehyde, whereas the diethylamine afforded a lower conversion. This was probably due to the iminium ions generated from alicyclic amines and benzaldehyde which are more stable than that generated from dialkyl amine and benzaldehyde.",,,,,3.0,4
+scihub_c2gc35284b.pdf_6,1,8,p0001_b0005,text_block,paragraph,text,text,0.9597863280324159,"With the catalyst of 4.6% Au/IRMOF-3,the reaction with secondary amines proceeded smoothly to afford the corresponding propargylamines (Table 1,entries 1, 7-9). Among the various amines tested, alicyclic amines such as piperidine, pyrrolidine, and morpholine gave good conversions of benzaldehyde, whereas the diethylamine afforded a lower conversion. This was probably due to the iminium ions generated from alicyclic amines and benzaldehyde which are more stable than that generated from dialkyl amine and benzaldehyde.",,,,,,4.0,5
+scihub_c2gc35284b.pdf_6,1,2,p0001_b0006,text_block,paragraph,text,text,0.9696608756389739,"A variety of aromatic alkynes were coupled with benzaldehyde and piperidine in the presence of the 4.6% Au/IRMOF-3 catalyst. It was found that straight-chain alkyl substituted phenylacetylene showed decreasing conversion of benzaldehyde with increasing chain length,the conversions were 86.4%, 70.6%, and 28.5% for methyl,ethyl,and butyl phenylacetylene, respectively（Table 1, entries 10-12). Clearly, when increasing the steric hindrance of alkynes, it gave a decrease in conversion. The reaction was found to be highly affected by the steric hindrance of the alkynes, which was probably ascribed to the limitation effect of the IRMOF-3 channels. Aliphatic alkynes such as l-octyne and (trimethylsilyl)acetylene also afforded moderate conversions of benzaldehyde with 62.1% and 56.6%, respectively (Table 1, entries 13 and 14).","A variety of aromatic alkynes were coupled with benzaldehyde and piperidine in the presence of the 4.6%Au/IRMOF-3 catalyst. It was found that straight-chain alkyl substituted phenylacetylene showed decreasing conversion of benzaldehyde with increasing chain length, the conversions were 86.4%, 70.6%, and 28.5% for methyl, ethyl, and butyl phenylacetylene, respectively (Table 1, entries 10–12). Clearly, when increasing the steric hindrance of alkynes, it gave a decrease in conversion. The reaction was found to be highly affected by the steric hindrance of the alkynes, which was probably ascribed to the limitation effect of the IRMOF-3 channels. Aliphatic alkynes such as 1-octyne and (trimethylsilyl)acetylene also afforded moderate conversions of benzaldehyde with 62.1% and 56.6%, respectively (Table 1, entries 13 and 14).",,,,,5.0,6
+scihub_c2gc35284b.pdf_6,1,5,p0001_b0007,text_block,paragraph,text,text,0.9611383689002476,"The reusability studies of 4.6% Au/IRMOF-3, 0.6% Au/ IRMOF-3,and 3.2% Au/IRMOF-3 were carried out on the $ \mathrm{A}^{3} $ coupling reaction of benzaldehyde, piperidine, and phenylacetylene. The results are summarized in Table 2.The fresh 4.6% Au/","The reusability studies of 4.6%Au/IRMOF-3, 0.6%Au/IRMOF-3, and 3.2%Au/IRMOF-3 were carried out on the A $ ^{3} $ coupling reaction of benzaldehyde, piperidine, and phenylacetylene. The results are summarized in Table 2. The fresh 4.6%Au/",,,,,6.0,7
+scihub_jee_2Ftoaa103.pdf_2,1,1,p0001_b0003,figure_caption,caption,caption,caption,0.9489104230688099,"Fig.1.General schematic of the third floor of the pilot-scale flour mill used for all experiments.The black boxes,white circles,and rectangles represent large structural features on the third floor such as support columns,milling equipment, sifters,and large storage bins.The bioassay area positions are numbered 1-10. The location of each aerosol application position is denoted as A1,A2,and A3 inside the gray squares.Aerosol application 4 was released from all three locations A1,A2,and A3(1/3 dose at each position).Source:Scheff et al.(2018),used by permission.","Fig. 1. General schematic of the third floor of the pilot-scale flour mill used for all experiments. The black boxes, white circles, and rectangles represent large structural features on the third floor such as support columns, milling equipment, sifters, and large storage bins. The bioassay area positions are numbered 1–10. The location of each aerosol application position is denoted as A1, A2, and A3 inside the gray squares. Aerosol application 4 was released from all three locations A1, A2, and A3 (1/3 dose at each position). Source: Scheff et al. (2018), used by permission.",,,,,2.0,3
+scihub_jee_2Ftoaa103.pdf_2,1,6,p0001_b0002,figure,figure,figure,figure,0.9364873391646554,,,,,,,1.0,2
+scihub_jee_2Ftoaa103.pdf_2,1,7,p0001_b0004,text_block,paragraph,text,text,0.966149025180237,"of the mill at anapproximate $ 4 5^{\circ} $ angle and appliedusinga sideways sweeping motion toward the left and right sides of the floorspace.The totalaerosol application timewas approximately 2-5min ,followedby a 1-h exposureperiod.After the 1-h exposure,the air ventilation system was turned on for approximately 10min to remove any residual aerosol particles that may be present in the ambient air. The next step was to pick up all bioassay arenas that were exposed to the aerosol insecticide treatment and replace with new bioassay arenas for thenext aerosol treatment,which took approximately 5-15min .The aerosol application position was changed after each treatment and each aerosol application location was repeated twicefor each aerosol formulation.Due to logistical constraints of the milling facility (time available for testing)and time required for each aerosol application the pyrethrin + pyriproxyfen aerosol treatments were conducted first, followed by the pyrethrin + methoprene aerosol treatments.Day1 of testinghadfive trials,day 2 had six trials,andday 3 had five trials,for a total of 16 aerosol applications.","of the mill at an approximate 45° angle and applied using a sideways sweeping motion toward the left and right sides of the floorspace. The total aerosol application time was approximately 2–5 min, followed by a 1-h exposure period. After the 1-h exposure, the air ventilation system was turned on for approximately 10 min to remove any residual aerosol particles that may be present in the ambient air. The next step was to pick up all bioassay arenas that were exposed to the aerosol insecticide treatment and replace with new bioassay arenas for the next aerosol treatment, which took approximately 5–15 min. The aerosol application position was changed after each treatment and each aerosol application location was repeated twice for each aerosol formulation. Due to logistical constraints of the milling facility (time available for testing) and time required for each aerosol application the pyrethrin + pyriproxyfen aerosol treatments were conducted first, followed by the pyrethrin + methoprene aerosol treatments. Day 1 of testing had five trials, day 2 had six trials, and day 3 had five trials, for a total of 16 aerosol applications.",,,,,3.0,4
+scihub_jee_2Ftoaa103.pdf_2,1,5,p0001_b0006,text_block,paragraph,text,text,0.964897958959813,"The T.confusum larvae used in the study were from a pesticidesusceptible strain maintained at the United StatesDepartment of Agriculture-Agricultural Research Service-Center for Grain and Animal Health Research (USDA-ARS-CGAHR,Manhattan,KS). Tribolium confusum colonies are reared on 95% organic wholewheat flour and 5% brewer's yeast at $ 2 7^{\circ} \mathrm{C}. $ 60% RH,and 0:24 (L:D)h in an environmental chamber.These colonies have been maintained at theUSDA-ARS-CGAHR for more than 30 yr.","The T. confusum larvae used in the study were from a pesticide-susceptible strain maintained at the United States Department of Agriculture–Agricultural Research Service–Center for Grain and Animal Health Research (USDA-ARS-CGAHR, Manhattan, KS). Tribolium confusum colonies are reared on 95% organic whole-wheat flour and 5% brewer's yeast at 27°C, 60% RH, and 0:24 (L:D) h in an environmental chamber. These colonies have been maintained at the USDA-ARS-CGAHR for more than 30 yr.",,,,,5.0,6
+scihub_jee_2Ftoaa103.pdf_2,1,12,p0001_b0007,text_block,paragraph,text,text,0.9805597208225799,"Testing arenas used in this study were individual $ 60 \times 15 mm $ $ (\sim2 2 ~ \mathrm{c m}^{2}) $ Petri dishes partially filled with concrete and placed inside larger $ 150 \times 20 mm (\sim 1 3 7 \mathrm{~ c m^{2} ~}) $ plastic Petri dishes.Concrete dishes were prepared based on Arthur (2015).Briefly, a drypowder driveway patching material (Rockite,Hartline Product Co.,Inc., Cleveland,OH)was mixed with water to create a thin slurry,poured in thebottom of Petri dishes to a depth of ~0.5cm ,and held at ambient conditions for approximately 7 d. Inside each Petri dish, four concrete arenas were placed.Three of the arenas were used in the current study for residual bioassays at 2,4,and 6 wk post-aerosol treatment and contained no diet at time of exposure to aerosol.The other arena was used as described by Scheff et al.(2018).","Testing arenas used in this study were individual  $ 60 \times 15 \, mm $ ( $ \sim 22 \, cm^2 $) Petri dishes partially filled with concrete and placed inside larger  $ 150 \times 20 \, mm $ ( $ \sim 137 \, cm^2 $) plastic Petri dishes. Concrete dishes were prepared based on Arthur (2015). Briefly, a dry powder driveway patching material (Rockite, Hartline Product Co., Inc., Cleveland, OH) was mixed with water to create a thin slurry, poured in the bottom of Petri dishes to a depth of  $ \sim 0.5 \, cm $, and held at ambient conditions for approximately 7 d. Inside each Petri dish, four concrete arenas were placed. Three of the arenas were used in the current study for residual bioassays at 2, 4, and 6 wk post-aerosol treatment and contained no diet at time of exposure to aerosol. The other arena was used as described by Scheff et al. (2018).",,,,,6.0,7
+scihub_jee_2Ftoaa103.pdf_2,1,11,p0001_b0008,text_block,paragraph,text,text,0.9258241458154737,"These groups of testing arenas were placed atten different positions on the third floor (Fig.1).Nine positions also had aerodynamic particle sizer units(APS 3321,TSI Inc.,Shoreview,MN)placed to collect data on aerosol particle concentration and size distribution.","These groups of testing arenas were placed at ten different positions on the third floor (Fig. 1). Nine positions also had aerodynamic particle sizer units (APS 3321, TSI Inc., Shoreview, MN) placed to collect data on aerosol particle concentration and size distribution. Two additional testing arenas were placed on the first floor of the mill during each aerosol treatment and served as untreated controls. Arenas were placed in each of the four major corners of the mill floor (arenas 4, 5, 8, 10). Bioassay arenas along walls were placed approximately 0.5 m away from the wall (arenas 4, 5, 6, 8, 9, 10). Bioassay arena 2 was placed in between two large pieces of milling equipment and pneumatic conveying ducts. Bioassay arena 7 was placed underneath a piece of milling equipment. Relative to the application locations, bioassay arena 1 was placed directly in front of aerosol application location 1 and bioassay arena 9 and 4 were placed next to aerosol application locations 2 and 3, respectively.",,,,,7.0,8
+scihub_jee_2Ftoaa103.pdf_2,1,3,p0001_b0009,text_block,paragraph,text,text,0.9665976253019858,"Two additional testing arenas wereplaced on the first floor of the mill during each aerosol treatment and served as untreated controls. Arenas were placed in each of the four major corners of the mill floor (arenas 4, 5,8,10).Bioassay arenas along walls were placed approximately 0.5m away from the wall （arenas 4,5,6,8,9,10). Bioassay arena 2 was placed in between two large pieces of milling equipment and pneumatic conveying ducts. Bioassay arena 7 was placed underneath a piece of milling equipment.Relative to the application locations, bioassay arena 1 was placed directly in front of aerosol application location 1 and bioassay arenas 9 and 4 were placed next to aerosol application locations2 and 3, respectively.",,,,,,8.0,9
+scihub_jee_2Ftoaa103.pdf_2,1,4,p0001_b0010,text_block,paragraph,text,text,0.9809849832178569,"After aerosol applications,each bioassay arena was covered and transported back to theUSDA-ARS-CGAHR and held at $ 2 7^{\circ} \mathrm{C}, $ 60% RH,and 0:24（L:D）in an environmental chamber.At 2,4,and6wk post-aerosol application, five（3-4 wk old) T. confusum larvae along with ~400mg of diet were added to one concrete arena from each bioassay arenaposition.Number of larvae available for bioassays waslimited,but five larvae per dish does provide sufficient resolution to evaluate IGR effects on development.Larvae were examined twice weekly, up to 4 wk, for adult emergence. Emerged adults were removed from dishes to prevent cannibalism.","After aerosol applications, each bioassay arena was covered and transported back to the USDA-ARS-CGAHR and held at 27°C, 60% RH, and 0:24 (L:D) in an environmental chamber. At 2, 4, and 6 wk post-aerosol application, five (3–4 wk old) T. confusum larvae along with ~400 mg of diet were added to one concrete arena from each bioassay arena position. Number of larvae available for bioassays was limited, but five larvae per dish does provide sufficient resolution to evaluate IGR effects on development. Larvae were examined twice weekly, up to 4 wk, for adult emergence. Emerged adults were removed from dishes to prevent cannibalism.",,,,,9.0,10
+scihub_jee_2Ftoaa103.pdf_2,1,8,p0001_b0011,text_block,paragraph,text,text,0.953737671311962,"At the end of 4 wk, all five individuals were classified as larvae, pupae, or adults.Meansand SEswere calculated for adult emergence and data analyzed using statistical analysis software (version 9.4, SAS Institute, Cary, NC). Adult emergence data were transformed to angular values prior to analysis (Zar 2010) before using a three-way analysis of variance based on bioassay position,application position, and residual week as the main effects.","At the end of 4 wk, all five individuals were classified as larvae, pupae, or adults. Means and SEs were calculated for adult emergence and data analyzed using statistical analysis software (version 9.4, SAS Institute, Cary, NC). Adult emergence data were transformed to angular values prior to analysis (Zar 2010) before using a three-way analysis of variance based on bioassay position, application position, and residual week as the main effects.",,,,,10.0,11
+scihub_jee_2Ftoaa103.pdf_2,1,14,p0001_b0013,text_block,paragraph,text,text,0.9633927145803909,"To assess the strength of the effect of the aerosol application, an efficacy value index was created to convert the three morphological states (larvae,pupae, adult) to a single value for comparison Campbell et al.2014).The efficacy index ranged from1,the weakest efficacy response with five adults,to 21,the strongest response with fivelarvae.All of the index values with the corresponding numbers of adults,pupae, andlarvae indicated in brackets were the following: 1[5,0,0],2[4,1,0],3[4,0,1],4[3,2,0],5[3,1,1],6[3,0,2],7[2,3,0], 8[2,2,1],9[2,1,2],10[2,0,3],11[1,4,0],12[1,3,1],13[1,2,2],14 [1,1,3],15[1,0,4],16[0,5,0],17[0,4,1],18[0,3,2],19[0,2,3],20 [0,1,4],21[0,0,5].","To assess the strength of the effect of the aerosol application, an efficacy value index was created to convert the three morphological states (larvae, pupae, adult) to a single value for comparison (Campbell et al. 2014). The efficacy index ranged from 1, the weakest efficacy response with five adults, to 21, the strongest response with five larvae. All of the index values with the corresponding numbers of adults, pupae, and larvae indicated in brackets were the following: 1 [5,0,0], 2 [4,1,0], 3 [4,0,1], 4 [3,2,0], 5 [3,1,1], 6 [3,0,2], 7 [2,3,0], 8 [2,2,1], 9 [2,1,2], 10 [2,0,3], 11 [1,4,0], 12 [1,3,1], 13 [1,2,2], 14 [1,1,3], 15 [1,0,4], 16 [0,5,0], 17 [0,4,1], 18 [0,3,2], 19 [0,2,3], 20 [0,1,4], 21 [0,0,5].",,,,,12.0,13
+scihub_jee_2Ftoaa103.pdf_2,1,9,p0001_b0005,title,heading,title,title,0.8185015576814969,Bioassays,Bioassays,,,,,4.0,5
+scihub_jee_2Ftoaa103.pdf_2,1,13,p0001_b0012,title,heading,title,title,0.7841512566883115,Aerosol Dispersal Patterns,Aerosol Dispersal Patterns,,,,,11.0,12
+yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13,1,0,p0001_b0004,text_block,paragraph,text,text,0.9801533456626494,"Hillsborough County's Family Preservation and Assessment System is a county-wide data-sharing platform in the children services sector. The purpose of the Family Preservation and Assessment System is to enable the unification of multiple sources of data regarding families with a child at risk of being abused or neglected, or a child in care. Hillsborough County, in collaboration with EY, has designed this tool to help realize the vision of preservation of families through targeted early intervention and support. The tool has been deployed in the community since March 2021.","Hillsborough County's Family Preservation and Assessment System is a county-wide data-sharing platform in the children services sector. The purpose of the Family Preservation and Assessment System is to enable the unification of multiple sources of data regarding families with a child at risk of being abused or neglected, or a child in care. Hillsborough County, in collaboration with EY, has designed this tool to help realize the vision of preservation of families through targeted early intervention and support. The tool has been deployed in the community since March 2021.",,,,,3.0,4
+yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13,1,10,p0001_b0002,title,heading,title,title,0.9614356917109917,"Family Preservation and Assessment System Hillsborough County, Florida","Family Preservation and Assessment System
+Hillsborough County, Florida",,,,,1.0,2
+yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13,1,9,p0001_b0003,title,heading,title,title,0.8369746296084973,Summary,Summary,,,,,2.0,3
+yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13,1,1,p0001_b0005,title,heading,title,title,0.6607920573324847,Interviewees,Interviewees,,,,,4.0,5

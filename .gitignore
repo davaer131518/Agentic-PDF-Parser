@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checking
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific: generated pipeline outputs
+output/
+
+# Smoke test generated outputs (document.json, document.md, raw/, debug/, assets/, timing.json, run.log)
+# Keep run_one.py; ignore everything under the per-run subdirectories.
+smoke_tests/*/
+!smoke_tests/run_one.py
+
+# PDFs — ignore by default; explicitly allow sample PDFs shipped with the repo
+*.pdf
+!examples/pdfs/simple_adobe_demo.pdf
+!examples/pdfs/table_heavy_world_bank.pdf
+!examples/pdfs/complex_attention_is_all_you_need.pdf

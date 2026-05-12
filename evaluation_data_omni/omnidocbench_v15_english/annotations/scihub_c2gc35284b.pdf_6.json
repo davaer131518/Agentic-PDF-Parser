@@ -1,0 +1,2193 @@
+{
+  "sample_id": "scihub_c2gc35284b.pdf_6",
+  "dataset_name": "omnidocbench_v15_english",
+  "input_pdf_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\examples\\pdfs\\scihub_c2gc35284b.pdf_6.pdf",
+  "input_image_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\evaluation_data_omni\\omnidocbench_v15_english\\images\\scihub_c2gc35284b.pdf_6.jpg",
+  "page_info": {
+    "page_attribute": {
+      "data_source": "academic_literature",
+      "language": "english",
+      "layout": "1andmore_column",
+      "special_issue": [
+        "table_fewer_line",
+        "table_horizontal",
+        "table_with_formula"
+      ]
+    },
+    "page_no": 2798,
+    "height": 2166,
+    "width": 1654,
+    "image_path": "scihub_c2gc35284b.pdf_6.jpg"
+  },
+  "pages": [
+    {
+      "page_num": 2799,
+      "omni_page_no": 2798,
+      "width": 1654,
+      "height": 2166,
+      "coordinate_space": "image_pixels",
+      "blocks": [
+        {
+          "gt_id": "0",
+          "label": "table_caption",
+          "eval_label": "table_caption",
+          "bbox": [
+            116.33973445535845,
+            168.62458976812974,
+            1017.8948027277474,
+            194.8179159163041
+          ],
+          "polygon": [
+            116.33973445535845,
+            168.62458976812974,
+            1017.8948027277474,
+            168.62458976812974,
+            1017.8948027277474,
+            194.8179159163041,
+            116.33973445535845,
+            194.8179159163041
+          ],
+          "text": "Table1 Coupling of aldehyde, alkyne, and amine catalyzed by Au/IRMOF-3 in 1, $ 4 \\mathrm{-d i o x a n e}^{a} $",
+          "latex": null,
+          "html": null,
+          "reading_order": 1,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                115.99999999999977,
+                166.66666666666686,
+                911.6056926531862,
+                166.66666666666686,
+                911.6056926531862,
+                198.66666666666663,
+                115.99999999999977,
+                198.66666666666663
+              ],
+              "text": "Table1 Coupling of aldehyde, alkyne, and amine catalyzed by Au/IRMOF-3 in 1,"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                911.4083236244256,
+                167.68943382453813,
+                1016.0083595466276,
+                167.68943382453813,
+                1016.0083595466276,
+                192.7764343099443,
+                911.4083236244256,
+                192.7764343099443
+              ],
+              "latex": "$ 4 \\mathrm{-d i o x a n e}^{a} $"
+            }
+          ]
+        },
+        {
+          "gt_id": "6",
+          "label": "table_footnote",
+          "eval_label": "table_footnote",
+          "bbox": [
+            111.66024382882735,
+            1029.1391908546377,
+            1539.491578810422,
+            1109.9005740539565
+          ],
+          "polygon": [
+            111.66024382882735,
+            1029.1391908546377,
+            1539.491578810422,
+            1029.1391908546377,
+            1539.491578810422,
+            1109.9005740539565,
+            111.66024382882735,
+            1109.9005740539565
+          ],
+          "text": "$ ^a $ Reaction conditions: aldehyde  (0.250 mmol),amine (0.300 mmol),alkyne (0.325 mmol),catalyst (0.07 g),the reaction temperatures are 120,150, and on 4.6% Au/IRMOF-3, 0.6% Au/IRMOF-3,and 3.2% Au/IRMOF-3 catalysts, respectively. $ ^b $ The reaction time was not optimization. $ ^c $ GC yield or conversion based on aldehydes,the product was determined by GC-MS,and $ ^1 $ H-NMR.",
+          "latex": null,
+          "html": null,
+          "reading_order": 2,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                113.59177118086448,
+                1030.8379483308051,
+                128.07157968065007,
+                1030.8379483308051,
+                128.07157968065007,
+                1056.0828000891745,
+                113.59177118086448,
+                1056.0828000891745
+              ],
+              "latex": "$ ^a $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                128.64760270611293,
+                1031.406930680902,
+                1542.363052345035,
+                1031.406930680902,
+                1542.363052345035,
+                1056.972448670864,
+                128.64760270611293,
+                1056.972448670864
+              ],
+              "text": "Reaction conditions: aldehyde  (0.250 mmol),amine (0.300 mmol),alkyne (0.325 mmol),catalyst (0.07 g),the reaction temperatures are 120,150,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                113.78585842272662,
+                1058.294943353782,
+                156.76599057875865,
+                1058.294943353782,
+                156.76599057875865,
+                1080.9923165148325,
+                113.78585842272662,
+                1080.9923165148325
+              ],
+              "text": "and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                232.1019525601181,
+                1061.6754031862788,
+                262.5260910525901,
+                1061.6754031862788,
+                262.5260910525901,
+                1081.4752393480464,
+                232.1019525601181,
+                1081.4752393480464
+              ],
+              "text": "on"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                263.4919367190179,
+                1058.294943353782,
+                317.09637120575434,
+                1058.294943353782,
+                317.09637120575434,
+                1081.4752393480464,
+                263.4919367190179,
+                1081.4752393480464
+              ],
+              "text": "4.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                316.6134483725406,
+                1058.2949433537817,
+                452.7976873388442,
+                1058.2949433537817,
+                452.7976873388442,
+                1081.9581621812597,
+                316.6134483725406,
+                1081.9581621812597
+              ],
+              "text": "Au/IRMOF-3,"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                454.7293786716994,
+                1056.84617485414,
+                507.3679674920083,
+                1056.84617485414,
+                507.3679674920083,
+                1082.4410850144736,
+                454.7293786716994,
+                1082.4410850144736
+              ],
+              "text": "0.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                505.91919899236683,
+                1059.7437118534233,
+                687.9811071139854,
+                1059.7437118534233,
+                687.9811071139854,
+                1082.9240078476876,
+                505.91919899236683,
+                1082.9240078476876
+              ],
+              "text": "Au/IRMOF-3,and"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                687.4981842807716,
+                1058.7778661869957,
+                741.585541600722,
+                1058.7778661869957,
+                741.585541600722,
+                1083.4069306809015,
+                687.4981842807716,
+                1083.4069306809015
+              ],
+              "text": "3.2%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                740.6269156709825,
+                1060.270313346612,
+                1088.814278418163,
+                1060.270313346612,
+                1088.814278418163,
+                1082.001840841235,
+                740.6269156709825,
+                1082.001840841235
+              ],
+              "text": "Au/IRMOF-3 catalysts, respectively."
+            },
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                1090.361858506697,
+                1053.4596788253918,
+                1102.8837297433502,
+                1053.4596788253918,
+                1102.8837297433502,
+                1076.2726017086839,
+                1090.361858506697,
+                1076.2726017086839
+              ],
+              "latex": "$ ^b $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1102.612629181378,
+                1059.104303841952,
+                1486.536281586383,
+                1059.104303841952,
+                1486.536281586383,
+                1082.76752266943,
+                1102.612629181378,
+                1082.76752266943
+              ],
+              "text": "The reaction time was not optimization."
+            },
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                1487.6595395118532,
+                1056.230928859366,
+                1500.4432031347544,
+                1056.230928859366,
+                1500.4432031347544,
+                1081.4157626553974,
+                1487.6595395118532,
+                1081.4157626553974
+              ],
+              "latex": "$ ^c $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1501.0239665827983,
+                1058.1384581755242,
+                1543.0382530724023,
+                1058.1384581755242,
+                1543.0382530724023,
+                1080.8358313365748,
+                1501.0239665827983,
+                1080.8358313365748
+              ],
+              "text": "GC"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                114.38553074626157,
+                1081.6801653494804,
+                922.3996642520938,
+                1081.6801653494804,
+                922.3996642520938,
+                1105.1090660051534,
+                114.38553074626157,
+                1105.1090660051534
+              ],
+              "text": "yield or conversion based on aldehydes,the product was determined by GC-MS,and"
+            },
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                924.126331653502,
+                1079.618515696737,
+                932.018762176236,
+                1079.618515696737,
+                932.018762176236,
+                1092.6303606125957,
+                924.126331653502,
+                1092.6303606125957
+              ],
+              "latex": "$ ^1 $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                932.0581209163705,
+                1083.3775385105305,
+                1020.9159222277176,
+                1083.3775385105305,
+                1020.9159222277176,
+                1105.5919888383673,
+                932.0581209163705,
+                1105.5919888383673
+              ],
+              "text": "H-NMR."
+            }
+          ]
+        },
+        {
+          "gt_id": "11",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            118.10957590738931,
+            1188.0922953287761,
+            803.1421237521702,
+            2054.5316769428773
+          ],
+          "polygon": [
+            118.10957590738931,
+            1188.0922953287761,
+            803.1421237521702,
+            1188.0922953287761,
+            803.1421237521702,
+            2054.5316769428773,
+            118.10957590738931,
+            2054.5316769428773
+          ],
+          "text": "bearing electron-withdrawing groups (Table 1, entry 4）afforded a better yield than those bearing electron-donating groups （Table 1,entries 2 and 3）when 4.6% Au/IRMOF-3 catalyst was used, however, the employment of 0.6% Au/IRMOF-3 (Table 1 entry 17 vs.16) and 3.2% Au/IRMOF-3 (Table 1,entry 22 vs. 21) gave the opposite results. The $ \\mathrm{A}^{3} $ coupling reaction was reported to be highly affected by the nature of aldehydes, and the reactivity of aldehydes could be affected by the employed catalyst. $ ^{4,6,14,22,29} $ Kidwai et al. found that aryl aldehydes possessing electron-withdrawing groups afforded a better yield than that with an electron-donating group bound to the benzene ring which required longer reaction time with metallic Au nanoparticles as catalyst.11 Wei and Li reported that both aromatic and aliphatic aldehydes were able to undergo the corresponding $ \\mathbf{A}^{3} $ coupling with the catalyst of $ \\mathrm{A u B r}_{3}. $ $ ^{4} $ They found that electronwithdrawing groups displayed high reactivities,however, electron-richgroups bound to the benzene ring decreased  thereactivity and required a longer reaction time. The decreased yield for aliphatic aldehydes was caused by the trimerization of aliphatic aldehydes with homogeneous gold salts. Zhang and Corma found that benzaldehyde with electron-donating groups react smoothly,while substitution of electron-withdrawing groups on the benzene ring decreases the reactivity with the catalyst of $ \\mathrm{A u / C e O_{2}}. $ $ ^{14} $ Based on the above results,we may presume that the activity difference could be due to the different properties (e.g.,different oxidation states) between 4.6% Au/IRMOF-3 and 0.6% Au/IRMOF-3, 3.2% Au/IRMOF-3 catalysts.",
+          "latex": null,
+          "html": null,
+          "reading_order": 3,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333333,
+                1193.3333333333333,
+                801.3333333333333,
+                1193.3333333333333,
+                801.3333333333333,
+                1216,
+                117.33333333333333,
+                1216
+              ],
+              "text": "bearing electron-withdrawing groups (Table 1, entry 4）afforded"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.00000000000003,
+                1224.0000000000002,
+                801.3333333333333,
+                1224.0000000000002,
+                801.3333333333333,
+                1249.3333333333333,
+                116.00000000000003,
+                1249.3333333333333
+              ],
+              "text": "a better yield than those bearing electron-donating groups"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333341,
+                1256.0000000000002,
+                459.7201123220932,
+                1256.0000000000002,
+                459.7201123220932,
+                1280,
+                117.33333333333341,
+                1280
+              ],
+              "text": "（Table 1,entries 2 and 3）when"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                463.8922198085133,
+                1254.3795822523318,
+                525.0334723500409,
+                1254.3795822523318,
+                525.0334723500409,
+                1281.281733370604,
+                463.8922198085133,
+                1281.281733370604
+              ],
+              "text": "4.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                524.9294690528252,
+                1256,
+                802.6666666666666,
+                1256,
+                802.6666666666666,
+                1280,
+                524.9294690528252,
+                1280
+              ],
+              "text": "Au/IRMOF-3 catalyst was"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.82803372555219,
+                1287.8174345099899,
+                495.4947003922189,
+                1287.8174345099899,
+                495.4947003922189,
+                1310.4841011766564,
+                116.82803372555219,
+                1310.4841011766564
+              ],
+              "text": "used, however, the employment of"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                499.35414628259934,
+                1287.3958586247568,
+                553.7698610445588,
+                1287.3958586247568,
+                553.7698610445588,
+                1310.0181220651218,
+                499.35414628259934,
+                1310.0181220651218
+              ],
+              "text": "0.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                555.493418600225,
+                1286.8068352944274,
+                803.171966274448,
+                1286.8068352944274,
+                803.171966274448,
+                1310.4841011766564,
+                555.493418600225,
+                1310.4841011766564
+              ],
+              "text": "Au/IRMOF-3 (Table 1"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                118.66666666666669,
+                1318.8068352944274,
+                345.6136705888544,
+                1318.8068352944274,
+                345.6136705888544,
+                1344.0000000000002,
+                118.66666666666669,
+                1344.0000000000002
+              ],
+              "text": "entry 17 vs.16) and"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                352.3422783947312,
+                1318.4970494836912,
+                410.4517332895715,
+                1318.4970494836912,
+                410.4517332895715,
+                1344.267329480533,
+                352.3422783947312,
+                1344.267329480533
+              ],
+              "text": "3.2%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                411.48431217457113,
+                1321.3333333333333,
+                800.0328815604544,
+                1321.3333333333333,
+                800.0328815604544,
+                1344,
+                411.48431217457113,
+                1344
+              ],
+              "text": "Au/IRMOF-3 (Table 1,entry 22 vs."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.00000000000007,
+                1350.6666666666667,
+                506.7644384321775,
+                1350.6666666666667,
+                506.7644384321775,
+                1378.6666666666665,
+                116.00000000000007,
+                1378.6666666666665
+              ],
+              "text": "21) gave the opposite results. The"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                514.6666666666666,
+                1344,
+                550.6666666666666,
+                1344,
+                550.6666666666666,
+                1376,
+                514.6666666666666,
+                1376
+              ],
+              "latex": "$ \\mathrm{A}^{3} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                560.26735921451,
+                1350.6666666666665,
+                804.0000000000001,
+                1350.6666666666665,
+                804.0000000000001,
+                1378.6666666666665,
+                560.26735921451,
+                1378.6666666666665
+              ],
+              "text": "coupling reaction was"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333356,
+                1382.8068352944274,
+                803.1719662744481,
+                1382.8068352944274,
+                803.1719662744481,
+                1409.5158988233436,
+                117.33333333333356,
+                1409.5158988233436
+              ],
+              "text": "reported to be highly affected by the nature of aldehydes, and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333346,
+                1416.0000000000002,
+                803.8598313722395,
+                1416.0000000000002,
+                803.8598313722395,
+                1441.3333333333333,
+                117.33333333333346,
+                1441.3333333333333
+              ],
+              "text": "the reactivity of aldehydes could be affected by the employed"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.80692326834864,
+                1445.8056992243778,
+                204.4785147669488,
+                1445.8056992243778,
+                204.4785147669488,
+                1478.3956625563183,
+                116.80692326834864,
+                1478.3956625563183
+              ],
+              "text": "catalyst."
+            },
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                201.29399625726884,
+                1439.1587268037965,
+                302.2961345771988,
+                1439.1587268037965,
+                302.2961345771988,
+                1472.826106243773,
+                201.29399625726884,
+                1472.826106243773
+              ],
+              "latex": "$ ^{4,6,14,22,29} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                306.2116039960946,
+                1437.333333333334,
+                805.3333333333336,
+                1437.333333333334,
+                805.3333333333336,
+                1477.3333333333333,
+                306.2116039960946,
+                1477.3333333333333
+              ],
+              "text": "Kidwai et al. found that aryl aldehydes posses-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333347,
+                1481.3333333333335,
+                807.1140993376625,
+                1481.3333333333335,
+                807.1140993376625,
+                1504,
+                117.33333333333347,
+                1504
+              ],
+              "text": "sing electron-withdrawing groups afforded a better yield than"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                114.66666666666666,
+                1510.6666666666665,
+                804,
+                1510.6666666666665,
+                804,
+                1538.6666666666665,
+                114.66666666666666,
+                1538.6666666666665
+              ],
+              "text": "that with an electron-donating group bound to the benzene ring"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                118.66666666666674,
+                1543.873543938301,
+                803.5230174258822,
+                1543.873543938301,
+                803.5230174258822,
+                1569.5862454567318,
+                118.66666666666674,
+                1569.5862454567318
+              ],
+              "text": "which required longer reaction time with metallic Au nanoparti-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333333,
+                1574.6666666666665,
+                804,
+                1574.6666666666665,
+                804,
+                1600,
+                117.33333333333333,
+                1600
+              ],
+              "text": "cles as catalyst.11 Wei and Li reported that both aromatic and ali-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                114.66666666666676,
+                1606.6666666666667,
+                765.5574037840526,
+                1606.6666666666667,
+                765.5574037840526,
+                1633.3333333333333,
+                114.66666666666676,
+                1633.3333333333333
+              ],
+              "text": "phatic aldehydes were able to undergo the corresponding"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                770.6666666666666,
+                1598.6666666666665,
+                805.3333333333333,
+                1598.6666666666665,
+                805.3333333333333,
+                1630.6666666666665,
+                770.6666666666666,
+                1630.6666666666665
+              ],
+              "latex": "$ \\mathbf{A}^{3} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333351,
+                1636.9539651482355,
+                431.2701053024839,
+                1636.9539651482355,
+                431.2701053024839,
+                1665.3333333333333,
+                117.33333333333351,
+                1665.3333333333333
+              ],
+              "text": "coupling with the catalyst of"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                432.0000000000001,
+                1633.3333333333333,
+                508.2411872810039,
+                1633.3333333333333,
+                508.2411872810039,
+                1665.3333333333333,
+                432.0000000000001,
+                1665.3333333333333
+              ],
+              "latex": "$ \\mathrm{A u B r}_{3}. $"
+            },
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                508.772116572966,
+                1634.1121817468677,
+                520.7342035690558,
+                1634.1121817468677,
+                520.7342035690558,
+                1664.0173992370924,
+                508.772116572966,
+                1664.0173992370924
+              ],
+              "latex": "$ ^{4} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                525.8968409254892,
+                1637.6838598457516,
+                802.5402106049675,
+                1637.6838598457516,
+                802.5402106049675,
+                1663.1436492407843,
+                525.8968409254892,
+                1663.1436492407843
+              ],
+              "text": "They found that electron-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333333,
+                1673.3333333333333,
+                802.6666666666666,
+                1673.3333333333333,
+                802.6666666666666,
+                1696,
+                117.33333333333333,
+                1696
+              ],
+              "text": "withdrawing groups displayed high reactivities,however, elec-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116,
+                1704,
+                804,
+                1704,
+                804,
+                1728,
+                116,
+                1728
+              ],
+              "text": "tron-richgroups bound to the benzene ring decreased  thereactiv-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333353,
+                1732.9539651482355,
+                802.6666666666667,
+                1732.9539651482355,
+                802.6666666666667,
+                1758.6666666666665,
+                117.33333333333353,
+                1758.6666666666665
+              ],
+              "text": "ity and required a longer reaction time. The decreased yield for"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                118.6666666666668,
+                1765.683859845752,
+                803.5230174258825,
+                1765.683859845752,
+                803.5230174258825,
+                1792.7298946975163,
+                118.6666666666668,
+                1792.7298946975163
+              ],
+              "text": "aliphatic aldehydes was caused by the trimerization of aliphatic"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333354,
+                1796.3505265124188,
+                801.3333333333335,
+                1796.3505265124188,
+                801.3333333333335,
+                1824,
+                117.33333333333354,
+                1824
+              ],
+              "text": "aldehydes with homogeneous gold salts. Zhang and Corma"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116,
+                1830.6666666666665,
+                802.6666666666666,
+                1830.6666666666665,
+                802.6666666666666,
+                1856,
+                116,
+                1856
+              ],
+              "text": "found that benzaldehyde with electron-donating groups react"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333333,
+                1860,
+                804,
+                1860,
+                804,
+                1890.6666666666665,
+                117.33333333333333,
+                1890.6666666666665
+              ],
+              "text": "smoothly,while substitution of electron-withdrawing groups on"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333357,
+                1892.9539651482357,
+                807.6494734875818,
+                1892.9539651482357,
+                807.6494734875818,
+                1920,
+                117.33333333333357,
+                1920
+              ],
+              "text": "the benzene ring decreases the reactivity with the catalyst of"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                119.91006551268887,
+                1921.333333333334,
+                220.01378390163538,
+                1921.333333333334,
+                220.01378390163538,
+                1952.0000000000007,
+                119.91006551268887,
+                1952.0000000000007
+              ],
+              "latex": "$ \\mathrm{A u / C e O_{2}}. $"
+            },
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                221.61882741371946,
+                1920.8938051643188,
+                242.22062112281705,
+                1920.8938051643188,
+                242.22062112281705,
+                1935.7126392357748,
+                221.61882741371946,
+                1935.7126392357748
+              ],
+              "latex": "$ ^{14} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                252.4947348758154,
+                1921.3333333333335,
+                804.0000000000002,
+                1921.3333333333335,
+                804.0000000000002,
+                1953.3333333333333,
+                252.4947348758154,
+                1953.3333333333333
+              ],
+              "text": "Based on the above results,we may presume that"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.33333333333358,
+                1960.0000000000002,
+                803.5230174258824,
+                1960.0000000000002,
+                803.5230174258824,
+                1987.6494734875814,
+                117.33333333333358,
+                1987.6494734875814
+              ],
+              "text": "the activity difference could be due to the different properties"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.3333333333336,
+                1993.3333333333335,
+                553.3333333333335,
+                1993.3333333333335,
+                553.3333333333335,
+                2013.3333333333333,
+                117.3333333333336,
+                2013.3333333333333
+              ],
+              "text": "(e.g.,different oxidation states) between"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                555.0705085074196,
+                1989.8792545508625,
+                612.0022949136911,
+                1989.8792545508625,
+                612.0022949136911,
+                2014.6956742664167,
+                555.0705085074196,
+                2014.6956742664167
+              ],
+              "text": "4.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                614.4004286818374,
+                1989.6838598457518,
+                802.6666666666669,
+                1989.6838598457518,
+                802.6666666666669,
+                2013.3333333333333,
+                614.4004286818374,
+                2013.3333333333333
+              ],
+              "text": "Au/IRMOF-3 and"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                116.85305444678431,
+                2019.1720977179227,
+                173.0549461555396,
+                2019.1720977179227,
+                173.0549461555396,
+                2046.1782015260258,
+                116.85305444678431,
+                2046.1782015260258
+              ],
+              "text": "0.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                172.58568633411983,
+                2021.080421209935,
+                326.66666666666686,
+                2021.080421209935,
+                326.66666666666686,
+                2048,
+                172.58568633411983,
+                2048
+              ],
+              "text": "Au/IRMOF-3,"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                329.25241142402854,
+                2019.1720977179227,
+                386.18419783030015,
+                2019.1720977179227,
+                386.18419783030015,
+                2049.097780316091,
+                329.25241142402854,
+                2049.097780316091
+              ],
+              "text": "3.2%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                385.69494921673396,
+                2022.5402106049673,
+                634.5690522776471,
+                2022.5402106049673,
+                634.5690522776471,
+                2048,
+                385.69494921673396,
+                2048
+              ],
+              "text": "Au/IRMOF-3 catalysts."
+            }
+          ]
+        },
+        {
+          "gt_id": "8",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            850.3929985894097,
+            1188.0940755208333,
+            1535.6304592556423,
+            1472.2576565212673
+          ],
+          "polygon": [
+            850.3929985894097,
+            1188.0940755208333,
+            1535.6304592556423,
+            1188.0940755208333,
+            1535.6304592556423,
+            1472.2576565212673,
+            850.3929985894097,
+            1472.2576565212673
+          ],
+          "text": "With the catalyst of 4.6% Au/IRMOF-3,the reaction with secondary amines proceeded smoothly to afford the corresponding propargylamines (Table 1,entries 1, 7-9). Among the various amines tested, alicyclic amines such as piperidine, pyrrolidine, and morpholine gave good conversions of benzaldehyde, whereas the diethylamine afforded a lower conversion. This was probably due to the iminium ions generated from alicyclic amines and benzaldehyde which are more stable than that generated from dialkyl amine and benzaldehyde.",
+          "latex": null,
+          "html": null,
+          "reading_order": 4,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                878.6666666666666,
+                1190.6666666666665,
+                1090.6666666666665,
+                1190.6666666666665,
+                1090.6666666666665,
+                1216,
+                878.6666666666666,
+                1216
+              ],
+              "text": "With the catalyst of"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1092.8350700825865,
+                1189.4795084285265,
+                1147.6731390169443,
+                1189.4795084285265,
+                1147.6731390169443,
+                1214.1566394489876,
+                1092.8350700825865,
+                1214.1566394489876
+              ],
+              "text": "4.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1152.1939200180725,
+                1190.6666666666665,
+                1535.8386648254052,
+                1190.6666666666665,
+                1535.8386648254052,
+                1215.9999999999998,
+                1152.1939200180725,
+                1215.9999999999998
+              ],
+              "text": "Au/IRMOF-3,the reaction with sec-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852,
+                1222.6666666666665,
+                1534.6666666666665,
+                1222.6666666666665,
+                1534.6666666666665,
+                1250.6666666666665,
+                852,
+                1250.6666666666665
+              ],
+              "text": "ondary amines proceeded smoothly to afford the corresponding"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                845.8630975588867,
+                1253.181677175895,
+                1254.834333696299,
+                1253.181677175895,
+                1254.834333696299,
+                1281.3333333333333,
+                845.8630975588867,
+                1281.3333333333333
+              ],
+              "text": "propargylamines (Table 1,entries 1,"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1257.6613554188573,
+                1254.414721079635,
+                1312.0805166389284,
+                1254.414721079635,
+                1312.0805166389284,
+                1282.4488344354293,
+                1257.6613554188573,
+                1282.4488344354293
+              ],
+              "text": "7-9)."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1321.1503768422738,
+                1255.2392538253937,
+                1538.8270217225586,
+                1255.2392538253937,
+                1538.8270217225586,
+                1283.273367181188,
+                1321.1503768422738,
+                1283.273367181188
+              ],
+              "text": "Among the various"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1289.3333333333333,
+                1533.3333333333333,
+                1289.3333333333333,
+                1533.3333333333333,
+                1313.3333333333333,
+                850.6666666666666,
+                1313.3333333333333
+              ],
+              "text": "amines tested, alicyclic amines such as piperidine, pyrrolidine,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1320,
+                1533.3333333333333,
+                1320,
+                1533.3333333333333,
+                1345.3333333333333,
+                850.6666666666666,
+                1345.3333333333333
+              ],
+              "text": "and morpholine gave good conversions of benzaldehyde,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.9032386213129,
+                1351.6881912653025,
+                1535.7634280453537,
+                1351.6881912653025,
+                1535.7634280453537,
+                1376.311808734697,
+                850.9032386213129,
+                1376.311808734697
+              ],
+              "text": "whereas the diethylamine afforded a lower conversion. This was"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666667,
+                1384,
+                1538.2687595374252,
+                1384,
+                1538.2687595374252,
+                1409.333333333333,
+                850.6666666666667,
+                1409.333333333333
+              ],
+              "text": "probably due to the iminium ions generated from alicyclic"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.1720643688549,
+                1417.3333333333333,
+                1538.0931187704841,
+                1417.3333333333333,
+                1538.0931187704841,
+                1438.6666666666663,
+                850.1720643688549,
+                1438.6666666666663
+              ],
+              "text": "amines and benzaldehyde which are more stable than that gener-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1446.6666666666665,
+                1304,
+                1446.6666666666665,
+                1304,
+                1473.3333333333333,
+                850.6666666666666,
+                1473.3333333333333
+              ],
+              "text": "ated from dialkyl amine and benzaldehyde."
+            }
+          ]
+        },
+        {
+          "gt_id": "2",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            850.3930833604601,
+            1475.6459554036458,
+            1535.448710123698,
+            1919.491238064236
+          ],
+          "polygon": [
+            850.3930833604601,
+            1475.6459554036458,
+            1535.448710123698,
+            1475.6459554036458,
+            1535.448710123698,
+            1919.491238064236,
+            850.3930833604601,
+            1919.491238064236
+          ],
+          "text": "A variety of aromatic alkynes were coupled with benzaldehyde and piperidine in the presence of the 4.6% Au/IRMOF-3 catalyst. It was found that straight-chain alkyl substituted phenylacetylene showed decreasing conversion of benzaldehyde with increasing chain length,the conversions were 86.4%, 70.6%, and 28.5% for methyl,ethyl,and butyl phenylacetylene, respectively（Table 1, entries 10-12). Clearly, when increasing the steric hindrance of alkynes, it gave a decrease in conversion. The reaction was found to be highly affected by the steric hindrance of the alkynes, which was probably ascribed to the limitation effect of the IRMOF-3 channels. Aliphatic alkynes such as l-octyne and (trimethylsilyl)acetylene also afforded moderate conversions of benzaldehyde with 62.1% and 56.6%, respectively (Table 1, entries 13 and 14).",
+          "latex": null,
+          "html": null,
+          "reading_order": 5,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                877.3333333333334,
+                1480,
+                1538.817140226769,
+                1480,
+                1538.817140226769,
+                1505.333333333333,
+                877.3333333333334,
+                1505.333333333333
+              ],
+              "text": "A variety of aromatic alkynes were coupled with benzaldehyde"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                851.3906881229517,
+                1513.9426452103817,
+                1239.5302990167586,
+                1513.9426452103817,
+                1239.5302990167586,
+                1536.6093118770484,
+                851.3906881229517,
+                1536.6093118770484
+              ],
+              "text": "and piperidine in the presence of the"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1240.4608073275072,
+                1510.8633085957701,
+                1298.9547475241554,
+                1510.8633085957701,
+                1298.9547475241554,
+                1537.0637193088517,
+                1240.4608073275072,
+                1537.0637193088517
+              ],
+              "text": "4.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1298.9547475241554,
+                1512.6912442269152,
+                1536.5863795730393,
+                1512.6912442269152,
+                1536.5863795730393,
+                1537.6730311859003,
+                1298.9547475241554,
+                1537.6730311859003
+              ],
+              "text": "Au/IRMOF-3 catalyst."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                848,
+                1542.6666666666665,
+                1534.6666666666665,
+                1542.6666666666665,
+                1534.6666666666665,
+                1569.3333333333333,
+                848,
+                1569.3333333333333
+              ],
+              "text": "It was found that straight-chain alkyl substituted phenylacetylene"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1574.6666666666665,
+                1534.6666666666665,
+                1574.6666666666665,
+                1534.6666666666665,
+                1601.3333333333333,
+                850.6666666666666,
+                1601.3333333333333
+              ],
+              "text": "showed decreasing conversion of benzaldehyde with increasing"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852.0000000000001,
+                1608,
+                1216.229419158473,
+                1608,
+                1216.229419158473,
+                1629.3333333333333,
+                852.0000000000001,
+                1629.3333333333333
+              ],
+              "text": "chain length,the conversions were"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1220.5721391390064,
+                1604.0880257841784,
+                1297.3454356471075,
+                1604.0880257841784,
+                1297.3454356471075,
+                1634.553619636599,
+                1220.5721391390064,
+                1634.553619636599
+              ],
+              "text": "86.4%,"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1302.8292425405432,
+                1605.9159614153232,
+                1378.9932271715957,
+                1605.9159614153232,
+                1378.9932271715957,
+                1634.553619636599,
+                1302.8292425405432,
+                1634.553619636599
+              ],
+              "text": "70.6%,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1381.254387734963,
+                1607.9999999999998,
+                1423.125504983613,
+                1607.9999999999998,
+                1423.125504983613,
+                1629.333333333333,
+                1381.254387734963,
+                1629.333333333333
+              ],
+              "text": "and"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1428.3474892125178,
+                1608.3532089235173,
+                1499.0276669501347,
+                1608.3532089235173,
+                1499.0276669501347,
+                1630.8977483743085,
+                1428.3474892125178,
+                1630.8977483743085
+              ],
+              "text": "28.5%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1503.7705808415271,
+                1607.9999999999998,
+                1536.0000000000002,
+                1607.9999999999998,
+                1536.0000000000002,
+                1629.333333333333,
+                1503.7705808415271,
+                1629.333333333333
+              ],
+              "text": "for"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852.0000000000001,
+                1639.5053977021882,
+                1535.8852904207636,
+                1639.5053977021882,
+                1535.8852904207636,
+                1663.9999999999998,
+                852.0000000000001,
+                1663.9999999999998
+              ],
+              "text": "methyl,ethyl,and butyl phenylacetylene, respectively（Table 1,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                849.2907309180869,
+                1667.4553496830772,
+                925.18624041384,
+                1667.4553496830772,
+                925.18624041384,
+                1696.1269866036948,
+                849.2907309180869,
+                1696.1269866036948
+              ],
+              "text": "entries"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                928.9810158886277,
+                1667.8769914024979,
+                1010.357867736852,
+                1667.8769914024979,
+                1010.357867736852,
+                1698.65683692022,
+                928.9810158886277,
+                1698.65683692022
+              ],
+              "text": "10-12)."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1020.6566877683406,
+                1672,
+                1538.666666666667,
+                1672,
+                1538.666666666667,
+                1694.666666666666,
+                1020.6566877683406,
+                1694.666666666666
+              ],
+              "text": "Clearly, when increasing the steric hindrance of"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852,
+                1704,
+                1536,
+                1704,
+                1536,
+                1726.6666666666665,
+                852,
+                1726.6666666666665
+              ],
+              "text": "alkynes, it gave a decrease in conversion. The reaction was"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1736,
+                1537.3333333333333,
+                1736,
+                1537.3333333333333,
+                1761.3333333333333,
+                850.6666666666666,
+                1761.3333333333333
+              ],
+              "text": "found to be highly affected by the steric hindrance of the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852.0000000000001,
+                1764.953440614758,
+                1540.4946022978118,
+                1764.953440614758,
+                1540.4946022978118,
+                1790.6666666666663,
+                852.0000000000001,
+                1790.6666666666663
+              ],
+              "text": "alkynes, which was probably ascribed to the limitation effect of"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1800,
+                1537.3333333333333,
+                1800,
+                1537.3333333333333,
+                1824,
+                850.6666666666666,
+                1824
+              ],
+              "text": "the IRMOF-3 channels. Aliphatic alkynes such as l-octyne and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666666,
+                1832,
+                1538.6666666666665,
+                1832,
+                1538.6666666666665,
+                1854.6666666666665,
+                850.6666666666666,
+                1854.6666666666665
+              ],
+              "text": "(trimethylsilyl)acetylene also afforded moderate conversions of"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                851.8852904207637,
+                1862.7813762459032,
+                1056.3083647568435,
+                1862.7813762459032,
+                1056.3083647568435,
+                1886.7813762459032,
+                851.8852904207637,
+                1886.7813762459032
+              ],
+              "text": "benzaldehyde with"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1068.4486204588843,
+                1861.05967943995,
+                1141.5660457046947,
+                1861.05967943995,
+                1141.5660457046947,
+                1886.041466398935,
+                1068.4486204588843,
+                1886.041466398935
+              ],
+              "text": "62.1%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1150.4730114890597,
+                1864,
+                1192.9176766338921,
+                1864,
+                1192.9176766338921,
+                1888,
+                1150.4730114890597,
+                1888
+              ],
+              "text": "and"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1204.3251690406819,
+                1860.4503675629019,
+                1282.9264011799282,
+                1860.4503675629019,
+                1282.9264011799282,
+                1885.4321545218868,
+                1204.3251690406819,
+                1885.4321545218868
+              ],
+              "text": "56.6%,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1294.2793563114528,
+                1863.9999999999998,
+                1534.6666666666667,
+                1863.9999999999998,
+                1534.6666666666667,
+                1887.9999999999998,
+                1294.2793563114528,
+                1887.9999999999998
+              ],
+              "text": "respectively (Table 1,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                852,
+                1893.3333333333333,
+                1045.3333333333333,
+                1893.3333333333333,
+                1045.3333333333333,
+                1920,
+                852,
+                1920
+              ],
+              "text": "entries 13 and 14)."
+            }
+          ]
+        },
+        {
+          "gt_id": "5",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            850.3931681315103,
+            1922.8795369466145,
+            1535.456339518229,
+            2049.986974264263
+          ],
+          "polygon": [
+            850.3931681315103,
+            1922.8795369466145,
+            1535.456339518229,
+            1922.8795369466145,
+            1535.456339518229,
+            2049.986974264263,
+            850.3931681315103,
+            2049.986974264263
+          ],
+          "text": "The reusability studies of 4.6% Au/IRMOF-3, 0.6% Au/ IRMOF-3,and 3.2% Au/IRMOF-3 were carried out on the $ \\mathrm{A}^{3} $ coupling reaction of benzaldehyde, piperidine, and phenylacetylene. The results are summarized in Table 2.The fresh 4.6% Au/",
+          "latex": null,
+          "html": null,
+          "reading_order": 6,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                877.3333333333335,
+                1925.3333333333333,
+                1192.7672030737897,
+                1925.3333333333333,
+                1192.7672030737897,
+                1950.6666666666665,
+                877.3333333333335,
+                1950.6666666666665
+              ],
+              "text": "The reusability studies of"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1211.0358844579412,
+                1925.9647121359797,
+                1267.5357130569764,
+                1925.9647121359797,
+                1267.5357130569764,
+                1950.3371872179166,
+                1211.0358844579412,
+                1950.3371872179166
+              ],
+              "text": "4.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1270.8592323863313,
+                1928.180391688883,
+                1419.8636823190816,
+                1928.180391688883,
+                1419.8636823190816,
+                1948.675427553239,
+                1270.8592323863313,
+                1948.675427553239
+              ],
+              "text": "Au/IRMOF-3,"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1437.5891187423083,
+                1924.8568723595279,
+                1496.8585467824728,
+                1924.8568723595279,
+                1496.8585467824728,
+                1948.675427553239,
+                1437.5891187423083,
+                1948.675427553239
+              ],
+              "text": "0.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1498.5203064471502,
+                1924.302952471302,
+                1540.0642980640882,
+                1924.302952471302,
+                1540.0642980640882,
+                1951.445026994368,
+                1498.5203064471502,
+                1951.445026994368
+              ],
+              "text": "Au/"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                848.7794134451077,
+                1959.2205865548926,
+                1013.9068812295161,
+                1959.2205865548926,
+                1013.9068812295161,
+                1980.5539198882261,
+                848.7794134451077,
+                1980.5539198882261
+              ],
+              "text": "IRMOF-3,and"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1022.5703648019951,
+                1957.840283885702,
+                1077.9623536245788,
+                1957.840283885702,
+                1077.9623536245788,
+                1982.1028905600572,
+                1022.5703648019951,
+                1982.1028905600572
+              ],
+              "text": "3.2%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1078.9221667469042,
+                1958.6666666666665,
+                1495.3421061612012,
+                1958.6666666666665,
+                1495.3421061612012,
+                1979.9999999999998,
+                1078.9221667469042,
+                1979.9999999999998
+              ],
+              "text": "Au/IRMOF-3 were carried out on the"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                1505.5357752241598,
+                1952.3481228874687,
+                1537.919849934937,
+                1952.3481228874687,
+                1537.919849934937,
+                1982.7695264036531,
+                1505.5357752241598,
+                1982.7695264036531
+              ],
+              "latex": "$ \\mathrm{A}^{3} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                850.6666666666669,
+                1990.6666666666665,
+                1535.2044952211413,
+                1990.6666666666665,
+                1535.2044952211413,
+                2017.333333333333,
+                850.6666666666669,
+                2017.333333333333
+              ],
+              "text": "coupling reaction of benzaldehyde, piperidine, and phenylacety-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                849.3333333333335,
+                2021.3333333333333,
+                1432.5628662454455,
+                2021.3333333333333,
+                1432.5628662454455,
+                2045.333333333333,
+                849.3333333333335,
+                2045.333333333333
+              ],
+              "text": "lene. The results are summarized in Table 2.The fresh"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1439.2437526216613,
+                2020.2423263287865,
+                1497.229856623264,
+                2020.2423263287865,
+                1497.229856623264,
+                2047.2007781891807,
+                1439.2437526216613,
+                2047.2007781891807
+              ],
+              "text": "4.6%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1499.773106798773,
+                2022.2769264691938,
+                1537.9218594314063,
+                2022.2769264691938,
+                1537.9218594314063,
+                2047.7094282242826,
+                1499.773106798773,
+                2047.7094282242826
+              ],
+              "text": "Au/"
+            }
+          ]
+        },
+        {
+          "gt_id": "4",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            1370.2875184737336,
+            88.02708525700216,
+            1559.4652693806263,
+            112.03447214527547
+          ],
+          "polygon": [
+            1370.2875184737336,
+            88.02708525700216,
+            1559.4652693806263,
+            88.02708525700216,
+            1559.4652693806263,
+            112.03447214527547,
+            1370.2875184737336,
+            112.03447214527547
+          ],
+          "text": "View Article Online",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                1370.5039227104226,
+                84.77795932864126,
+                1555.5366614081645,
+                84.77795932864126,
+                1555.5366614081645,
+                113.24453451290924,
+                1370.5039227104226,
+                113.24453451290924
+              ],
+              "text": "View Article Online"
+            }
+          ]
+        },
+        {
+          "gt_id": "3",
+          "label": "table_mask",
+          "eval_label": "table_mask",
+          "bbox": [
+            111.11111111111087,
+            201.15850075017977,
+            1547.8919971897556,
+            1015.4976900341953
+          ],
+          "polygon": [
+            111.11111111111087,
+            201.15850075017977,
+            1547.8919971897556,
+            201.15850075017977,
+            1547.8919971897556,
+            1015.4976900341953,
+            111.11111111111087,
+            1015.4976900341953
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "10",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            10.436127751202603,
+            368.62905762537474,
+            36.48079985312237,
+            1324.1803473020868
+          ],
+          "polygon": [
+            10.436127751202603,
+            368.62905762537474,
+            36.48079985312237,
+            368.62905762537474,
+            36.48079985312237,
+            1324.1803473020868,
+            10.436127751202603,
+            1324.1803473020868
+          ],
+          "text": "Published on 21 March 2021. Downloaded by University of Hong Kong Libraries on 12/06/2013 18:10:06.",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "rotate270"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                9.425109297868795,
+                366.7902982747594,
+                38.33819073283297,
+                366.7902982747594,
+                38.33819073283297,
+                1327.7018083022183,
+                9.425109297868795,
+                1327.7018083022183
+              ],
+              "text": "Published on 21 March 2021. Downloaded by University of Hong Kong Libraries on 12/06/2013 18:10:06."
+            }
+          ]
+        },
+        {
+          "gt_id": "1",
+          "label": "page_number",
+          "eval_label": "abandon",
+          "bbox": [
+            116.38937903738054,
+            2080.9591334379234,
+            169.58033007176067,
+            2108.3605324556343
+          ],
+          "polygon": [
+            116.38937903738054,
+            2080.9591334379234,
+            169.58033007176067,
+            2080.9591334379234,
+            169.58033007176067,
+            2108.3605324556343,
+            116.38937903738054,
+            2108.3605324556343
+          ],
+          "text": "1716",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.43263697280067,
+                2083.7988333409285,
+                169.98505519397455,
+                2083.7988333409285,
+                169.98505519397455,
+                2106.425568963934,
+                117.43263697280067,
+                2106.425568963934
+              ],
+              "text": "1716"
+            }
+          ]
+        },
+        {
+          "gt_id": "9",
+          "label": "footer",
+          "eval_label": "abandon",
+          "bbox": [
+            974.7567847368041,
+            2083.0711414036496,
+            1539.4559402394616,
+            2109.509472711886
+          ],
+          "polygon": [
+            974.7567847368041,
+            2083.0711414036496,
+            1539.4559402394616,
+            2083.0711414036496,
+            1539.4559402394616,
+            2109.509472711886,
+            974.7567847368041,
+            2109.509472711886
+          ],
+          "text": "This journal is $ \\copyright $ The Royal Society of Chemistry 2012",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                971.074934947686,
+                2082.6152530564823,
+                1122.1631373335608,
+                2082.6152530564823,
+                1122.1631373335608,
+                2108.891462167069,
+                971.074934947686,
+                2108.891462167069
+              ],
+              "text": "This journal is"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                1127.023827367976,
+                2083.1973782522887,
+                1150.6651834350112,
+                2083.1973782522887,
+                1150.6651834350112,
+                2103.254990444071,
+                1127.023827367976,
+                2103.254990444071
+              ],
+              "latex": "$ \\copyright $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1152.8187146292453,
+                2083.3451477539984,
+                1538.9330096153697,
+                2083.3451477539984,
+                1538.9330096153697,
+                2108.891462167069,
+                1152.8187146292453,
+                2108.891462167069
+              ],
+              "text": "The Royal Society of Chemistry 2012"
+            }
+          ]
+        },
+        {
+          "gt_id": "7",
+          "label": "footer",
+          "eval_label": "abandon",
+          "bbox": [
+            190.1098277359964,
+            2083.6411203447215,
+            557.4472054583055,
+            2101.9000172990495
+          ],
+          "polygon": [
+            190.1098277359964,
+            2083.6411203447215,
+            557.4472054583055,
+            2083.6411203447215,
+            557.4472054583055,
+            2101.9000172990495,
+            190.1098277359964,
+            2101.9000172990495
+          ],
+          "text": "Green Chem.,2012,14,1710-120",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                193.34168551449673,
+                2079.367178841575,
+                562.5941018174549,
+                2079.367178841575,
+                562.5941018174549,
+                2110.8049371490315,
+                193.34168551449673,
+                2110.8049371490315
+              ],
+              "text": "Green Chem.,2012,14,1710-120"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extra": {
+    "relation": []
+  }
+}

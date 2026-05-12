@@ -1,0 +1,2312 @@
+{
+  "sample_id": "newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1",
+  "dataset_name": "omnidocbench_v15_english",
+  "input_pdf_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\examples\\pdfs\\newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1.pdf",
+  "input_image_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\evaluation_data_omni\\omnidocbench_v15_english\\images\\newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1.jpg",
+  "page_info": {
+    "page_attribute": {
+      "data_source": "newspaper",
+      "language": "english",
+      "layout": "other_layout",
+      "special_issue": []
+    },
+    "page_no": 1,
+    "height": 792,
+    "width": 612,
+    "image_path": "newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1.jpg"
+  },
+  "pages": [
+    {
+      "page_num": 2,
+      "omni_page_no": 1,
+      "width": 612,
+      "height": 792,
+      "coordinate_space": "image_pixels",
+      "blocks": [
+        {
+          "gt_id": "2",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            43.415782765531304,
+            58.12527422833483,
+            213.56205725766577,
+            266.3659837849932
+          ],
+          "polygon": [
+            43.415782765531304,
+            58.12527422833483,
+            213.56205725766577,
+            58.12527422833483,
+            213.56205725766577,
+            266.3659837849932,
+            43.415782765531304,
+            266.3659837849932
+          ],
+          "text": "the Interior's manual at 512 DM 2. we readily acknowledge our responsibility to communicate meaningfully with recognized Federal Tribes on a govermment-to-govermment basis.In accordance with Secretarial Order 3206 of June 5.1997 (American Indian Triha Rights, Federal-Tribal Trust Responsibilities, and the Endangered Species Act),we readilv acknowledge our responsibilities to work directly with tribes in developing programs for healthy ecosystems, to acknowlledge thal tribal lands are not subject to the same controls as Federal publie lands, to remain sensitive to Indian culture, and to make information available to tribes. The Suwannee moccasinshell is not known to oocur within any tribal lands or walers.",
+          "latex": null,
+          "html": null,
+          "reading_order": 1,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.36190221437258,
+                60.00000000000006,
+                201.117004251196,
+                60.00000000000006,
+                201.117004251196,
+                68,
+                44.36190221437258,
+                68
+              ],
+              "text": "the Interior's manual at 512 DM 2. we"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                69.33333333333333,
+                205.33333333333331,
+                69.33333333333333,
+                205.33333333333331,
+                80,
+                44,
+                80
+              ],
+              "text": "readily acknowledge our responsibility"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999992,
+                80.00000000000006,
+                190.2574651377166,
+                80.00000000000006,
+                190.2574651377166,
+                89.33333333333331,
+                43.99999999999992,
+                89.33333333333331
+              ],
+              "text": "to communicate meaningfully with"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999992,
+                90.66666666666669,
+                171.99999999999991,
+                90.66666666666669,
+                171.99999999999991,
+                100.9769961776251,
+                43.99999999999992,
+                100.9769961776251
+              ],
+              "text": "recognized Federal Tribes on a"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999993,
+                102.66666666666669,
+                193.84826360876667,
+                102.66666666666669,
+                193.84826360876667,
+                111.87469579538754,
+                43.99999999999993,
+                111.87469579538754
+              ],
+              "text": "govermment-to-govermment basis.In"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                112,
+                208,
+                112,
+                208,
+                120,
+                44,
+                120
+              ],
+              "text": "accordance with Secretarial Order 3206"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.999999999999936,
+                121.39868275849466,
+                209.05403076178408,
+                121.39868275849466,
+                209.05403076178408,
+                129.33333333333331,
+                43.999999999999936,
+                129.33333333333331
+              ],
+              "text": "of June 5.1997 (American Indian Triha"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.999999999999936,
+                132.00000000000006,
+                160.36525680063735,
+                132.00000000000006,
+                160.36525680063735,
+                141.33333333333337,
+                43.999999999999936,
+                141.33333333333337
+              ],
+              "text": "Rights, Federal-Tribal Trust"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                142.66666666666666,
+                198.66666666666666,
+                142.66666666666666,
+                198.66666666666666,
+                152,
+                44,
+                152
+              ],
+              "text": "Responsibilities, and the Endangered"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999994,
+                153.33333333333337,
+                201.92564266001284,
+                153.33333333333337,
+                201.92564266001284,
+                162.98388418477288,
+                43.99999999999994,
+                162.98388418477288
+              ],
+              "text": "Species Act),we readilv acknowledge"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999994,
+                164.00000000000006,
+                191.99999999999994,
+                164.00000000000006,
+                191.99999999999994,
+                173.05731841061046,
+                43.99999999999994,
+                173.05731841061046
+              ],
+              "text": "our responsibilities to work directly"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                173.33333333333331,
+                204,
+                173.33333333333331,
+                204,
+                184,
+                44,
+                184
+              ],
+              "text": "with tribes in developing programs for"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                182.66666666666666,
+                212,
+                182.66666666666666,
+                212,
+                193.33333333333331,
+                44,
+                193.33333333333331
+              ],
+              "text": "healthy ecosystems, to acknowlledge thal"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                193.33333333333331,
+                204,
+                193.33333333333331,
+                204,
+                204,
+                44,
+                204
+              ],
+              "text": "tribal lands are not subject to the same"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                205.33333333333331,
+                190.66666666666666,
+                205.33333333333331,
+                190.66666666666666,
+                214.66666666666666,
+                44,
+                214.66666666666666
+              ],
+              "text": "controls as Federal publie lands, to"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                214.66666666666666,
+                205.33333333333331,
+                214.66666666666666,
+                205.33333333333331,
+                224,
+                44,
+                224
+              ],
+              "text": "remain sensitive to Indian culture, and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                45.33333333333327,
+                226.6666666666667,
+                206.92298342756374,
+                226.6666666666667,
+                206.92298342756374,
+                234.71021295326307,
+                45.33333333333327,
+                234.71021295326307
+              ],
+              "text": "to make information available to tribes."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999996,
+                236.00000000000006,
+                193.3333333333333,
+                236.00000000000006,
+                193.3333333333333,
+                245.33333333333331,
+                43.99999999999996,
+                245.33333333333331
+              ],
+              "text": "The Suwannee moccasinshell is not"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.999999999999964,
+                246.6666666666667,
+                205.3333333333333,
+                246.6666666666667,
+                205.3333333333333,
+                255.59195423474637,
+                43.999999999999964,
+                255.59195423474637
+              ],
+              "text": "known to oocur within any tribal lands"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.999999999999964,
+                258.6666666666667,
+                85.39280189329023,
+                258.6666666666667,
+                85.39280189329023,
+                265.33333333333337,
+                43.999999999999964,
+                265.33333333333337
+              ],
+              "text": "or walers."
+            }
+          ]
+        },
+        {
+          "gt_id": "20",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            221.54351115699293,
+            59.501866217534314,
+            293.3282051934798,
+            69.67378642513364
+          ],
+          "polygon": [
+            221.54351115699293,
+            59.501866217534314,
+            293.3282051934798,
+            59.501866217534314,
+            293.3282051934798,
+            69.67378642513364,
+            221.54351115699293,
+            69.67378642513364
+          ],
+          "text": "References Cited",
+          "latex": null,
+          "html": null,
+          "reading_order": 2,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                58.666666666666664,
+                292,
+                58.666666666666664,
+                292,
+                68,
+                220,
+                68
+              ],
+              "text": "References Cited"
+            }
+          ]
+        },
+        {
+          "gt_id": "3",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            218.30592825648029,
+            74.24834783862411,
+            389.53107613968876,
+            137.0542934761125
+          ],
+          "polygon": [
+            218.30592825648029,
+            74.24834783862411,
+            389.53107613968876,
+            74.24834783862411,
+            389.53107613968876,
+            137.0542934761125,
+            218.30592825648029,
+            137.0542934761125
+          ],
+          "text": "A complete list of references cited in this rulemaking is available on the Internet at http://www.regulotions.gov and upon request from the Panama City Ecological Servioes Field Office (see FOR FURTHER INFORMATION CONTACT).",
+          "latex": null,
+          "html": null,
+          "reading_order": 3,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                229.33333333333331,
+                76,
+                382.66666666666663,
+                76,
+                382.66666666666663,
+                85.33333333333333,
+                229.33333333333331,
+                85.33333333333333
+              ],
+              "text": "A complete list of references cited in"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                86.66666666666666,
+                364,
+                86.66666666666666,
+                364,
+                97.33333333333333,
+                221.33333333333331,
+                97.33333333333333
+              ],
+              "text": "this rulemaking is available on the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333323,
+                96,
+                379.99999999999994,
+                96,
+                379.99999999999994,
+                108,
+                221.33333333333323,
+                108
+              ],
+              "text": "Internet at http://www.regulotions.gov"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                108,
+                385.3333333333333,
+                108,
+                385.3333333333333,
+                117.33333333333333,
+                221.33333333333331,
+                117.33333333333333
+              ],
+              "text": "and upon request from the Panama City"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                117.33333333333333,
+                389.3333333333333,
+                117.33333333333333,
+                389.3333333333333,
+                128,
+                220,
+                128
+              ],
+              "text": "Ecological Servioes Field Office (see FOR"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                128,
+                350.66666666666663,
+                128,
+                350.66666666666663,
+                137.33333333333331,
+                220,
+                137.33333333333331
+              ],
+              "text": "FURTHER INFORMATION CONTACT)."
+            }
+          ]
+        },
+        {
+          "gt_id": "24",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            221.54351115699296,
+            143.78349079478605,
+            256.70929244612216,
+            153.95541100238538
+          ],
+          "polygon": [
+            221.54351115699296,
+            143.78349079478605,
+            256.70929244612216,
+            143.78349079478605,
+            256.70929244612216,
+            153.95541100238538,
+            221.54351115699296,
+            153.95541100238538
+          ],
+          "text": "Authors",
+          "latex": null,
+          "html": null,
+          "reading_order": 4,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                142.66666666666666,
+                256,
+                142.66666666666666,
+                256,
+                153.33333333333331,
+                220,
+                153.33333333333331
+              ],
+              "text": "Authors"
+            }
+          ]
+        },
+        {
+          "gt_id": "9",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            221.26716393972237,
+            160.84419005511026,
+            384.7958864196925,
+            193.38921836193475
+          ],
+          "polygon": [
+            221.26716393972237,
+            160.84419005511026,
+            384.7958864196925,
+            160.84419005511026,
+            384.7958864196925,
+            193.38921836193475,
+            221.26716393972237,
+            193.38921836193475
+          ],
+          "text": "The primary authors of this final rule are the staff members of the Panama City Ecological Services Field Office.",
+          "latex": null,
+          "html": null,
+          "reading_order": 5,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                229.33333333333331,
+                161.33333333333331,
+                384,
+                161.33333333333331,
+                384,
+                170.66666666666666,
+                229.33333333333331,
+                170.66666666666666
+              ],
+              "text": "The primary authors of this final rule"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                172,
+                370.66666666666663,
+                172,
+                370.66666666666663,
+                181.33333333333331,
+                221.33333333333331,
+                181.33333333333331
+              ],
+              "text": "are the staff members of the Panama"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                181.33333333333331,
+                373.3333333333333,
+                181.33333333333331,
+                373.3333333333333,
+                192,
+                221.33333333333331,
+                192
+              ],
+              "text": "City Ecological Services Field Office."
+            }
+          ]
+        },
+        {
+          "gt_id": "19",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            220.45244342401008,
+            196.56178068818767,
+            362.9861139264572,
+            208.327531790984
+          ],
+          "polygon": [
+            220.45244342401008,
+            196.56178068818767,
+            362.9861139264572,
+            196.56178068818767,
+            362.9861139264572,
+            208.327531790984,
+            220.45244342401008,
+            208.327531790984
+          ],
+          "text": "List of Subjects in 50 CFR Part 17",
+          "latex": null,
+          "html": null,
+          "reading_order": 6,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                197.33333333333331,
+                361.3333333333333,
+                197.33333333333331,
+                361.3333333333333,
+                208,
+                221.33333333333331,
+                208
+              ],
+              "text": "List of Subjects in 50 CFR Part 17"
+            }
+          ]
+        },
+        {
+          "gt_id": "14",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            220.75714809318663,
+            214.70578106572103,
+            377.4861989950014,
+            260.13891060729765
+          ],
+          "polygon": [
+            220.75714809318663,
+            214.70578106572103,
+            377.4861989950014,
+            214.70578106572103,
+            377.4861989950014,
+            260.13891060729765,
+            220.75714809318663,
+            260.13891060729765
+          ],
+          "text": "Endangered and threatened species. Exports, Imports, Reporting and recordkeeping requirements, Transportation.",
+          "latex": null,
+          "html": null,
+          "reading_order": 7,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                229.33333333333326,
+                214.66666666666666,
+                379.7758991559745,
+                214.66666666666666,
+                379.7758991559745,
+                225.33333333333331,
+                229.33333333333326,
+                225.33333333333331
+              ],
+              "text": "Endangered and threatened species."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.83118033196294,
+                225.74042763710688,
+                354.32977136561044,
+                225.74042763710688,
+                354.32977136561044,
+                235.07376097044022,
+                221.83118033196294,
+                235.07376097044022
+              ],
+              "text": "Exports, Imports, Reporting and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                236,
+                340,
+                236,
+                340,
+                246.66666666666666,
+                220,
+                246.66666666666666
+              ],
+              "text": "recordkeeping requirements,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.3333333333333,
+                247.6218180006568,
+                285.33333333333326,
+                247.6218180006568,
+                285.33333333333326,
+                256,
+                221.3333333333333,
+                256
+              ],
+              "text": "Transportation."
+            }
+          ]
+        },
+        {
+          "gt_id": "6",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            396.32835974641716,
+            57.824801835428616,
+            509.01156888136705,
+            70.54709964098743
+          ],
+          "polygon": [
+            396.32835974641716,
+            57.824801835428616,
+            509.01156888136705,
+            57.824801835428616,
+            509.01156888136705,
+            70.54709964098743,
+            396.32835974641716,
+            70.54709964098743
+          ],
+          "text": "Regulation Promulgation",
+          "latex": null,
+          "html": null,
+          "reading_order": 8,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                58.666666666666664,
+                504,
+                58.666666666666664,
+                504,
+                69.33333333333333,
+                397.3333333333333,
+                69.33333333333333
+              ],
+              "text": "Regulation Promulgation"
+            }
+          ]
+        },
+        {
+          "gt_id": "7",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.05534819244906,
+            74.54553609416314,
+            563.8991965567781,
+            102.53459126639257
+          ],
+          "polygon": [
+            397.05534819244906,
+            74.54553609416314,
+            563.8991965567781,
+            74.54553609416314,
+            563.8991965567781,
+            102.53459126639257,
+            397.05534819244906,
+            102.53459126639257
+          ],
+          "text": "Aceordingly, we amend part 17 , subchapter B of chapter I,title 50 of the Code of Federal Regulations,as follows:",
+          "latex": null,
+          "html": null,
+          "reading_order": 9,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                407.99999999999994,
+                73.33333333333331,
+                541.5186018331742,
+                73.33333333333331,
+                541.5186018331742,
+                82.66666666666657,
+                407.99999999999994,
+                82.66666666666657
+              ],
+              "text": "Aceordingly, we amend part 17 ,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.6666666666666,
+                84,
+                562.3923136342092,
+                84,
+                562.3923136342092,
+                91.99999999999994,
+                398.6666666666666,
+                91.99999999999994
+              ],
+              "text": "subchapter B of chapter I,title 50 of the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.6666666666666,
+                93.33333333333331,
+                563.9548355466254,
+                93.33333333333331,
+                563.9548355466254,
+                103.62818463285197,
+                398.6666666666666,
+                103.62818463285197
+              ],
+              "text": "Code of Federal Regulations,as follows:"
+            }
+          ]
+        },
+        {
+          "gt_id": "21",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            398.4756632639416,
+            110.57058466604855,
+            567.1603291329882,
+            133.50856695148252
+          ],
+          "polygon": [
+            398.4756632639416,
+            110.57058466604855,
+            567.1603291329882,
+            110.57058466604855,
+            567.1603291329882,
+            133.50856695148252,
+            398.4756632639416,
+            133.50856695148252
+          ],
+          "text": "PART 17——ENDANGERED AND THREATENED WILDLIFE AND PLANTS",
+          "latex": null,
+          "html": null,
+          "reading_order": 10,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.33333333333326,
+                110.66666666666663,
+                531.1692143729481,
+                110.66666666666663,
+                531.1692143729481,
+                118.66666666666657,
+                397.33333333333326,
+                118.66666666666657
+              ],
+              "text": "PART 17——ENDANGERED AND"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.6666666666666,
+                121.33333333333331,
+                566.3281269369709,
+                121.33333333333331,
+                566.3281269369709,
+                129.33333333333326,
+                398.6666666666666,
+                129.33333333333326
+              ],
+              "text": "THREATENED WILDLIFE AND PLANTS"
+            }
+          ]
+        },
+        {
+          "gt_id": "25",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            393.87841753834005,
+            137.07232078631114,
+            568.8921864841542,
+            236.42037378613819
+          ],
+          "polygon": [
+            393.87841753834005,
+            137.07232078631114,
+            568.8921864841542,
+            137.07232078631114,
+            568.8921864841542,
+            236.42037378613819,
+            393.87841753834005,
+            236.42037378613819
+          ],
+          "text": "\t 1. The authority citation for part 17 continues to read as follows: Authority: 16 U.S.C. 1361-1407: 15311544; 4201-4245; unless ofherwise noted.\n/t2. Amend § 17.11[h] by adding an entry for \"Moccasinshell. Suwannee\" to the List of Endangered and Threatened Wildlife in alphabetical order under CLAMS to read as set forth below:",
+          "latex": null,
+          "html": null,
+          "reading_order": 11,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "23",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.91188679090783,
+            238.98570120063408,
+            542.5337815510095,
+            259.38109661552016
+          ],
+          "polygon": [
+            397.91188679090783,
+            238.98570120063408,
+            542.5337815510095,
+            238.98570120063408,
+            542.5337815510095,
+            259.38109661552016,
+            397.91188679090783,
+            259.38109661552016
+          ],
+          "text": "17.11 Endangered and threatened wildlife.",
+          "latex": null,
+          "html": null,
+          "reading_order": 14,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                404.97070523596665,
+                242.96826571330075,
+                424.80855218486573,
+                242.96826571330075,
+                424.80855218486573,
+                250.44339644766845,
+                404.97070523596665,
+                250.44339644766845
+              ],
+              "text": "17.11"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                433.1575264229033,
+                242.13082102399474,
+                539.8218919017663,
+                242.13082102399474,
+                539.8218919017663,
+                251.9059919843218,
+                433.1575264229033,
+                251.9059919843218
+              ],
+              "text": "Endangered and threatened"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.7944079487789,
+                251.04347689958712,
+                429.4199610557194,
+                251.04347689958712,
+                429.4199610557194,
+                259.95613277517936,
+                397.7944079487789,
+                259.95613277517936
+              ],
+              "text": "wildlife."
+            }
+          ]
+        },
+        {
+          "gt_id": "11",
+          "label": "table",
+          "eval_label": "table",
+          "bbox": [
+            41.960034657499904,
+            287.5137612808431,
+            569.9849434983515,
+            395.1675120245836
+          ],
+          "polygon": [
+            41.960034657499904,
+            287.5137612808431,
+            569.9849434983515,
+            287.5137612808431,
+            569.9849434983515,
+            395.1675120245836,
+            41.960034657499904,
+            395.1675120245836
+          ],
+          "text": null,
+          "latex": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|} \\hline\n\\multicolumn{2}{|c|}{Common name} & \\multicolumn{2}{c|}{Scientific name} & \\multicolumn{2}{c|}{Where listed} & \\multicolumn{2}{c|}{Status} & \\multicolumn{2}{c|}{Listing citations and applicable rules} \\\\ \\hline\n\\multirow{2}{*}{CLAMS} & $\\cdot$ & $\\cdot$ & $\\cdot$ & & $\\cdot$ & & $\\cdot$ & $\\cdot$ & $\\cdot$ \\\\ \\cline{2-10} \n & $\\cdot$ & $\\cdot$ & $\\cdot$ & & $\\cdot$ & & $\\cdot$ & $\\cdot$ & $\\cdot$ \\\\ \\hline\n\\multicolumn{2}{|l|}{Moccasinshell, Suwan- nee.} & \\multicolumn{2}{l|}{Medionidus walkeri ......} & \\multicolumn{2}{l|}{Wherever found ......} & T & & \\multicolumn{2}{l|}{81 FR [Insert Federal Register page where the document begins]: October 6, 2016.} \\\\ \\hline\n\\multicolumn{2}{|l|}{$\\cdot$} & $\\cdot$ & $\\cdot$ & & $\\cdot$ & & $\\cdot$ & $\\cdot$ & $\\cdot$ \\\\ \\hline\n\\end{tabular}\n",
+          "html": "<table>\n<thead>\n<tr>\n <th colspan=\"2\">Common name</th>\n <th colspan=\"2\">Scientific name</th>\n <th colspan=\"2\">Where listed</th>\n <th colspan=\"2\">Status</th>\n <th colspan=\"2\">Listing citations and applicable rules</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td rowspan=\"2\">CLAMS</td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n <td></td>\n <td>$\\cdot$</td>\n <td></td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n</tr>\n<tr>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n <td></td>\n <td>$\\cdot$</td>\n <td></td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n</tr>\n<tr>\n <td colspan=\"2\">Moccasinshell, Suwan- nee.</td>\n <td colspan=\"2\">Medionidus walkeri ......</td>\n <td colspan=\"2\">Wherever found ......</td>\n <td>T</td>\n <td></td>\n <td colspan=\"2\">81 FR [Insert Federal Register page where the document begins]: October 6, 2016.</td>\n</tr>\n<tr>\n <td colspan=\"2\">$\\cdot$</td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n <td></td>\n <td>$\\cdot$</td>\n <td></td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n <td>$\\cdot$</td>\n</tr>\n</tbody>\n</table>",
+          "reading_order": 15,
+          "attribute": {
+            "table_layout": "horizontal",
+            "with_span": false,
+            "line": "fewer_line",
+            "language": "table_en",
+            "include_equation": false,
+            "include_photo": false,
+            "include_background": false,
+            "with_structured_text": false
+          },
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "1",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            50.806958286510344,
+            412.30069372151655,
+            155.46081724969585,
+            422.4464522021272
+          ],
+          "polygon": [
+            50.806958286510344,
+            412.30069372151655,
+            155.46081724969585,
+            412.30069372151655,
+            155.46081724969585,
+            422.4464522021272,
+            50.806958286510344,
+            422.4464522021272
+          ],
+          "text": "Dated: Septemher 26, 2016.",
+          "latex": null,
+          "html": null,
+          "reading_order": 16,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                52.00000000000001,
+                412.00000000000006,
+                154.16179569522868,
+                412.00000000000006,
+                154.16179569522868,
+                421.33333333333337,
+                52.00000000000001,
+                421.33333333333337
+              ],
+              "text": "Dated: Septemher 26, 2016."
+            }
+          ]
+        },
+        {
+          "gt_id": "29",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            43.95078917655395,
+            422.8856768350615,
+            109.17614128922999,
+            432.9560993702727
+          ],
+          "polygon": [
+            43.95078917655395,
+            422.8856768350615,
+            109.17614128922999,
+            422.8856768350615,
+            109.17614128922999,
+            432.9560993702727,
+            43.95078917655395,
+            432.9560993702727
+          ],
+          "text": "Stephen Guertin,",
+          "latex": null,
+          "html": null,
+          "reading_order": 17,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                422.66666666666663,
+                108,
+                422.66666666666663,
+                108,
+                433.3333333333333,
+                44,
+                433.3333333333333
+              ],
+              "text": "Stephen Guertin,"
+            }
+          ]
+        },
+        {
+          "gt_id": "27",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            43.64093002162435,
+            434.8152542998502,
+            185.8662821343004,
+            452.32229655337136
+          ],
+          "polygon": [
+            43.64093002162435,
+            434.8152542998502,
+            185.8662821343004,
+            434.8152542998502,
+            185.8662821343004,
+            452.32229655337136,
+            43.64093002162435,
+            452.32229655337136
+          ],
+          "text": "Acting Director, U.S. Fish ana Wildlife Senvice.",
+          "latex": null,
+          "html": null,
+          "reading_order": 18,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                45.33333333333332,
+                434.6666666666667,
+                185.16443967905533,
+                434.6666666666667,
+                185.16443967905533,
+                442.6666666666667,
+                45.33333333333332,
+                442.6666666666667
+              ],
+              "text": "Acting Director, U.S. Fish ana Wildlife"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                444,
+                73.33333333333333,
+                444,
+                73.33333333333333,
+                452,
+                44,
+                452
+              ],
+              "text": "Senvice."
+            }
+          ]
+        },
+        {
+          "gt_id": "26",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            43.64093002162436,
+            454.33638106041354,
+            193.3029018526103,
+            464.09694444069515
+          ],
+          "polygon": [
+            43.64093002162436,
+            454.33638106041354,
+            193.3029018526103,
+            454.33638106041354,
+            193.3029018526103,
+            464.09694444069515,
+            43.64093002162436,
+            464.09694444069515
+          ],
+          "text": "[FR Doc. 2016-24138 Filed 10-5-16:6:45 am]",
+          "latex": null,
+          "html": null,
+          "reading_order": 19,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.000000000000014,
+                454.6666666666667,
+                193.36233796522805,
+                454.6666666666667,
+                193.36233796522805,
+                462.66666666666663,
+                44.000000000000014,
+                462.66666666666663
+              ],
+              "text": "[FR Doc. 2016-24138 Filed 10-5-16:6:45 am]"
+            }
+          ]
+        },
+        {
+          "gt_id": "30",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            43.950789176553954,
+            466.1110289477375,
+            122.8099441061314,
+            474.6321557083009
+          ],
+          "polygon": [
+            43.950789176553954,
+            466.1110289477375,
+            122.8099441061314,
+            466.1110289477375,
+            122.8099441061314,
+            474.6321557083009,
+            43.950789176553954,
+            474.6321557083009
+          ],
+          "text": "BILLING COOE 4333-16-P",
+          "latex": null,
+          "html": null,
+          "reading_order": 20,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                466.66666666666663,
+                122.66666666666666,
+                466.66666666666663,
+                122.66666666666666,
+                474.66666666666663,
+                44,
+                474.66666666666663
+              ],
+              "text": "BILLING COOE 4333-16-P"
+            }
+          ]
+        },
+        {
+          "gt_id": "16",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            43.14874923613595,
+            491.93768771311494,
+            205.10701340313238,
+            602.030163355333
+          ],
+          "polygon": [
+            43.14874923613595,
+            491.93768771311494,
+            205.10701340313238,
+            491.93768771311494,
+            205.10701340313238,
+            602.030163355333,
+            43.14874923613595,
+            602.030163355333
+          ],
+          "text": "DEPARTMENT OF THE INTERIOR Fish and Wildlite Servlce 50 CFR Part 17 [4500090022] Endangered and Threatened Wildlife and Plants; 12-Month Findings on Petitions To List 10 Species as Endangered or Threatened Specles",
+          "latex": null,
+          "html": null,
+          "reading_order": 21,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                45.333333333333336,
+                493.33333333333337,
+                189.63768547049975,
+                493.33333333333337,
+                189.63768547049975,
+                501.33333333333337,
+                45.333333333333336,
+                501.33333333333337
+              ],
+              "text": "DEPARTMENT OF THE INTERIOR"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                510.66666666666663,
+                150.66666666666666,
+                510.66666666666663,
+                150.66666666666666,
+                518.6666666666666,
+                44,
+                518.6666666666666
+              ],
+              "text": "Fish and Wildlite Servlce"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                529.3333333333333,
+                109.33333333333333,
+                529.3333333333333,
+                109.33333333333333,
+                538.6666666666666,
+                44,
+                538.6666666666666
+              ],
+              "text": "50 CFR Part 17"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.000000000000036,
+                546.6666666666667,
+                94.6666666666667,
+                546.6666666666667,
+                94.6666666666667,
+                555.4417933989421,
+                44.000000000000036,
+                555.4417933989421
+              ],
+              "text": "[4500090022]"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                561.3333333333333,
+                200,
+                561.3333333333333,
+                200,
+                572,
+                44,
+                572
+              ],
+              "text": "Endangered and Threatened Wildlife"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                570.6666666666666,
+                189.33333333333331,
+                570.6666666666666,
+                189.33333333333331,
+                581.3333333333333,
+                44,
+                581.3333333333333
+              ],
+              "text": "and Plants; 12-Month Findings on"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.00000000000004,
+                582.6666666666667,
+                176.00000000000006,
+                582.6666666666667,
+                176.00000000000006,
+                591.3970362284051,
+                44.00000000000004,
+                591.3970362284051
+              ],
+              "text": "Petitions To List 10 Species as"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.00000000000005,
+                590.6666666666667,
+                196.0128879082963,
+                590.6666666666667,
+                196.0128879082963,
+                601.3333333333333,
+                44.00000000000005,
+                601.3333333333333
+              ],
+              "text": "Endangered or Threatened Specles"
+            }
+          ]
+        },
+        {
+          "gt_id": "10",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            42.59067603277679,
+            603.8503633337546,
+            202.3912451984937,
+            626.7143371979581
+          ],
+          "polygon": [
+            42.59067603277679,
+            603.8503633337546,
+            202.3912451984937,
+            603.8503633337546,
+            202.3912451984937,
+            626.7143371979581,
+            42.59067603277679,
+            626.7143371979581
+          ],
+          "text": "AGENCY: Fish and Wildlife Service. Interior.",
+          "latex": null,
+          "html": null,
+          "reading_order": 22,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                42.666666666666664,
+                606.6666666666666,
+                188,
+                606.6666666666666,
+                188,
+                616,
+                42.666666666666664,
+                616
+              ],
+              "text": "AGENCY: Fish and Wildlife Service."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                617.3333333333333,
+                78.66666666666666,
+                617.3333333333333,
+                78.66666666666666,
+                626.6666666666666,
+                44,
+                626.6666666666666
+              ],
+              "text": "Interior."
+            }
+          ]
+        },
+        {
+          "gt_id": "12",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            219.87374557602323,
+            413.4383106022332,
+            374.9932769433566,
+            433.61377203806967
+          ],
+          "polygon": [
+            219.87374557602323,
+            413.4383106022332,
+            374.9932769433566,
+            413.4383106022332,
+            374.9932769433566,
+            433.61377203806967,
+            219.87374557602323,
+            433.61377203806967
+          ],
+          "text": "ACTON: Notice of 12-month petition findings.",
+          "latex": null,
+          "html": null,
+          "reading_order": 23,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                413.3333333333333,
+                369.9218619079616,
+                413.3333333333333,
+                369.9218619079616,
+                424.0239400044796,
+                221.33333333333331,
+                424.0239400044796
+              ],
+              "text": "ACTON: Notice of 12-month petition"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                421.3333333333333,
+                258.66666666666663,
+                421.3333333333333,
+                258.66666666666663,
+                433.3333333333333,
+                220,
+                433.3333333333333
+              ],
+              "text": "findings."
+            }
+          ]
+        },
+        {
+          "gt_id": "15",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            218.3955933166627,
+            443.42015496028654,
+            389.1378637080168,
+            626.8622636452125
+          ],
+          "polygon": [
+            218.3955933166627,
+            443.42015496028654,
+            389.1378637080168,
+            443.42015496028654,
+            389.1378637080168,
+            626.8622636452125,
+            218.3955933166627,
+            626.8622636452125
+          ],
+          "text": "SUWHARY: We, the U.S. Fish and Wildlife Service (Service),announce 12month findings on petitions to list 10 species as endangered or threalened species under the Endangered Species Act of 1973, as amended (Act). After a review of the best available scientific and commercial information, we find that listingthe Huachuca-Canelo population of the Arizona treefrog, the Arkansas darter, black mudalia. Highlands tiger beetle, Dichanthelfum =(panicum) hirstii (Hirst Brothers\" panic grass). two Kentueky cave beetles (Louisville cave beelle and Tatum Gave beetle), relict leopard frog, sicklefin redhorse sucker, and Stephan's riffle beetle is not warranted at this time.",
+          "latex": null,
+          "html": null,
+          "reading_order": 24,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                445.3333333333333,
+                354.66666666666663,
+                445.3333333333333,
+                354.66666666666663,
+                453.3333333333333,
+                221.33333333333331,
+                453.3333333333333
+              ],
+              "text": "SUWHARY: We, the U.S. Fish and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666669,
+                454.66666666666663,
+                389.4903715729316,
+                454.66666666666663,
+                389.4903715729316,
+                464,
+                222.66666666666669,
+                464
+              ],
+              "text": "Wildlife Service (Service),announce 12-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                464,
+                376,
+                464,
+                376,
+                474.66666666666663,
+                221.33333333333331,
+                474.66666666666663
+              ],
+              "text": "month findings on petitions to list 10"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                476,
+                370.66666666666663,
+                476,
+                370.66666666666663,
+                484,
+                221.33333333333331,
+                484
+              ],
+              "text": "species as endangered or threalened"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333334,
+                485.3333333333333,
+                381.4448475047429,
+                485.3333333333333,
+                381.4448475047429,
+                494.66666666666663,
+                221.33333333333334,
+                494.66666666666663
+              ],
+              "text": "species under the Endangered Species"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666666,
+                496,
+                380,
+                496,
+                380,
+                505.3333333333333,
+                222.66666666666666,
+                505.3333333333333
+              ],
+              "text": "Act of 1973, as amended (Act). After a"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                506.66666666666663,
+                374.66666666666663,
+                506.66666666666663,
+                374.66666666666663,
+                514.6666666666666,
+                221.33333333333331,
+                514.6666666666666
+              ],
+              "text": "review of the best available scientific"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666669,
+                517.3333333333333,
+                376.4644244315226,
+                517.3333333333333,
+                376.4644244315226,
+                525.3333333333333,
+                222.66666666666669,
+                525.3333333333333
+              ],
+              "text": "and commercial information, we find"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666669,
+                526.6666666666666,
+                357.8069143149715,
+                526.6666666666666,
+                357.8069143149715,
+                536.8044470695351,
+                222.66666666666669,
+                536.8044470695351
+              ],
+              "text": "that listingthe Huachuca-Canelo"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                536,
+                380,
+                536,
+                380,
+                545.3333333333333,
+                221.33333333333331,
+                545.3333333333333
+              ],
+              "text": "population of the Arizona treefrog, the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666669,
+                548,
+                353.53366039150166,
+                548,
+                353.53366039150166,
+                556,
+                222.66666666666669,
+                556
+              ],
+              "text": "Arkansas darter, black mudalia."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333334,
+                557.3333333333333,
+                378.6666666666667,
+                557.3333333333333,
+                378.6666666666667,
+                566.8971480923341,
+                221.33333333333334,
+                566.8971480923341
+              ],
+              "text": "Highlands tiger beetle, Dichanthelfum"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333334,
+                566.6666666666666,
+                388.99178138778933,
+                566.6666666666666,
+                388.99178138778933,
+                577.3333333333333,
+                221.33333333333334,
+                577.3333333333333
+              ],
+              "text": "=(panicum) hirstii (Hirst Brothers\" panic"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                577.3333333333333,
+                360,
+                577.3333333333333,
+                360,
+                586.6666666666666,
+                221.33333333333331,
+                586.6666666666666
+              ],
+              "text": "grass). two Kentueky cave beetles"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220.84213218115246,
+                588,
+                384.00000000000006,
+                588,
+                384.00000000000006,
+                596,
+                220.84213218115246,
+                596
+              ],
+              "text": "(Louisville cave beelle and Tatum Gave"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220.00000000000006,
+                596,
+                369.09200371717424,
+                596,
+                369.09200371717424,
+                606.6666666666666,
+                220.00000000000006,
+                606.6666666666666
+              ],
+              "text": "beetle), relict leopard frog, sicklefin"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.6666666666667,
+                608,
+                373.35609678570677,
+                608,
+                373.35609678570677,
+                616,
+                222.6666666666667,
+                616
+              ],
+              "text": "redhorse sucker, and Stephan's riffle"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333337,
+                617.3333333333333,
+                367.86699006751,
+                617.3333333333333,
+                367.86699006751,
+                626.6666666666666,
+                221.33333333333337,
+                626.6666666666666
+              ],
+              "text": "beetle is not warranted at this time."
+            }
+          ]
+        },
+        {
+          "gt_id": "13",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.3935186531333,
+            410.8238092067893,
+            566.8449498178451,
+            465.42343021958493
+          ],
+          "polygon": [
+            397.3935186531333,
+            410.8238092067893,
+            566.8449498178451,
+            410.8238092067893,
+            566.8449498178451,
+            465.42343021958493,
+            397.3935186531333,
+            465.42343021958493
+          ],
+          "text": "However, we ask the public to submit to us at any time any new information that beoomes available concerning the stressors to any of the 10 species listed above or their habitats.",
+          "latex": null,
+          "html": null,
+          "reading_order": 25,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                413.3333333333333,
+                565.4453539268851,
+                413.3333333333333,
+                565.4453539268851,
+                422.6666666666666,
+                398.66666666666663,
+                422.6666666666666
+              ],
+              "text": "However, we ask the public to submit to"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                424,
+                564.3529129146991,
+                424,
+                564.3529129146991,
+                431.99999999999994,
+                397.3333333333333,
+                431.99999999999994
+              ],
+              "text": "us at any time any new information that"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                433.3333333333333,
+                538.6666666666666,
+                433.3333333333333,
+                538.6666666666666,
+                444,
+                397.3333333333333,
+                444
+              ],
+              "text": "beoomes available concerning the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                444,
+                558.7786872602184,
+                444,
+                558.7786872602184,
+                453.33333333333326,
+                397.3333333333333,
+                453.33333333333326
+              ],
+              "text": "stressors to any of the 10 species listed"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                454.66666666666663,
+                493.92713856918016,
+                454.66666666666663,
+                493.92713856918016,
+                463.99999999999994,
+                398.66666666666663,
+                463.99999999999994
+              ],
+              "text": "above or their habitats."
+            }
+          ]
+        },
+        {
+          "gt_id": "28",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.3405258269489,
+            469.5962711280845,
+            559.6108838500038,
+            500.52183771736327
+          ],
+          "polygon": [
+            397.3405258269489,
+            469.5962711280845,
+            559.6108838500038,
+            469.5962711280845,
+            559.6108838500038,
+            500.52183771736327,
+            397.3405258269489,
+            500.52183771736327
+          ],
+          "text": "DATES: The findings announced in this document were made on October 6, 2016.",
+          "latex": null,
+          "html": null,
+          "reading_order": 26,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                469.3333333333333,
+                558.6666666666666,
+                469.3333333333333,
+                558.6666666666666,
+                480,
+                397.3333333333333,
+                480
+              ],
+              "text": "DATES: The findings announced in this"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                481.3333333333333,
+                546.2343946456996,
+                481.3333333333333,
+                546.2343946456996,
+                489.33333333333326,
+                398.66666666666663,
+                489.33333333333326
+              ],
+              "text": "document were made on October 6,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                490.66666666666663,
+                421.3333333333333,
+                490.66666666666663,
+                421.3333333333333,
+                500,
+                397.3333333333333,
+                500
+              ],
+              "text": "2016."
+            }
+          ]
+        },
+        {
+          "gt_id": "17",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.77319153538366,
+            507.8124573076441,
+            567.2246227000956,
+            561.3234355701845
+          ],
+          "polygon": [
+            397.77319153538366,
+            507.8124573076441,
+            567.2246227000956,
+            507.8124573076441,
+            567.2246227000956,
+            561.3234355701845,
+            397.77319153538366,
+            561.3234355701845
+          ],
+          "text": "ADDRESSES: Detailed descriptions of the basis for each of these findings are available on the Internet at http:// www.regulafions.gov al the following docket numbers:",
+          "latex": null,
+          "html": null,
+          "reading_order": 27,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                508,
+                563.501364223661,
+                508,
+                563.501364223661,
+                517.3333333333333,
+                398.66666666666663,
+                517.3333333333333
+              ],
+              "text": "ADDRESSES: Detailed descriptions of the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.6666666666667,
+                517.3333333333333,
+                540,
+                517.3333333333333,
+                540,
+                527.9970677898464,
+                398.6666666666667,
+                527.9970677898464
+              ],
+              "text": "basis for each of these findings are"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                529.3333333333333,
+                538.6666666666666,
+                529.3333333333333,
+                538.6666666666666,
+                537.3333333333333,
+                398.66666666666663,
+                537.3333333333333
+              ],
+              "text": "available on the Internet at http://"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                538.6666666666666,
+                552,
+                538.6666666666666,
+                552,
+                549.3333333333333,
+                397.3333333333333,
+                549.3333333333333
+              ],
+              "text": "www.regulafions.gov al the following"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                549.3333333333333,
+                468,
+                549.3333333333333,
+                468,
+                560,
+                397.3333333333333,
+                560
+              ],
+              "text": "docket numbers:"
+            }
+          ]
+        },
+        {
+          "gt_id": "0",
+          "label": "table",
+          "eval_label": "table",
+          "bbox": [
+            42.83005752428039,
+            632.2329895751982,
+            570.4153951948871,
+            739.6956990474907
+          ],
+          "polygon": [
+            42.83005752428039,
+            632.2329895751982,
+            570.4153951948871,
+            632.2329895751982,
+            570.4153951948871,
+            739.6956990474907,
+            42.83005752428039,
+            739.6956990474907
+          ],
+          "text": null,
+          "latex": "\\begin{tabular}{|l|l|} \\hline\nSpecies & Docket No. \\\\ \\hline\nArizona treefrog (Huachuca-Canelo population) ...... & FWS-R2-ES-2016-0111. \\\\ \\hline\nArkansas darter ...... & FWS-R6-ES-2016-0113. \\\\ \\hline\nBlack mudalia ...... & FWS-R4-ES-2018-0112. \\\\ \\hline\nHighlands tiger beetle ...... & FWS-R4-ES-2016-0114. \\\\ \\hline\nDichantheoum (-panicum) hirsln(Hirst Brothers' panic grass) ...... & FWS-R5-ES-2016-0105. \\\\ \\hline\nKentucky cave beetles (Louisville cave beetle and Tatum Cave beetle) ...... & FWS-R4-ES-2016-0115. \\\\ \\hline\nRelict leopard frog ...... & FWS-R8-ES-2016-0116. \\\\ \\hline\nSicklefin redhorse sucker ...... & FWS-R4-ES-2016-0117. \\\\ \\hline\nStephan's riffle beetle ...... & FWS-R2 ES-2016-0118.\n\\\\ \\hline\n\\end{tabular}",
+          "html": "<table>\n<thead>\n<tr>\n <th>Species</th>\n <th>Docket No.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>Arizona treefrog (Huachuca-Canelo population) ......</td>\n <td>FWS-R2-ES-2016-0111.</td>\n</tr>\n<tr>\n <td>Arkansas darter ......</td>\n <td>FWS-R6-ES-2016-0113.</td>\n</tr>\n<tr>\n <td>Black mudalia ......</td>\n <td>FWS-R4-ES-2018-0112.</td>\n</tr>\n<tr>\n <td>Highlands tiger beetle ......</td>\n <td>FWS-R4-ES-2016-0114.</td>\n</tr>\n<tr>\n <td>Dichantheoum (-panicum) hirsln(Hirst Brothers' panic grass) ......</td>\n <td>FWS-R5-ES-2016-0105.</td>\n</tr>\n<tr>\n <td>Kentucky cave beetles (Louisville cave beetle and Tatum Cave beetle) ......</td>\n <td>FWS-R4-ES-2016-0115.</td>\n</tr>\n<tr>\n <td>Relict leopard frog ......</td>\n <td>FWS-R8-ES-2016-0116.</td>\n</tr>\n<tr>\n <td>Sicklefin redhorse sucker ......</td>\n <td>FWS-R4-ES-2016-0117.</td>\n</tr>\n<tr>\n <td>Stephan's riffle beetle ......</td>\n <td>FWS-R2 ES-2016-0118.</td>\n</tr>\n</tbody>\n</table>",
+          "reading_order": 28,
+          "attribute": {
+            "table_layout": "horizontal",
+            "with_span": false,
+            "line": "less_line",
+            "language": "table_en",
+            "include_equation": false,
+            "include_photo": false,
+            "include_background": false,
+            "with_structured_text": false
+          },
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "5",
+          "label": "abandon",
+          "eval_label": "abandon",
+          "bbox": [
+            41.93654872361784,
+            11.37505690692177,
+            82.76478391266758,
+            32.20280461389359
+          ],
+          "polygon": [
+            41.93654872361784,
+            11.37505690692177,
+            82.76478391266758,
+            11.37505690692177,
+            82.76478391266758,
+            32.20280461389359,
+            41.93654872361784,
+            32.20280461389359
+          ],
+          "text": null,
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {},
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "4",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            100.97795029803947,
+            30.997265094056957,
+            511.6850037911012,
+            45.14081925408283
+          ],
+          "polygon": [
+            100.97795029803947,
+            30.997265094056957,
+            511.6850037911012,
+            30.997265094056957,
+            511.6850037911012,
+            45.14081925408283,
+            100.97795029803947,
+            45.14081925408283
+          ],
+          "text": "Federal Register/ Vol. 81, No. 194 /Thursday, October 6,2016 /Rules and Regulations",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                101.38705385237708,
+                33.43181139796434,
+                511.3567491922528,
+                33.43181139796434,
+                511.3567491922528,
+                46.20785837088226,
+                101.38705385237708,
+                46.20785837088226
+              ],
+              "text": "Federal Register/ Vol. 81, No. 194 /Thursday, October 6,2016 /Rules and Regulations"
+            }
+          ]
+        },
+        {
+          "gt_id": "8",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            536.0698574894226,
+            33.35148972221589,
+            567.3345697755586,
+            42.84256309479292
+          ],
+          "polygon": [
+            536.0698574894226,
+            33.35148972221589,
+            567.3345697755586,
+            33.35148972221589,
+            567.3345697755586,
+            42.84256309479292,
+            536.0698574894226,
+            42.84256309479292
+          ],
+          "text": "69425",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                537.0483395061743,
+                34.45525766937857,
+                566.7111755657497,
+                34.45525766937857,
+                566.7111755657497,
+                42.93035368640011,
+                537.0483395061743,
+                42.93035368640011
+              ],
+              "text": "69425"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extra": {
+    "relation": [
+      {
+        "source_anno_id": 15,
+        "target_anno_id": 13,
+        "relation_type": "truncated"
+      }
+    ]
+  }
+}

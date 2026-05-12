@@ -1,0 +1,84 @@
+sample_id,gt_id,pred_id,html_norm_edit_distance,text_norm_edit_distance,html_similarity,text_similarity,gt_html,pred_html
+docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10,8,p0001_b0003,0.11803114013058764,0.0038022813688212928,0.8819688598694123,0.9961977186311787,"<table>
+<thead>
+<tr>
+ <th rowspan=""2"">Dataset</th>
+ <th rowspan=""2"">Total size</th>
+ <th rowspan=""2"">Training items</th>
+ <th rowspan=""2"">Testing items</th>
+ <th rowspan=""2"">Continuous attributes</th>
+ <th rowspan=""2""> Nominal attributes</th>
+ <th rowspan=""2"">Total attributes</th>
+ <th colspan=""3"">Reduced attributes</th>
+</tr>
+<tr>
+ <th>IFN</th>
+ <th>Relief</th>
+ <th>ABB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+ <td>Breast</td>
+ <td>699</td>
+ <td>465</td>
+ <td>234 </td>
+ <td>9</td>
+ <td>0</td>
+ <td>9</t","<table><tr><td rowspan=""2"">Dataset</td><td rowspan=""2"">Total size</td><td rowspan=""2"">Training items</td><td rowspan=""2"">Testing items</td><td rowspan=""2"">Continuous attributes</td><td rowspan=""2"">Nominal attributes</td><td rowspan=""2"">Total attributes</td><td colspan=""3"">Reduced attributes</td></tr><tr><td>IFN</td><td>Relief</td><td>ABB</td></tr><tr><td>Breast</td><td>699</td><td>465</td><td>234</td><td>9</td><td>0</td><td>9</td><td>3</td><td>2</td><td>3</td></tr><tr><td>Chess</td><td>3196</td>"
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,11,p0001_b0017,0.6794871794871795,0.47368421052631576,0.3205128205128205,0.5263157894736843,"<table>
+<thead>
+<tr>
+ <th colspan=""2"">Common name</th>
+ <th colspan=""2"">Scientific name</th>
+ <th colspan=""2"">Where listed</th>
+ <th colspan=""2"">Status</th>
+ <th colspan=""2"">Listing citations and applicable rules</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+ <td rowspan=""2"">CLAMS</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td></td>
+ <td>$\cdot$</td>
+ <td></td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+</tr>
+<tr>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td>$\cdot$</td>
+ <td></td>
+ <","<table><tr><td>Common name</td><td>Scientific name</td><td>Where listed</td><td>Status</td><td>Listing citations and applicable rules</td></tr><tr><td>CLAMS</td><td>Medionidus walkeri ..... Wherever found .....</td><td>T</td><td>81 FR [Insert Federal Register page where the document begins]; October 6, 2016.</td><td></td></tr></table>"
+newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1,0,p0001_b0029,0.11771177117711772,0.028169014084507043,0.8822882288228823,0.971830985915493,"<table>
+<thead>
+<tr>
+ <th>Species</th>
+ <th>Docket No.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+ <td>Arizona treefrog (Huachuca-Canelo population) ......</td>
+ <td>FWS-R2-ES-2016-0111.</td>
+</tr>
+<tr>
+ <td>Arkansas darter ......</td>
+ <td>FWS-R6-ES-2016-0113.</td>
+</tr>
+<tr>
+ <td>Black mudalia ......</td>
+ <td>FWS-R4-ES-2018-0112.</td>
+</tr>
+<tr>
+ <td>Highlands tiger beetle ......</td>
+ <td>FWS-R4-ES-2016-0114.</td>
+</tr>
+<tr>
+ <td>Dichantheoum (-panicum) hirsln(Hirst Brothers' panic grass) ......</td>
+",<table><tr><td>Species</td><td>Docket No.</td></tr><tr><td>Arizona treefrog (Huachuca-Canelo population) .....</td><td>FWS-R2-ES-2016-0111.</td></tr><tr><td>Arkansas darter .....</td><td>FWS-R6-ES-2016-0113.</td></tr><tr><td>Black mudalia .....</td><td>FWS-R4-ES-2016-0112.</td></tr><tr><td>Highlands tiger beetle .....</td><td>FWS-R4-ES-2016-0114.</td></tr><tr><td>Dichanthelium (-panicum) hirstii (Hirst Brothers&#x27; panic grass) .....</td><td>FWS-R5-ES-2016-0105.</td></tr><tr><td>Kentucky cave 

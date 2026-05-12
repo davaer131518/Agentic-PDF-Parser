@@ -1,0 +1,17 @@
+# Default configuration — paddle_vl backend, auto device selection.
+# Update llama_cpp_dir and model paths to match your local installation.
+backend: paddle_vl
+device: auto
+keep_raw: false
+debug: false
+
+raster:
+  dpi: 200
+
+paddle_vl:
+  llama_cpp_dir: "C:/llama-cpp"
+  gguf_model_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5.gguf"
+  mmproj_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5-mmproj.gguf"
+  server_port: 8080
+  use_doc_orientation_classify: false
+  use_doc_unwarping: false

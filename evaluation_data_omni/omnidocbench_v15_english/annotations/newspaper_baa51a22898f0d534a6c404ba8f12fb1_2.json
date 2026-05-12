@@ -1,0 +1,4135 @@
+{
+  "sample_id": "newspaper_baa51a22898f0d534a6c404ba8f12fb1_2",
+  "dataset_name": "omnidocbench_v15_english",
+  "input_pdf_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\examples\\pdfs\\newspaper_baa51a22898f0d534a6c404ba8f12fb1_2.pdf",
+  "input_image_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\evaluation_data_omni\\omnidocbench_v15_english\\images\\newspaper_baa51a22898f0d534a6c404ba8f12fb1_2.jpg",
+  "page_info": {
+    "page_attribute": {
+      "data_source": "newspaper",
+      "language": "english",
+      "layout": "three_column",
+      "special_issue": []
+    },
+    "page_no": 2,
+    "height": 792,
+    "width": 612,
+    "image_path": "newspaper_baa51a22898f0d534a6c404ba8f12fb1_2.jpg"
+  },
+  "pages": [
+    {
+      "page_num": 3,
+      "omni_page_no": 2,
+      "width": 612,
+      "height": 792,
+      "coordinate_space": "image_pixels",
+      "blocks": [
+        {
+          "gt_id": "1",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            44.14036370105757,
+            60.4556097744628,
+            209.00479410151598,
+            100.63265583843997
+          ],
+          "polygon": [
+            44.14036370105757,
+            60.4556097744628,
+            209.00479410151598,
+            60.4556097744628,
+            209.00479410151598,
+            100.63265583843997,
+            44.14036370105757,
+            100.63265583843997
+          ],
+          "text": "compliance with 39 U.S.C. 3633(a). and an application for non-public treatment of certain materials. It also filed supporting financial workpapers.",
+          "latex": null,
+          "html": null,
+          "reading_order": 1,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                58.666666666666664,
+                208,
+                58.666666666666664,
+                208,
+                68,
+                44,
+                68
+              ],
+              "text": "compliance with 39 U.S.C. 3633(a). and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                69.33333333333333,
+                208,
+                69.33333333333333,
+                208,
+                78.66666666666666,
+                44,
+                78.66666666666666
+              ],
+              "text": "an application for non-public treatment"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                78.66666666666666,
+                176,
+                78.66666666666666,
+                176,
+                88,
+                44,
+                88
+              ],
+              "text": "of certain materials. It also filed"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999992,
+                89.33333333333337,
+                183.1591678539408,
+                89.33333333333337,
+                183.1591678539408,
+                99.68101917811532,
+                43.99999999999992,
+                99.68101917811532
+              ],
+              "text": "supporting financial workpapers."
+            }
+          ]
+        },
+        {
+          "gt_id": "11",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            44.26790062772061,
+            104.24024127372519,
+            179.10957255320054,
+            113.22968606875719
+          ],
+          "polygon": [
+            44.26790062772061,
+            104.24024127372519,
+            179.10957255320054,
+            104.24024127372519,
+            179.10957255320054,
+            113.22968606875719,
+            44.26790062772061,
+            113.22968606875719
+          ],
+          "text": "IL. Notice of Commission Action",
+          "latex": null,
+          "html": null,
+          "reading_order": 2,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999993,
+                103.74228026726865,
+                178.6666666666666,
+                103.74228026726865,
+                178.6666666666666,
+                113.33333333333337,
+                43.99999999999993,
+                113.33333333333337
+              ],
+              "text": "IL. Notice of Commission Action"
+            }
+          ]
+        },
+        {
+          "gt_id": "10",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            44.385941138997666,
+            118.41202443815678,
+            202.647482398903,
+            178.972494636267
+          ],
+          "polygon": [
+            44.385941138997666,
+            118.41202443815678,
+            202.647482398903,
+            118.41202443815678,
+            202.647482398903,
+            178.972494636267,
+            44.385941138997666,
+            178.972494636267
+          ],
+          "text": "The Commission establishes Docket Nos. MC201561 and CP201592 to consider the Request pertaining to the proposed Priority Mail Contract 128 product and the related contracl, respectively.",
+          "latex": null,
+          "html": null,
+          "reading_order": 3,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                53.33333333333333,
+                118.66666666666666,
+                201.33333333333331,
+                118.66666666666666,
+                201.33333333333331,
+                126.66666666666666,
+                53.33333333333333,
+                126.66666666666666
+              ],
+              "text": "The Commission establishes Docket"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                128,
+                192,
+                128,
+                192,
+                136,
+                44,
+                136
+              ],
+              "text": "Nos. MC201561 and CP201592 to"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                137.33333333333331,
+                201.33333333333331,
+                137.33333333333331,
+                201.33333333333331,
+                148,
+                44,
+                148
+              ],
+              "text": "consider the Request pertaining to the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                42.666666666666664,
+                146.66666666666666,
+                194.66666666666666,
+                146.66666666666666,
+                194.66666666666666,
+                157.33333333333331,
+                42.666666666666664,
+                157.33333333333331
+              ],
+              "text": "proposed Priority Mail Contract 128"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                158.66666666666666,
+                180,
+                158.66666666666666,
+                180,
+                168,
+                44,
+                168
+              ],
+              "text": "product and the related contracl,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                169.33333333333331,
+                96,
+                169.33333333333331,
+                96,
+                177.33333333333331,
+                44,
+                177.33333333333331
+              ],
+              "text": "respectively."
+            }
+          ]
+        },
+        {
+          "gt_id": "13",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            44.22517796117643,
+            178.22374634860293,
+            213.38413001054906,
+            277.5519566267042
+          ],
+          "polygon": [
+            44.22517796117643,
+            178.22374634860293,
+            213.38413001054906,
+            178.22374634860293,
+            213.38413001054906,
+            277.5519566267042,
+            44.22517796117643,
+            277.5519566267042
+          ],
+          "text": "The Commission invites comments on whether the Postal Service's filings in the captioned dockets are consistenl with the policies of 39 U.S.C. 3632, 3633, or 3642, 39 CFR part 3015, and 39 CFR part 3020, subpart B. Comments are due no later than July 13, 2015. The public portions of these filings can be accessed via the Commission's Web site [hltp://www.prc.gov].",
+          "latex": null,
+          "html": null,
+          "reading_order": 4,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                53.33333333333333,
+                177.33333333333331,
+                212,
+                177.33333333333331,
+                212,
+                188,
+                53.33333333333333,
+                188
+              ],
+              "text": "The Commission invites comments on"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                188,
+                200,
+                188,
+                200,
+                197.33333333333331,
+                44,
+                197.33333333333331
+              ],
+              "text": "whether the Postal Service's filings in"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                198.66666666666666,
+                194.66666666666666,
+                198.66666666666666,
+                194.66666666666666,
+                206.66666666666666,
+                44,
+                206.66666666666666
+              ],
+              "text": "the captioned dockets are consistenl"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                208,
+                189.33333333333331,
+                208,
+                189.33333333333331,
+                217.33333333333331,
+                44,
+                217.33333333333331
+              ],
+              "text": "with the policies of 39 U.S.C. 3632,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                218.66666666666666,
+                210.66666666666666,
+                218.66666666666666,
+                210.66666666666666,
+                228,
+                44,
+                228
+              ],
+              "text": "3633, or 3642, 39 CFR part 3015, and 39"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                228,
+                212,
+                228,
+                212,
+                237.33333333333331,
+                44,
+                237.33333333333331
+              ],
+              "text": "CFR part 3020, subpart B. Comments are"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                238.66666666666666,
+                193.33333333333331,
+                238.66666666666666,
+                193.33333333333331,
+                248,
+                44,
+                248
+              ],
+              "text": "due no later than July 13, 2015. The"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.999999999999964,
+                248.00000000000006,
+                200.20114504459664,
+                248.00000000000006,
+                200.20114504459664,
+                258.33905855631656,
+                43.999999999999964,
+                258.33905855631656
+              ],
+              "text": "public portions of these filings can be"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.999999999999964,
+                258.6666666666667,
+                209.81030540136987,
+                258.6666666666667,
+                209.81030540136987,
+                267.0287277469406,
+                43.999999999999964,
+                267.0287277469406
+              ],
+              "text": "accessed via the Commission’s Web site"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999997,
+                268.0000000000001,
+                133.62927486123286,
+                268.0000000000001,
+                133.62927486123286,
+                277.74022715097743,
+                43.99999999999997,
+                277.74022715097743
+              ],
+              "text": "[hltp://www.prc.gov]."
+            }
+          ]
+        },
+        {
+          "gt_id": "7",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            44.10827015897124,
+            277.8405640474699,
+            212.96622763174346,
+            307.6390271309002
+          ],
+          "polygon": [
+            44.10827015897124,
+            277.8405640474699,
+            212.96622763174346,
+            277.8405640474699,
+            212.96622763174346,
+            307.6390271309002,
+            44.10827015897124,
+            307.6390271309002
+          ],
+          "text": "The Commission appoints Kenneth R. Moeller to serve as Public Representative in these dockets.",
+          "latex": null,
+          "html": null,
+          "reading_order": 5,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                51.99999999999997,
+                279.0087499348931,
+                210.66666666666663,
+                279.0087499348931,
+                210.66666666666663,
+                288,
+                51.99999999999997,
+                288
+              ],
+              "text": "The Commission appoints Kenneth R."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                288,
+                152,
+                288,
+                152,
+                297.3333333333333,
+                44,
+                297.3333333333333
+              ],
+              "text": "Moeller to serve as Public"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999998,
+                297.33333333333337,
+                179.4709614943223,
+                297.33333333333337,
+                179.4709614943223,
+                309.1569871647742,
+                43.99999999999998,
+                309.1569871647742
+              ],
+              "text": "Representative in these dockets."
+            }
+          ]
+        },
+        {
+          "gt_id": "9",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            45.28330381959385,
+            312.30241535646286,
+            149.76076016019627,
+            324.51406609757225
+          ],
+          "polygon": [
+            45.28330381959385,
+            312.30241535646286,
+            149.76076016019627,
+            312.30241535646286,
+            149.76076016019627,
+            324.51406609757225,
+            45.28330381959385,
+            324.51406609757225
+          ],
+          "text": "III. Ordering Paragraphs",
+          "latex": null,
+          "html": null,
+          "reading_order": 6,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.99999999999998,
+                313.33333333333337,
+                149.79750319273253,
+                313.33333333333337,
+                149.79750319273253,
+                323.58750093903905,
+                43.99999999999998,
+                323.58750093903905
+              ],
+              "text": "III. Ordering Paragraphs"
+            }
+          ]
+        },
+        {
+          "gt_id": "15",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            44.34346197451195,
+            328.0554894918354,
+            109.85332659905548,
+            337.0839381695963
+          ],
+          "polygon": [
+            44.34346197451195,
+            328.0554894918354,
+            109.85332659905548,
+            328.0554894918354,
+            109.85332659905548,
+            337.0839381695963,
+            44.34346197451195,
+            337.0839381695963
+          ],
+          "text": "It is ordered :",
+          "latex": null,
+          "html": null,
+          "reading_order": 7,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                53.33333333333333,
+                328,
+                106.66666666666666,
+                328,
+                106.66666666666666,
+                336,
+                53.33333333333333,
+                336
+              ],
+              "text": "It is ordered ："
+            }
+          ]
+        },
+        {
+          "gt_id": "55",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            41.299155062210204,
+            335.4267330745146,
+            213.92722798721968,
+            486.6594760784277
+          ],
+          "polygon": [
+            41.299155062210204,
+            335.4267330745146,
+            213.92722798721968,
+            335.4267330745146,
+            213.92722798721968,
+            486.6594760784277,
+            41.299155062210204,
+            486.6594760784277
+          ],
+          "text": "\\t1. The Commission establishes Dockel Nos. MC201561 and CP201592 to consider the matters raised in each docket.\n\\t2. Pursuant to 39 U.S.C. 505, Kenneth R. Moeller is appointed to serve as an officer of the Commission to represent the interests of the general public in these proceedings (Publie Representative).\n\\t3. Comments are due no laler than Julv 13, 2015.\n\\t4. The Secretary shall arrange for publication of this order in the Federal Register.",
+          "latex": null,
+          "html": null,
+          "reading_order": 8,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "4",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            51.87668767444861,
+            490.08666576819047,
+            127.18186724462313,
+            499.132332983827
+          ],
+          "polygon": [
+            51.87668767444861,
+            490.08666576819047,
+            127.18186724462313,
+            490.08666576819047,
+            127.18186724462313,
+            499.132332983827,
+            51.87668767444861,
+            499.132332983827
+          ],
+          "text": "By the Commission.",
+          "latex": null,
+          "html": null,
+          "reading_order": 13,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                52,
+                489.3333333333333,
+                126.66666666666666,
+                489.3333333333333,
+                126.66666666666666,
+                498.66666666666663,
+                52,
+                498.66666666666663
+              ],
+              "text": "By the Commission."
+            }
+          ]
+        },
+        {
+          "gt_id": "6",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            43.79877903294354,
+            500.4184069694803,
+            121.0981170574743,
+            509.87524087673677
+          ],
+          "polygon": [
+            43.79877903294354,
+            500.4184069694803,
+            121.0981170574743,
+            500.4184069694803,
+            121.0981170574743,
+            509.87524087673677,
+            43.79877903294354,
+            509.87524087673677
+          ],
+          "text": "Shoshana M. Grove,",
+          "latex": null,
+          "html": null,
+          "reading_order": 14,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                42.666666666666664,
+                500,
+                120,
+                500,
+                120,
+                509.3333333333333,
+                42.666666666666664,
+                509.3333333333333
+              ],
+              "text": "Shoshana M. Grove,"
+            }
+          ]
+        },
+        {
+          "gt_id": "12",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            43.79877903294354,
+            512.1366576806458,
+            188.52945448312875,
+            542.7685762063243
+          ],
+          "polygon": [
+            43.79877903294354,
+            512.1366576806458,
+            188.52945448312875,
+            512.1366576806458,
+            188.52945448312875,
+            542.7685762063243,
+            43.79877903294354,
+            542.7685762063243
+          ],
+          "text": "Secrefary. [FR Doc: 2015-16831 Filed 7-9-15; 8:45 am] BILLING C00E 7710-FW-P",
+          "latex": null,
+          "html": null,
+          "reading_order": 15,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                510.66666666666663,
+                81.33333333333333,
+                510.66666666666663,
+                81.33333333333333,
+                521.3333333333333,
+                44,
+                521.3333333333333
+              ],
+              "text": "Secrefary."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.49035866994737,
+                522.6666666666667,
+                189.8686848768597,
+                522.6666666666667,
+                189.8686848768597,
+                531.5160688834212,
+                43.49035866994737,
+                531.5160688834212
+              ],
+              "text": "[FR Doc: 2015-16831 Filed 7-9-15; 8:45 am]"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.000000000000036,
+                534.6666666666667,
+                126.63562231652237,
+                534.6666666666667,
+                126.63562231652237,
+                541.178296726479,
+                44.000000000000036,
+                541.178296726479
+              ],
+              "text": "BILLING C00E 7710-FW-P"
+            }
+          ]
+        },
+        {
+          "gt_id": "5",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            43.746645414404256,
+            562.7682379854502,
+            124.17465881874516,
+            573.4033471959417
+          ],
+          "polygon": [
+            43.746645414404256,
+            562.7682379854502,
+            124.17465881874516,
+            562.7682379854502,
+            124.17465881874516,
+            573.4033471959417,
+            43.746645414404256,
+            573.4033471959417
+          ],
+          "text": "POSTAL SERVICE",
+          "latex": null,
+          "html": null,
+          "reading_order": 16,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                564,
+                122.66666666666666,
+                564,
+                122.66666666666666,
+                572,
+                44,
+                572
+              ],
+              "text": "POSTAL SERVICE"
+            }
+          ]
+        },
+        {
+          "gt_id": "16",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            44.42654872016742,
+            582.2643407085088,
+            175.99207846772322,
+            600.941701925281
+          ],
+          "polygon": [
+            44.42654872016742,
+            582.2643407085088,
+            175.99207846772322,
+            582.2643407085088,
+            175.99207846772322,
+            600.941701925281,
+            44.42654872016742,
+            600.941701925281
+          ],
+          "text": "Product Change—Prlority Mall Negotlated Servlce Agreement",
+          "latex": null,
+          "html": null,
+          "reading_order": 17,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.00000000000004,
+                581.3333333333333,
+                176.05505126439564,
+                581.3333333333333,
+                176.05505126439564,
+                592,
+                44.00000000000004,
+                592
+              ],
+              "text": "Product Change—Prlority Mall"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.00000000000005,
+                592,
+                176.74924356326014,
+                592,
+                176.74924356326014,
+                602.6666666666667,
+                44.00000000000005,
+                602.6666666666667
+              ],
+              "text": "Negotlated Servlce Agreement"
+            }
+          ]
+        },
+        {
+          "gt_id": "18",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            44.073435089012825,
+            608.2877593303492,
+            152.6449750000038,
+            618.134945508323
+          ],
+          "polygon": [
+            44.073435089012825,
+            608.2877593303492,
+            152.6449750000038,
+            608.2877593303492,
+            152.6449750000038,
+            618.134945508323,
+            44.073435089012825,
+            618.134945508323
+          ],
+          "text": "AGENcy: Postal Service $ ^{T M} $ .",
+          "latex": null,
+          "html": null,
+          "reading_order": 18,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.00000000000011,
+                608,
+                139.6952069741176,
+                608,
+                139.6952069741176,
+                616.9255897318192,
+                44.00000000000011,
+                616.9255897318192
+              ],
+              "text": "AGENcy: Postal Service"
+            },
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                139.2496306072065,
+                608.089119405045,
+                150.1157933470191,
+                608.089119405045,
+                150.1157933470191,
+                614.852962836195,
+                139.2496306072065,
+                614.852962836195
+              ],
+              "latex": "$ ^{T M} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.05833990584873,
+                613.8899581332223,
+                152.97492870228845,
+                613.8899581332223,
+                152.97492870228845,
+                617.3169733301072,
+                149.05833990584873,
+                617.3169733301072
+              ],
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "gt_id": "19",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            43.59835462182656,
+            620.9156536195619,
+            107.98380270857706,
+            629.5003800311285
+          ],
+          "polygon": [
+            43.59835462182656,
+            620.9156536195619,
+            107.98380270857706,
+            620.9156536195619,
+            107.98380270857706,
+            629.5003800311285,
+            43.59835462182656,
+            629.5003800311285
+          ],
+          "text": "ACTIoN: Notice.",
+          "latex": null,
+          "html": null,
+          "reading_order": 19,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.00000000000006,
+                620,
+                110.13762816098904,
+                620,
+                110.13762816098904,
+                629.3333333333333,
+                44.00000000000006,
+                629.3333333333333
+              ],
+              "text": "ACTIoN: Notice."
+            }
+          ]
+        },
+        {
+          "gt_id": "29",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            44.385748714233955,
+            636.1963847260979,
+            210.75885682048573,
+            708.9708774869594
+          ],
+          "polygon": [
+            44.385748714233955,
+            636.1963847260979,
+            210.75885682048573,
+            636.1963847260979,
+            210.75885682048573,
+            708.9708774869594,
+            44.385748714233955,
+            708.9708774869594
+          ],
+          "text": "SUWMARY: The Postal Service gives notice of filing a request with the Postal Regulatory Commission to add a domestic shipping services contract to the list of Negotiated Service Agreements in the Mail Classificalion Sehedule's Competitive Products List",
+          "latex": null,
+          "html": null,
+          "reading_order": 20,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                636,
+                188,
+                636,
+                188,
+                646.6666666666666,
+                44,
+                646.6666666666666
+              ],
+              "text": "SUWMARY: The Postal Service gives"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                646.6666666666666,
+                208,
+                646.6666666666666,
+                208,
+                657.3333333333333,
+                44,
+                657.3333333333333
+              ],
+              "text": "notice of filing a request with the Postal"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                45.33333333333333,
+                657.3333333333333,
+                178.66666666666666,
+                657.3333333333333,
+                178.66666666666666,
+                666.6666666666666,
+                45.33333333333333,
+                666.6666666666666
+              ],
+              "text": "Regulatory Commission to add a"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.000000000000064,
+                668,
+                203.82365383144085,
+                668,
+                203.82365383144085,
+                677.3333333333333,
+                44.000000000000064,
+                677.3333333333333
+              ],
+              "text": "domestic shipping services contract to"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                677.3333333333333,
+                164,
+                677.3333333333333,
+                164,
+                686.6666666666666,
+                44,
+                686.6666666666666
+              ],
+              "text": "the list of Negotiated Service"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                44,
+                686.6666666666666,
+                200,
+                686.6666666666666,
+                200,
+                696,
+                44,
+                696
+              ],
+              "text": "Agreements in the Mail Classificalion"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                45.333333333333385,
+                697.3333333333333,
+                201.41954133689717,
+                697.3333333333333,
+                201.41954133689717,
+                705.8065137789656,
+                45.333333333333385,
+                705.8065137789656
+              ],
+              "text": "Sehedule's Competitive Products List"
+            }
+          ]
+        },
+        {
+          "gt_id": "53",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            42.59224177345819,
+            708.6974401388657,
+            193.82498477737136,
+            742.1093252211253
+          ],
+          "polygon": [
+            42.59224177345819,
+            708.6974401388657,
+            193.82498477737136,
+            708.6974401388657,
+            193.82498477737136,
+            742.1093252211253,
+            42.59224177345819,
+            742.1093252211253
+          ],
+          "text": "DATEs: E)/fectiwe date: July 10, 2015. FORFURTHERINFORMATIONCONTACT: Elizabeth A. Reed, 202-268-3179.",
+          "latex": null,
+          "html": null,
+          "reading_order": 21,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                44.000000000000135,
+                709.3333333333333,
+                192.79597867201244,
+                709.3333333333333,
+                192.79597867201244,
+                718.1623037413428,
+                44.000000000000135,
+                718.1623037413428
+              ],
+              "text": "DATEs: E)/fectiwe date: July 10, 2015."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                45.33333333333339,
+                722.6666666666667,
+                190.75287467023045,
+                722.6666666666667,
+                190.75287467023045,
+                729.3333333333333,
+                45.33333333333339,
+                729.3333333333333
+              ],
+              "text": "FORFURTHERINFORMATIONCONTACT:"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                45.3333333333334,
+                732,
+                186.36590222816187,
+                732,
+                186.36590222816187,
+                739.5268195543676,
+                45.3333333333334,
+                739.5268195543676
+              ],
+              "text": "Elizabeth A. Reed, 202-268-3179."
+            }
+          ]
+        },
+        {
+          "gt_id": "27",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            220.51496680191244,
+            59.234840592211754,
+            388.7953070362452,
+            168.22469825693503
+          ],
+          "polygon": [
+            220.51496680191244,
+            59.234840592211754,
+            388.7953070362452,
+            59.234840592211754,
+            388.7953070362452,
+            168.22469825693503,
+            220.51496680191244,
+            168.22469825693503
+          ],
+          "text": "SUPPLEMENTARYINFORMATION:The United States Postal Service? hereby gives notice that, pursuant to 39 U.S.C 3642 and 3632(b)[3). on July 2, 2015, it filed with the Postal Regulalory Commission a Requuest ofthe United Slales Postal Service lo Add Priorily Mail Gontracl 128 to Compelitive Product Lisf. Documents are available al www.pre.gov, Docket Nos. MC201561. CP2015-92.",
+          "latex": null,
+          "html": null,
+          "reading_order": 22,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.2907593940629,
+                60,
+                361.6510887271243,
+                60,
+                361.6510887271243,
+                67.35462030296844,
+                221.2907593940629,
+                67.35462030296844
+              ],
+              "text": "SUPPLEMENTARYINFORMATION:The"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333323,
+                68,
+                374.77676919545786,
+                68,
+                374.77676919545786,
+                79.82365383144077,
+                221.33333333333323,
+                79.82365383144077
+              ],
+              "text": "United States Postal Service? hereby"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                219.99999999999991,
+                80,
+                383.4159102299267,
+                80,
+                383.4159102299267,
+                88,
+                219.99999999999991,
+                88
+              ],
+              "text": "gives notice that, pursuant to 39 U.S.C"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                88,
+                381.3333333333333,
+                88,
+                381.3333333333333,
+                98.66666666666666,
+                221.33333333333331,
+                98.66666666666666
+              ],
+              "text": "3642 and 3632(b)[3). on July 2, 2015, it"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                98.66666666666666,
+                352,
+                98.66666666666666,
+                352,
+                109.33333333333333,
+                221.33333333333331,
+                109.33333333333333
+              ],
+              "text": "filed with the Postal Regulalory"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                109.33333333333333,
+                372,
+                109.33333333333333,
+                372,
+                117.33333333333333,
+                221.33333333333331,
+                117.33333333333333
+              ],
+              "text": "Commission a Requuest ofthe United"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666666,
+                118.66666666666666,
+                370.66666666666663,
+                118.66666666666666,
+                370.66666666666663,
+                129.33333333333331,
+                222.66666666666666,
+                129.33333333333331
+              ],
+              "text": "Slales Postal Service lo Add Priorily"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                129.33333333333331,
+                360,
+                129.33333333333331,
+                360,
+                138.66666666666666,
+                221.33333333333331,
+                138.66666666666666
+              ],
+              "text": "Mail Gontracl 128 to Compelitive"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                138.66666666666666,
+                386.66666666666663,
+                138.66666666666666,
+                386.66666666666663,
+                148,
+                221.33333333333331,
+                148
+              ],
+              "text": "Product Lisf. Documents are available al"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                149.33333333333331,
+                384,
+                149.33333333333331,
+                384,
+                158.66666666666666,
+                221.33333333333331,
+                158.66666666666666
+              ],
+              "text": "www.pre.gov, Docket Nos. MC201561."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.16539345989528,
+                158.99963622663677,
+                270.6666666666666,
+                158.99963622663677,
+                270.6666666666666,
+                169.33333333333331,
+                221.16539345989528,
+                169.33333333333331
+              ],
+              "text": "CP2015-92."
+            }
+          ]
+        },
+        {
+          "gt_id": "17",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            220.50336589407678,
+            175.293663119061,
+            285.35683491771374,
+            184.18099035563347
+          ],
+          "polygon": [
+            220.50336589407678,
+            175.293663119061,
+            285.35683491771374,
+            175.293663119061,
+            285.35683491771374,
+            184.18099035563347,
+            220.50336589407678,
+            184.18099035563347
+          ],
+          "text": "Stanley F. Mires,",
+          "latex": null,
+          "html": null,
+          "reading_order": 23,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                174.66666666666666,
+                285.3333333333333,
+                174.66666666666666,
+                285.3333333333333,
+                184,
+                220,
+                184
+              ],
+              "text": "Stanley F. Mires,"
+            }
+          ]
+        },
+        {
+          "gt_id": "20",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            221.14107975831,
+            186.3452918313156,
+            365.4782616594011,
+            216.2608650846431
+          ],
+          "polygon": [
+            221.14107975831,
+            186.3452918313156,
+            365.4782616594011,
+            186.3452918313156,
+            365.4782616594011,
+            216.2608650846431,
+            221.14107975831,
+            216.2608650846431
+          ],
+          "text": "Aftorney, Federal Compliance. [FR Doc. 201516847 F1hed 7915; 8:45 am] BILLING: C0DE T71010P",
+          "latex": null,
+          "html": null,
+          "reading_order": 24,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                185.33333333333331,
+                333.3333333333333,
+                185.33333333333331,
+                333.3333333333333,
+                194.66666666666666,
+                221.33333333333331,
+                194.66666666666666
+              ],
+              "text": "Aftorney, Federal Compliance."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                197.33333333333331,
+                365.3333333333333,
+                197.33333333333331,
+                365.3333333333333,
+                205.33333333333331,
+                221.33333333333331,
+                205.33333333333331
+              ],
+              "text": "[FR Doc. 201516847 F1hed 7915; 8:45 am]"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333326,
+                209.33333333333331,
+                299.29248830240135,
+                209.33333333333331,
+                299.29248830240135,
+                215.58278557617678,
+                221.33333333333326,
+                215.58278557617678
+              ],
+              "text": "BILLING: C0DE T71010P"
+            }
+          ]
+        },
+        {
+          "gt_id": "28",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            220.76528302095264,
+            236.00204145587483,
+            300.5508194087556,
+            245.26043134387928
+          ],
+          "polygon": [
+            220.76528302095264,
+            236.00204145587483,
+            300.5508194087556,
+            236.00204145587483,
+            300.5508194087556,
+            245.26043134387928,
+            220.76528302095264,
+            245.26043134387928
+          ],
+          "text": "POSTALSERVICE",
+          "latex": null,
+          "html": null,
+          "reading_order": 25,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                234.66666666666666,
+                300,
+                234.66666666666666,
+                300,
+                242.66666666666666,
+                221.33333333333331,
+                242.66666666666666
+              ],
+              "text": "POSTALSERVICE"
+            }
+          ]
+        },
+        {
+          "gt_id": "24",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            220.7791987178895,
+            252.65906779375078,
+            353.66432416924744,
+            272.2650699095249
+          ],
+          "polygon": [
+            220.7791987178895,
+            252.65906779375078,
+            353.66432416924744,
+            252.65906779375078,
+            353.66432416924744,
+            272.2650699095249,
+            220.7791987178895,
+            272.2650699095249
+          ],
+          "text": "Product Change—Priority Mall Negotiated Service Agreement",
+          "latex": null,
+          "html": null,
+          "reading_order": 26,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.3333333333333,
+                253.33333333333331,
+                352.36574295881434,
+                253.33333333333331,
+                352.36574295881434,
+                262.5841030898768,
+                221.3333333333333,
+                262.5841030898768
+              ],
+              "text": "Product Change—Priority Mall"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                262.66666666666663,
+                352,
+                262.66666666666663,
+                352,
+                273.3333333333333,
+                221.33333333333331,
+                273.3333333333333
+              ],
+              "text": "Negotiated Service Agreement"
+            }
+          ]
+        },
+        {
+          "gt_id": "22",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            220.61003116965026,
+            278.76736513774796,
+            329.77981567793796,
+            288.91693694010576
+          ],
+          "polygon": [
+            220.61003116965026,
+            278.76736513774796,
+            329.77981567793796,
+            278.76736513774796,
+            329.77981567793796,
+            288.91693694010576,
+            220.61003116965026,
+            288.91693694010576
+          ],
+          "text": "AGENcY: Postal Service $ ^{T M} $ .",
+          "latex": null,
+          "html": null,
+          "reading_order": 27,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                219.99999999999994,
+                278.66666666666663,
+                317.2837835280837,
+                278.66666666666663,
+                317.2837835280837,
+                288.9255897318193,
+                219.99999999999994,
+                288.9255897318193
+              ],
+              "text": "AGENcY: Postal Service"
+            },
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                316.91055149669194,
+                278.8765789181256,
+                327.55914422893864,
+                278.8765789181256,
+                327.55914422893864,
+                285.737451725094,
+                316.91055149669194,
+                285.737451725094
+              ],
+              "latex": "$ ^{T M} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                325.92369566135056,
+                284.50356698191445,
+                329.86067690841475,
+                284.50356698191445,
+                329.86067690841475,
+                287.9484255730956,
+                325.92369566135056,
+                287.9484255730956
+              ],
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "gt_id": "30",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            221.44270114013196,
+            291.61748819572205,
+            284.23051783321023,
+            299.26905008663476
+          ],
+          "polygon": [
+            221.44270114013196,
+            291.61748819572205,
+            284.23051783321023,
+            291.61748819572205,
+            284.23051783321023,
+            299.26905008663476,
+            221.44270114013196,
+            299.26905008663476
+          ],
+          "text": "ACTon: Notice.",
+          "latex": null,
+          "html": null,
+          "reading_order": 28,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                290.66666666666663,
+                284,
+                290.66666666666663,
+                284,
+                300,
+                220,
+                300
+              ],
+              "text": "ACTon: Notice."
+            }
+          ]
+        },
+        {
+          "gt_id": "23",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            219.5918279213832,
+            307.5695035545089,
+            388.8009395684753,
+            521.3073287929409
+          ],
+          "polygon": [
+            219.5918279213832,
+            307.5695035545089,
+            388.8009395684753,
+            307.5695035545089,
+            388.8009395684753,
+            521.3073287929409,
+            219.5918279213832,
+            521.3073287929409
+          ],
+          "text": "SUHMARv: The Postal Service gives notice of filing a request with the Postal Regulatory Commission to add a domestic shipping services contract to the list of Negotiated Service Agreements in the Mail Classificalion Schedule's Competitive Products List. DATES: E]fective date: July 10, 2015 FOR FURTHERINFORRATION CONTACT: ElizabethA.Reed.202-268-3179. SUPPLEMENTARY INFORMATION: The United States Postal Service?herebv gives notice that, pursuant to 39 U.S.C. 3642 and 3632(bJ[3]. on July 2, 2015, it filed with the Postal Regulatory Commission a Reqmest of the United States Postal Service lo Add Priority Maif Conracl 129 lo Conpelitive Product Lisl. Documents are available al Www.prc.gov, Docket Nos. MG2015-62. CP2015-93.",
+          "latex": null,
+          "html": null,
+          "reading_order": 29,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                308,
+                364,
+                308,
+                364,
+                316,
+                221.33333333333331,
+                316
+              ],
+              "text": "SUHMARv: The Postal Service gives"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                317.3333333333333,
+                385.3333333333333,
+                317.3333333333333,
+                385.3333333333333,
+                326.66666666666663,
+                221.33333333333331,
+                326.66666666666663
+              ],
+              "text": "notice of filing a request with the Postal"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                328,
+                356,
+                328,
+                356,
+                336,
+                221.33333333333331,
+                336
+              ],
+              "text": "Regulatory Commission to add a"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                337.3333333333333,
+                380,
+                337.3333333333333,
+                380,
+                346.66666666666663,
+                221.33333333333331,
+                346.66666666666663
+              ],
+              "text": "domestic shipping services contract to"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                346.66666666666663,
+                340,
+                346.66666666666663,
+                340,
+                357.3333333333333,
+                221.33333333333331,
+                357.3333333333333
+              ],
+              "text": "the list of Negotiated Service"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                357.3333333333333,
+                378.545371762503,
+                357.3333333333333,
+                378.545371762503,
+                366.66666666666663,
+                221.33333333333331,
+                366.66666666666663
+              ],
+              "text": "Agreements in the Mail Classificalion"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                368,
+                380.1101025287912,
+                368,
+                380.1101025287912,
+                377.6197820306837,
+                221.33333333333331,
+                377.6197820306837
+              ],
+              "text": "Schedule's Competitive Products List."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666666,
+                380,
+                367.6473076628816,
+                380,
+                367.6473076628816,
+                389.15698716477414,
+                222.66666666666666,
+                389.15698716477414
+              ],
+              "text": "DATES: E]fective date: July 10, 2015"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.56473076628816,
+                392,
+                369.4434358621245,
+                392,
+                369.4434358621245,
+                400.74924356326005,
+                221.56473076628816,
+                400.74924356326005
+              ],
+              "text": "FOR FURTHERINFORRATION CONTACT:"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666666,
+                402.66666666666663,
+                364.5728973947008,
+                402.66666666666663,
+                364.5728973947008,
+                409.3333333333333,
+                222.66666666666666,
+                409.3333333333333
+              ],
+              "text": "ElizabethA.Reed.202-268-3179."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                413.3333333333333,
+                363.47096149432235,
+                413.3333333333333,
+                363.47096149432235,
+                421.3333333333333,
+                220,
+                421.3333333333333
+              ],
+              "text": "SUPPLEMENTARY INFORMATION: The"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                422.66666666666663,
+                372,
+                422.66666666666663,
+                372,
+                430.66666666666663,
+                221.33333333333331,
+                430.66666666666663
+              ],
+              "text": "United States Postal Service?herebv"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                432,
+                383.8787050958364,
+                432,
+                383.8787050958364,
+                442.7217179310622,
+                220,
+                442.7217179310622
+              ],
+              "text": "gives notice that, pursuant to 39 U.S.C."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666666,
+                442.66666666666663,
+                381.3333333333333,
+                442.66666666666663,
+                381.3333333333333,
+                450.66666666666663,
+                222.66666666666666,
+                450.66666666666663
+              ],
+              "text": "3642 and 3632(bJ[3]. on July 2, 2015, it"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                452,
+                352,
+                452,
+                352,
+                462.66666666666663,
+                221.33333333333331,
+                462.66666666666663
+              ],
+              "text": "filed with the Postal Regulatory"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333334,
+                462.66666666666663,
+                374.3139743295482,
+                462.66666666666663,
+                374.3139743295482,
+                472,
+                221.33333333333334,
+                472
+              ],
+              "text": "Commission a Reqmest of the United"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333334,
+                470.66666666666663,
+                373.2120384291697,
+                470.66666666666663,
+                373.2120384291697,
+                482.66666666666663,
+                221.33333333333334,
+                482.66666666666663
+              ],
+              "text": "States Postal Service lo Add Priority"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666666,
+                482.66666666666663,
+                358.66666666666663,
+                482.66666666666663,
+                358.66666666666663,
+                490.66666666666663,
+                222.66666666666666,
+                490.66666666666663
+              ],
+              "text": "Maif Conracl 129 lo Conpelitive"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333334,
+                492,
+                390.137628160989,
+                492,
+                390.137628160989,
+                501.3333333333333,
+                221.33333333333334,
+                501.3333333333333
+              ],
+              "text": "Product Lisl. Documents are available al"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333334,
+                502.66666666666663,
+                384.00000000000006,
+                502.66666666666663,
+                384.00000000000006,
+                512.7492435632598,
+                221.33333333333334,
+                512.7492435632598
+              ],
+              "text": "Www.prc.gov, Docket Nos. MG2015-62."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                513.3333333333333,
+                270.66666666666663,
+                513.3333333333333,
+                270.66666666666663,
+                520,
+                221.33333333333331,
+                520
+              ],
+              "text": "CP2015-93."
+            }
+          ]
+        },
+        {
+          "gt_id": "26",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            221.35540756033075,
+            527.5646112030746,
+            285.4443055659404,
+            536.8044216517361
+          ],
+          "polygon": [
+            221.35540756033075,
+            527.5646112030746,
+            285.4443055659404,
+            527.5646112030746,
+            285.4443055659404,
+            536.8044216517361,
+            221.35540756033075,
+            536.8044216517361
+          ],
+          "text": "Stanley F. Mires,",
+          "latex": null,
+          "html": null,
+          "reading_order": 30,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                526.6666666666666,
+                285.3333333333333,
+                526.6666666666666,
+                285.3333333333333,
+                537.3333333333333,
+                220,
+                537.3333333333333
+              ],
+              "text": "Stanley F. Mires,"
+            }
+          ]
+        },
+        {
+          "gt_id": "25",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            220.91338753576812,
+            539.5646112030746,
+            365.9980707509212,
+            569.8397348008166
+          ],
+          "polygon": [
+            220.91338753576812,
+            539.5646112030746,
+            365.9980707509212,
+            539.5646112030746,
+            365.9980707509212,
+            569.8397348008166,
+            220.91338753576812,
+            569.8397348008166
+          ],
+          "text": "Aftorney, Federal Compliance. FR Doc.201516849 F1kd 7-9-15:8:45 am BILLINGiC0DE 7710-12P",
+          "latex": null,
+          "html": null,
+          "reading_order": 31,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                538.6666666666666,
+                333.3333333333333,
+                538.6666666666666,
+                333.3333333333333,
+                548,
+                221.33333333333331,
+                548
+              ],
+              "text": "Aftorney, Federal Compliance."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                552,
+                365.3333333333333,
+                552,
+                365.3333333333333,
+                558.6666666666666,
+                221.33333333333331,
+                558.6666666666666
+              ],
+              "text": "FR Doc.201516849 F1kd 7-9-15:8:45 am"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                219.9449487356044,
+                562.4352692337119,
+                300.0550512643957,
+                562.4352692337119,
+                300.0550512643957,
+                570.2589230651527,
+                219.9449487356044,
+                570.2589230651527
+              ],
+              "text": "BILLINGiC0DE 7710-12P"
+            }
+          ]
+        },
+        {
+          "gt_id": "21",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            221.78287871130502,
+            588.6959612440602,
+            300.94317417505323,
+            598.0702067595042
+          ],
+          "polygon": [
+            221.78287871130502,
+            588.6959612440602,
+            300.94317417505323,
+            588.6959612440602,
+            300.94317417505323,
+            598.0702067595042,
+            221.78287871130502,
+            598.0702067595042
+          ],
+          "text": "POSTALSERVICE",
+          "latex": null,
+          "html": null,
+          "reading_order": 32,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                589.3333333333333,
+                300,
+                589.3333333333333,
+                300,
+                597.3333333333333,
+                221.33333333333331,
+                597.3333333333333
+              ],
+              "text": "POSTALSERVICE"
+            }
+          ]
+        },
+        {
+          "gt_id": "43",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            221.28838075754257,
+            606.3517683719919,
+            370.92152053482397,
+            636.7414776110916
+          ],
+          "polygon": [
+            221.28838075754257,
+            606.3517683719919,
+            370.92152053482397,
+            606.3517683719919,
+            370.92152053482397,
+            636.7414776110916,
+            221.28838075754257,
+            636.7414776110916
+          ],
+          "text": "Product Change—Prlority Mall and Flrst-Class Package Servlce Negotilated Servlce Agreement",
+          "latex": null,
+          "html": null,
+          "reading_order": 33,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                606.6666666666666,
+                369.3333333333333,
+                606.6666666666666,
+                369.3333333333333,
+                617.3333333333333,
+                221.33333333333331,
+                617.3333333333333
+              ],
+              "text": "Product Change—Prlority Mall and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220.00000000000006,
+                618.4408158553259,
+                343.4176869298439,
+                618.4408158553259,
+                343.4176869298439,
+                626.291156535078,
+                220.00000000000006,
+                626.291156535078
+              ],
+              "text": "Flrst-Class Package Servlce"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                220.00000000000006,
+                626.6666666666666,
+                353.6897955921488,
+                626.6666666666666,
+                353.6897955921488,
+                636.9578232017448,
+                220.00000000000006,
+                636.9578232017448
+              ],
+              "text": "Negotilated Servlce Agreement"
+            }
+          ]
+        },
+        {
+          "gt_id": "39",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            221.42505265858483,
+            643.0133550135187,
+            329.49764749835845,
+            651.4939006850502
+          ],
+          "polygon": [
+            221.42505265858483,
+            643.0133550135187,
+            329.49764749835845,
+            643.0133550135187,
+            329.49764749835845,
+            651.4939006850502,
+            221.42505265858483,
+            651.4939006850502
+          ],
+          "text": "AGENcy: Postal Servicn $ ^{T M} $ .",
+          "latex": null,
+          "html": null,
+          "reading_order": 34,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                220.0000000000001,
+                642.6666666666666,
+                316.90874343334843,
+                642.6666666666666,
+                316.90874343334843,
+                650.923618740611,
+                220.0000000000001,
+                650.923618740611
+              ],
+              "text": "AGENcy: Postal Servicn"
+            },
+            {
+              "category_type": "footnote_mark",
+              "poly": [
+                315.8909517285946,
+                642.2785320952956,
+                328.5930673600539,
+                642.2785320952956,
+                328.5930673600539,
+                648.520751768023,
+                315.8909517285946,
+                648.520751768023
+              ],
+              "latex": "$ ^{T M} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                326.0391961449687,
+                647.18096290296,
+                329.46621134185347,
+                647.18096290296,
+                329.46621134185347,
+                651.0975516993997,
+                326.0391961449687,
+                651.0975516993997
+              ],
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "gt_id": "38",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            221.11415323049093,
+            654.7466393069266,
+            284.3723027617284,
+            662.6233813682023
+          ],
+          "polygon": [
+            221.11415323049093,
+            654.7466393069266,
+            284.3723027617284,
+            654.7466393069266,
+            284.3723027617284,
+            662.6233813682023,
+            221.11415323049093,
+            662.6233813682023
+          ],
+          "text": "ACTIoN: Notice.",
+          "latex": null,
+          "html": null,
+          "reading_order": 35,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                220,
+                653.3333333333333,
+                284,
+                653.3333333333333,
+                284,
+                664,
+                220,
+                664
+              ],
+              "text": "ACTIoN: Notice."
+            }
+          ]
+        },
+        {
+          "gt_id": "51",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            220.58092809030288,
+            671.4740740365775,
+            385.84992100283233,
+            739.7373537178397
+          ],
+          "polygon": [
+            220.58092809030288,
+            671.4740740365775,
+            385.84992100283233,
+            671.4740740365775,
+            385.84992100283233,
+            739.7373537178397,
+            220.58092809030288,
+            739.7373537178397
+          ],
+          "text": "SUWMARY: The Postal Service gives notice of filing a request with the Postal Regulatory Commission to add a domestic shipping services contract to the list of Negotiated Service Agreements in the Mail Classificalion Schedule's Gompetitive Products List.",
+          "latex": null,
+          "html": null,
+          "reading_order": 36,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                670.6666666666666,
+                364,
+                670.6666666666666,
+                364,
+                680,
+                221.33333333333331,
+                680
+              ],
+              "text": "SUWMARY: The Postal Service gives"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                681.3333333333333,
+                385.3333333333333,
+                681.3333333333333,
+                385.3333333333333,
+                692,
+                221.33333333333331,
+                692
+              ],
+              "text": "notice of filing a request with the Postal"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                690.6666666666666,
+                356,
+                690.6666666666666,
+                356,
+                700,
+                221.33333333333331,
+                700
+              ],
+              "text": "Regulatory Commission to add a"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.33333333333331,
+                701.3333333333333,
+                380,
+                701.3333333333333,
+                380,
+                712,
+                221.33333333333331,
+                712
+              ],
+              "text": "domestic shipping services contract to"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.3333333333334,
+                712.5593884491961,
+                341.18295111408094,
+                712.5593884491961,
+                341.18295111408094,
+                721.3333333333333,
+                221.3333333333334,
+                721.3333333333333
+              ],
+              "text": "the list of Negotiated Service"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                222.66666666666674,
+                720.8705384674236,
+                379.00816662841277,
+                720.8705384674236,
+                379.00816662841277,
+                730.6666666666666,
+                222.66666666666674,
+                730.6666666666666
+              ],
+              "text": "Agreements in the Mail Classificalion"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                221.3333333333334,
+                732.2313974329547,
+                380.9806409962149,
+                732.2313974329547,
+                380.9806409962149,
+                742.7767691954577,
+                221.3333333333334,
+                742.7767691954577
+              ],
+              "text": "Schedule's Gompetitive Products List."
+            }
+          ]
+        },
+        {
+          "gt_id": "49",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.58852939372053,
+            58.7819377140695,
+            562.308331010268,
+            210.1296521145133
+          ],
+          "polygon": [
+            397.58852939372053,
+            58.7819377140695,
+            562.308331010268,
+            58.7819377140695,
+            562.308331010268,
+            210.1296521145133,
+            397.58852939372053,
+            210.1296521145133
+          ],
+          "text": "DATES: Effective date: July 10, 2015. FOR FURTHER INFORMATION CONTACT: Elizabeth A. Reed, 202-268-3179. SUPPLEMENTARY INFORMATION: The United States Postal Service* herebv gives notice that, pursuant to 39 U.S.C. 3642 and 3632(b)(3). on July 2, 2015, it filed with the Postal Regulalory Commission a Fegumst of the United Stales Postal Service lo Add Priorily Maif & Firsl-Class Package Service Conlrnet 6 lo Corrpetifive Producl List Documents are available at ww'w.pre.gov, Docket Nos. MC201563, CP2015-94.",
+          "latex": null,
+          "html": null,
+          "reading_order": 37,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.6666666666666,
+                60,
+                547.7023589272771,
+                60,
+                547.7023589272771,
+                70.08257689659337,
+                398.6666666666666,
+                70.08257689659337
+              ],
+              "text": "DATES: Effective date: July 10, 2015."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.6666666666666,
+                70.66666666666663,
+                547.4709614943222,
+                70.66666666666663,
+                547.4709614943222,
+                80.28644869735035,
+                398.6666666666666,
+                80.28644869735035
+              ],
+              "text": "FOR FURTHER INFORMATION CONTACT:"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.33333333333326,
+                80,
+                542.8318204598532,
+                80,
+                542.8318204598532,
+                88.69419229886438,
+                397.33333333333326,
+                88.69419229886438
+              ],
+              "text": "Elizabeth A. Reed, 202-268-3179."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                92,
+                538.6666666666666,
+                92,
+                538.6666666666666,
+                100,
+                397.3333333333333,
+                100
+              ],
+              "text": "SUPPLEMENTARY INFORMATION: The"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.6666666666666,
+                101.33333333333331,
+                551.6473076628814,
+                101.33333333333331,
+                551.6473076628814,
+                109.33333333333326,
+                398.6666666666666,
+                109.33333333333326
+              ],
+              "text": "United States Postal Service* herebv"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.33333333333326,
+                110.43526923371178,
+                560.0550512643955,
+                110.43526923371178,
+                560.0550512643955,
+                119.7686025670451,
+                397.33333333333326,
+                119.7686025670451
+              ],
+              "text": "gives notice that, pursuant to 39 U.S.C."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                120,
+                560,
+                120,
+                560,
+                130.66666666666666,
+                397.3333333333333,
+                130.66666666666666
+              ],
+              "text": "3642 and 3632(b)(3). on July 2, 2015, it"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.33333333333326,
+                131.1029609932238,
+                529.3333333333331,
+                131.1029609932238,
+                529.3333333333331,
+                141.33333333333326,
+                397.33333333333326,
+                141.33333333333326
+              ],
+              "text": "filed with the Postal Regulalory"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                141.33333333333331,
+                549.3333333333333,
+                141.33333333333331,
+                549.3333333333333,
+                150.66666666666666,
+                398.66666666666663,
+                150.66666666666666
+              ],
+              "text": "Commission a Fegumst of the United"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                150.66666666666666,
+                548,
+                150.66666666666666,
+                548,
+                161.33333333333331,
+                397.3333333333333,
+                161.33333333333331
+              ],
+              "text": "Stales Postal Service lo Add Priorily"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                162.66666666666666,
+                541.3333333333333,
+                162.66666666666666,
+                541.3333333333333,
+                170.66666666666666,
+                398.66666666666663,
+                170.66666666666666
+              ],
+              "text": "Maif & Firsl-Class Package Service"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                172,
+                558.6666666666666,
+                172,
+                558.6666666666666,
+                180,
+                398.66666666666663,
+                180
+              ],
+              "text": "Conlrnet 6 lo Corrpetifive Producl List"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                181.33333333333331,
+                510.66666666666663,
+                181.33333333333331,
+                510.66666666666663,
+                189.33333333333331,
+                398.66666666666663,
+                189.33333333333331
+              ],
+              "text": "Documents are available at"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                192,
+                560,
+                192,
+                560,
+                200,
+                397.3333333333333,
+                200
+              ],
+              "text": "ww'w.pre.gov, Docket Nos. MC201563,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.33333333333326,
+                201.33333333333331,
+                449.2120384291696,
+                201.33333333333331,
+                449.2120384291696,
+                209.33333333333326,
+                397.33333333333326,
+                209.33333333333326
+              ],
+              "text": "CP2015-94."
+            }
+          ]
+        },
+        {
+          "gt_id": "52",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            398.4883866464782,
+            217.93996043862975,
+            462.00644440656134,
+            225.6202484684437
+          ],
+          "polygon": [
+            398.4883866464782,
+            217.93996043862975,
+            462.00644440656134,
+            217.93996043862975,
+            462.00644440656134,
+            225.6202484684437,
+            398.4883866464782,
+            225.6202484684437
+          ],
+          "text": "Stanley F. Mires,",
+          "latex": null,
+          "html": null,
+          "reading_order": 38,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                216,
+                462.66666666666663,
+                216,
+                462.66666666666663,
+                226.66666666666666,
+                397.3333333333333,
+                226.66666666666666
+              ],
+              "text": "Stanley F. Mires,"
+            }
+          ]
+        },
+        {
+          "gt_id": "32",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            398.7437792124004,
+            229.03410120183193,
+            543.354607881871,
+            259.7091254650529
+          ],
+          "polygon": [
+            398.7437792124004,
+            229.03410120183193,
+            543.354607881871,
+            229.03410120183193,
+            543.354607881871,
+            259.7091254650529,
+            398.7437792124004,
+            259.7091254650529
+          ],
+          "text": "Aftorney, Federal Compliance. [FR Doc. 201516848 Filed 7-9-15; 8:45 am] BLLNG G0GE 7710-12HP",
+          "latex": null,
+          "html": null,
+          "reading_order": 39,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                228,
+                510.66666666666663,
+                228,
+                510.66666666666663,
+                237.33333333333331,
+                397.3333333333333,
+                237.33333333333331
+              ],
+              "text": "Aftorney, Federal Compliance."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                240,
+                542.6666666666666,
+                240,
+                542.6666666666666,
+                248,
+                397.3333333333333,
+                248
+              ],
+              "text": "[FR Doc. 201516848 Filed 7-9-15; 8:45 am]"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                252,
+                476,
+                252,
+                476,
+                258.66666666666663,
+                398.66666666666663,
+                258.66666666666663
+              ],
+              "text": "BLLNG G0GE 7710-12HP"
+            }
+          ]
+        },
+        {
+          "gt_id": "33",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            398.46758155589526,
+            278.7929260535043,
+            529.4479135068993,
+            299.99022615185515
+          ],
+          "polygon": [
+            398.46758155589526,
+            278.7929260535043,
+            529.4479135068993,
+            278.7929260535043,
+            529.4479135068993,
+            299.99022615185515,
+            398.46758155589526,
+            299.99022615185515
+          ],
+          "text": "SECURITIES AND EXCHANGE COMMISSION",
+          "latex": null,
+          "html": null,
+          "reading_order": 40,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                280,
+                528,
+                280,
+                528,
+                288,
+                398.66666666666663,
+                288
+              ],
+              "text": "SECURITIES AND EXCHANGE"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                289.3333333333333,
+                457.3333333333333,
+                289.3333333333333,
+                457.3333333333333,
+                298.66666666666663,
+                397.3333333333333,
+                298.66666666666663
+              ],
+              "text": "COMMISSION"
+            }
+          ]
+        },
+        {
+          "gt_id": "46",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            398.284075924051,
+            308.1596833247758,
+            492.9358908445275,
+            318.61844740438636
+          ],
+          "polygon": [
+            398.284075924051,
+            308.1596833247758,
+            492.9358908445275,
+            308.1596833247758,
+            492.9358908445275,
+            318.61844740438636,
+            398.284075924051,
+            318.61844740438636
+          ],
+          "text": "Sunshine Act Meeting",
+          "latex": null,
+          "html": null,
+          "reading_order": 41,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                308,
+                493.3333333333333,
+                308,
+                493.3333333333333,
+                317.3333333333333,
+                397.3333333333333,
+                317.3333333333333
+              ],
+              "text": "Sunshine Act Meeting"
+            }
+          ]
+        },
+        {
+          "gt_id": "41",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.47659829716065,
+            322.7605849989023,
+            554.0965903893302,
+            353.0910008297731
+          ],
+          "polygon": [
+            397.47659829716065,
+            322.7605849989023,
+            554.0965903893302,
+            322.7605849989023,
+            554.0965903893302,
+            353.0910008297731,
+            397.47659829716065,
+            353.0910008297731
+          ],
+          "text": "Federal Register Citation of Previous Announcement: [80 FR 38782, July 7, 2015]",
+          "latex": null,
+          "html": null,
+          "reading_order": 42,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                321.3333333333333,
+                552,
+                321.3333333333333,
+                552,
+                332,
+                397.3333333333333,
+                332
+              ],
+              "text": "Federal Register Citation of Previous"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                332,
+                553.3333333333333,
+                332,
+                553.3333333333333,
+                342.66666666666663,
+                397.3333333333333,
+                342.66666666666663
+              ],
+              "text": "Announcement: [80 FR 38782, July 7,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                342.66666666666663,
+                422.66666666666663,
+                342.66666666666663,
+                422.66666666666663,
+                352,
+                397.3333333333333,
+                352
+              ],
+              "text": "2015]"
+            }
+          ]
+        },
+        {
+          "gt_id": "35",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.2472162573553,
+            355.2331384242891,
+            500.00457333952994,
+            366.999248013851
+          ],
+          "polygon": [
+            397.2472162573553,
+            355.2331384242891,
+            500.00457333952994,
+            355.2331384242891,
+            500.00457333952994,
+            366.999248013851,
+            397.2472162573553,
+            366.999248013851
+          ],
+          "text": "STATus: Closed Meeting.",
+          "latex": null,
+          "html": null,
+          "reading_order": 43,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                353.3333333333333,
+                498.66666666666663,
+                353.3333333333333,
+                498.66666666666663,
+                365.3333333333333,
+                397.3333333333333,
+                365.3333333333333
+              ],
+              "text": "STATus: Closed Meeting."
+            }
+          ]
+        },
+        {
+          "gt_id": "31",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.92608140162787,
+            366.3248912402112,
+            552.4543206778752,
+            385.4121356855005
+          ],
+          "polygon": [
+            397.92608140162787,
+            366.3248912402112,
+            552.4543206778752,
+            366.3248912402112,
+            552.4543206778752,
+            385.4121356855005,
+            397.92608140162787,
+            385.4121356855005
+          ],
+          "text": "PLACE: 100 F Street NE., Washinglon, DC.",
+          "latex": null,
+          "html": null,
+          "reading_order": 44,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                365.3333333333333,
+                552,
+                365.3333333333333,
+                552,
+                376,
+                397.3333333333333,
+                376
+              ],
+              "text": "PLACE: 100 F Street NE., Washinglon,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                376,
+                414.66666666666663,
+                376,
+                414.66666666666663,
+                385.3333333333333,
+                397.3333333333333,
+                385.3333333333333
+              ],
+              "text": "DC."
+            }
+          ]
+        },
+        {
+          "gt_id": "37",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            398.72427805337475,
+            386.76058499890235,
+            567.894787041077,
+            418.9212845437051
+          ],
+          "polygon": [
+            398.72427805337475,
+            386.76058499890235,
+            567.894787041077,
+            386.76058499890235,
+            567.894787041077,
+            418.9212845437051,
+            398.72427805337475,
+            418.9212845437051
+          ],
+          "text": "DATE AND TIME OF PREVIOUSLY ANNOUNCED VEETNG: Thursday. July 9, 2015 al 2 P.m.",
+          "latex": null,
+          "html": null,
+          "reading_order": 45,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                388,
+                566.6666666666666,
+                388,
+                566.6666666666666,
+                396,
+                397.3333333333333,
+                396
+              ],
+              "text": "DATE AND TIME OF PREVIOUSLY ANNOUNCED"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                397.3333333333333,
+                548,
+                397.3333333333333,
+                548,
+                406.66666666666663,
+                398.66666666666663,
+                406.66666666666663
+              ],
+              "text": "VEETNG: Thursday. July 9, 2015 al 2"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                409.3333333333333,
+                417.3333333333333,
+                409.3333333333333,
+                417.3333333333333,
+                417.3333333333333,
+                397.3333333333333,
+                417.3333333333333
+              ],
+              "text": "P.m."
+            }
+          ]
+        },
+        {
+          "gt_id": "40",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.4948960135694,
+            419.8064614068635,
+            561.4360229614665,
+            468.1782452750627
+          ],
+          "polygon": [
+            397.4948960135694,
+            419.8064614068635,
+            561.4360229614665,
+            419.8064614068635,
+            561.4360229614665,
+            468.1782452750627,
+            397.4948960135694,
+            468.1782452750627
+          ],
+          "text": "CHANGE IN THE MEETING: Time Change. The Closed Meeting scheduled for Thursdav.July 9.2015 al has been changed to Thursday. July 9, 2015 at 1 p.m.",
+          "latex": null,
+          "html": null,
+          "reading_order": 46,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                417.3333333333333,
+                553.3333333333333,
+                417.3333333333333,
+                553.3333333333333,
+                428,
+                397.3333333333333,
+                428
+              ],
+              "text": "CHANGE IN THE MEETING: Time Change."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                408,
+                428,
+                549.3333333333333,
+                428,
+                549.3333333333333,
+                437.3333333333333,
+                408,
+                437.3333333333333
+              ],
+              "text": "The Closed Meeting scheduled for"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                438.66666666666663,
+                502.66666666666663,
+                438.66666666666663,
+                502.66666666666663,
+                446.66666666666663,
+                398.66666666666663,
+                446.66666666666663
+              ],
+              "text": "Thursdav.July 9.2015 al"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                528,
+                438.66666666666663,
+                546.6666666666666,
+                438.66666666666663,
+                546.6666666666666,
+                446.66666666666663,
+                528,
+                446.66666666666663
+              ],
+              "text": "has"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                446.66666666666663,
+                561.3333333333333,
+                446.66666666666663,
+                561.3333333333333,
+                458.66666666666663,
+                397.3333333333333,
+                458.66666666666663
+              ],
+              "text": "been changed to Thursday. July 9, 2015"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                458.66666666666663,
+                435.42637711824744,
+                458.66666666666663,
+                435.42637711824744,
+                467.1627824860343,
+                397.3333333333333,
+                467.1627824860343
+              ],
+              "text": "at 1 p.m."
+            }
+          ]
+        },
+        {
+          "gt_id": "44",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            398.1233763792482,
+            468.3983463397246,
+            565.7250707550088,
+            536.6417819591841
+          ],
+          "polygon": [
+            398.1233763792482,
+            468.3983463397246,
+            565.7250707550088,
+            468.3983463397246,
+            565.7250707550088,
+            536.6417819591841,
+            398.1233763792482,
+            536.6417819591841
+          ],
+          "text": "Af times, changes in Gommission priorities require alterations in the scheduling of meeting items. For further information and to ascertain whal, if any, matters have been added, deleted or postponed, please contaet the Offiee of the Secretary at (202] 5515400.",
+          "latex": null,
+          "html": null,
+          "reading_order": 47,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                408,
+                468,
+                545.3333333333333,
+                468,
+                545.3333333333333,
+                476,
+                408,
+                476
+              ],
+              "text": "Af times, changes in Gommission"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                476,
+                541.3333333333333,
+                476,
+                541.3333333333333,
+                486.66666666666663,
+                397.3333333333333,
+                486.66666666666663
+              ],
+              "text": "priorities require alterations in the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                486.66666666666663,
+                565.3333333333333,
+                486.66666666666663,
+                565.3333333333333,
+                497.3333333333333,
+                397.3333333333333,
+                497.3333333333333
+              ],
+              "text": "scheduling of meeting items. For further"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                497.3333333333333,
+                550.6666666666666,
+                497.3333333333333,
+                550.6666666666666,
+                506.66666666666663,
+                397.3333333333333,
+                506.66666666666663
+              ],
+              "text": "information and to ascertain whal, if"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                506.66666666666663,
+                556,
+                506.66666666666663,
+                556,
+                516,
+                397.3333333333333,
+                516
+              ],
+              "text": "any, matters have been added, deleted"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                517.3333333333333,
+                560,
+                517.3333333333333,
+                560,
+                526.6666666666666,
+                397.3333333333333,
+                526.6666666666666
+              ],
+              "text": "or postponed, please contaet the Offiee"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                526.6666666666666,
+                541.3333333333333,
+                526.6666666666666,
+                541.3333333333333,
+                536,
+                397.3333333333333,
+                536
+              ],
+              "text": "of the Secretary at (202] 5515400."
+            }
+          ]
+        },
+        {
+          "gt_id": "34",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            406.48280581908654,
+            541.1088300865306,
+            477.797806098392,
+            549.8190591282778
+          ],
+          "polygon": [
+            406.48280581908654,
+            541.1088300865306,
+            477.797806098392,
+            541.1088300865306,
+            477.797806098392,
+            549.8190591282778,
+            406.48280581908654,
+            549.8190591282778
+          ],
+          "text": "Dated: July 7, 2015.",
+          "latex": null,
+          "html": null,
+          "reading_order": 48,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                406.860038697379,
+                541.4314761104715,
+                478.65163619731703,
+                541.4314761104715,
+                478.65163619731703,
+                550.8639487746968,
+                406.860038697379,
+                550.8639487746968
+              ],
+              "text": "Dated: July 7, 2015."
+            }
+          ]
+        },
+        {
+          "gt_id": "36",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            398.2404816432183,
+            552.106843977311,
+            453.8041844663475,
+            560.880060212542
+          ],
+          "polygon": [
+            398.2404816432183,
+            552.106843977311,
+            453.8041844663475,
+            552.106843977311,
+            453.8041844663475,
+            560.880060212542,
+            398.2404816432183,
+            560.880060212542
+          ],
+          "text": "Brent I. Fields,",
+          "latex": null,
+          "html": null,
+          "reading_order": 49,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                552,
+                453.3333333333333,
+                552,
+                453.3333333333333,
+                560,
+                397.3333333333333,
+                560
+              ],
+              "text": "Brent I. Fields,"
+            }
+          ]
+        },
+        {
+          "gt_id": "42",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            398.16671655728913,
+            562.9802431627747,
+            546.8614840313314,
+            593.1241143299783
+          ],
+          "polygon": [
+            398.16671655728913,
+            562.9802431627747,
+            546.8614840313314,
+            562.9802431627747,
+            546.8614840313314,
+            593.1241143299783,
+            398.16671655728913,
+            593.1241143299783
+          ],
+          "text": "Secrefary. [FR Doc. 201516982 F1lad 7815; 11:15 am] BILLING C0DE B01101-P",
+          "latex": null,
+          "html": null,
+          "reading_order": 50,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                562.6666666666666,
+                436,
+                562.6666666666666,
+                436,
+                572,
+                397.3333333333333,
+                572
+              ],
+              "text": "Secrefary."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                573.3333333333333,
+                546.6666666666666,
+                573.3333333333333,
+                546.6666666666666,
+                582.6666666666666,
+                397.3333333333333,
+                582.6666666666666
+              ],
+              "text": "[FR Doc. 201516982 F1lad 7815; 11:15 am]"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                585.3333333333333,
+                476,
+                585.3333333333333,
+                476,
+                593.3333333333333,
+                397.3333333333333,
+                593.3333333333333
+              ],
+              "text": "BILLING C0DE B01101-P"
+            }
+          ]
+        },
+        {
+          "gt_id": "47",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            399.14395769764,
+            611.4793284116112,
+            528.9425671265697,
+            630.8253949816074
+          ],
+          "polygon": [
+            399.14395769764,
+            611.4793284116112,
+            528.9425671265697,
+            611.4793284116112,
+            528.9425671265697,
+            630.8253949816074,
+            399.14395769764,
+            630.8253949816074
+          ],
+          "text": "SECURITIES AND EXCHANGE COMMISSION",
+          "latex": null,
+          "html": null,
+          "reading_order": 51,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                612,
+                528,
+                612,
+                528,
+                620,
+                398.66666666666663,
+                620
+              ],
+              "text": "SECURITIES AND EXCHANGE"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                621.3333333333333,
+                458.66666666666663,
+                621.3333333333333,
+                458.66666666666663,
+                630.6666666666666,
+                398.66666666666663,
+                630.6666666666666
+              ],
+              "text": "COMMISSION"
+            }
+          ]
+        },
+        {
+          "gt_id": "50",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            396.9435917971746,
+            635.9292369364947,
+            458.80601396867485,
+            647.6268585834694
+          ],
+          "polygon": [
+            396.9435917971746,
+            635.9292369364947,
+            458.80601396867485,
+            635.9292369364947,
+            458.80601396867485,
+            647.6268585834694,
+            396.9435917971746,
+            647.6268585834694
+          ],
+          "text": "[File No. 500-1]",
+          "latex": null,
+          "html": null,
+          "reading_order": 52,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                637.3333333333333,
+                458.66666666666663,
+                637.3333333333333,
+                458.66666666666663,
+                646.6666666666666,
+                397.3333333333333,
+                646.6666666666666
+              ],
+              "text": "[File No. 500-1]"
+            }
+          ]
+        },
+        {
+          "gt_id": "45",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            397.61845458450006,
+            654.3754864567238,
+            565.6592886285389,
+            705.8900125559003
+          ],
+          "polygon": [
+            397.61845458450006,
+            654.3754864567238,
+            565.6592886285389,
+            654.3754864567238,
+            565.6592886285389,
+            705.8900125559003,
+            397.61845458450006,
+            705.8900125559003
+          ],
+          "text": "In the Matter ot International Hi-Tech Industries Inc., Mark One Global Industrles,Inc.,Nortel Networks Corporation, and Silverado Gold Mines Ltd.; Order of Suspenslon of Trading",
+          "latex": null,
+          "html": null,
+          "reading_order": 53,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                656,
+                554.6666666666666,
+                656,
+                554.6666666666666,
+                664,
+                397.3333333333333,
+                664
+              ],
+              "text": "In the Matter ot International Hi-Tech"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                665.3333333333333,
+                536,
+                665.3333333333333,
+                536,
+                674.6666666666666,
+                397.3333333333333,
+                674.6666666666666
+              ],
+              "text": "Industries Inc., Mark One Global"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                674.6666666666666,
+                534.6666666666666,
+                674.6666666666666,
+                534.6666666666666,
+                684,
+                397.3333333333333,
+                684
+              ],
+              "text": "Industrles,Inc.,Nortel Networks"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                398.66666666666663,
+                685.3333333333333,
+                564,
+                685.3333333333333,
+                564,
+                694.6666666666666,
+                398.66666666666663,
+                694.6666666666666
+              ],
+              "text": "Corporation, and Silverado Gold Mines"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.33333333333337,
+                694.6666666666666,
+                557.9019346448811,
+                694.6666666666666,
+                557.9019346448811,
+                705.3333333333333,
+                397.33333333333337,
+                705.3333333333333
+              ],
+              "text": "Ltd.; Order of Suspenslon of Trading"
+            }
+          ]
+        },
+        {
+          "gt_id": "56",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            397.9827179564437,
+            710.7344334516818,
+            446.928198734842,
+            721.5786417678539
+          ],
+          "polygon": [
+            397.9827179564437,
+            710.7344334516818,
+            446.928198734842,
+            710.7344334516818,
+            446.928198734842,
+            721.5786417678539,
+            397.9827179564437,
+            721.5786417678539
+          ],
+          "text": "July 8, 2015.",
+          "latex": null,
+          "html": null,
+          "reading_order": 54,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.3333333333333,
+                710.6666666666666,
+                444,
+                710.6666666666666,
+                444,
+                721.3333333333333,
+                397.3333333333333,
+                721.3333333333333
+              ],
+              "text": "July 8, 2015."
+            }
+          ]
+        },
+        {
+          "gt_id": "48",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            398.37155527192226,
+            721.3867661679639,
+            551.6608786459528,
+            741.469540966583
+          ],
+          "polygon": [
+            398.37155527192226,
+            721.3867661679639,
+            551.6608786459528,
+            721.3867661679639,
+            551.6608786459528,
+            741.469540966583,
+            398.37155527192226,
+            741.469540966583
+          ],
+          "text": "It appears to the Securities and Exchange Commission that there is a",
+          "latex": null,
+          "html": null,
+          "reading_order": 55,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                408.1625405147602,
+                721.9804450269987,
+                536.0000000000001,
+                721.9804450269987,
+                536.0000000000001,
+                731.2926982046433,
+                408.1625405147602,
+                731.2926982046433
+              ],
+              "text": "It appears to the Securities and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                397.05041261519057,
+                731.5154288210946,
+                551.8585396409286,
+                731.5154288210946,
+                551.8585396409286,
+                741.3333333333333,
+                397.05041261519057,
+                741.3333333333333
+              ],
+              "text": "Exchange Commission that there is a"
+            }
+          ]
+        },
+        {
+          "gt_id": "8",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            150.18709346724683,
+            33.89878854704449,
+            461.81266220711905,
+            42.75873118768777
+          ],
+          "polygon": [
+            150.18709346724683,
+            33.89878854704449,
+            461.81266220711905,
+            33.89878854704449,
+            461.81266220711905,
+            42.75873118768777,
+            150.18709346724683,
+            42.75873118768777
+          ],
+          "text": "Federal Register/Vol. 80, No. 132 /Fridav, Julv 10, 2015 /Notices",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.4991913972213,
+                34.026226184710936,
+                461.885154899742,
+                34.026226184710936,
+                461.885154899742,
+                44.028732405234905,
+                149.4991913972213,
+                44.028732405234905
+              ],
+              "text": "Federal Register/Vol. 80, No. 132 /Fridav, Julv 10, 2015 /Notices"
+            }
+          ]
+        },
+        {
+          "gt_id": "3",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            45.21104349694079,
+            34.566422223753364,
+            75.45705458051665,
+            43.12084960092636
+          ],
+          "polygon": [
+            45.21104349694079,
+            34.566422223753364,
+            75.45705458051665,
+            34.566422223753364,
+            75.45705458051665,
+            43.12084960092636,
+            45.21104349694079,
+            43.12084960092636
+          ],
+          "text": "39810",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                43.31874074858118,
+                34.026226184710936,
+                77.5580889649905,
+                34.026226184710936,
+                77.5580889649905,
+                43.644020627522536,
+                43.31874074858118,
+                43.644020627522536
+              ],
+              "text": "39810"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extra": {
+    "relation": []
+  }
+}

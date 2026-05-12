@@ -1,0 +1,2110 @@
+{
+  "sample_id": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7",
+  "dataset_name": "omnidocbench_v15_english",
+  "input_pdf_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\examples\\pdfs\\docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7.pdf",
+  "input_image_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\evaluation_data_omni\\omnidocbench_v15_english\\images\\docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7.jpg",
+  "page_info": {
+    "page_attribute": {
+      "data_source": "academic_literature",
+      "language": "english",
+      "layout": "double_column",
+      "special_issue": [
+        "None"
+      ]
+    },
+    "page_no": 7,
+    "height": 2206,
+    "width": 1653,
+    "image_path": "docstructbench_llm-raw-scihub-o.O-j.msec.2005.03.002.pdf_7.jpg"
+  },
+  "pages": [
+    {
+      "page_num": 8,
+      "omni_page_no": 7,
+      "width": 1653,
+      "height": 2206,
+      "coordinate_space": "image_pixels",
+      "blocks": [
+        {
+          "gt_id": "2",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            118.08866699999976,
+            200.4967220000002,
+            788.1735419999998,
+            281.96029210478764
+          ],
+          "polygon": [
+            118.08866699999976,
+            200.4967220000002,
+            788.1735419999998,
+            200.4967220000002,
+            788.1735419999998,
+            281.96029210478764,
+            118.08866699999976,
+            281.96029210478764
+          ],
+          "text": "[3] Y.C.Yang,E. Chang,S.Y. Lee, Mechanical properties and Young's modulus of plasma-sprayed hydroxyapatite coating on Ti substrate in simulated body fluid, J.Biomed.Mater. Res.67A (2003) 886-889.",
+          "latex": null,
+          "html": null,
+          "reading_order": 1,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                127.77777410818318,
+                205.55554965229533,
+                783.9901748909629,
+                205.55554965229533,
+                783.9901748909629,
+                227.777771236327,
+                127.77777410818318,
+                227.777771236327
+              ],
+              "text": "[3] Y.C.Yang,E. Chang,S.Y. Lee, Mechanical properties and Young’s"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.1111064842311,
+                234.39378345441799,
+                783.3333108371244,
+                234.39378345441799,
+                783.3333108371244,
+                256.7004288003144,
+                161.1111064842311,
+                256.7004288003144
+              ],
+              "text": "modulus of plasma-sprayed hydroxyapatite coating on Ti substrate in"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                163.88888418223488,
+                259.393782736454,
+                686.1394778186442,
+                259.393782736454,
+                686.1394778186442,
+                283.3333251964068,
+                163.88888418223488,
+                283.3333251964068
+              ],
+              "text": "simulated body fluid, J.Biomed.Mater. Res.67A (2003)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                693.659800574097,
+                259.9804127455294,
+                782.0516417820193,
+                259.9804127455294,
+                782.0516417820193,
+                280.15036308827666,
+                693.659800574097,
+                280.15036308827666
+              ],
+              "text": "886-889."
+            }
+          ]
+        },
+        {
+          "gt_id": "4",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            116.31245330751372,
+            283.7235776844807,
+            787.4220185768854,
+            396.4614761290976
+          ],
+          "polygon": [
+            116.31245330751372,
+            283.7235776844807,
+            787.4220185768854,
+            283.7235776844807,
+            787.4220185768854,
+            396.4614761290976,
+            116.31245330751372,
+            396.4614761290976
+          ],
+          "text": "[4] B.C. Wang, T.M.Lee, E. Chang,C.Y.Yang, The shear strength and the failure mode of plasma sprayed hydroxyapatite coating to bone: the effect of coating thickness, J.Biomed.Mater. Res. 27 (1993) 1315-1327.",
+          "latex": null,
+          "html": null,
+          "reading_order": 2,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                126.05093152162854,
+                287.737652201379,
+                785.1350554749102,
+                287.737652201379,
+                785.1350554749102,
+                312.83794476300113,
+                126.05093152162854,
+                312.83794476300113
+              ],
+              "text": "[4] B.C. Wang, T.M.Lee, E. Chang,C.Y.Yang, The shear strength and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.1111064842311,
+                314.9493366965336,
+                783.9901748909629,
+                314.9493366965336,
+                783.9901748909629,
+                339.94933597856925,
+                161.1111064842311,
+                339.94933597856925
+              ],
+              "text": "the failure mode of plasma sprayed hydroxyapatite coating to bone:"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.1111064842311,
+                343.38397773041197,
+                785.1350554749104,
+                343.38397773041197,
+                785.1350554749104,
+                366.6666561365264,
+                161.1111064842311,
+                366.6666561365264
+              ],
+              "text": "the effect of coating thickness, J.Biomed.Mater. Res. 27 (1993)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                165.24109166266572,
+                370.7947412613121,
+                274.9893508805557,
+                370.7947412613121,
+                274.9893508805557,
+                391.5579254376696,
+                165.24109166266572,
+                391.5579254376696
+              ],
+              "text": "1315-1327."
+            }
+          ]
+        },
+        {
+          "gt_id": "3",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            114.18532314818134,
+            393.2707808900992,
+            791.6762788955504,
+            479.4195523430611
+          ],
+          "polygon": [
+            114.18532314818134,
+            393.2707808900992,
+            791.6762788955504,
+            393.2707808900992,
+            791.6762788955504,
+            479.4195523430611,
+            114.18532314818134,
+            479.4195523430611
+          ],
+          "text": "[5] Y.C. Tsui, C. Doyle, T.W. Clyne, Plasma sprayed hydroxyapatite coatings on titanium substrates: Part 1. Mechanical properties and residual stress levels, Biomaterials 19 (1998) 2015-2029.",
+          "latex": null,
+          "html": null,
+          "reading_order": 3,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                124.99999641017922,
+                399.9999885125744,
+                783.4177345989891,
+                399.9999885125744,
+                783.4177345989891,
+                423.28266691868896,
+                124.99999641017922,
+                423.28266691868896
+              ],
+              "text": "[5] Y.C. Tsui, C. Doyle, T.W. Clyne, Plasma sprayed hydroxyapatite"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                163.88888418223513,
+                426.63288490866694,
+                783.4177345989891,
+                426.63288490866694,
+                783.4177345989891,
+                450.6568511304845,
+                163.88888418223513,
+                450.6568511304845
+              ],
+              "text": "coatings on titanium substrates: Part 1. Mechanical properties and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.11110648423113,
+                454.25086651169,
+                564.4393754851591,
+                454.25086651169,
+                564.4393754851591,
+                477.7777640566859,
+                161.11110648423113,
+                477.7777640566859
+              ],
+              "text": "residual stress levels, Biomaterials 19 (1998)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                571.2087660977845,
+                455.42973973758467,
+                680.3084166840708,
+                455.42973973758467,
+                680.3084166840708,
+                476.35296039796833,
+                571.2087660977845,
+                476.35296039796833
+              ],
+              "text": "2015-2029."
+            }
+          ]
+        },
+        {
+          "gt_id": "9",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            110.99462790918274,
+            478.35598726339515,
+            793.8034090548826,
+            534.7249364857034
+          ],
+          "polygon": [
+            110.99462790918274,
+            478.35598726339515,
+            793.8034090548826,
+            478.35598726339515,
+            793.8034090548826,
+            534.7249364857034,
+            110.99462790918274,
+            534.7249364857034
+          ],
+          "text": "[6] N. Claussen, Fracture toughness of $ \\mathrm{A l_{2} O_{3}} $ with an unstabilized $ \\mathrm{Z r O}_{2} $ dispersed phase, J.Am. Ceram. Soc.59 (1976) 49-51.",
+          "latex": null,
+          "html": null,
+          "reading_order": 4,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                126.14487699412673,
+                483.41774321455887,
+                483.33331945269373,
+                483.41774321455887,
+                483.33331945269373,
+                505.47111727486106,
+                126.14487699412673,
+                505.47111727486106
+              ],
+              "text": "[6] N. Claussen, Fracture toughness of"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                483.3333194526939,
+                477.7777640566859,
+                541.6666511107776,
+                477.7777640566859,
+                541.6666511107776,
+                505.5555410367258,
+                483.3333194526939,
+                505.5555410367258
+              ],
+              "latex": "$ \\mathrm{A l_{2} O_{3}} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                550.2532554903838,
+                482.845302922585,
+                732.1884316891053,
+                482.845302922585,
+                732.1884316891053,
+                504.32623669091356,
+                550.2532554903838,
+                504.32623669091356
+              ],
+              "text": "with an unstabilized"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                733.3333122730528,
+                477.7777640566859,
+                783.3333108371246,
+                477.7777640566859,
+                783.3333108371246,
+                505.5555410367258,
+                733.3333122730528,
+                505.5555410367258
+              ],
+              "latex": "$ \\mathrm{Z r O}_{2} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                163.88888418223505,
+                509.1540824912879,
+                586.3409695817427,
+                509.1540824912879,
+                586.3409695817427,
+                532.5125542602079,
+                163.88888418223505,
+                532.5125542602079
+              ],
+              "text": "dispersed phase, J.Am. Ceram. Soc.59 (1976)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                589.8902131159841,
+                509.9795650307278,
+                657.8906802622312,
+                509.9795650307278,
+                657.8906802622312,
+                530.1555278103835,
+                589.8902131159841,
+                530.1555278103835
+              ],
+              "text": "49-51."
+            }
+          ]
+        },
+        {
+          "gt_id": "7",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            109.93106282951666,
+            535.7885015653699,
+            796.9941042938814,
+            591.0938857080121
+          ],
+          "polygon": [
+            109.93106282951666,
+            535.7885015653699,
+            796.9941042938814,
+            535.7885015653699,
+            796.9941042938814,
+            591.0938857080121,
+            109.93106282951666,
+            591.0938857080121
+          ],
+          "text": "[7] D.J. Green, Critical microstructures for microcracking in $ \\mathrm{A l}_{2} \\mathrm{O}_{3} / \\mathrm{Z r O}_{2} $ composites, J.Am.Ceram.Soc. 65 (1982) 610-614.",
+          "latex": null,
+          "html": null,
+          "reading_order": 5,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                127.77777410818325,
+                536.6835360067438,
+                672.222202916965,
+                536.6835360067438,
+                672.222202916965,
+                561.1110949968056,
+                127.77777410818325,
+                561.1110949968056
+              ],
+              "text": "[7] D.J. Green, Critical microstructures for microcracking in"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                675.8138358486951,
+                536.9249509484957,
+                784.231219070057,
+                536.9249509484957,
+                784.231219070057,
+                561.1110949968056,
+                675.8138358486951,
+                561.1110949968056
+              ],
+              "latex": "$ \\mathrm{A l}_{2} \\mathrm{O}_{3} / \\mathrm{Z r O}_{2} $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                163.88888418223516,
+                564.7096364513675,
+                545.6045393319737,
+                564.7096364513675,
+                545.6045393319737,
+                588.8888719768454,
+                163.88888418223516,
+                588.8888719768454
+              ],
+              "text": "composites, J.Am.Ceram.Soc. 65 (1982)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                550.2855454374007,
+                566.7711639660549,
+                640.7037490054873,
+                566.7711639660549,
+                640.7037490054873,
+                587.6943846264387,
+                550.2855454374007,
+                587.6943846264387
+              ],
+              "text": "610-614."
+            }
+          ]
+        },
+        {
+          "gt_id": "8",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            109.93106282951668,
+            593.2210158673446,
+            793.8034090548828,
+            671.9248317626432
+          ],
+          "polygon": [
+            109.93106282951668,
+            593.2210158673446,
+            793.8034090548828,
+            593.2210158673446,
+            793.8034090548828,
+            671.9248317626432,
+            109.93106282951668,
+            671.9248317626432
+          ],
+          "text": "[8] M. Ruhle, A.G. Evans, R.M. Mcmeeking, P.G. Charalambides, Microcrack toughening in alumina/zirconia, Acta Metall. 35 (1987) 2701-2710.",
+          "latex": null,
+          "html": null,
+          "reading_order": 6,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                127.77777410818327,
+                594.4444273728536,
+                783.4177345989893,
+                594.4444273728536,
+                783.4177345989893,
+                616.6666489568853,
+                127.77777410818327,
+                616.6666489568853
+              ],
+              "text": "[8] M. Ruhle, A.G. Evans, R.M. Mcmeeking, P.G. Charalambides,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                163.8888841822352,
+                620.5048834769723,
+                783.3333108371245,
+                620.5048834769723,
+                783.3333108371245,
+                644.4444259369252,
+                163.8888841822352,
+                644.4444259369252
+              ],
+              "text": "Microcrack toughening in alumina/zirconia, Acta Metall. 35 (1987)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                161.17516168718998,
+                646.9453358244015,
+                275.14462058109063,
+                646.9453358244015,
+                275.14462058109063,
+                669.4023720596529,
+                161.17516168718998,
+                669.4023720596529
+              ],
+              "text": "2701-2710."
+            }
+          ]
+        },
+        {
+          "gt_id": "5",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            117.4727061216952,
+            673.8585864529456,
+            794.2868477274582,
+            757.9769154810901
+          ],
+          "polygon": [
+            117.4727061216952,
+            673.8585864529456,
+            794.2868477274582,
+            673.8585864529456,
+            794.2868477274582,
+            757.9769154810901,
+            117.4727061216952,
+            757.9769154810901
+          ],
+          "text": "[9] B.Y.Chou, E.Chang,S. Y. Yao, J.M.Chen,Phase transformation during plasma spraying of hydroxyapatite- 10 wt.% - zirconia composite coating, J.Am. Ceram. Soc. 85 (3) (2002) 661-669.",
+          "latex": null,
+          "html": null,
+          "reading_order": 7,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                127.77777410818318,
+                675.0387332765506,
+                782.2728540150416,
+                675.0387332765506,
+                782.2728540150416,
+                699.9999798970049,
+                127.77777410818318,
+                699.9999798970049
+              ],
+              "text": "[9] B.Y.Chou, E.Chang,S. Y. Yao, J.M.Chen,Phase transformation"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                163.88888418223522,
+                702.7777575950091,
+                547.7287490779742,
+                702.7777575950091,
+                547.7287490779742,
+                727.7777568770448,
+                163.88888418223522,
+                727.7777568770448
+              ],
+              "text": "during plasma spraying of hydroxyapatite-"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                549.5740777603899,
+                702.7070091341266,
+                623.418875425004,
+                702.7070091341266,
+                623.418875425004,
+                727.3219416889979,
+                549.5740777603899,
+                727.3219416889979
+              ],
+              "text": "10 wt.%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                625.7227438255208,
+                702.7777575950089,
+                781.7004137230681,
+                702.7777575950089,
+                781.7004137230681,
+                727.7777568770448,
+                625.7227438255208,
+                727.7777568770448
+              ],
+              "text": "- zirconia compo-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                163.8888841822351,
+                731.6159913971319,
+                581.7201754793819,
+                731.6159913971319,
+                581.7201754793819,
+                755.5555338570847,
+                163.8888841822351,
+                755.5555338570847
+              ],
+              "text": "site coating, J.Am. Ceram. Soc. 85 (3) (2002)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                584.8000946321555,
+                731.1054271322058,
+                674.221831455564,
+                731.1054271322058,
+                674.221831455564,
+                751.5613800003058,
+                584.8000946321555,
+                751.5613800003058
+              ],
+              "text": "661-669."
+            }
+          ]
+        },
+        {
+          "gt_id": "15",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            115.59025254998451,
+            758.9017764662428,
+            790.9779200423587,
+            839.4248962864958
+          ],
+          "polygon": [
+            115.59025254998451,
+            758.9017764662428,
+            790.9779200423587,
+            758.9017764662428,
+            790.9779200423587,
+            839.4248962864958,
+            115.59025254998451,
+            839.4248962864958
+          ],
+          "text": "[10] T. Kasuga, K. Nakajima, T. Uno, M. Yoshida, Preparation of zirconia toughened bioactive glass/ceramic composite by sinter hot isostatic pressing, J. Am. Ceram. Soc. 75 (5) (1992) 113-117.",
+          "latex": null,
+          "html": null,
+          "reading_order": 8,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.66666331616742,
+                758.821328085198,
+                783.3333108371245,
+                758.821328085198,
+                783.3333108371245,
+                783.3333108371246,
+                116.66666331616742,
+                783.3333108371246
+              ],
+              "text": "[10] T. Kasuga, K. Nakajima, T. Uno, M. Yoshida, Preparation of zirconia"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                163.88888418223522,
+                786.1110885351288,
+                783.9901748909631,
+                786.1110885351288,
+                783.9901748909631,
+                811.1110878171645,
+                163.88888418223522,
+                811.1110878171645
+              ],
+              "text": "toughened bioactive glass/ceramic composite by sinter hot isostatic"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.11110648423113,
+                815.3619672522087,
+                553.1171086694278,
+                815.3619672522087,
+                553.1171086694278,
+                837.2559676831478,
+                161.11110648423113,
+                837.2559676831478
+              ],
+              "text": "pressing, J. Am. Ceram. Soc. 75 (5) (1992)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                557.8551379503103,
+                814.8909611154337,
+                645.5145625457801,
+                814.8909611154337,
+                645.5145625457801,
+                835.165930069488,
+                557.8551379503103,
+                835.165930069488
+              ],
+              "text": "113-117."
+            }
+          ]
+        },
+        {
+          "gt_id": "14",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            117.60333054549079,
+            843.4510522775087,
+            792.990998037865,
+            921.9610941022553
+          ],
+          "polygon": [
+            117.60333054549079,
+            843.4510522775087,
+            792.990998037865,
+            843.4510522775087,
+            792.990998037865,
+            921.9610941022553,
+            117.60333054549079,
+            921.9610941022553
+          ],
+          "text": "[11] T. Kasuga, M. Yoshda, A.J. Ikushima, M. Tuchiya, H. Kusakari, Stability of zirconia-toughened bioactive glass/ceramics: in vivo study using dogs, J.Mater. Sci. 4 (1993) 36-39.",
+          "latex": null,
+          "html": null,
+          "reading_order": 9,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                113.88888561816343,
+                841.6666424952085,
+                782.2728540150417,
+                841.6666424952085,
+                782.2728540150417,
+                864.949320901323,
+                113.88888561816343,
+                864.949320901323
+              ],
+              "text": "[11] T. Kasuga, M. Yoshda, A.J. Ikushima, M. Tuchiya, H. Kusakari,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.11110648423124,
+                869.4444194752484,
+                783.4177345989893,
+                869.4444194752484,
+                783.4177345989893,
+                894.4444187572841,
+                161.11110648423124,
+                894.4444187572841
+              ],
+              "text": "Stability of zirconia-toughened bioactive glass/ceramics: in vivo study"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.11110648423124,
+                897.2221964552883,
+                473.9919269167124,
+                897.2221964552883,
+                473.9919269167124,
+                922.222195737324,
+                161.11110648423124,
+                922.222195737324
+              ],
+              "text": "using dogs, J.Mater. Sci. 4 (1993)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                476.7184882970506,
+                896.9005719865781,
+                545.2955891710577,
+                896.9005719865781,
+                545.2955891710577,
+                920.1571540221108,
+                476.7184882970506,
+                920.1571540221108
+              ],
+              "text": "36-39."
+            }
+          ]
+        },
+        {
+          "gt_id": "6",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            110.97642026719411,
+            920.180292322235,
+            791.4175436595075,
+            975.8057073524051
+          ],
+          "polygon": [
+            110.97642026719411,
+            920.180292322235,
+            791.4175436595075,
+            920.180292322235,
+            791.4175436595075,
+            975.8057073524051,
+            110.97642026719411,
+            975.8057073524051
+          ],
+          "text": "[12] J.M. Wu, T.S.Yeh, Sintering of hydroxyapatite/zirconia composite materials, J.Mater.Sci.23 (1988) 3771-3777.",
+          "latex": null,
+          "html": null,
+          "reading_order": 10,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                113.88888561816346,
+                926.6328705493848,
+                783.3333108371246,
+                926.6328705493848,
+                783.3333108371246,
+                949.9999727173639,
+                113.88888561816346,
+                949.9999727173639
+              ],
+              "text": "[12] J.M. Wu, T.S.Yeh, Sintering of hydroxyapatite/zirconia composite"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                163.88888418223527,
+                952.777750415368,
+                469.8265079769482,
+                952.777750415368,
+                469.8265079769482,
+                974.9999719993997,
+                163.88888418223527,
+                974.9999719993997
+              ],
+              "text": "materials, J.Mater.Sci.23 (1988)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                473.736875215572,
+                952.3585753020794,
+                585.2492044628705,
+                952.3585753020794,
+                585.2492044628705,
+                975.0188347213165,
+                473.736875215572,
+                975.0188347213165
+              ],
+              "text": "3771-3777."
+            }
+          ]
+        },
+        {
+          "gt_id": "16",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            109.68280596416693,
+            975.8057073524053,
+            795.2983865685891,
+            1059.8906370491738
+          ],
+          "polygon": [
+            109.68280596416693,
+            975.8057073524053,
+            795.2983865685891,
+            975.8057073524053,
+            795.2983865685891,
+            1059.8906370491738,
+            109.68280596416693,
+            1059.8906370491738
+          ],
+          "text": "[13] K. Ioku, S. Somiya, M. Yoshimura, Hydroxyapatite ceramics with tetragonal zirconia particles dispersion prepared by HIP postsintering, J. Jpn. Ceram. Soc. 99 (3) (1991) 196-203.",
+          "latex": null,
+          "html": null,
+          "reading_order": 11,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                113.8888856181635,
+                980.5555273954077,
+                783.3333108371246,
+                980.5555273954077,
+                783.3333108371246,
+                1005.5555266774436,
+                113.8888856181635,
+                1005.5555266774436
+              ],
+              "text": "[13] K. Ioku, S. Somiya, M. Yoshimura, Hydroxyapatite ceramics with"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.11110648423127,
+                1008.333304375448,
+                783.7311124331225,
+                1008.333304375448,
+                783.7311124331225,
+                1033.2488798956185,
+                161.11110648423127,
+                1033.2488798956185
+              ],
+              "text": "tetragonal zirconia particles dispersion prepared by HIP postsintering,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.11110648423127,
+                1036.1110813554876,
+                464.3966481093759,
+                1036.1110813554876,
+                464.3966481093759,
+                1061.1110806375234,
+                161.11110648423127,
+                1061.1110806375234
+              ],
+              "text": "J. Jpn. Ceram. Soc. 99 (3) (1991)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                470.81919893703486,
+                1035.726313672508,
+                559.0749461488004,
+                1035.726313672508,
+                559.0749461488004,
+                1056.597605242858,
+                470.81919893703486,
+                1056.597605242858
+              ],
+              "text": "196-203."
+            }
+          ]
+        },
+        {
+          "gt_id": "10",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            109.68280596416695,
+            1059.890637049174,
+            792.7111579625347,
+            1116.809666382371
+          ],
+          "polygon": [
+            109.68280596416695,
+            1059.890637049174,
+            792.7111579625347,
+            1059.890637049174,
+            792.7111579625347,
+            1116.809666382371,
+            109.68280596416695,
+            1116.809666382371
+          ],
+          "text": "[14] N. Tamari, M. Mouri, I. Kondo, Mechanical properties and existing phases of composite ceramics obtained by sintering of a mixture of",
+          "latex": null,
+          "html": null,
+          "reading_order": 12,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                113.8888856181635,
+                1063.8888583355274,
+                783.3333108371246,
+                1063.8888583355274,
+                783.3333108371246,
+                1088.8888576175632,
+                113.8888856181635,
+                1088.8888576175632
+              ],
+              "text": "[14] N. Tamari, M. Mouri, I. Kondo, Mechanical properties and existing"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                161.1111064842313,
+                1092.1546518456764,
+                786.1110885351286,
+                1092.1546518456764,
+                786.1110885351286,
+                1116.6666345976032,
+                161.1111064842313,
+                1116.6666345976032
+              ],
+              "text": "phases of composite ceramics obtained by sintering of a mixture of"
+            }
+          ]
+        },
+        {
+          "gt_id": "1",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            863.3801171052313,
+            204.07572574435187,
+            1520.1599609999998,
+            259.2704248972964
+          ],
+          "polygon": [
+            863.3801171052313,
+            204.07572574435187,
+            1520.1599609999998,
+            204.07572574435187,
+            1520.1599609999998,
+            259.2704248972964,
+            863.3801171052313,
+            259.2704248972964
+          ],
+          "text": "hydroxyapatite and zirconia, J. Jpn. Ceram. Soc. 95 (8) (1987) 806-809.",
+          "latex": null,
+          "html": null,
+          "reading_order": 13,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4444187572841,
+                202.77777195429113,
+                1513.8888454121734,
+                202.77777195429113,
+                1513.8888454121734,
+                230.555548934331,
+                894.4444187572841,
+                230.555548934331
+              ],
+              "text": "hydroxyapatite and zirconia, J. Jpn. Ceram. Soc. 95 (8) (1987)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                893.2603799397948,
+                233.42126616861322,
+                983.5562318844205,
+                233.42126616861322,
+                983.5562318844205,
+                253.4870110451967,
+                893.2603799397948,
+                253.4870110451967
+              ],
+              "text": "806-809."
+            }
+          ]
+        },
+        {
+          "gt_id": "13",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            846.8971684512645,
+            257.92903126306555,
+            1518.6148309613588,
+            343.3892936689299
+          ],
+          "polygon": [
+            846.8971684512645,
+            257.92903126306555,
+            1518.6148309613588,
+            257.92903126306555,
+            1518.6148309613588,
+            343.3892936689299,
+            846.8971684512645,
+            343.3892936689299
+          ],
+          "text": "[15] S.F. Hulbert, in: L.L. Hench, J. Wilson (Eds.), The Use of Alumina and Zirconia in Surgical Implants: An Introduction to Bioceramics, Word Scientific Publishing Co.,Singapore,1993,pp. 25-40.",
+          "latex": null,
+          "html": null,
+          "reading_order": 14,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                847.2221978912161,
+                261.1111036123748,
+                1513.8888454121732,
+                261.1111036123748,
+                1513.8888454121732,
+                283.4910684105721,
+                847.2221978912161,
+                283.4910684105721
+              ],
+              "text": "[15] S.F. Hulbert, in: L.L. Hench, J. Wilson (Eds.), The Use of Alumina"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4444187572839,
+                288.8888805924148,
+                1512.8723802614709,
+                288.8888805924148,
+                1512.8723802614709,
+                311.11110217644637,
+                894.4444187572839,
+                311.11110217644637
+              ],
+              "text": "and Zirconia in Surgical Implants: An Introduction to Bioceramics,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                893.85731457485,
+                316.6666575724546,
+                1371.806432962671,
+                316.6666575724546,
+                1371.806432962671,
+                338.88887915648604,
+                893.85731457485,
+                338.88887915648604
+              ],
+              "text": "Word Scientific Publishing Co.,Singapore,1993,pp."
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1374.8749122998897,
+                315.24933820955584,
+                1443.8509103131455,
+                315.24933820955584,
+                1443.8509103131455,
+                337.82330119571225,
+                1374.8749122998897,
+                337.82330119571225
+              ],
+              "text": "25-40."
+            }
+          ]
+        },
+        {
+          "gt_id": "19",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            846.0425658272059,
+            344.24389629298867,
+            1518.6148309613588,
+            422.0127350823252
+          ],
+          "polygon": [
+            846.0425658272059,
+            344.24389629298867,
+            1518.6148309613588,
+            344.24389629298867,
+            1518.6148309613588,
+            422.0127350823252,
+            846.0425658272059,
+            422.0127350823252
+          ],
+          "text": "[16] H. Lang,T.H.Mertens, The use of human osteoblast like cells as an in vitro test system for dental materials, J. Oral Maxillofac. Surg.48 (1990) 606-611.",
+          "latex": null,
+          "html": null,
+          "reading_order": 15,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                847.2221978912161,
+                344.286691338329,
+                1513.8888454121732,
+                344.286691338329,
+                1513.8888454121732,
+                366.66665613652617,
+                847.2221978912161,
+                366.66665613652617
+              ],
+              "text": "[16] H. Lang,T.H.Mertens, The use of human osteoblast like cells as an in"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4444187572839,
+                371.477364135935,
+                1513.8888454121732,
+                371.477364135935,
+                1513.8888454121732,
+                394.4444331165661,
+                894.4444187572839,
+                394.4444331165661
+              ],
+              "text": "vitro test system for dental materials, J. Oral Maxillofac. Surg.48"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4444187572839,
+                399.9999885125742,
+                957.3836559932207,
+                399.9999885125742,
+                957.3836559932207,
+                422.2222100966062,
+                894.4444187572839,
+                422.2222100966062
+              ],
+              "text": "(1990)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                960.072015761592,
+                400.4174832848141,
+                1047.8596495966447,
+                400.4174832848141,
+                1047.8596495966447,
+                419.85617363400434,
+                960.072015761592,
+                419.85617363400434
+              ],
+              "text": "606-611."
+            }
+          ]
+        },
+        {
+          "gt_id": "17",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            845.1879632031473,
+            424.5765429545013,
+            1518.6148309613588,
+            504.9091896160137
+          ],
+          "polygon": [
+            845.1879632031473,
+            424.5765429545013,
+            1518.6148309613588,
+            424.5765429545013,
+            1518.6148309613588,
+            504.9091896160137,
+            845.1879632031473,
+            504.9091896160137
+          ],
+          "text": "[17] I. Dion, L. Bordenave, F. Lefebvre, R. Bareille, C. Baquey, J.R. Monties, P. Havlik, Physico-chemistry and cytotoxicity of ceramics, J. Mater.Sci.5 (1994) 18-24.",
+          "latex": null,
+          "html": null,
+          "reading_order": 16,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                847.2221978912162,
+                426.6035571277464,
+                1511.1110677141692,
+                426.6035571277464,
+                1511.1110677141692,
+                449.99998707664577,
+                847.2221978912162,
+                449.99998707664577
+              ],
+              "text": "[17] I. Dion, L. Bordenave, F. Lefebvre, R. Bareille, C. Baquey, J.R."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                892.2537452417139,
+                452.77776477465,
+                1514.475949594607,
+                452.77776477465,
+                1514.475949594607,
+                477.77776405668567,
+                892.2537452417139,
+                477.77776405668567
+              ],
+              "text": "Monties, P. Havlik, Physico-chemistry and cytotoxicity of ceramics, J."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.444418757284,
+                483.3333194526939,
+                1077.9491011566822,
+                483.3333194526939,
+                1077.9491011566822,
+                505.5555410367258,
+                894.444418757284,
+                505.5555410367258
+              ],
+              "text": "Mater.Sci.5 (1994)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1080.9582669115202,
+                481.49966438054344,
+                1147.4260468152029,
+                481.49966438054344,
+                1147.4260468152029,
+                502.8195183119135,
+                1080.9582669115202,
+                502.8195183119135
+              ],
+              "text": "18-24."
+            }
+          ]
+        },
+        {
+          "gt_id": "12",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            843.8634894394592,
+            506.972020667773,
+            1519.1144637387497,
+            588.1978625037744
+          ],
+          "polygon": [
+            843.8634894394592,
+            506.972020667773,
+            1519.1144637387497,
+            506.972020667773,
+            1519.1144637387497,
+            588.1978625037744,
+            843.8634894394592,
+            588.1978625037744
+          ],
+          "text": "[18] U.Meyer, D.H. Szulczewski, R.H.Barckhaus, M. Atkinson, D.B. Jones, Biological evaluation of an ionomeric bone cement by osteoblast cell culture methods, Biomaterials 14 (1993) 917-924.",
+          "latex": null,
+          "html": null,
+          "reading_order": 17,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                845.4338310731965,
+                507.5704351576519,
+                1513.888845412173,
+                507.5704351576519,
+                1513.888845412173,
+                532.9129751387361,
+                845.4338310731965,
+                532.9129751387361
+              ],
+              "text": "[18] U.Meyer, D.H. Szulczewski, R.H.Barckhaus, M. Atkinson, D.B."
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                891.6666410592801,
+                536.1110957147697,
+                1513.8888454121734,
+                536.1110957147697,
+                1513.8888454121734,
+                561.1110949968056,
+                891.6666410592801,
+                561.1110949968056
+              ],
+              "text": "Jones, Biological evaluation of an ionomeric bone cement by"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4444187572839,
+                564.3182336630779,
+                1416.473565244879,
+                564.3182336630779,
+                1416.473565244879,
+                588.8888719768449,
+                894.4444187572839,
+                588.8888719768449
+              ],
+              "text": "osteoblast cell culture methods, Biomaterials 14 (1993)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1422.5677117038665,
+                564.9459204973318,
+                1514.1176727032787,
+                564.9459204973318,
+                1514.1176727032787,
+                585.6387199013086,
+                1422.5677117038665,
+                585.6387199013086
+              ],
+              "text": "917-924."
+            }
+          ]
+        },
+        {
+          "gt_id": "18",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            844.842114039893,
+            589.1764871042084,
+            1518.1358391383162,
+            673.338202741511
+          ],
+          "polygon": [
+            844.842114039893,
+            589.1764871042084,
+            1518.1358391383162,
+            589.1764871042084,
+            1518.1358391383162,
+            673.338202741511,
+            844.842114039893,
+            673.338202741511
+          ],
+          "text": "[19] K.A.Khor,Y.W. Gu,D. Pan, P. Cheang, Microstructure and mechanical properties of plasma sprayed HA/YSZ/Ti-6Al-4V composite coatings, Biomaterials 25 (18) (2004) 4009-4017.",
+          "latex": null,
+          "html": null,
+          "reading_order": 18,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                847.2221978912163,
+                594.4444273728534,
+                1516.6666231101774,
+                594.4444273728534,
+                1516.6666231101774,
+                616.6666489568853,
+                847.2221978912163,
+                616.6666489568853
+              ],
+              "text": "[19] K.A.Khor,Y.W. Gu,D. Pan, P. Cheang, Microstructure and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                891.6666410592801,
+                619.4444266548893,
+                1513.8888454121734,
+                619.4444266548893,
+                1513.8888454121734,
+                644.4444259369252,
+                891.6666410592801,
+                644.4444259369252
+              ],
+              "text": "mechanical properties of plasma sprayed HA/YSZ/Ti-6Al-4V"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.444418757284,
+                649.495037475786,
+                1330.1802490726109,
+                649.495037475786,
+                1330.1802490726109,
+                672.4740883618437,
+                894.444418757284,
+                672.4740883618437
+              ],
+              "text": "composite coatings, Biomaterials 25 (18) (2004)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1331.6448052318478,
+                648.344172640632,
+                1443.2605111078435,
+                648.344172640632,
+                1443.2605111078435,
+                670.9181356267885,
+                1331.6448052318478,
+                670.9181356267885
+              ],
+              "text": "4009-4017."
+            }
+          ]
+        },
+        {
+          "gt_id": "11",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            843.0246873723187,
+            671.061261554647,
+            1521.0148776383217,
+            780.8844659283133
+          ],
+          "polygon": [
+            843.0246873723187,
+            671.061261554647,
+            1521.0148776383217,
+            671.061261554647,
+            1521.0148776383217,
+            780.8844659283133,
+            843.0246873723187,
+            780.8844659283133
+          ],
+          "text": "[20] ASTM E-855-90, Standard Test Methods for Bend Testing of Metallic Flat Materials for Sparing Applications Involving Static Loading, American Society for Testing Materials,West Conshohocken,PA, 1990.",
+          "latex": null,
+          "html": null,
+          "reading_order": 19,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                846.4773504946166,
+                677.0329109163736,
+                1513.8888454121734,
+                677.0329109163736,
+                1513.8888454121734,
+                699.9999798970047,
+                846.4773504946166,
+                699.9999798970047
+              ],
+              "text": "[20] ASTM E-855-90, Standard Test Methods for Bend Testing of Metallic"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                891.66664105928,
+                702.7777575950089,
+                1513.8888454121734,
+                702.7777575950089,
+                1513.8888454121734,
+                727.620013662879,
+                891.66664105928,
+                727.620013662879
+              ],
+              "text": "Flat Materials for Sparing Applications Involving Static Loading,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.444418757284,
+                732.3168471223506,
+                1513.8888454121734,
+                732.3168471223506,
+                1513.8888454121734,
+                754.9684296746505,
+                894.444418757284,
+                754.9684296746505
+              ],
+              "text": "American Society for Testing Materials,West Conshohocken,PA,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4444187572841,
+                761.1110892530927,
+                944.4444173213559,
+                761.1110892530927,
+                944.4444173213559,
+                780.5555331391206,
+                894.4444187572841,
+                780.5555331391206
+              ],
+              "text": "1990."
+            }
+          ]
+        },
+        {
+          "gt_id": "21",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            844.1453323149071,
+            783.1257558134903,
+            1522.13552258091,
+            869.4154163927997
+          ],
+          "polygon": [
+            844.1453323149071,
+            783.1257558134903,
+            1522.13552258091,
+            783.1257558134903,
+            1522.13552258091,
+            869.4154163927997,
+            844.1453323149071,
+            869.4154163927997
+          ],
+          "text": "[21] T.K. Gupta, J.H. Bechtold, R.C. Kuznicki, L.H. Cadoff, Stabilization of tetragonal phase in polycrystalline zirconia, J.Mater.Sci.12 (12) (1977) 2421-2426.",
+          "latex": null,
+          "html": null,
+          "reading_order": 20,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                847.2221978912163,
+                786.1110885351286,
+                1513.8888454121734,
+                786.1110885351286,
+                1513.8888454121734,
+                811.1110878171645,
+                847.2221978912163,
+                811.1110878171645
+              ],
+              "text": "[21] T.K. Gupta, J.H. Bechtold, R.C. Kuznicki, L.H. Cadoff, Stabilization"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                897.222196455288,
+                814.3182264834368,
+                1513.8888454121734,
+                814.3182264834368,
+                1513.8888454121734,
+                837.2852954640681,
+                897.222196455288,
+                837.2852954640681
+              ],
+              "text": "of tetragonal phase in polycrystalline zirconia, J.Mater.Sci.12 (12)"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                891.66664105928,
+                841.3659635119312,
+                954.9781175297024,
+                841.3659635119312,
+                954.9781175297024,
+                865.9914914143138,
+                891.66664105928,
+                865.9914914143138
+              ],
+              "text": "(1977)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                958.1908521794123,
+                842.9257013943871,
+                1070.4336125828013,
+                842.9257013943871,
+                1070.4336125828013,
+                862.9914462709706,
+                958.1908521794123,
+                862.9914462709706
+              ],
+              "text": "2421-2426."
+            }
+          ]
+        },
+        {
+          "gt_id": "20",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            840.7833974871418,
+            868.2947714502114,
+            1522.13552258091,
+            950.101852259167
+          ],
+          "polygon": [
+            840.7833974871418,
+            868.2947714502114,
+            1522.13552258091,
+            868.2947714502114,
+            1522.13552258091,
+            950.101852259167,
+            840.7833974871418,
+            950.101852259167
+          ],
+          "text": "[22] N. Bambaa,Y.H. Choab,T. Sekinoc,K. Niiharac, Mechanical properties and microstructure for 3 mol% yttria doped zirconia/silicon carbide nanocomposites, J.Eur.Ceram.Soc. 23 (2003） 773-780.",
+          "latex": null,
+          "html": null,
+          "reading_order": 21,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                845.4694195728752,
+                867.6916411569074,
+                1513.8888454121734,
+                867.6916411569074,
+                1513.8888454121734,
+                893.8544698318627,
+                845.4694195728752,
+                893.8544698318627
+              ],
+              "text": "[22] N. Bambaa,Y.H. Choab,T. Sekinoc,K. Niiharac, Mechanical"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4444187572841,
+                897.2221964552881,
+                1186.1110770477028,
+                897.2221964552881,
+                1186.1110770477028,
+                921.6350915548901,
+                894.4444187572841,
+                921.6350915548901
+              ],
+              "text": "properties and microstructure for"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1190.5659953210554,
+                895.8466962298033,
+                1260.6070169219565,
+                895.8466962298033,
+                1260.6070169219565,
+                919.9824536733571,
+                1190.5659953210554,
+                919.9824536733571
+              ],
+              "text": "3 mol%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1263.8888525918144,
+                897.2221964552881,
+                1513.8888454121734,
+                897.2221964552881,
+                1513.8888454121734,
+                922.222195737324,
+                1263.8888525918144,
+                922.222195737324
+              ],
+              "text": "yttria doped zirconia/silicon"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4444187572841,
+                924.999973435328,
+                1415.260599289897,
+                924.999973435328,
+                1415.260599289897,
+                949.9999727173634,
+                894.4444187572841,
+                949.9999727173634
+              ],
+              "text": "carbide nanocomposites, J.Eur.Ceram.Soc. 23 (2003）"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1424.7194205599787,
+                924.4427899555074,
+                1513.761163449818,
+                924.4427899555074,
+                1513.761163449818,
+                945.1355893594841,
+                1424.7194205599787,
+                945.1355893594841
+              ],
+              "text": "773-780."
+            }
+          ]
+        },
+        {
+          "gt_id": "22",
+          "label": "reference",
+          "eval_label": "text",
+          "bbox": [
+            839.6627525445534,
+            952.343142144344,
+            1521.0148776383217,
+            1030.788288125534
+          ],
+          "polygon": [
+            839.6627525445534,
+            952.343142144344,
+            1521.0148776383217,
+            952.343142144344,
+            1521.0148776383217,
+            1030.788288125534,
+            839.6627525445534,
+            1030.788288125534
+          ],
+          "text": "[23] I. Nettleship, K.G. Slavick, Y.J. Kim, W.M. Kriven, Phase transformations of dicalcium silicate: I. Fabrication and phase stability of fine grained $ \\beta $ - phase, J. Am. Ceram. Soc. 75 (9) (1992) 2407-2419.",
+          "latex": null,
+          "html": null,
+          "reading_order": 22,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                844.716037947315,
+                953.2071113836362,
+                1513.8888454121734,
+                953.2071113836362,
+                1513.8888454121734,
+                974.9999719993995,
+                844.716037947315,
+                974.9999719993995
+              ],
+              "text": "[23] I. Nettleship, K.G. Slavick, Y.J. Kim, W.M. Kriven, Phase trans-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4444187572841,
+                980.984888363676,
+                1516.6666231101774,
+                980.984888363676,
+                1516.6666231101774,
+                1002.7777489794394,
+                894.4444187572841,
+                1002.7777489794394
+              ],
+              "text": "formations of dicalcium silicate: I. Fabrication and phase stability of"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                894.4811139966204,
+                1007.5014212494366,
+                1003.610586340039,
+                1007.5014212494366,
+                1003.610586340039,
+                1033.692494611857,
+                894.4811139966204,
+                1033.692494611857
+              ],
+              "text": "fine grained"
+            },
+            {
+              "category_type": "equation_inline",
+              "poly": [
+                1007.6399113717074,
+                1010.3338918528146,
+                1022.888447317417,
+                1010.3338918528146,
+                1022.888447317417,
+                1031.9620362549701,
+                1007.6399113717074,
+                1031.9620362549701
+              ],
+              "latex": "$ \\beta $"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1022.0830947140851,
+                1008.1755611612821,
+                1397.0762156858693,
+                1008.1755611612821,
+                1397.0762156858693,
+                1032.2136649522283,
+                1022.0830947140851,
+                1032.2136649522283
+              ],
+              "text": "- phase, J. Am. Ceram. Soc. 75 (9) (1992)"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1401.518403046429,
+                1008.4680966262007,
+                1513.1341089224247,
+                1008.4680966262007,
+                1513.1341089224247,
+                1029.7879505575706,
+                1401.518403046429,
+                1029.7879505575706
+              ],
+              "text": "2407-2419."
+            }
+          ]
+        },
+        {
+          "gt_id": "0",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            487.5920219999998,
+            127.36782199999993,
+            1148.9931193158225,
+            159.00697227356113
+          ],
+          "polygon": [
+            487.5920219999998,
+            127.36782199999993,
+            1148.9931193158225,
+            127.36782199999993,
+            1148.9931193158225,
+            159.00697227356113,
+            487.5920219999998,
+            159.00697227356113
+          ],
+          "text": "Y. Xie et al. /Materials Science and Engineering C 25 (2005) 509-515",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                490.85385871611993,
+                129.2910606150284,
+                1051.310072813648,
+                129.2910606150284,
+                1051.310072813648,
+                154.07555361047162,
+                490.85385871611993,
+                154.07555361047162
+              ],
+              "text": "Y. Xie et al. /Materials Science and Engineering C 25 (2005)"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1058.1473132400567,
+                128.1549853772633,
+                1141.9458855455666,
+                128.1549853772633,
+                1141.9458855455666,
+                153.720651504368,
+                1058.1473132400567,
+                153.720651504368
+              ],
+              "text": "509-515"
+            }
+          ]
+        },
+        {
+          "gt_id": "23",
+          "label": "page_number",
+          "eval_label": "abandon",
+          "bbox": [
+            1476.546285102205,
+            130.25871562043926,
+            1515.0471321561495,
+            150.00220139247153
+          ],
+          "polygon": [
+            1476.546285102205,
+            130.25871562043926,
+            1515.0471321561495,
+            130.25871562043926,
+            1515.0471321561495,
+            150.00220139247153,
+            1476.546285102205,
+            150.00220139247153
+          ],
+          "text": "515",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                1480.4778527594735,
+                131.9676366355526,
+                1513.486336121945,
+                131.9676366355526,
+                1513.486336121945,
+                152.8998455971199,
+                1480.4778527594735,
+                152.8998455971199
+              ],
+              "text": "515"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extra": {
+    "relation": [
+      {
+        "source_anno_id": 10,
+        "target_anno_id": 1,
+        "relation_type": "truncated"
+      }
+    ]
+  }
+}

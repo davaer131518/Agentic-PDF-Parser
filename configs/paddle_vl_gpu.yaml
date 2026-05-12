@@ -1,0 +1,13 @@
+backend: paddle_vl
+device: gpu
+
+raster:
+  dpi: 200
+
+paddle_vl:
+  llama_cpp_dir: "C:/llama-cpp"
+  gguf_model_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5.gguf"
+  mmproj_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5-mmproj.gguf"
+  server_port: 8080
+  use_doc_orientation_classify: false
+  use_doc_unwarping: false

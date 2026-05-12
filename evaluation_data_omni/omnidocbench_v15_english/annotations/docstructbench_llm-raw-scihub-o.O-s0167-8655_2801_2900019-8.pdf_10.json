@@ -1,0 +1,1135 @@
+{
+  "sample_id": "docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10",
+  "dataset_name": "omnidocbench_v15_english",
+  "input_pdf_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\examples\\pdfs\\docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10.pdf",
+  "input_image_path": "c:\\Users\\David Martirosyan\\Documents\\Projects\\Agentic PDF Parser\\evaluation_data_omni\\omnidocbench_v15_english\\images\\docstructbench_llm-raw-scihub-o.O-s0167-8655_2801_2900019-8.pdf_10.jpg",
+  "page_info": {
+    "page_attribute": {
+      "data_source": "academic_literature",
+      "language": "english",
+      "layout": "1andmore_column",
+      "special_issue": [
+        "table_fewer_line",
+        "table_horizontal",
+        "table_span"
+      ]
+    },
+    "page_no": 296,
+    "height": 2064,
+    "width": 1512,
+    "image_path": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2801%2900019-8.pdf_10.jpg"
+  },
+  "pages": [
+    {
+      "page_num": 297,
+      "omni_page_no": 296,
+      "width": 1512,
+      "height": 2064,
+      "coordinate_space": "image_pixels",
+      "blocks": [
+        {
+          "gt_id": "3",
+          "label": "table_caption",
+          "eval_label": "table_caption",
+          "bbox": [
+            113.32742400000001,
+            269.87832000000003,
+            324.432864,
+            325.556784
+          ],
+          "polygon": [
+            113.32742400000001,
+            269.87832000000003,
+            324.432864,
+            269.87832000000003,
+            324.432864,
+            325.556784,
+            113.32742400000001,
+            325.556784
+          ],
+          "text": "Table 1 Summary of datasets",
+          "latex": null,
+          "html": null,
+          "reading_order": 1,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                117.17882288710148,
+                269.44444081887514,
+                195.98091519886174,
+                269.44444081887514,
+                195.98091519886174,
+                294.22745169342784,
+                117.17882288710148,
+                294.22745169342784
+              ],
+              "text": "Table 1"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.15450730656293,
+                299.4878381730143,
+                322.8125558889195,
+                299.4878381730143,
+                322.8125558889195,
+                324.0538602585125,
+                116.15450730656293,
+                324.0538602585125
+              ],
+              "text": "Summary of datasets"
+            }
+          ]
+        },
+        {
+          "gt_id": "8",
+          "label": "table",
+          "eval_label": "table",
+          "bbox": [
+            117.12405600000001,
+            326.822016,
+            1390.448808,
+            771.888528
+          ],
+          "polygon": [
+            117.12405600000001,
+            326.822016,
+            1390.448808,
+            326.822016,
+            1390.448808,
+            771.888528,
+            117.12405600000001,
+            771.888528
+          ],
+          "text": null,
+          "latex": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|} \\hline\n\\multirow{2}{*}{Dataset} & \\multirow{2}{*}{Total size} & \\multirow{2}{*}{Training items} & \\multirow{2}{*}{Testing items} & \\multirow{2}{*}{Continuous attributes} & \\multirow{2}{*}{Nominal attributes} & \\multirow{2}{*}{Total attributes} & \\multicolumn{3}{c}{Reduced attributes} \\\\\n & & & & & & & IFN & Relief & ABB \\\\\nBreast & 699 & 465 & 234 & 9 & 0 & 9 & 3 & 2 & 3 \\\\\nChess & 3196 & 2155 & 1041 & 0 & 36 & 36 & 9 & 3 & 5 \\\\\nCredit & 690 & 451 & 239 & 6 & 8 & 14 & 4 & 2 & 5 \\\\\nDiabetes & 768 & 530 & 238 & 8 & 0 & 8 & 4 & 1 & 2 \\\\\nGlass & 214 & 143 & .71 & 9 & 0 & 9 & 3 & 1 & 1 \\\\\nHeart & 297 & 197 & 100 & 6 & 7 & 13 & 3 & 2 & 4 \\\\\nIris & 150 & 100 & 50 & 4 & 0 & 4 & 1 & 2 & 1 \\\\\nLiver & 345 & 243 & 102 & 6 & 0 & 6 & 5 & 2 & 4 \\\\\nLung-cancer & 32 & 23 & 9 & 0 & 57 & 57 & 2 & 3 & 4 \\\\\nWine & 178 & 118 & 60 & 13 & 0 & 13 & 3 & 3 & 2 \\\\\nAverage & & & & & & 16.9 & 3.70 & 2.10 & 3.10 \\\\\n\\multicolumn{6}{l}{Average dimensionality reduction} & & 78\\% & 82\\% & 82\\%\\\\ \\hline\n\\end{tabular}\n",
+          "html": "<table>\n<thead>\n<tr>\n <th rowspan=\"2\">Dataset</th>\n <th rowspan=\"2\">Total size</th>\n <th rowspan=\"2\">Training items</th>\n <th rowspan=\"2\">Testing items</th>\n <th rowspan=\"2\">Continuous attributes</th>\n <th rowspan=\"2\"> Nominal attributes</th>\n <th rowspan=\"2\">Total attributes</th>\n <th colspan=\"3\">Reduced attributes</th>\n</tr>\n<tr>\n <th>IFN</th>\n <th>Relief</th>\n <th>ABB</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n <td>Breast</td>\n <td>699</td>\n <td>465</td>\n <td>234 </td>\n <td>9</td>\n <td>0</td>\n <td>9</td>\n <td>3</td>\n <td>2</td>\n <td>3</td>\n</tr>\n<tr>\n <td>Chess</td>\n <td>3196</td>\n <td>2155</td>\n <td>1041</td>\n <td>0</td>\n <td>36</td>\n <td>36</td>\n <td>9</td>\n <td>3</td>\n <td>5</td>\n</tr>\n<tr>\n <td>Credit</td>\n <td>690</td>\n <td>451</td>\n <td>239</td>\n <td>6</td>\n <td>8</td>\n <td>14</td>\n <td>4</td>\n <td>2 </td>\n <td>5</td>\n</tr>\n<tr>\n <td>Diabetes</td>\n <td>768</td>\n <td>530</td>\n <td>238</td>\n <td>8</td>\n <td>0</td>\n <td>8</td>\n <td>4</td>\n <td>1</td>\n <td>2 </td>\n</tr>\n<tr>\n <td>Glass</td>\n <td>214</td>\n <td>143</td>\n <td>.71</td>\n <td>9</td>\n <td>0</td>\n <td>9</td>\n <td>3</td>\n <td>1</td>\n <td>1</td>\n</tr>\n<tr>\n <td>Heart</td>\n <td>297</td>\n <td>197</td>\n <td>100</td>\n <td>6</td>\n <td>7</td>\n <td>13 </td>\n <td>3</td>\n <td>2</td>\n <td>4</td>\n</tr>\n<tr>\n <td>Iris</td>\n <td>150</td>\n <td>100</td>\n <td>50</td>\n <td>4</td>\n <td>0</td>\n <td>4</td>\n <td>1</td>\n <td>2</td>\n <td>1</td>\n</tr>\n<tr>\n <td>Liver</td>\n <td>345</td>\n <td>243</td>\n <td>102</td>\n <td>6</td>\n <td>0</td>\n <td>6</td>\n <td>5</td>\n <td>2</td>\n <td>4</td>\n</tr>\n<tr>\n <td>Lung-cancer</td>\n <td>32 </td>\n <td>23</td>\n <td>9</td>\n <td>0</td>\n <td> 57 </td>\n <td> 57 </td>\n <td>2</td>\n <td>3</td>\n <td>4</td>\n</tr>\n<tr>\n <td>Wine</td>\n <td>178</td>\n <td>118</td>\n <td>60</td>\n <td>13 </td>\n <td>0</td>\n <td>13 </td>\n <td>3</td>\n <td>3</td>\n <td>2</td>\n</tr>\n<tr>\n <td>Average</td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td></td>\n <td>16.9</td>\n <td>3.70</td>\n <td>2.10</td>\n <td>3.10</td>\n</tr>\n<tr>\n <td colspan=\"6\">Average dimensionality reduction</td>\n <td></td>\n <td>78%</td>\n <td>82%</td>\n <td>82%</td>\n</tr>\n</tbody>\n</table>",
+          "reading_order": 2,
+          "attribute": {
+            "table_layout": "horizontal",
+            "with_span": true,
+            "line": "fewer_line",
+            "language": "table_en",
+            "include_equation": false,
+            "include_photo": false,
+            "include_background": false,
+            "with_structured_text": false
+          },
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "0",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            105.06434399999999,
+            857.39592,
+            727.488216,
+            1056.1426079999999
+          ],
+          "polygon": [
+            105.06434399999999,
+            857.39592,
+            727.488216,
+            857.39592,
+            727.488216,
+            1056.1426079999999,
+            105.06434399999999,
+            1056.1426079999999
+          ],
+          "text": "types, ranging from purely continuous to purely nominal attribute domains. In the last three columns, we show the number of attributes selected by the information-theoretic algorithm (IFN) and by the two alternative feature selection methods (Relief and ABB).",
+          "latex": null,
+          "html": null,
+          "reading_order": 3,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.66666509683235,
+                863.8888772646402,
+                715.9868828411171,
+                863.8888772646402,
+                715.9868828411171,
+                891.6666546686478,
+                116.66666509683235,
+                891.6666546686478
+              ],
+              "text": "types, ranging from purely continuous to purely"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                115.04140466399255,
+                893.9716892837698,
+                719.5772907979376,
+                893.9716892837698,
+                719.5772907979376,
+                925.9454738040147,
+                115.04140466399255,
+                925.9454738040147
+              ],
+              "text": "nominal attribute domains. In the last three col-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                115.8540348804124,
+                926.4923919521591,
+                715.5141397158383,
+                926.4923919521591,
+                715.5141397158383,
+                956.8409160395643,
+                115.8540348804124,
+                956.8409160395643
+              ],
+              "text": "umns, we show the number of attributes selected"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                114.2287744475726,
+                958.6732075294075,
+                717.4792872398189,
+                958.6732075294075,
+                717.4792872398189,
+                992.1393964483543,
+                114.2287744475726,
+                992.1393964483543
+              ],
+              "text": "by the information-theoretic algorithm (IFN) and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                114.2287744475726,
+                992.3464275053578,
+                717.1394001486779,
+                992.3464275053578,
+                717.1394001486779,
+                1023.8474689003241,
+                114.2287744475726,
+                1023.8474689003241
+              ],
+              "text": "by the two alternative feature selection methods"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.66666509683239,
+                1027.305020823007,
+                334.9585892809324,
+                1027.305020823007,
+                334.9585892809324,
+                1059.9585795255339,
+                116.66666509683239,
+                1059.9585795255339
+              ],
+              "text": "(Relief and ABB)."
+            }
+          ]
+        },
+        {
+          "gt_id": "4",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            106.19683200000001,
+            1056.07656,
+            728.478576,
+            1353.763152
+          ],
+          "polygon": [
+            106.19683200000001,
+            1056.07656,
+            728.478576,
+            1056.07656,
+            728.478576,
+            1353.763152,
+            106.19683200000001,
+            1353.763152
+          ],
+          "text": "To evaluate the effect of each method on the performance of a standard decision-tree classifier (C4.5), we have randomly partitioned the datasets into training and validation records, using the standard 2/3:1/3 ratio. Only the training examples were used in the feature selection process. For each dataset, the C4.5 algorithm (Quinlan, 1993, 1996) has been trained on the following four subsets of features:",
+          "latex": null,
+          "html": null,
+          "reading_order": 4,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                149.99999798164163,
+                1059.485836400255,
+                717.9520303650978,
+                1059.485836400255,
+                717.9520303650978,
+                1090.1742475788014,
+                149.99999798164163,
+                1090.1742475788014
+              ],
+              "text": "To evaluate the effect of each method on the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.05612398757627,
+                1093.5589608027683,
+                717.5521259385351,
+                1093.5589608027683,
+                717.5521259385351,
+                1123.7182171463041,
+                116.05612398757627,
+                1123.7182171463041
+              ],
+              "text": "performance of a standard decision-tree classifier"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.05612398757629,
+                1125.3355981656891,
+                717.2771981326554,
+                1125.3355981656891,
+                717.2771981326554,
+                1156.7766222252333,
+                116.05612398757629,
+                1156.7766222252333
+              ],
+              "text": "(C4.5), we have randomly partitioned the datasets"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                115.44558287832004,
+                1160.836167681643,
+                718.7732081570475,
+                1160.836167681643,
+                718.7732081570475,
+                1188.8888728915306,
+                115.44558287832004,
+                1188.8888728915306
+              ],
+              "text": "into training and validation records, using the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.66666509683243,
+                1192.0022639353076,
+                224.9999969724625,
+                1192.0022639353076,
+                224.9999969724625,
+                1222.557819079716,
+                116.66666509683243,
+                1222.557819079716
+              ],
+              "text": "standard"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                228.43845520465723,
+                1191.285695479881,
+                313.4786029656599,
+                1191.285695479881,
+                313.4786029656599,
+                1222.6162762339345,
+                228.43845520465723,
+                1222.6162762339345
+              ],
+              "text": "2/3:1/3"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                313.553271361911,
+                1193.2233461538196,
+                716.3310437200229,
+                1193.2233461538196,
+                716.3310437200229,
+                1224.9999835167403,
+                313.553271361911,
+                1224.9999835167403
+              ],
+              "text": "ratio. Only the training examples"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                115.44558287832017,
+                1225.671210123493,
+                717.5521259385351,
+                1225.671210123493,
+                717.5521259385351,
+                1254.3344564426368,
+                115.44558287832017,
+                1254.3344564426368
+              ],
+              "text": "were used in the feature selection process. For each"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.66666509683245,
+                1258.0583885956698,
+                718.1626670477915,
+                1258.0583885956698,
+                718.1626670477915,
+                1290.1099537644707,
+                116.66666509683245,
+                1290.1099537644707
+              ],
+              "text": "dataset, the C4.5 algorithm (Quinlan, 1993, 1996)"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                116.05612398757633,
+                1293.2233448082477,
+                720.9404447881923,
+                1293.2233448082477,
+                720.9404447881923,
+                1321.001122212255,
+                116.05612398757633,
+                1321.001122212255
+              ],
+              "text": "has been trained on the following four subsets of"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                113.88888735643168,
+                1325.9461365838006,
+                220.94045151605323,
+                1325.9461365838006,
+                220.94045151605323,
+                1356.1660784248331,
+                113.88888735643168,
+                1356.1660784248331
+              ],
+              "text": "features:"
+            }
+          ]
+        },
+        {
+          "gt_id": "13",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            112.8073203386867,
+            1344.286064631526,
+            740.1595260538332,
+            1854.9320486676554
+          ],
+          "polygon": [
+            112.8073203386867,
+            1344.286064631526,
+            740.1595260538332,
+            1344.286064631526,
+            740.1595260538332,
+            1854.9320486676554,
+            112.8073203386867,
+            1854.9320486676554
+          ],
+          "text": "1. Before feature selection (the set of all available attributes)\n2. After IFN (the subset of features selected by the information-theoretic algorithm)\n3. After Relief (the subset of features selected by Relief). As suggested by Kira and Rendel (1992), the distinction between relevant and irrelevant features was performed manually, based on the relevance levels computed by Relief.\n4. After ABB (the subset of features selected by ABB). Though ABB required discretization of every continuous feature, C4.5 was always trained on the original (continuous) values of the selected continuous features.",
+          "latex": null,
+          "html": null,
+          "reading_order": 5,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": []
+        },
+        {
+          "gt_id": "11",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            776.319768,
+            857.39592,
+            1388.9337839999998,
+            1359.6372959999999
+          ],
+          "polygon": [
+            776.319768,
+            857.39592,
+            1388.9337839999998,
+            857.39592,
+            1388.9337839999998,
+            1359.6372959999999,
+            776.319768,
+            1359.6372959999999
+          ],
+          "text": "We have also evaluated the performance of the classification model built directly by IFN (see Section 2.3). This model is based on the same features as \"C4.5 after IFN\", but the model structure may be different due to the IFN restriction of using the same feature at all splits of each layer. The error rate of all models has been measured on the same validation sets. We have also calculated the lower and upper bounds of the 95% confidence interval for the error rate of C4.5 with a full set of features and compared statistically the error rates after different feature selection methods to this \"base'' error rate. The comparison was based on the normal approximation of the binomial distribution.",
+          "latex": null,
+          "html": null,
+          "reading_order": 10,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                817.3726247756715,
+                859.6991613285505,
+                1381.2615060770281,
+                859.6991613285505,
+                1381.2615060770281,
+                893.1246915153129,
+                817.3726247756715,
+                893.1246915153129
+              ],
+              "text": "We have also evaluated the performance of the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.9213845973289,
+                892.3265251155154,
+                1380.6016356301602,
+                892.3265251155154,
+                1380.6016356301602,
+                924.340117106589,
+                781.9213845973289,
+                924.340117106589
+              ],
+              "text": "classification model built directly by IFN (see"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                780.5555450526168,
+                924.9538889024803,
+                1379.849567881339,
+                924.9538889024803,
+                1379.849567881339,
+                955.6016413488419,
+                780.5555450526168,
+                955.6016413488419
+              ],
+              "text": "Section 2.3). This model is based on the same"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                780.50944640164,
+                961.0649995276904,
+                1382.6734442727166,
+                961.0649995276904,
+                1382.6734442727166,
+                989.6409433314956,
+                780.50944640164,
+                989.6409433314956
+              ],
+              "text": "features as \"C4.5 after IFN\", but the model"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.9674832483059,
+                995.104301510344,
+                1381.9674751748726,
+                995.104301510344,
+                1381.9674751748726,
+                1022.9281775653283,
+                781.9674832483059,
+                1022.9281775653283
+              ],
+              "text": "structure may be different due to the IFN restric-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                780.50944640164,
+                1028.4376343951533,
+                1381.3076047280047,
+                1028.4376343951533,
+                1381.3076047280047,
+                1056.307609101114,
+                780.50944640164,
+                1056.307609101114
+              ],
+              "text": "tion of using the same feature at all splits of each"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.9213845973289,
+                1058.9470908885849,
+                1382.013573825849,
+                1058.9470908885849,
+                1382.013573825849,
+                1088.2290037902344,
+                781.9213845973289,
+                1088.2290037902344
+              ],
+              "text": "layer. The error rate of all models has been mea-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.2154154994845,
+                1095.1043001647718,
+                1381.3076047280047,
+                1095.1043001647718,
+                1381.3076047280047,
+                1120.150398479355,
+                781.2154154994845,
+                1120.150398479355
+              ],
+              "text": "sured on the same validation sets. We have also"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                780.50944640164,
+                1128.4376330495809,
+                1322.8820748776348,
+                1128.4376330495809,
+                1322.8820748776348,
+                1156.261509104565,
+                780.50944640164,
+                1156.261509104565
+              ],
+              "text": "calculated the lower and upper bounds of the"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1328.4416196054622,
+                1127.0064714683215,
+                1383.5072092373218,
+                1127.0064714683215,
+                1383.5072092373218,
+                1153.8332971864072,
+                1328.4416196054622,
+                1153.8332971864072
+              ],
+              "text": "95%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                779.8034773037958,
+                1160.3590277387016,
+                1381.3076047280047,
+                1160.3590277387016,
+                1381.3076047280047,
+                1188.934971542507,
+                779.8034773037958,
+                1188.934971542507
+              ],
+              "text": "confidence interval for the error rate of C4.5 with a"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                779.8495759547726,
+                1192.3265210787988,
+                1381.261506077028,
+                1192.3265210787988,
+                1381.261506077028,
+                1225.752051265561,
+                779.8495759547726,
+                1225.752051265561
+              ],
+              "text": "full set of features and compared statistically the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.9213845973289,
+                1228.4376317040085,
+                1382.7195429236933,
+                1228.4376317040085,
+                1382.7195429236933,
+                1255.601637312125,
+                781.9213845973289,
+                1255.601637312125
+              ],
+              "text": "error rates after different feature selection methods"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                780.5555450526168,
+                1258.9931868484173,
+                1382.6734442727168,
+                1258.9931868484173,
+                1382.6734442727168,
+                1291.0067788394908,
+                780.5555450526168,
+                1291.0067788394908
+              ],
+              "text": "to this \"base'' error rate. The comparison was"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                780.5555450526169,
+                1291.6205506353824,
+                1381.3076047280047,
+                1291.6205506353824,
+                1381.3076047280047,
+                1324.3401117243002,
+                780.5555450526169,
+                1324.3401117243002
+              ],
+              "text": "based on the normal approximation of the bino-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.2154154994846,
+                1327.0256921627479,
+                991.0528815271844,
+                1327.0256921627479,
+                991.0528815271844,
+                1354.1896977708645,
+                781.2154154994846,
+                1354.1896977708645
+              ],
+              "text": "mial distribution."
+            }
+          ]
+        },
+        {
+          "gt_id": "6",
+          "label": "title",
+          "eval_label": "title",
+          "bbox": [
+            776.294064,
+            1390.708752,
+            1064.0548800000001,
+            1427.443824
+          ],
+          "polygon": [
+            776.294064,
+            1390.708752,
+            1064.0548800000001,
+            1390.708752,
+            1064.0548800000001,
+            1427.443824,
+            776.294064,
+            1427.443824
+          ],
+          "text": "3.2. Analysis of results",
+          "latex": null,
+          "html": null,
+          "reading_order": 11,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.921384597329,
+                1397.1761047706113,
+                1050.092183173445,
+                1397.1761047706113,
+                1050.092183173445,
+                1429.1896967616854,
+                781.921384597329,
+                1429.1896967616854
+              ],
+              "text": "3.2. Analysis of results"
+            }
+          ]
+        },
+        {
+          "gt_id": "7",
+          "label": "text_block",
+          "eval_label": "text",
+          "bbox": [
+            780.589656,
+            1458.1685280000002,
+            1386.183456,
+            1867.201728
+          ],
+          "polygon": [
+            780.589656,
+            1458.1685280000002,
+            1386.183456,
+            1458.1685280000002,
+            1386.183456,
+            1867.201728,
+            780.589656,
+            1867.201728
+          ],
+          "text": "The last row of Table 1 shows the average dimensionality reduction due to each one of the feature selection methods used (IFN, Relief, and ABB). All the methods tend to remove more than 3/4 of the available features. The best dimensionality reducer is Relief, which considers as relevant only 12% of features (on average). IFN removes the least number of features (average dimensionality reduction of 78% ). These results suggest that the relevance of some features to the target may be revealed only by a feature selection procedure, which is able to evaluate subsets of features (like",
+          "latex": null,
+          "html": null,
+          "reading_order": 12,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                813.8427792864496,
+                1465.208610084942,
+                1383.4255120215378,
+                1465.208610084942,
+                1383.4255120215378,
+                1494.4905229865915,
+                813.8427792864496,
+                1494.4905229865915
+              ],
+              "text": "The last row of Table 1 shows the average di-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.2615141504616,
+                1499.2479120675955,
+                1380.601635630161,
+                1499.2479120675955,
+                1380.601635630161,
+                1529.7445853234155,
+                781.2615141504616,
+                1529.7445853234155
+              ],
+              "text": "mensionality reduction due to each one of the"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.2154154994846,
+                1533.9931831480937,
+                1381.9674751748723,
+                1533.9931831480937,
+                1381.9674751748723,
+                1561.1571887562102,
+                781.2154154994846,
+                1561.1571887562102
+              ],
+              "text": "feature selection methods used (IFN, Relief, and"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                783.3333227930177,
+                1566.6205469350587,
+                1382.6734442727168,
+                1566.6205469350587,
+                1382.6734442727168,
+                1595.1964907388638,
+                783.3333227930177,
+                1595.1964907388638
+              ],
+              "text": "ABB). All the methods tend to remove more than"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                778.5590617296596,
+                1596.4950156123084,
+                819.3586902361379,
+                1596.4950156123084,
+                819.3586902361379,
+                1625.63760740265,
+                778.5590617296596,
+                1625.63760740265
+              ],
+              "text": "3/4"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                825.0460875500061,
+                1598.5419416241793,
+                1381.307604728005,
+                1598.5419416241793,
+                1381.307604728005,
+                1626.4119163301402,
+                825.0460875500061,
+                1626.4119163301402
+              ],
+              "text": "of the available features. The best dimensio-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                779.8034773037955,
+                1631.169305411144,
+                1384.7913515662494,
+                1631.169305411144,
+                1384.7913515662494,
+                1661.8631565084825,
+                779.8034773037955,
+                1661.8631565084825
+              ],
+              "text": "nality reducer is Relief, which considers as relevant"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                783.3333227930176,
+                1666.666644240463,
+                841.6666553414339,
+                1666.666644240463,
+                841.6666553414339,
+                1694.4444216444708,
+                783.3333227930176,
+                1694.4444216444708
+              ],
+              "text": "only"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                848.7378296152534,
+                1665.77213154461,
+                899.5676046600471,
+                1665.77213154461,
+                899.5676046600471,
+                1694.0108954583843,
+                848.7378296152534,
+                1694.0108954583843
+              ],
+              "text": "12%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                903.5298333790723,
+                1665.2547060447744,
+                1384.7913515662503,
+                1665.2547060447744,
+                1384.7913515662503,
+                1695.8563598401595,
+                903.5298333790723,
+                1695.8563598401595
+              ],
+              "text": "of features (on average). IFN removes"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.2154154994848,
+                1697.8359711807627,
+                1383.4255120215382,
+                1697.8359711807627,
+                1383.4255120215382,
+                1727.8238531802565,
+                781.2154154994848,
+                1727.8238531802565
+              ],
+              "text": "the least number of features (average dimensio-"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.2154154994848,
+                1731.1693040655719,
+                1004.8956715782119,
+                1731.1693040655719,
+                1004.8956715782119,
+                1761.1110874140893,
+                781.2154154994848,
+                1761.1110874140893
+              ],
+              "text": "nality reduction of"
+            },
+            {
+              "category_type": "equation_ignore",
+              "poly": [
+                1005.6405676086775,
+                1732.1796457502362,
+                1059.2942190448484,
+                1732.1796457502362,
+                1059.2942190448484,
+                1759.7124405661662,
+                1005.6405676086775,
+                1759.7124405661662
+              ],
+              "text": "78%"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                1058.9931895395619,
+                1732.5812422612607,
+                1380.5555369791834,
+                1732.5812422612607,
+                1380.5555369791834,
+                1761.111087414089,
+                1058.9931895395619,
+                1761.111087414089
+              ],
+              "text": "). These results suggest that"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                782.6734523461499,
+                1764.5487356013577,
+                1381.3076047280047,
+                1764.5487356013577,
+                1381.3076047280047,
+                1795.8563584945873,
+                782.6734523461499,
+                1795.8563584945873
+              ],
+              "text": "the relevance of some features to the target may be"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.2154154994847,
+                1798.5419389330343,
+                1381.3537033789814,
+                1798.5419389330343,
+                1381.3537033789814,
+                1827.8238518346839,
+                781.2154154994847,
+                1827.8238518346839
+              ],
+              "text": "revealed only by a feature selection procedure,"
+            },
+            {
+              "category_type": "text_span",
+              "poly": [
+                781.9213845973292,
+                1831.1693027199997,
+                1382.013573825849,
+                1831.1693027199997,
+                1382.013573825849,
+                1861.1110860685174,
+                781.9213845973292,
+                1861.1110860685174
+              ],
+              "text": "which is able to evaluate subsets of features (like"
+            }
+          ]
+        },
+        {
+          "gt_id": "1",
+          "label": "page_number",
+          "eval_label": "abandon",
+          "bbox": [
+            117.27072000000001,
+            201.341136,
+            156.90628800000002,
+            232.059648
+          ],
+          "polygon": [
+            117.27072000000001,
+            201.341136,
+            156.90628800000002,
+            201.341136,
+            156.90628800000002,
+            232.059648,
+            117.27072000000001,
+            232.059648
+          ],
+          "text": "808",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_simplified_chinese",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                115.35313429881128,
+                203.085976336989,
+                153.75547470877987,
+                203.085976336989,
+                153.75547470877987,
+                229.67221200542872,
+                115.35313429881128,
+                229.67221200542872
+              ],
+              "text": "808"
+            }
+          ]
+        },
+        {
+          "gt_id": "10",
+          "label": "header",
+          "eval_label": "abandon",
+          "bbox": [
+            448.060032,
+            202.474272,
+            1054.840752,
+            235.75214400000002
+          ],
+          "polygon": [
+            448.060032,
+            202.474272,
+            1054.840752,
+            202.474272,
+            1054.840752,
+            235.75214400000002,
+            448.060032,
+            235.75214400000002
+          ],
+          "text": "M. Last et al. / Pattern Recognition Letters 22 (2001) 799-811",
+          "latex": null,
+          "html": null,
+          "reading_order": null,
+          "attribute": {
+            "text_language": "text_english",
+            "text_background": "white",
+            "text_rotate": "normal"
+          },
+          "line_with_spans": [
+            {
+              "category_type": "text_span",
+              "poly": [
+                444.8301473915024,
+                204.84175782984744,
+                1052.6210350338895,
+                204.84175782984744,
+                1052.6210350338895,
+                232.90500659097825,
+                444.8301473915024,
+                232.90500659097825
+              ],
+              "text": "M. Last et al. / Pattern Recognition Letters 22 (2001) 799-811"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extra": {
+    "relation": [
+      {
+        "source_anno_id": 8,
+        "target_anno_id": 3,
+        "relation_type": "parent_son"
+      }
+    ]
+  }
+}
