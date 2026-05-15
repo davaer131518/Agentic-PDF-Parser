@@ -1,10 +1,10 @@
 """Single focused smoke-test run.
 
 Usage:
-    python smoke_tests/run_one.py --backend paddle_vl --device gpu
-    python smoke_tests/run_one.py --backend paddle_vl --device cpu
-    python smoke_tests/run_one.py --backend paddle_vl --device gpu --pdf examples/pdfs/table_heavy_world_bank.pdf
-    python smoke_tests/run_one.py --backend paddle_vl --device gpu --debug
+    python smoke_tests/run_one.py
+    python smoke_tests/run_one.py --device cpu
+    python smoke_tests/run_one.py --pdf examples/pdfs/table_heavy_world_bank.pdf
+    python smoke_tests/run_one.py --pdf examples/pdfs/table_heavy_world_bank.pdf --debug
 """
 from __future__ import annotations
 
@@ -22,8 +22,8 @@ RESULTS_DIR = Path(__file__).parent
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--backend", required=True)
-    parser.add_argument("--device", required=True)
+    parser.add_argument("--backend", default="paddle_vl")
+    parser.add_argument("--device", default="gpu")
     parser.add_argument("--pdf", default=None, help="Path to PDF file (default: simple_adobe_demo.pdf)")
     parser.add_argument("--config", default=None, help="Path to YAML config file")
     parser.add_argument("--dpi", default=None, type=int)
