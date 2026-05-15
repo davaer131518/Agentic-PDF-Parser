@@ -211,31 +211,17 @@ Results for representative PDFs are stored in `smoke_tests/`:
 Run a smoke test yourself:
 
 ```bash
-# PaddleVL GPU on the World Bank report
-python smoke_tests/run_one.py --backend paddle_vl --device gpu --pdf examples/pdfs/table_heavy_world_bank.pdf
+# GPU (default) on the World Bank report
+python smoke_tests/run_one.py --pdf examples/pdfs/table_heavy_world_bank.pdf
 
-# PaddleVL CPU
-python smoke_tests/run_one.py --backend paddle_vl --device cpu --pdf examples/pdfs/simple_adobe_demo.pdf
+# CPU fallback
+python smoke_tests/run_one.py --pdf examples/pdfs/simple_adobe_demo.pdf --device cpu
 ```
 
 Output is written to `smoke_tests/<pdf_name>/<backend_device>/`.
 
-## Related modules
-
-### Knowledge graph — `kg_table_relationships.ipynb`
-
-Consumes a `document.json` produced by this parser and builds a **Neo4j
-knowledge graph** that encodes how every table in the document connects to
-surrounding content (paragraphs, headings, captions, figures, other tables)
-using structural rules, regex, embeddings, and a local LLM.
-
-See [`kg_table_relationships.md`](kg_table_relationships.md) for full
-documentation of the graph schema, relationship extraction pipeline, and
-configuration.
-
-### Evaluation notebooks
+## Evaluation notebooks
 
 | Notebook | What it evaluates |
 |----------|-------------------|
-| `evaluate_pdf_parser_doclaynet.ipynb` | Layout localisation (IoU/F1), label accuracy, OCR (CER/WER), reading order (Kendall tau), table TEDS, formula extraction — against DocLayNet v1.2 annotations |
 | `evaluate_pdf_parser_omnidocbench_v15.ipynb` | Layout, text, table, formula, reading-order, and Markdown/JSON quality metrics against OmniDocBench v1.5 (English, digital PDF pages) |
