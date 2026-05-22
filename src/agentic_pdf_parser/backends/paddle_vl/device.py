@@ -9,7 +9,7 @@ PaddleOCR device strings differ from torch device strings:
 this module can be loaded without a full Paddle installation.
 
 ``resolve_n_gpu_layers`` is used separately to configure the llama-server
-subprocess that handles VLM recognition.
+subprocess (``llama-server.exe`` on Windows) that handles VLM recognition.
 """
 from __future__ import annotations
 
@@ -45,7 +45,7 @@ def resolve_device(choice: DeviceChoice) -> str:
 
 
 def resolve_n_gpu_layers(choice: DeviceChoice) -> int:
-    """Return the ``-ngl`` value to pass to ``llama-server.exe``.
+    """Return the ``-ngl`` value to pass to ``llama-server``.
 
     ``-1`` (all layers on GPU) is used for ``gpu`` and ``auto`` when a CUDA
     device is detected.  ``0`` forces CPU-only inference.

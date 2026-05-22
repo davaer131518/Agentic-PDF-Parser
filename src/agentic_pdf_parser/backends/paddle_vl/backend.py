@@ -15,10 +15,11 @@ The backend uses a hybrid inference approach:
 * **PP-DocLayoutV3** (layout detection, reading order, bounding boxes) runs via
   the PaddleOCR Python package as before.
 * **VLM recognition** (OCR text, table HTML, formula LaTeX per block) is
-  offloaded to ``llama-server.exe`` serving ``PaddleOCR-VL-1.5.gguf``.
+  offloaded to ``llama-server`` (``llama-server.exe`` on Windows) serving
+  ``PaddleOCR-VL-1.5.gguf``.
   ``PaddleOCRVL`` natively supports ``vl_rec_backend="llama-cpp-server"``.
 
-``llama-server.exe`` is started as a background subprocess in ``load()`` and
+``llama-server`` is started as a background subprocess in ``load()`` and
 terminated in ``unload()``.  All ``parse_page()`` calls happen between these
 two lifecycle methods with the server already running.
 
@@ -47,7 +48,9 @@ from __future__ import annotations
 
 import os
 import subprocess
+import sys
 import time
+from pathlib import Path
 from typing import TYPE_CHECKING, Any
 from urllib.error import URLError
 from urllib.request import urlopen
@@ -65,6 +68,28 @@ logger = get_logger(__name__)
 
 _HEALTH_TIMEOUT_S = 60   # max seconds to wait for llama-server to become ready
 _HEALTH_POLL_S = 1.0     # polling interval
+
+
+def _resolve_server_bin(llama_cpp_dir: Path) -> Path:
+    """Return the path to the llama-server binary, trying two layouts.
+
+    Supports:
+    - Windows flat release layout: ``<dir>/llama-server.exe``
+    - Non-Windows flat layout:     ``<dir>/llama-server``
+    - Homebrew / packaged layout:  ``<dir>/bin/llama-server``
+      (e.g. ``/opt/homebrew/bin/llama-server``)
+
+    Returns the first path that exists.  If neither exists the flat path is
+    returned so the caller's ``FileNotFoundError`` message is informative.
+    """
+    binary = "llama-server.exe" if sys.platform == "win32" else "llama-server"
+    direct = llama_cpp_dir / binary
+    if direct.exists():
+        return direct
+    via_bin = llama_cpp_dir / "bin" / binary
+    if via_bin.exists():
+        return via_bin
+    return direct  # return for a meaningful FileNotFoundError
 
 
 class PaddleVLBackend:
@@ -103,7 +128,7 @@ class PaddleVLBackend:
 
         Steps:
         1. Validate that all required llama.cpp binary and GGUF paths exist.
-        2. Launch ``llama-server.exe`` as a background process.
+        2. Launch ``llama-server`` (``llama-server.exe`` on Windows) as a background process.
         3. Poll the ``/health`` endpoint until it reports ready.
         4. Import ``paddleocr`` lazily and create the ``PaddleOCRVL`` pipeline
            pointing at the running server.
@@ -120,12 +145,12 @@ class PaddleVLBackend:
         os.environ.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "True")
 
         p = self._cfg.paddle_vl
-        server_bin = p.llama_cpp_dir / "llama-server.exe"
+        server_bin = _resolve_server_bin(p.llama_cpp_dir)
         gguf_path = p.gguf_model_path
         mmproj_path = p.mmproj_path
 
         for label, path in [
-            ("llama-server.exe", server_bin),
+            (server_bin.name, server_bin),
             ("gguf_model_path", gguf_path),
             ("mmproj_path", mmproj_path),
         ]:
@@ -310,7 +335,7 @@ def _install_torch_stub() -> None:
     imports ``torch`` unconditionally at module load time — only to call
     ``torch.distributed.is_initialized()`` and ``torch.distributed.get_rank()``
     for distributed-training bookkeeping.  We never use torch for inference
-    (PaddleVL VLM inference runs via llama-server.exe).
+    (PaddleVL VLM inference runs via llama-server).
 
     On some Windows environments the torch DLL loader raises an OSError even
     for CPU-only wheels (``shm.dll`` or ``cudnn_cnn64_9.dll`` missing

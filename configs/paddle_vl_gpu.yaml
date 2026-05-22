@@ -1,3 +1,13 @@
+# PaddleVL backend — GPU device (NVIDIA CUDA required).
+# Raises RuntimeError at startup if no CUDA device is found; use paddle_vl_cpu.yaml
+# or device: auto as a fallback.
+#
+# Edit the paths under paddle_vl to match your local installation.
+# All paths support ~ (home-directory expansion).
+#
+# Platform examples for llama_cpp_dir:
+#   Windows (flat release):  C:/llama-cpp
+#   Linux with CUDA:         ~/llama-cpp  (or wherever you extracted the release)
 backend: paddle_vl
 device: gpu
 
@@ -5,9 +15,9 @@ raster:
   dpi: 200
 
 paddle_vl:
-  llama_cpp_dir: "C:/llama-cpp"
-  gguf_model_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5.gguf"
-  mmproj_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5-mmproj.gguf"
+  llama_cpp_dir: "~/llama-cpp"
+  gguf_model_path: "~/models/paddle-ocr-vl/PaddleOCR-VL-1.5.gguf"
+  mmproj_path: "~/models/paddle-ocr-vl/PaddleOCR-VL-1.5-mmproj.gguf"
   server_port: 8080
   use_doc_orientation_classify: false
   use_doc_unwarping: false

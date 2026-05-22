@@ -216,7 +216,8 @@ def test_load_starts_llama_server(page_input) -> None:
             # llama-server must have been launched
             mock_popen.assert_called_once()
             call_cmd = mock_popen.call_args[0][0]
-            assert "llama-server.exe" in call_cmd[0]
+            expected_binary = "llama-server.exe" if sys.platform == "win32" else "llama-server"
+            assert expected_binary in str(call_cmd[0])
     finally:
         if prev is None:
             sys.modules.pop("paddleocr", None)
@@ -269,7 +270,7 @@ def test_unload_clears_pipeline_and_terminates_server(page_input) -> None:
         backend.unload()
         assert backend._pipeline is None
         assert backend._llama_proc is None
-        fake_proc.terminate.assert_called_once()
+        fake_proc.kill.assert_called_once()
     finally:
         if prev is None:
             sys.modules.pop("paddleocr", None)

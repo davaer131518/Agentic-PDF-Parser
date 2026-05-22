@@ -1,5 +1,16 @@
 # Default configuration — paddle_vl backend, auto device selection.
-# Update llama_cpp_dir and model paths to match your local installation.
+#
+# Edit the paths under paddle_vl to match your local installation.
+# All paths support ~ (home-directory expansion).
+#
+# Platform examples for llama_cpp_dir:
+#   Windows (flat release):  C:/llama-cpp
+#   macOS Homebrew:          /opt/homebrew   (binary lives at /opt/homebrew/bin/llama-server)
+#   Linux / manual install:  ~/llama-cpp
+#
+# Platform examples for model paths (download from PaddlePaddle/PaddleOCR-VL-1.5-GGUF):
+#   Windows:  C:/llama-cpp/models/PaddleOCR-VL-1.5.gguf
+#   All:      ~/models/paddle-ocr-vl/PaddleOCR-VL-1.5.gguf
 backend: paddle_vl
 device: auto
 keep_raw: false
@@ -9,9 +20,9 @@ raster:
   dpi: 200
 
 paddle_vl:
-  llama_cpp_dir: "C:/llama-cpp"
-  gguf_model_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5.gguf"
-  mmproj_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5-mmproj.gguf"
+  llama_cpp_dir: "~/llama-cpp"
+  gguf_model_path: "~/models/paddle-ocr-vl/PaddleOCR-VL-1.5.gguf"
+  mmproj_path: "~/models/paddle-ocr-vl/PaddleOCR-VL-1.5-mmproj.gguf"
   server_port: 8080
   use_doc_orientation_classify: false
   use_doc_unwarping: false

@@ -14,13 +14,26 @@ images, layout, and reading order.
 
 **Python ≥ 3.11** is required.
 
-The backend requires **llama.cpp** binaries installed locally:
+The backend requires **llama.cpp** binaries installed locally and the **GGUF model files** downloaded manually.
 
-1. Download the latest [llama.cpp release](https://github.com/ggerganov/llama.cpp/releases)
-   and extract to `C:/llama-cpp/` (or any path — update the configs accordingly).
-2. Download the GGUF model files into `C:/llama-cpp/models/`:
-   - `PaddleOCR-VL-1.5.gguf`
-   - `PaddleOCR-VL-1.5-mmproj.gguf`
+### llama.cpp binary
+
+| Platform | Recommended install | Binary location |
+|----------|--------------------|----|
+| **Windows** | Download the latest [llama.cpp release](https://github.com/ggerganov/llama.cpp/releases), extract to `C:/llama-cpp/` | `C:/llama-cpp/llama-server.exe` |
+| **macOS** | `brew install llama.cpp` | `/opt/homebrew/bin/llama-server` (set `llama_cpp_dir: /opt/homebrew`) |
+| **Linux** | Download the latest [llama.cpp release](https://github.com/ggerganov/llama.cpp/releases), extract to `~/llama-cpp/` | `~/llama-cpp/llama-server` |
+
+The backend automatically tries both `<llama_cpp_dir>/llama-server[.exe]` and
+`<llama_cpp_dir>/bin/llama-server[.exe]`, so both flat release and Homebrew layouts work.
+
+### GGUF model files
+
+Download both files from [PaddlePaddle/PaddleOCR-VL-1.5-GGUF](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5-GGUF) and place them in a directory of your choice (e.g. `~/models/paddle-ocr-vl/`):
+- `PaddleOCR-VL-1.5.gguf`
+- `PaddleOCR-VL-1.5-mmproj.gguf`
+
+Update `gguf_model_path` and `mmproj_path` in your config file accordingly.
 
 ## Installation
 
@@ -38,7 +51,7 @@ pip install -e ".[all]"
 pip install -e ".[dev]"
 ```
 
-For GPU inference, install the GPU-enabled PaddlePaddle build for your
+For GPU inference on Linux/Windows, install the GPU-enabled PaddlePaddle build for your
 CUDA version before installing paddleocr:
 
 ```bash
@@ -46,6 +59,10 @@ CUDA version before installing paddleocr:
 pip install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu123/
 pip install paddleocr>=3.0
 ```
+
+> **Apple Silicon (macOS):** PaddlePaddle has no GPU build for Apple Silicon, so use
+> `device: cpu` for the PP-DocLayoutV3 step. The VLM step (via `llama-server`) uses
+> Metal automatically.
 
 The VLM recognition component (OCR, tables, formulas) runs through
 `llama-server` — no PyTorch is required.
@@ -161,7 +178,8 @@ Pre-built configs live in `configs/`:
 | `configs/paddle_vl_cpu.yaml` | `paddle_vl` | `cpu` |
 | `configs/paddle_vl_gpu.yaml` | `paddle_vl` | `gpu` |
 
-YAML keys mirror `ParseConfig` fields. Example for PaddleVL GPU:
+YAML keys mirror `ParseConfig` fields. All path values support `~` (home-directory expansion).
+Example for PaddleVL GPU:
 
 ```yaml
 backend: paddle_vl
@@ -171,9 +189,12 @@ raster:
   dpi: 200
 
 paddle_vl:
-  llama_cpp_dir: "C:/llama-cpp"
-  gguf_model_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5.gguf"
-  mmproj_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5-mmproj.gguf"
+  # Windows (flat release layout):  C:/llama-cpp
+  # macOS Homebrew:                 /opt/homebrew
+  # Linux / manual install:         ~/llama-cpp
+  llama_cpp_dir: "~/llama-cpp"
+  gguf_model_path: "~/models/paddle-ocr-vl/PaddleOCR-VL-1.5.gguf"
+  mmproj_path: "~/models/paddle-ocr-vl/PaddleOCR-VL-1.5-mmproj.gguf"
   server_port: 8080
   use_doc_orientation_classify: false
   use_doc_unwarping: false

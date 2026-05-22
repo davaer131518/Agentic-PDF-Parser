@@ -1,3 +1,14 @@
+# PaddleVL backend — CPU device.
+# Use this config when no NVIDIA GPU is available (or on macOS / Apple Silicon).
+# Note: llama-server still uses Metal automatically on macOS for the VLM step.
+#
+# Edit the paths under paddle_vl to match your local installation.
+# All paths support ~ (home-directory expansion).
+#
+# Platform examples for llama_cpp_dir:
+#   Windows (flat release):  C:/llama-cpp
+#   macOS Homebrew:          /opt/homebrew   (binary lives at /opt/homebrew/bin/llama-server)
+#   Linux / manual install:  ~/llama-cpp
 backend: paddle_vl
 device: cpu
 
@@ -5,9 +16,9 @@ raster:
   dpi: 200
 
 paddle_vl:
-  llama_cpp_dir: "C:/llama-cpp"
-  gguf_model_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5.gguf"
-  mmproj_path: "C:/llama-cpp/models/PaddleOCR-VL-1.5-mmproj.gguf"
+  llama_cpp_dir: "~/llama-cpp"
+  gguf_model_path: "~/models/paddle-ocr-vl/PaddleOCR-VL-1.5.gguf"
+  mmproj_path: "~/models/paddle-ocr-vl/PaddleOCR-VL-1.5-mmproj.gguf"
   server_port: 8080
   use_doc_orientation_classify: false
   use_doc_unwarping: false

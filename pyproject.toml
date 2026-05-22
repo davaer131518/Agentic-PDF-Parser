@@ -24,6 +24,7 @@ dependencies = [
 paddle = [
     "paddlepaddle",
     "paddleocr>=3.0",
+    "paddlex[ocr]",
 ]
 all = ["agentic-pdf-parser[paddle]"]
 dev = [
